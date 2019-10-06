@@ -1,0 +1,15 @@
+structure (MyAllergyResults) {
+  description (__DESCRIPTION__)
+  
+  // 까르보불닭
+  property (myMaterial) {
+    type (MyMaterial)
+    min (Required) max (One)
+  }
+
+  //
+  property (myAllergyResult) {
+    type (MyAllergyResult)
+    min (Required) max (One)
+  }
+}

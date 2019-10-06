@@ -1,0 +1,19 @@
+capsule {
+  id (edm.safefood)
+  version (0.1.0)
+  format (3)
+  
+  targets {
+    target (bixby-mobile-en-US) {enabled (false)}
+    target (bixby-mobile-ko-KR)
+  }
+
+  runtime-flags {
+    no-filtering-with-validation
+    modern-default-view-behavior
+    use-input-views-for-selection-list-detail
+    support-halt-effect-in-computed-inputs
+    modern-prompt-rejection
+    concepts-inherit-super-type-features
+  }
+}

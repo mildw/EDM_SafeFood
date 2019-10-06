@@ -1,0 +1,7 @@
+action (MyAllergyInfo) {
+  description (등록된 알레르기 정보 알려줘)
+  collect {
+  }
+  type(Search)
+  output (MyAllergyInfoResult)
+}

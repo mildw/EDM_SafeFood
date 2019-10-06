@@ -1,0 +1,16 @@
+capsule-info {
+  display-name  (세이프 푸드)
+  developer-name  (세이프 푸드)
+  icon-asset (/img/logo.PNG)
+  description ("세이프 푸드 capsule 입니다")
+  //우리 주소 아님!!
+  website-url (https://github.com/bixbydevelopers/capsule-sample-arithmetic-KR)
+  terms-url (https://github.com/bixbydevelopers/capsule-sample-arithmetic-KR/blob/master/LICENSE)
+  dispatch-name (세이프 푸드)
+  dispatch-aliases {
+    alias (검색)
+  }
+  search-keywords{
+    keyword (예제)
+  }
+}

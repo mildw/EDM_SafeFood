@@ -1,0 +1,15 @@
+structure (FindNutriResults) {
+  description (__DESCRIPTION__)
+  
+  // 까르보불닭
+  property (findNutriItem) {
+    type (FindNutriItem)
+    min (Required) max (One)
+  }
+
+  //
+  property (findNutriResult) {
+    type (FindNutriResult)
+    min (Required) max (One)
+  }
+}
