@@ -1,28 +1,28 @@
 endpoints {
   action-endpoints {
 
-    // 제품명 알레르기 알려줘
-     action-endpoint (FindAllergy) {
-       accepted-inputs (findAllergyItem)
-       local-endpoint (findAllergy.js)
-     }
-
     // 제품명 식품정보 알려줘
-     action-endpoint (FindNutri) {
-       accepted-inputs (findNutriItem)
-       local-endpoint (findNutri.js)
+     action-endpoint (Info) {
+       accepted-inputs (infoInput)
+       local-endpoint (Info/infoSearch.js)
      }
 
-    // 재료명 알레르기 등록/삭제해줘
-     action-endpoint (MyAllergy) {
-       accepted-inputs (myMaterial, myCommand)
-       local-endpoint (myAllergy.js)
-     }
+    // // 제품명 식품정보 알려줘
+    //  action-endpoint (FindNutri) {
+    //    accepted-inputs (findNutriItem)
+    //    local-endpoint (findNutri.js)
+    //  }
 
-    // 등록된 알레르기 알려줘
-     action-endpoint (MyAllergyInfo) {
-       local-endpoint (myAllergyInfo.js)
-     }
+    // // 재료명 알레르기 등록/삭제해줘
+    //  action-endpoint (MyAllergy) {
+    //    accepted-inputs (myMaterial, myCommand)
+    //    local-endpoint (myAllergy.js)
+    //  }
+
+    // // 등록된 알레르기 알려줘
+    //  action-endpoint (MyAllergyInfo) {
+    //    local-endpoint (myAllergyInfo.js)
+    //  }
 
     // 외부 서버 API
     // action-endpoint (__ACTION_NAME__) {

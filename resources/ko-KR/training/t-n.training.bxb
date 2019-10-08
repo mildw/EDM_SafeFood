@@ -1,0 +1,5 @@
+train (t-ndnppos8p4kgm8memkhw6q830) {
+  utterance ("[g:Info] (신라면)[v:InfoInput] 식품 정보 찾아줘")
+  plan (Y2BmEE9NydUrTkxLTcvPT9HzzEvLD0otLs0pYRDEkGAQwxDyzCsoLWFgYmAEYgYgycgAAlA+AA==)
+  last-modified (1570536199540)
+}
