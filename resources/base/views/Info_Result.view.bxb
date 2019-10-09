@@ -1,24 +1,26 @@
 result-view {
-	match {
-		InfoResult (this)
+	match{
+		InfoResult(this) {
+			from-output: Info
+		}
 	}
 	
 	render {
-		list-of (this) {
-			where-each (infoResult) {
-				layout-macro (info-summary-macro) {
-					param (infoResult) {
-						expression (infoResult)
+		if(size(this) > 1) {
+			list-of (this) {
+				where-each (infoResult) {
+					layout-macro (info_list_macro) {
+						param (infoResult) {
+							expression (infoResult)
+						}
 					}
 				}
 			}
 		}
-		// else-if ("size(this) == 1") {
-		//   layout-macro (findAllergy-details-macro) {
-		//     param (FindAllergyResults) {
-		//       expression (this)
-		//     }
-		//   }
-		// }
+		else-if(size(this) == 1) {
+			layout-match (this) {
+				mode(Details)
+			}
+		}
 	}
 }

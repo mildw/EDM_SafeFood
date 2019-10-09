@@ -1,0 +1,11 @@
+action (InfoDetail) {
+	description (식품 상세 정보)
+	type(Search)
+	collect {
+		input (infoResult) {
+			type (InfoResult)
+			min (Optional) max (One)
+		}
+	}
+	output (InfoResult)
+}

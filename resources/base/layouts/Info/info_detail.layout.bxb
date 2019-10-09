@@ -1,0 +1,27 @@
+layout {
+	match: InfoResult (infoResult)
+	mode (Details)
+	
+	
+	content {
+		section {
+			content {
+				layout-macro (info_card_macro) {
+					param (infoResult) { expression (infoResult)}
+				}
+			}
+		}
+		
+		// section {
+		// 	title (Description) {
+		// 		paragraph {
+		// 			value ("원재료: this.")
+		// 			style (Detail_M)
+		// 		}
+		// 	}
+		// }
+		
+		
+		
+	}
+}
