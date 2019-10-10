@@ -1,0 +1,11 @@
+action (FoodSearch) {
+  description (신라면 식품 정보 알려줘)
+  type(Search)
+  collect {
+    input (foodName) {
+      type (FoodName)
+      min (Optional) max (One)
+    }
+  }
+  output (FoodOne)
+}

@@ -1,0 +1,54 @@
+result-view {
+	match{
+		CompareResult (this) {
+			from-output: FoodCompare(action)
+		}
+	}
+	
+	render {
+		// if(action.food.prdlstNm == action.foodTwo.prdlstNm) {
+		// 	layout-macro(food_card_macro) {
+		// 		param (food) {
+		// 			expression (action.food)
+		// 		}
+		// 	}
+		// } else {
+		layout {
+			section {
+				content {
+					image-card {
+						aspect-ratio (4:3)
+						image-url ("#{value(action.food.imgurl1)}")
+						title-area {
+							halign (Start)
+							slot1 {
+								text {
+									value ("FOOD1")
+									style (Title_M)
+								}
+							}
+						}
+					}
+				}
+			}
+			section {
+				content {
+					image-card {
+						aspect-ratio (4:3)
+						image-url ("#{value(action.foodTwo.imgurl1)}")
+						title-area {
+							halign (Start)
+							slot1 {
+								text {
+									value ("FOOD2")
+									style (Title_M)
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+//}

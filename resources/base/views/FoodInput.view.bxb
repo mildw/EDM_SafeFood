@@ -1,0 +1,17 @@
+input-view {
+  match {
+    Food (this)
+  }
+
+  render {
+    selection-of (this) {
+      where-each (food) {
+        layout-macro (food_list_macro) {
+          param (food) {
+            expression (food)
+          }
+        }
+      }
+    }
+  }
+}

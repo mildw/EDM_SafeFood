@@ -2,10 +2,23 @@ endpoints {
   action-endpoints {
 
     // 제품명 식품정보 알려줘
-     action-endpoint (Info) {
-       accepted-inputs (infoInput)
-       local-endpoint (Info/infoSearch.js)
+     action-endpoint (FoodSearch) {
+       accepted-inputs (foodName)
+       local-endpoint (Food/foodSearch.js)
      }
+
+     // (Continuation) 제품명 이랑 비교해줘
+     action-endpoint (FoodCompare) {
+       accepted-inputs (food, foodTwo)
+       local-endpoint (Food/foodCompare.js)
+     }
+
+     // 비교를 위한 ??? (어떻게 자동으로 동작이 이루어지는지 모르겠음..)
+    action-endpoint(FoodTwoSearch) {
+      accepted-inputs (foodName)
+      local-endpoint(Food/foodTwoSearch.js)
+    }
+
 
     // // 제품명 식품정보 알려줘
     //  action-endpoint (FindNutri) {

@@ -1,0 +1,6 @@
+structure (FoodOne) {
+	description (비교를 위해 만들어준 Food1)
+	role-of (Food)
+	//extends will allow projections as goals description
+	extends (Food)
+}

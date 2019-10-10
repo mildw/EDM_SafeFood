@@ -1,0 +1,3 @@
+text (FoodName) {
+  description (식품정보 검색 input)
+}
