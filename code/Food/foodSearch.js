@@ -27,13 +27,54 @@ module.exports.function = function foodSearch(foodName) {
   // 상품명의 띄어쓰기 지우기
   for (var i = 0; i < list.length; i++) {
     list[i]['prdlstNm'] = list[i]['prdlstNm'].replace(/ /gi, '');
+
+    ////////////////////////////////////////////////
+    // nutrient 정보를 각각 성분에 따라 나누어 넣어주는 작업. 
+    // 데이터가 없을시에는 0
+    list[i]['nutrient'] = list[i]['nutrient'].replace(/[,]| /gi, '');
+    list[i]['calorie'] = 0;
+    if (list[i]['nutrient'].indexOf("칼로리") != -1) {
+      var sta = list[i]['nutrient'].indexOf("칼로리");
+      var end = list[i]['nutrient'].indexOf("kcal", sta);
+      var val = list[i]['nutrient'].substr(sta + 3, end);
+      list[i]['calorie'] = val;
+    }
+    list[i]['carbo'] = 0;
+    if (list[i]['nutrient'].indexOf("탄수화물") != -1) {
+      var sta = list[i]['nutrient'].indexOf("탄수화물");
+      var end = list[i]['nutrient'].indexOf("g", sta);
+      var val = list[i]['nutrient'].substr(sta + 4, end);
+      list[i]['carbo'] = val;
+    }
+    list[i]['fat'] = 0;
+    if (list[i]['nutrient'].indexOf("지방") != -1) {
+      var sta = list[i]['nutrient'].indexOf("지방");
+      var end = list[i]['nutrient'].indexOf("g", sta);
+      var val = list[i]['nutrient'].substr(sta + 2, end);
+      list[i]['fat'] = val;
+    }
+    list[i]['natrium'] = 0;
+    if (list[i]['nutrient'].indexOf("나트륨") != -1) {
+      var sta = list[i]['nutrient'].indexOf("나트륨");
+      var end = list[i]['nutrient'].indexOf("mg", sta);
+      var val = list[i]['nutrient'].substr(sta + 3, end);
+      list[i]['natrium'] = val;
+    }
+    list[i]['sugar'] = 0;
+    if (list[i]['nutrient'].indexOf("당") != -1) {
+      var sta = list[i]['nutrient'].indexOf("당");
+      var end = list[i]['nutrient'].indexOf("g", sta);
+      var val = list[i]['nutrient'].substr(sta + 3, end);
+      list[i]['sugar'] = val;
+    }
+
     if (list[i]['nutrient'] != '알수없음' && list[i]['allergy'] != '알수없음' && Nm.indexOf(list[i]['prdlstNm']) == -1) {
       Nm.push(list[i]['prdlstNm']);
       res.push(list[i]);
     }
-    console.log(list[i]['allergy']);
+    //console.log(list[i]['nutrient']);
   }
-    console.log(Nm);
+  console.log(list[0]['calorie']);
 
   // res 배열의 이름 길이순으로 정렬해서 리턴
   function comparator(a, b) {

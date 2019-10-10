@@ -76,4 +76,25 @@ structure (Food) {
     type (Rnum)
     min (Required) max (One)
   }
+  /////영양데이터 추가
+    property (calorie) {
+    type (Calorie)
+    min (Required) max (One)
+  }
+    property (natrium) {
+    type (Natrium)
+    min (Required) max (One)
+  }
+    property (carbo) {
+    type (Carbo)
+    min (Required) max (One)
+  }
+    property (fat) {
+    type (Fat)
+    min (Required) max (One)
+  }
+    property (sugar) {
+    type (Sugar)
+    min (Required) max (One)
+  }
 }
