@@ -3,9 +3,10 @@ module.exports.function = function foodSearch(foodName) {
   var http = require('http')
   var console = require('console')
   var config = require('config')
-
+  var secret = require('secret')
   // develope center -> team -> add secret -> write 'var secret = require('secret');' 
-  var param = "?" + encodeURIComponent('ServiceKey') + '=' + "YSvQTOwm%2Bx9GAYACyyI9CrvZtkytIuGeZvzjWqDL3lvoWlu7kBMPdRH4N4pysHquS%2BHCaf5LsqKikqmyYIJwKg%3D%3D";
+
+  var param = "?" + encodeURIComponent('ServiceKey') + '=' + secret.get('foodkey');
   param += "&" + encodeURIComponent('prdlstNm') + '=' + encodeURIComponent(foodName);
   param += "&" + encodeURIComponent('numOfRows') + '=' + "30";
   param += "&returnType=json";
@@ -36,35 +37,41 @@ module.exports.function = function foodSearch(foodName) {
     if (list[i]['nutrient'].indexOf("칼로리") != -1) {
       var sta = list[i]['nutrient'].indexOf("칼로리");
       var end = list[i]['nutrient'].indexOf("kcal", sta);
-      var val = list[i]['nutrient'].substr(sta + 3, end);
+      var val = list[i]['nutrient'].substr(sta + 2, end - sta - 3);
+      list[i]['calorie'] = val;
+    }
+    else  if (list[i]['nutrient'].indexOf("열량") != -1) {
+      var sta = list[i]['nutrient'].indexOf("열량");
+      var end = list[i]['nutrient'].indexOf("kcal", sta);
+      var val = list[i]['nutrient'].substr(sta + 2, end - sta - 2);
       list[i]['calorie'] = val;
     }
     list[i]['carbo'] = 0;
     if (list[i]['nutrient'].indexOf("탄수화물") != -1) {
       var sta = list[i]['nutrient'].indexOf("탄수화물");
       var end = list[i]['nutrient'].indexOf("g", sta);
-      var val = list[i]['nutrient'].substr(sta + 4, end);
+      var val = list[i]['nutrient'].substr(sta + 4, end - sta - 4);
       list[i]['carbo'] = val;
     }
     list[i]['fat'] = 0;
     if (list[i]['nutrient'].indexOf("지방") != -1) {
       var sta = list[i]['nutrient'].indexOf("지방");
       var end = list[i]['nutrient'].indexOf("g", sta);
-      var val = list[i]['nutrient'].substr(sta + 2, end);
+      var val = list[i]['nutrient'].substr(sta + 2, end - sta - 2);
       list[i]['fat'] = val;
     }
     list[i]['natrium'] = 0;
     if (list[i]['nutrient'].indexOf("나트륨") != -1) {
       var sta = list[i]['nutrient'].indexOf("나트륨");
       var end = list[i]['nutrient'].indexOf("mg", sta);
-      var val = list[i]['nutrient'].substr(sta + 3, end);
+      var val = list[i]['nutrient'].substr(sta + 3, end - sta -3);
       list[i]['natrium'] = val;
     }
     list[i]['sugar'] = 0;
-    if (list[i]['nutrient'].indexOf("당") != -1) {
-      var sta = list[i]['nutrient'].indexOf("당");
+    if (list[i]['nutrient'].indexOf("당류") != -1) {
+      var sta = list[i]['nutrient'].indexOf("당류");
       var end = list[i]['nutrient'].indexOf("g", sta);
-      var val = list[i]['nutrient'].substr(sta + 3, end);
+      var val = list[i]['nutrient'].substr(sta + 2, end - sta - 2);
       list[i]['sugar'] = val;
     }
 
