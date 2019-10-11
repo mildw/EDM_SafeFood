@@ -4,7 +4,6 @@ module.exports.function = function foodSearch(foodName) {
   var console = require('console')
   var config = require('config')
   var secret = require('secret')
-  // develope center -> team -> add secret -> write 'var secret = require('secret');' 
 
   var param = "?" + encodeURIComponent('ServiceKey') + '=' + secret.get('foodkey');
   param += "&" + encodeURIComponent('prdlstNm') + '=' + encodeURIComponent(foodName);

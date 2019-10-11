@@ -1,0 +1,18 @@
+action (PutMyFood) {
+  description ("내 식품에 추가하기")
+  type (Calculation)
+  collect {
+    input (food) {
+      type (Food)
+      min (Required) max (One)
+      //input 이 없을 때, 현재 값을 보여줌(?)
+      default-init {
+        intent {
+          //goal: PrepareMyFood
+          goal: GetMyFood
+        }
+      }
+    }
+  }
+  output (MyFood)
+}

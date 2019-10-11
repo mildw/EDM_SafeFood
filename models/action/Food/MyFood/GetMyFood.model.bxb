@@ -1,0 +1,5 @@
+action (GetMyFood) {
+  description ("사용자 섭취 식품 리스트 가져오기")
+  type (Calculation)
+  output (MyFood)
+}

@@ -19,6 +19,30 @@ endpoints {
       local-endpoint(Food/foodTwoSearch.js)
     }
 
+    // 내 음식 추가
+    action-endpoint (PutMyFood) {
+      accepted-inputs ($vivContext, myFood)
+      local-endpoint (Food/MyFood/putMyFood.js)
+    }
+
+    // 내 음식 삭제
+    action-endpoint (DeleteMyFood) {
+      accepted-inputs ($vivContext, myFood)
+      local-endpoint (Food/MyFood/deleteMyFood.js)
+    }
+
+    // 내 음식 가져오기
+    action-endpoint (GetMyFood) {
+      accepted-inputs ($vivContext)
+      local-endpoint (Food/MyFood/getMyFood.js)
+    }
+
+    // ??
+    action-endpoint (PrepareMyFood) {
+      accepted-inputs ($vivContext, previousMyFood, food)
+      local-endpoint (Food/Myfood/prepareMyFood.js)
+    }
+
 
     // // 제품명 식품정보 알려줘
     //  action-endpoint (FindNutri) {
