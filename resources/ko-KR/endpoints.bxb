@@ -19,6 +19,13 @@ endpoints {
       local-endpoint(Food/foodTwoSearch.js)
     }
 
+    //위치 에있는 가게 위생정보 알려줘
+    action-endpoint (findRestaurant) {
+      accepted-inputs (restaurantLocation,restaurantName)
+      local-endpoint (Restaurant/findRestaurant.js)
+    }
+
+
 
     // // 제품명 식품정보 알려줘
     //  action-endpoint (FindNutri) {
