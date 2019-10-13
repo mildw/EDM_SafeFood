@@ -8,8 +8,9 @@ action (findRestaurant) {
     input (restaurantName) {
       type (RestaurantName)
       min (Optional) max (One)
+      
     }
   }
   type(Search)
-  output (findRestaurantResualts)
+  output (findRestaurantResults)
 }

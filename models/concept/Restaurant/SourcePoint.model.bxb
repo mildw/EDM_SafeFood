@@ -1,0 +1,4 @@
+structure (SourcePoint) {
+    role-of(geo.GeoPoint)
+}
+

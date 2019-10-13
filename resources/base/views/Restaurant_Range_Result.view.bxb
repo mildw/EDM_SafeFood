@@ -1,25 +1,25 @@
 result-view {
-  match: findRestaurantResults (restaurant) {
-    from-output: findRestaurant
+  match {
+    searchRestaurantResults (restaurant){
+      from-output: searchRestaurant
+    }
   }
 
-  message {
-    template ("검색하신 음식점 결과 입니다.")
-  }
-
+  message ("test123")
+  
   render {
     if (size(restaurant) > 1) {
       list-of (restaurant) {
         has-details (true)
         where-each (item) {
-          layout-macro (restaurant-compound-card) {
+          layout-macro (restaurant-range-card) {
             param (restaurant) {
               expression (item)
             }
           }
         }
       }
-    } else-if (size(restaurant) == 1) {
+    }else-if (size(restaurant) == 1) {
       layout-match (restaurant) {
         mode (Details)
       }

@@ -1,0 +1,5 @@
+train (t-6ezmnvh6yjzqhxrnsln8foxiv) {
+  utterance ([g:searchRestaurantResults] 내주변 가게의 위생정보 알려줘)
+  plan (Y2BkUElNydUrTkxLTcvPT9ErTk0sSs4ISi0uSSwtSswrAbJKc0qKGUCAEUQAAA==)
+  last-modified (1570864309308)
+}

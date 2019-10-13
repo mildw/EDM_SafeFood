@@ -25,6 +25,11 @@ endpoints {
       local-endpoint (Restaurant/findRestaurant.js)
     }
 
+    //내주변 가게의 위생정보 알려줘
+    action-endpoint (searchRestaurant) {
+      accepted-inputs (isourcePoint)
+      local-endpoint (Restaurant/searchRestaurant.js)
+    }
 
 
     // // 제품명 식품정보 알려줘

@@ -3,6 +3,10 @@ capsule {
   version (0.1.0)
   format (3)
   
+  permissions {
+    user-profile-access
+  }
+  
   targets {
     target (bixby-mobile-en-US) {enabled (false)}
     target (bixby-mobile-ko-KR)
@@ -18,8 +22,9 @@ capsule {
   }
 
   capsule-imports {
+    
     import (viv.entity) {as (entity) version (3.20.5)}
-    import (viv.geo) {as (geo) version-from (entity)} //geo deprecation warnings are being fixed soon. Import entity when it imports the updated geo
+    import (viv.geo) {as (geo) version-from (entity)}
   }
 
 }
