@@ -1,0 +1,36 @@
+structure (searchRestaurantResult) {
+  description (__DESCRIPTION__)
+  property (location) {
+    type (findRestaurantLocation)
+    min (Required) max (One)
+  }
+  property (name) {
+    type (findRestaurantName)
+    min (Required) max (One)
+  }
+  property (rank) {
+    type (findRestaurantRank)
+    min (Required) max (One)
+  }
+  property (dnum) {
+    type (findRestaurantDnum)
+    min (Required) max (One)
+  }
+  property (ddate) {
+    type (findRestaurantDdate)
+    min (Required) max (One)
+  }
+  property (dagency) {
+    type (findRestaurantDagency)
+    min (Required) max (One)
+  }
+  property (sourcePoint) {
+    type (SourcePoint)
+    min (Required) max (One)
+  }
+  property (destinationPoint) {
+    type (DestinationPoint)
+    min (Required) max (One)
+  }
+  
+}

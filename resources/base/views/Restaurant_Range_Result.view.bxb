@@ -1,28 +1,37 @@
 result-view {
-  match {
-    searchRestaurantResults (restaurant){
-      from-output: searchRestaurant
-    }
-  }
-
-  message ("test123")
-  
-  render {
-    if (size(restaurant) > 1) {
-      list-of (restaurant) {
-        has-details (true)
-        where-each (item) {
-          layout-macro (restaurant-range-card) {
-            param (restaurant) {
-              expression (item)
-            }
-          }
-        }
-      }
-    }else-if (size(restaurant) == 1) {
-      layout-match (restaurant) {
-        mode (Details)
-      }
-    }
-  }
+	match {
+		searchRestaurantResults (restaurant){
+			from-output: searchRestaurant
+		}
+	}
+	
+	
+	message ("주변 가게 위생 정보 입니다.")
+	
+	render {
+		
+		if (size(restaurant) > 1) {
+			layout-macro (restaurant-range-card) {
+				param (restaurant) {
+					expression (restaurant)
+				}
+			}
+		}
+		
+		else-if (size(restaurant) == 1) {
+			layout-match (restaurant) {
+				mode (Details)
+			}
+		}
+		//  list-of (restaurant) {
+		//    has-details (true)
+		//    where-each (item) {
+		//      layout-macro (restaurant-range-card) {
+		//        param (restaurant) {
+		//          expression (item)
+		//        }
+		//      }
+		//    }
+		//  }
+	}
 }
