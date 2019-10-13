@@ -1,0 +1,6 @@
+train (t-2tsqjywnpfdpv7mqbzx10uktp) {
+  utterance ("[g:findRestaurantResualts] (분당)[v:RestaurantLocation]에 있는 (피자)[v:RestaurantName] 가게 위생등급 알려줘")
+  plan (Y2BhUE5NydUrTkxLTcvPT9FLy8xLCUotLkksLUrMKwGyShNzSooZpPEoYpBHkURI+OQnJ5Zk5ueh6UYo8EvMTWVgZmBkYAKSDEAaBCEAxAeLAgA=)
+  enabled (false)
+  last-modified (1570800147644)
+}

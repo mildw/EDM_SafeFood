@@ -3,7 +3,7 @@ action (PutMyFood) {
   type (Calculation)
   collect {
     input (food) {
-      type (Food)
+      type (FoodOne)
       min (Required) max (One)
       //input 이 없을 때, 현재 값을 보여줌(?)
       default-init {

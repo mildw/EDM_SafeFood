@@ -1,0 +1,5 @@
+train (t-gcnvtnpmicpkgysytswsjvd2y) {
+  utterance ([g:GetMyFood] 내 식품 보여줘)
+  plan (Y2BiEE5NydUrTkxLTcvPT9HzrXQDUgxiKILuqSVQcUYgZIBiIAkA)
+  last-modified (1570981025829)
+}

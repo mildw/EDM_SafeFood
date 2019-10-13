@@ -1,0 +1,27 @@
+result-view {
+  match: MyFood(this) {
+    from-output: GetMyFood()
+    from-output: PutMyFood()
+  }
+  
+  message {
+    if (exists(this)) {
+      template ("등록된 상품정보입니다.")
+    } else {
+      template ("등록된 상품이 없습니다.")
+    }
+  }
+	render {
+		if(exists(this)) {
+			list-of (this) {
+				where-each (food) {
+					layout-macro (food_list_macro) {
+						param (food) {
+							expression (food)
+						}
+					}
+				}
+			}
+		}
+	}
+}

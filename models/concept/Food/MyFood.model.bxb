@@ -1,0 +1,6 @@
+structure (MyFood) {
+	description (사용자 등록정보)
+	role-of (Food)
+	//extends will allow projections as goals description
+	extends (Food)
+}

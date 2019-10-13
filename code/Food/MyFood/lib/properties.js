@@ -7,7 +7,7 @@ module.exports.get = function (type, property) {
     case "config":
       return override ? config.get("config." + property) : config.get(property) 
     case "secret":
-      return override ? config.get("secret." + property) : secret.get(property)
+      return secret.get(property)
     default:
       throw "Unrecognized type: " + type
   }

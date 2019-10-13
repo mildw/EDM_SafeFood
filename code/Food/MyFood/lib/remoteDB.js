@@ -26,7 +26,9 @@
  * The bixbyUserId resides in `$vivContext.userId=<bixbyUserId>`, so we pass it in as a separate param.
  **/
 var http = require('http')
+var secret = require('secret')
 var properties = require('./properties.js')
+var console = require('console')
 
 module.exports = {
   deleteMyFood: deleteMyFood, // DELETE UserData
@@ -55,14 +57,12 @@ module.exports = {
 //   }
 // }
 
-function deleteMyFood(myFood) {
-  const dbUserId = userData.$id
-  if (dbUserId) {
-    const url = properties.get("config", "dbUrl") + properties.get("config", "collection") + "/" + dbUserId
-    // const query = {
-    //   apikey: properties.get("secret", "apiKey")
-    // }
-    var query = "delete from member where userId ="
+function deleteMyFood(bixbyUserId) {
+  const url = "https://bixby-0c0f.restdb.io/rest/edm-safefood"
+  const query = {
+    apikey: secret.get('apikey'),
+    q: "{\"bixby-user-id\":\"" + bixbyUserId + "\"}"
+  }
     const options = {
       format: "json",
       query: query,
@@ -74,17 +74,13 @@ function deleteMyFood(myFood) {
     } else {
       return false
     }
-  } else {
-    // Doesn't exist.
-    return
-  }
 }
 
 function getMyFood(bixbyUserId) {
-  const url = properties.get("config", "baseUrl") + properties.get("config", "collection")
+  const url = "https://bixby-0c0f.restdb.io/rest/edm-safefood"
   const query = {
-    apikey: properties.get("secret", "apiKey"),
-    q: "{\"" + properties.get("config", "userIdField") + "\":\"" + bixbyUserId + "\"}"
+    apikey: secret.get('apikey'),
+    q: "{\"bixby-user-id\":\"" + bixbyUserId + "\"}"
   }
   const options = {
     format: "json",
@@ -92,26 +88,45 @@ function getMyFood(bixbyUserId) {
     cacheTime: 0
   }
   const response = http.getUrl(url, options)
-  if (response && response.length === 1) {
-    const userData = response[0][properties.get("config", "userDataField")]
-    userData.$id = response[0]["_id"]
-    return userData
+
+  console.log(response)
+  if (response) {
+    const myFood = new Array;
+    for (var i = 0; i < response.length; i++) {
+      var tmp = JSON.parse(response[i]['bixby-my-food']);
+      delete tmp.$id;
+      delete tmp.$type;
+      myFood.push(tmp);
+    }
+    console.log(myFood)
+    return myFood
   } else {
     // Doesn't exist
     return
   }
 }
 
-function putMyFood(bixbyUserId, userData) {
-  const dbUserId = userData.$id
-  delete userData.$id
-  delete userData.$type
-  if (dbUserId) {
-    // Already exists. Update
-    return updateUserData(bixbyUserId, dbUserId, userData)
-  } else {
-    // New user. Create
-    return createUserData(bixbyUserId, userData)
+function putMyFood(bixbyUserId, myFood) {
+  //const url = properties.get("config", "baseUrl") + properties.get("config", "collection")
+  const url = "https://bixby-0c0f.restdb.io/rest/edm-safefood"
+  const query = {
+    apikey: secret.get('apikey')
+  }
+  const body = {}
+  // body[properties.get("config", "userIdField")] = bixbyUserId
+  // body[properties.get("config", "myFoodField")] = myFood
+  body["bixby-user-id"] = bixbyUserId
+  body["bixby-my-food"] = JSON.stringify(myFood)
+  console.log(myFood)
+
+  const options = {
+    format: "json",
+    query: query,
+    cacheTime: 0
+  }
+  const response = http.postUrl(url, body, options)
+  if (response) {
+    return getMyFood(bixbyUserId);
   }
 }
 

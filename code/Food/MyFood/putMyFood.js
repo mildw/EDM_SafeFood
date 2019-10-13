@@ -1,6 +1,8 @@
 var remoteDB = require('./lib/remoteDB.js')
 
-module.exports.function = function ($vivContext, myFood) {
+var console = require('console')
+module.exports.function = function ($vivContext, food) {
   const bixbyUserId = $vivContext.userId
-  return remoteDB.putmyFood(bixbyUserId, myFood)
+  console.log(food)
+  return remoteDB.putMyFood(bixbyUserId, food)
 }
