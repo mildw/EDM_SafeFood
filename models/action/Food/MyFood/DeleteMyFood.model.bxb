@@ -1,16 +1,5 @@
 action (DeleteMyFood) {
   description ("Delete user data from remote db")
   type (Calculation)
-  collect {
-    input (foodName) {
-      type (FoodName)
-      min (Required) max (One)
-      default-init {
-        intent {
-         goal: GetMyFood
-        }
-      }
-    }
-  }
   output (core.Boolean)
 }

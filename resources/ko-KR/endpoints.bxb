@@ -27,7 +27,7 @@ endpoints {
 
     // 내 음식 삭제
     action-endpoint (DeleteMyFood) {
-      accepted-inputs ($vivContext, foodName)
+      accepted-inputs ($vivContext)
       local-endpoint (Food/MyFood/deleteMyFood.js)
     }
 
