@@ -16,7 +16,7 @@ layout-macro-def (restaurant-compound-card) {
 				}
 				single-line {
 					text {
-						value ("Arrives in #{value(restaurant.location)}")
+						value ("#{value(restaurant.location)}")
 						style (Detail_L)
 					}
 				}
