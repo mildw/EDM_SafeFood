@@ -1,9 +1,12 @@
 module.exports.function = function foodSearch(foodName) {
 
-  var http = require('http')
-  var console = require('console')
-  var config = require('config')
-  var secret = require('secret')
+  var http = require('http');
+  var console = require('console');
+  var config = require('config');
+  var secret = require('secret');
+
+
+   var Chart = require('./lib/zingchart.min.js');
 
   var param = "?" + encodeURIComponent('ServiceKey') + '=' + secret.get('foodkey');
   param += "&" + encodeURIComponent('prdlstNm') + '=' + encodeURIComponent(foodName);
@@ -23,61 +26,35 @@ module.exports.function = function foodSearch(foodName) {
   // 데이터를 가공해서 만들어줄 최종
   var res = new Array();
 
-  var nutriName = ["칼로리", "열량", "탄수화물", "지방", "나트륨", "당류"];
-  var nutriEng = ["calorie", "calorie", "carbo", "fat", "natrium", "sugar"];
-  var nutriSym = ["kcal", "kcal", "g", "g", "mg", "g"];
+  // var nutriName = ["칼로리", "열량", "탄수화물", "지방", "나트륨", "당류"];
+  // var nutriEng = ["calorie", "calorie", "carbo", "fat", "natrium", "sugar"];
+  // var nutriSym = ["kcal", "kcal", "g", "g", "mg", "g"];
+    var nutriName = ["칼로리", "탄수화물", "지방", "나트륨", "당류"];
+  var nutriEng = ["calorie", "carbo", "fat", "natrium", "sugar"];
+  var nutriSym = ["kcal", "g", "g", "mg", "g"];
   // 영양소 정보나 알레르기 정보가 없으면 보여주지 않기
   // 상품명의 띄어쓰기 지우기
   for (var i = 0; i < list.length; i++) {
+    if (list[i]['nutrient'] == '알수없음' || list[i]['allergy'] == '알수없음' || Nm.indexOf(list[i]['prdlstNm']) != -1){
+      console.log(Nm.indexOf(list[i]['prdlstNm'])+ " " + list[i]['prdlstNm']);
+      continue;
+    }
+
     list[i]['prdlstNm'] = list[i]['prdlstNm'].replace(/ /gi, '');
+    list[i]['nutrient'] = list[i]['nutrient'].replace(/[,]| /gi, '');
+    list[i]['nutrient'] = list[i]['nutrient'].toLowerCase();
 
     ////////////////////////////////////////////////
     // nutrient 정보를 각각 성분에 따라 나누어 넣어주는 작업. 
     // 데이터가 없을시에는 0
-    list[i]['nutrient'] = list[i]['nutrient'].replace(/[,]| /gi, '');
-    list[i]['calorie'] = 0;
-    // if (list[i]['nutrient'].indexOf("칼로리") != -1) {
-    //   var sta = list[i]['nutrient'].indexOf("칼로리");
-    //   var end = list[i]['nutrient'].indexOf("kcal", sta);
-    //   var val = list[i]['nutrient'].substr(sta + 2, end - sta - 3);
-    //   list[i]['calorie'] = val;
-    // }
-    // else if (list[i]['nutrient'].indexOf("열량") != -1) {
-    //   var sta = list[i]['nutrient'].indexOf("열량");
-    //   var end = list[i]['nutrient'].indexOf("kcal", sta);
-    //   var val = list[i]['nutrient'].substr(sta + 2, end - sta - 2);
-    //   list[i]['calorie'] = val;
-    // }
-    list[i]['carbo'] = 0;
-    // if (list[i]['nutrient'].indexOf("탄수화물") != -1) {
-    //   var sta = list[i]['nutrient'].indexOf("탄수화물");
-    //   var end = list[i]['nutrient'].indexOf("g", sta);
-    //   var val = list[i]['nutrient'].substr(sta + 4, end - sta - 4);
-    //   list[i]['carbo'] = val;
-    // }
-    list[i]['fat'] = 0;
-    // if (list[i]['nutrient'].indexOf("지방") != -1) {
-    //   var sta = list[i]['nutrient'].indexOf("지방");
-    //   var end = list[i]['nutrient'].indexOf("g", sta);
-    //   var val = list[i]['nutrient'].substr(sta + 2, end - sta - 2);
-    //   list[i]['fat'] = val;
-    // }
-    list[i]['natrium'] = 0;
-    // if (list[i]['nutrient'].indexOf("나트륨") != -1) {
-    //   var sta = list[i]['nutrient'].indexOf("나트륨");
-    //   var end = list[i]['nutrient'].indexOf("mg", sta);
-    //   var val = list[i]['nutrient'].substr(sta + 3, end - sta - 3);
-    //   list[i]['natrium'] = val;
-    // }
-    list[i]['sugar'] = 0;
-    // if (list[i]['nutrient'].indexOf("당류") != -1) {
-    //   var sta = list[i]['nutrient'].indexOf("당류");
-    //   var end = list[i]['nutrient'].indexOf("g", sta);
-    //   var val = list[i]['nutrient'].substr(sta + 2, end - sta - 2);
-    //   list[i]['sugar'] = val;
-    // }
+    // list[i]['calorie'] = 0;
+    // list[i]['carbo'] = 0;
+    // list[i]['fat'] = 0;
+    // list[i]['natrium'] = 0;
+    // list[i]['sugar'] = 0;
 
-    for (var j = 0; j < 6; j++) {
+    for (var j = 0; j < 5; j++) {
+       list[i][nutriEng[j]] = 0;
       if (list[i]['nutrient'].indexOf(nutriName[j]) != -1) {
         var sta = list[i]['nutrient'].indexOf(nutriName[j]);
         var end = list[i]['nutrient'].indexOf(nutriSym[j], sta);
@@ -86,13 +63,16 @@ module.exports.function = function foodSearch(foodName) {
       }
     }
 
-    if (list[i]['nutrient'] != '알수없음' && list[i]['allergy'] != '알수없음' && Nm.indexOf(list[i]['prdlstNm']) == -1) {
-      Nm.push(list[i]['prdlstNm']);
-      res.push(list[i]);
-    }
-    //console.log(list[i]['nutrient']);
+    ////////////////차트 넣기
+    
+
+
+
+    Nm.push(list[i]['prdlstNm']);
+    res.push(list[i]);
   }
-  console.log(list[0]['calorie']);
+  console.log(Nm);
+  console.log(res);
 
   // res 배열의 이름 길이순으로 정렬해서 리턴
   function comparator(a, b) {
