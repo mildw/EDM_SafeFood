@@ -1,0 +1,174 @@
+layout-macro-def (Restaurant_Range_Card) {
+	params {
+		param (restaurant) {
+			type (searchRestaurantResults)
+			min (Required) max (Many)
+		}
+	}
+	content {
+		section {
+			content {
+				map-card {
+					title-area {
+						slot1 {
+							text {
+								value ("")
+							}
+						}
+					}
+					markers {
+						marker {
+							geo (restaurant.sourcePoint)
+							icon ("/img/icons/green-map-marker.png")
+							width (15)
+							height (20)
+							anchor-x (5)
+							anchor-y (15)
+							rotation (0)
+							
+						}
+						
+						
+						
+						marker {
+							geo (restaurant.destinationPoint[0])
+							icon ("/img/icons/red-map-marker1.png")
+							width (20)
+							height (25)
+							anchor-x (5)
+							anchor-y (15)
+							rotation (0)	
+						}
+						marker {
+							geo (restaurant.destinationPoint[1])
+							icon ("/img/icons/red-map-marker2.png")
+							width (20)
+							height (25)
+							anchor-x (5)
+							anchor-y (15)
+							rotation (0)	
+						}
+						marker {
+							geo (restaurant.destinationPoint[2])
+							icon ("/img/icons/red-map-marker3.png")
+							width (20)
+							height (25)
+							anchor-x (5)
+							anchor-y (15)
+							rotation (0)	
+						}
+						marker {
+							geo (restaurant.destinationPoint[3])
+							icon ("/img/icons/red-map-marker4.png")
+							width (20)
+							height (25)
+							anchor-x (5)
+							anchor-y (15)
+							rotation (0)	
+						}
+						marker {
+							geo (restaurant.destinationPoint[4])
+							icon ("/img/icons/red-map-marker5.png")
+							width (20)
+							height (25)
+							anchor-x (5)
+							anchor-y (15)
+							rotation (0)	
+						}
+						marker {
+							geo (restaurant.destinationPoint[5])
+							icon ("/img/icons/red-map-marker6.png")
+							width (20)
+							height (25)
+							anchor-x (5)
+							anchor-y (15)
+							rotation (0)	
+						}
+						marker {
+							geo (restaurant.destinationPoint[6])
+							icon ("/img/icons/red-map-marker7.png")
+							width (20)
+							height (25)
+							anchor-x (5)
+							anchor-y (15)
+							rotation (0)	
+						}
+						marker {
+							geo (restaurant.destinationPoint[7])
+							icon ("/img/icons/red-map-marker8.png")
+							width (20)
+							height (25)
+							anchor-x (5)
+							anchor-y (15)
+							rotation (0)	
+						}
+						marker {
+							geo (restaurant.destinationPoint[8])
+							icon ("/img/icons/red-map-marker9.png")
+							width (20)
+							height (25)
+							anchor-x (5)
+							anchor-y (15)
+							rotation (0)	
+						}
+
+						marker {
+							geo (restaurant.destinationPoint[9])
+							icon ("/img/icons/red-map-marker10.png")
+							width (20)
+							height (25)
+							anchor-x (5)
+							anchor-y (15)
+							rotation (0)	
+						}
+						
+					}
+					
+				}
+				
+				for-each (restaurant){
+					as (item){
+						compound-card{
+							content{
+								
+								single-line {
+									text {
+										value ("#{value(item.name)}")
+										style (Title_M)
+									}
+								}
+								single-line {
+									text {
+										value ("#{value(item.location)}")
+										style (Detail_L)
+									}
+								}
+								single-line {
+									text {
+										value ("#{value(item.rank)} #{value(item.destinationPoint.currentDistance)}")
+										style (Detail_M_Soft)
+									}
+								}
+							}
+							on-click{
+								intent {
+									goal: searchRestaurantResult
+									value: searchRestaurantResult{
+										name:$expr(item.name)
+										location:$expr(item.location)
+										rank:$expr(item.rank)
+										destinationPoint:$expr(item.destinationPoint)
+										sourcePoint:$expr(item.sourcePoint)
+										dnum:$expr(item.dnum)
+										ddate:$expr(item.ddate)
+										dagency:$expr(item.dagency)
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -11,7 +11,7 @@ result-view {
 	render {
 		
 		if (size(restaurant) > 1) {
-			layout-macro (restaurant-range-card) {
+			layout-macro (Restaurant_Range_Card) {
 				param (restaurant) {
 					expression (restaurant)
 				}
@@ -23,15 +23,5 @@ result-view {
 				mode (Details)
 			}
 		}
-		//  list-of (restaurant) {
-		//    has-details (true)
-		//    where-each (item) {
-		//      layout-macro (restaurant-range-card) {
-		//        param (restaurant) {
-		//          expression (item)
-		//        }
-		//      }
-		//    }
-		//  }
 	}
 }
