@@ -37,6 +37,17 @@ endpoints {
       local-endpoint (Food/MyFood/getMyFood.js)
     }
 
+    action-endpoint (FindAllergy) {
+			accepted-inputs (findAllergyItem)
+			local-endpoint (findAllergy.js)
+		}
+		
+		// 미미한 대처방법 알려줘
+		action-endpoint (FindHandle) {
+			accepted-inputs (findHandleWayL, findHandleWayH)
+			local-endpoint (findHandle.js)
+		}
+
     // ??
     // action-endpoint (PrepareMyFood) {
     //   accepted-inputs ($vivContext, previousMyFood, food)

@@ -3,3 +3,8 @@ train (t-gcnvtnpmicpkgysytswsjvd2y) {
   plan (Y2BiEE5NydUrTkxLTcvPT9HzrXQDUgxiKILuqSVQcUYgZIBiIAkA)
   last-modified (1570981025829)
 }
+train (t-gu9qmzs29ne527dy0a9hd0q32) {
+  utterance ("[g:FindHandle] (미미한)[v:FindHandleWayL] 알레르기 반응 대처하기")
+  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
+  last-modified (1571285582690)
+}

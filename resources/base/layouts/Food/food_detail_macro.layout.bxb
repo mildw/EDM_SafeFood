@@ -1,19 +1,254 @@
-layout-macro-def(food_detail_macro) {
-	params {
-		param (food) {
-			type (Food)
-			min (Required)
-			max (One)
-		}
-	}
-	
-	content {
-		section {
-			content {
-				layout-macro (food_card_macro) {
-					param (food) { expression (food)}
+//layout-macro-def(food_detail_macro) {
+// params {
+// 	param (food) {
+// 		type (Food)
+// 		min (Required)
+// 		max (One)
+// 	}
+// }
+layout{
+	match: Food (food)
+	mode (Details)
+
+	content{
+		section{
+			content{
+				image{
+					aspect-ratio(16:9)
+					url("#{value(food.imgurl1)}")
 				}
+
+				spacer
+
+				hbox{
+					content{
+						vbox{
+							halign (Start)
+							content{
+								text{
+									value ("#{value(food.prdlstNm)}")
+									style (Title_S)
+								}
+							}
+						}
+
+						vbox{
+							halign (End)
+							content{
+								single-line{
+									image{
+										shape (Circle)
+										style (Title_S)
+										url("/img/logo_img.png")
+									}
+								}
+							}
+						}
+					}
+				}
+				
+				divider
+
+				hbox{
+					content{
+						vbox{
+							halign (Center)
+							content{
+								text{
+									value("칼로리")
+									style(Detail_M_Soft)
+								}
+								text{
+									value("#{value(food.calorie)}")
+									style(Detail_L)
+								}
+							}
+						}
+						vbox{
+							halign (Center)
+							content{
+								text{
+									value("나트륨")
+									style(Detail_M_Soft)
+								}
+								text{
+									value("#{value(food.natrium)}")
+									style(Detail_L)
+								}
+							}
+						}
+						vbox{
+							halign (Center)
+							content{
+								text{
+									value("지방")
+									style(Detail_M_Soft)
+								}
+								text{
+									value("#{value(food.fat)}")
+									style(Detail_L)
+								}
+							}
+						}
+						vbox{
+							halign (Center)
+							content{
+								text{
+									value("당")
+									style(Detail_M_Soft)
+								}
+								text{
+									value("#{value(food.sugar)}")
+									style(Detail_L)
+								}
+							}
+						}
+						vbox{
+							halign (Center)
+							content{
+								text{
+									value("탄수화물")
+									style(Detail_M_Soft)
+								}
+								text{
+									value("#{value(food.carbo)}")
+									style(Detail_L)
+								}
+							}
+						}
+					}
+				}
+
+				spacer
+
+				divider
+
+				spacer
+
+				single-line{
+					text{
+						value("알레르기")
+						style(Detail_L_Soft)
+					}
+				}
+
+				paragraph{
+					value("#{value(food.allergy)}")
+					style(Detail_L)
+				}
+
+				spacer
+
+				divider
+
+				spacer
+
+				single-line{
+					text{
+						value("원재료")
+						style(Detail_L_Soft)
+					}
+				}
+
+				paragraph{
+					value("#{value(food.rawmtrl)}")
+					style(Detail_L)
+				}
+
+				
+
+				spacer
+
+				divider
+
+				spacer
+
+				split-input-cell {
+					left {
+						input-cell {
+							label ("제조사")
+							value ("#{value(food.manufacture)}")
+						}
+					}
+					right {
+						input-cell {
+							label ("분류")
+							value ("#{value(food.prdkind)}")
+						}
+					}
+				}
+
+				spacer
+
+				divider
+
+				spacer
+
+				cell-card{
+
+					on-click{
+						intent{
+							goal: PutMyFood
+							value : $expr(food)
+						}
+					}
+
+					slot1{
+						image{
+							url("#{value(food.imgurl1)}")
+							shape (Circle)
+							background-color (Transparent)
+						}
+					}
+
+					slot2{
+						content{
+							primary{
+								template ("#{value(food.prdlstNm)} 내 식품에 저장하기")
+							}
+							secondary{
+								template (Click here)
+							}
+						}
+					}
+				}
+
 			}
 		}
 	}
+	
+	// content {
+	// 	section{
+	// 		content {
+	// 			image-card {
+	// 				aspect-ratio (4:3)
+	// 				image-url ("#{value(food.imgurl1)}")
+	// 				title-area {
+	// 					slot1 {
+	// 						text {
+	// 							value ("")
+	// 						}
+	// 					}
+	// 				}
+	// 			}
+	// 		}
+	// 	}
+		
+	// 	section {
+	// 		content {
+				
+	// 			paragraph {
+	// 				value ("#{value(food.prdlstNm)}")
+	// 				style (Title_M)
+	// 			}
+				
+	// 			spacer
+				
+	// 			paragraph {
+	// 				value ("#{value(food.prdlstNm)}")
+	// 				style (Detail_L)
+	// 			}
+	// 		}
+	// 	}
+	// }
 }

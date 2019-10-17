@@ -1,0 +1,24 @@
+result-view {
+  match {
+    FindAllergyResults (this)
+  }
+  
+  message {
+   if ("size(this) == 1") {
+     template ("#{value(this.allergy)} 성분이 있습니다")
+   } else {
+     template ("알레르기 검색 정보가 없습니다")
+   }
+ }
+
+  render {
+     if ("size(this) == 1") {
+        layout-macro (findAllergy-header) {
+          param (findAllergyResults) {
+            expression (this)
+          }
+        } 
+     }
+  }
+  
+}

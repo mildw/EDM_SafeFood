@@ -1,0 +1,12 @@
+action (FindAllergy) {
+  description (까르보불닭 알레르기 알려줘)
+  type(Search)
+  collect {
+    input (findAllergyItem) {
+      type (FindAllergyItem)
+      min (Optional) max (One)
+    }
+  }
+
+  output (FindAllergyResults)
+}

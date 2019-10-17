@@ -18,8 +18,17 @@ capsule {
 	}
 	
 	capsule-imports {
-		import (viv.core) {
-			as (core)
-		}
+		import (viv.core) { 
+      as (core) 
+    }
+    import (viv.entity) {
+      as (entity) version(3.20.5)
+    }
+    import (viv.common) {
+      as (common) version-from (entity)
+    }
+    import (viv.image) {
+      as (image) version-from (common)
+    }
 	}
 }

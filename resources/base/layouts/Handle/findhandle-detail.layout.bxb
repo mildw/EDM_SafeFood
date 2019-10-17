@@ -1,0 +1,62 @@
+layout {
+	match: FindHandleResults (findHandleResults)
+	mode (Details)
+	
+	content {
+		section{
+			content{
+				compound-card {
+					content {
+						image-card {
+							aspect-ratio (4:3)
+							image-url ("#{value(findHandleResults.img)}")
+							title-area {
+								halign (Start)
+								slot1 {
+									text {
+										value ("")
+										style (Title_M)
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		section {
+			content {
+				paragraph {
+					value ("#{value(findHandleResults.title)}")
+					style (Title_M)
+				}
+				
+				spacer
+				
+				paragraph {
+					value ("#{value(findHandleResults.text)}")
+					style (Detail_L)
+				}
+			}
+		}
+		
+		section {
+			//title ("Description")
+			content {
+				// paragraph {
+				//   value ("It is a low-rise boutique hotel that features a pool in the back side of the building, although it's empty.")
+				//   style (Detail_L)
+				// }
+				attribution-link {
+					label {
+						template ("출처 : 위키하우 알레르기 반응에 대처하는 법")
+					}
+					url {
+						template ("https://ko.wikihow.com/알레르기-반응에-대처하는-법")
+					}
+				}
+			}
+		}
+	}
+}
