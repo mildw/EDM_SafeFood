@@ -14,9 +14,9 @@ module.exports.function = function findAllergy(findAllergyItem) {
   //검색된 값이 없으면 _ 띄어쓰기 없애서 한번 더 해주기
   if (findAllergyResultTmp.length == 0) {
 
-    findAllergyItemTmp = findAllergyItem.replace(" ", "");
+    var findAllergyItemTmp = findAllergyItem.replace(" ", "");
     param = "?" + encodeURIComponent('ServiceKey') + '=' + secret.get('foodkey');
-    param += "&" + encodeURIComponent('prdlstNm') + '=' + encodeURIComponent(findAllergyItem);
+    param += "&" + encodeURIComponent('prdlstNm') + '=' + encodeURIComponent(findAllergyItemTmp);
     param += "&returnType=json";
     findAllergyResults = http.getUrl(config.get('remote.url') + param, { format: 'json' });
     findAllergyResultTmp = findAllergyResults.list;
@@ -44,20 +44,27 @@ function Find(findAllergyResultTmp) {
   var allergy_urllist = ["Aimg/A0.jpg", "Aimg/A1.jpg", "Aimg/A2.jpg", "Aimg/A3.jpg", "Aimg/A4.jpg", "Aimg/A5.jpg", "Aimg/A6.jpg", "Aimg/A7.jpg", "Aimg/A8.jpg", "Aimg/A9.jpg", "Aimg/A10.jpg", "Aimg/A11.jpg", "Aimg/A12.jpg", "Aimg/A13.jpg", "Aimg/A14.jpg", "Aimg/A15.png"];
   //초기에는 다 없는 걸로 설정
   var allergy = ["Aimg/NoA0.png", "Aimg/NoA1.png", "Aimg/NoA2.png", "Aimg/NoA3.png", "Aimg/NoA4.png", "Aimg/NoA5.png", "Aimg/NoA6.png", "Aimg/NoA7.png", "Aimg/NoA8.png", "Aimg/NoA9.png", "Aimg/NoA10.png", "Aimg/NoA11.png", "Aimg/NoA12.png", "Aimg/NoA13.png", "Aimg/NoA14.png", "Aimg/NoA15.png"];
-  var cnt = 0;
+  
   var image_al = [];
-  image_al[0] = {url:'Aimg/A0.jpg'};
-  image_al[1] = {url:'Aimg/A1.jpg'};
-  //알러지 체크해주기
-  for (var i = 0; i < allergy_list.length; i++) {
-    if (findAllergyResultTmp.allergy.match(allergy_list[i]) == allergy_list[i]) allergy[i] = allergy_urllist[i];
-  }
-  //추가로 난류, 견과류 체크
+  var cnt = 0;
+  var start = 0;
+  //추가로 난류
   if (findAllergyResultTmp.allergy.match('메추리알') == '메추리알') {
-    allergy[0] = "Aimg/yesA.png";
+    allergy[0] = allergy_urllist[0];
+    image_al[cnt++] = {url:allergy_urllist[0]};
+    start++;
   }
-  if (findAllergyResultTmp.allergy.match('난류') == '난류') {
-    allergy[0] = "Aimg/yesA.png";
+  else if (findAllergyResultTmp.allergy.match('난류') == '난류') {
+    allergy[0] = allergy_urllist[0];
+    image_al[cnt++] = {url:allergy_urllist[0]};
+    start++;
+  }
+  //알러지 체크해주기
+  for (var i = start; i < allergy_list.length; i++) {
+    if (findAllergyResultTmp.allergy.match(allergy_list[i]) == allergy_list[i]){
+      allergy[i] = allergy_urllist[i];
+      image_al[cnt++] = {url:allergy_urllist[i]};
+    }
   }
   var findAllergyResult = {
     prdlstNm: findAllergyResultTmp.prdlstNm,
@@ -66,7 +73,8 @@ function Find(findAllergyResultTmp) {
     //알러지체크
     allergy: findAllergyResultTmp.allergy,
     allergy_set : allergy,
-    images : [{url:findAllergyResultTmp.imgurl1}, {url:findAllergyResultTmp.imgurl2}]
+    images : [{url:findAllergyResultTmp.imgurl1}, {url:findAllergyResultTmp.imgurl2}],
+    aimages : image_al
     //images : image_al
   };
 

@@ -15,11 +15,5 @@ result-view {
 					}
 				}
 			}
-		// }
-		// else-if(size(this) == 1) {
-		// 	layout-match (this) {
-		// 		mode(Details)
-		// 	}
-		// }
 	}
 }

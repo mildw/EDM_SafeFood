@@ -1,0 +1,37 @@
+layout-macro-def(compare-macro) {
+	params {
+		param (food) {
+			type (Food)
+			min (Required)
+			max (One)
+		}
+	}
+
+	content {
+
+		image-card{
+
+			aspect-ratio (3:4)
+			image-url ("#{value(food.imgurl1)}")
+
+      
+
+			title-area{
+				slot1{
+					text{
+						value("#{value (foodTwo.prdlstNm)}")
+						style(Title_S)
+					}
+				}
+
+				slot2{
+					paragraph{
+						value("#{value (food.manufacture)}")
+						style(Detail_L)
+					}
+				}
+			}
+		}
+    
+	}
+}

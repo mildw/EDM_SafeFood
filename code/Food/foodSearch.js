@@ -91,6 +91,7 @@ module.exports.function = function foodSearch(foodName) {
       res.push(list[i]);
     }
     //console.log(list[i]['nutrient']);
+
   }
   console.log(list[0]['calorie']);
 

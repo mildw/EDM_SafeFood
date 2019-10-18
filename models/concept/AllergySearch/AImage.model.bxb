@@ -1,0 +1,4 @@
+structure (AImage) {
+  extends (core.BaseImage)
+}
+

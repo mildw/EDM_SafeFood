@@ -17,13 +17,6 @@ result-view {
 				}
 			}
 		}
-		// else-if(size(this) == 1) {
-		// 	layout-macro (food_detail_macro) {
-		// 		param (food) {
-		// 			expression (this)
-		// 		}
-		// 	}
-		// }
 		
 		else-if ("size(this) == 1") {
 			layout-match (this) {
