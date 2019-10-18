@@ -5,9 +5,6 @@ module.exports.function = function foodSearch(foodName) {
   var config = require('config');
   var secret = require('secret');
 
-
-   var Chart = require('./lib/zingchart.min.js');
-
   var param = "?" + encodeURIComponent('ServiceKey') + '=' + secret.get('foodkey');
   param += "&" + encodeURIComponent('prdlstNm') + '=' + encodeURIComponent(foodName);
   param += "&" + encodeURIComponent('numOfRows') + '=' + "30";
@@ -29,14 +26,14 @@ module.exports.function = function foodSearch(foodName) {
   // var nutriName = ["칼로리", "열량", "탄수화물", "지방", "나트륨", "당류"];
   // var nutriEng = ["calorie", "calorie", "carbo", "fat", "natrium", "sugar"];
   // var nutriSym = ["kcal", "kcal", "g", "g", "mg", "g"];
-    var nutriName = ["칼로리", "탄수화물", "지방", "나트륨", "당류"];
-  var nutriEng = ["calorie", "carbo", "fat", "natrium", "sugar"];
-  var nutriSym = ["kcal", "g", "g", "mg", "g"];
+  var nutriName = ["칼로리", "탄수화물", "지방", "나트륨", "당류", "단백질"];
+  var nutriEng = ["calorie", "carbo", "fat", "natrium", "sugar", "protein"];
+  var nutriSym = ["kcal", "g", "g", "mg", "g", "g"];
   // 영양소 정보나 알레르기 정보가 없으면 보여주지 않기
   // 상품명의 띄어쓰기 지우기
   for (var i = 0; i < list.length; i++) {
-    if (list[i]['nutrient'] == '알수없음' || list[i]['allergy'] == '알수없음' || Nm.indexOf(list[i]['prdlstNm']) != -1){
-      console.log(Nm.indexOf(list[i]['prdlstNm'])+ " " + list[i]['prdlstNm']);
+    if (list[i]['nutrient'] == '알수없음' || list[i]['allergy'] == '알수없음' || Nm.indexOf(list[i]['prdlstNm']) != -1) {
+      //console.log(Nm.indexOf(list[i]['prdlstNm']) + " " + list[i]['prdlstNm']);
       continue;
     }
 
@@ -53,8 +50,8 @@ module.exports.function = function foodSearch(foodName) {
     // list[i]['natrium'] = 0;
     // list[i]['sugar'] = 0;
 
-    for (var j = 0; j < 5; j++) {
-       list[i][nutriEng[j]] = 0;
+    for (var j = 0; j < 6; j++) {
+      list[i][nutriEng[j]] = 0;
       if (list[i]['nutrient'].indexOf(nutriName[j]) != -1) {
         var sta = list[i]['nutrient'].indexOf(nutriName[j]);
         var end = list[i]['nutrient'].indexOf(nutriSym[j], sta);
@@ -64,7 +61,19 @@ module.exports.function = function foodSearch(foodName) {
     }
 
     ////////////////차트 넣기
-    
+    var url = 'http://54.180.149.204/';
+    var queryParams = 'tt.php';
+    queryParams += '?' + 'carbo=' + list[i]['carbo'];
+    queryParams += '&' + 'fat=' + list[i]['fat'];
+    queryParams += '&' + 'natrium=' + list[i]['natrium'];
+    queryParams += '&' + 'sugar=' + list[i]['sugar'];
+    queryParams += '&' + 'protein=' + list[i]['protein'];
+
+    var chartImg = http.getUrl(url + queryParams,{ format: 'text' });
+    console.log(chartImg);
+    list[i]['chart'] = chartImg;
+    ////////////////////////////
+
 
 
 
