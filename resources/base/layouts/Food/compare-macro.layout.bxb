@@ -19,7 +19,7 @@ layout-macro-def(compare-macro) {
 			title-area{
 				slot1{
 					text{
-						value("#{value (foodTwo.prdlstNm)}")
+						value("#{value (food.manufacture)}")
 						style(Title_S)
 					}
 				}
