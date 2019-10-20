@@ -1,0 +1,5 @@
+train (t-cds5e9u0dwt5b0hjjtmt3vac2) {
+  utterance ([g:GetMyFoodStat,r:GetMyFoodList] 내 식품 통계 보여줘)
+  plan (Y2BhEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGcRQ5iERwSWIJLk1gOSYGRgZmBgYwzQgkmYA8RgYGAA==)
+  last-modified (1571553673128)
+}

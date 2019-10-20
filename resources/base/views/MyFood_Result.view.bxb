@@ -1,6 +1,6 @@
 result-view {
   match: MyFood(this) {
-    from-output: GetMyFood()
+    from-output: GetMyFoodList()
     from-output: PutMyFood()
   }
   

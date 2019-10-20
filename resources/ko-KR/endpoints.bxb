@@ -1,83 +1,71 @@
 endpoints {
-  action-endpoints {
-
-    // 제품명 식품정보 알려줘
-     action-endpoint (FoodSearch) {
-       accepted-inputs (foodName)
-       local-endpoint (Food/foodSearch.js)
-     }
-
-     // (Continuation) 제품명 이랑 비교해줘
-     action-endpoint (FoodCompare) {
-       accepted-inputs (food, foodTwo)
-       local-endpoint (Food/foodCompare.js)
-     }
-
-     // 비교를 위한 ??? (어떻게 자동으로 동작이 이루어지는지 모르겠음..)
-    action-endpoint(FoodTwoSearch) {
-      accepted-inputs (foodName)
-      local-endpoint(Food/foodTwoSearch.js)
-    }
-
-    // 내 음식 추가
-    action-endpoint (PutMyFood) {
-      accepted-inputs ($vivContext, food)
-      local-endpoint (Food/MyFood/putMyFood.js)
-    }
-
-    // 내 음식 삭제
-    action-endpoint (DeleteMyFood) {
-      accepted-inputs ($vivContext)
-      local-endpoint (Food/MyFood/deleteMyFood.js)
-    }
-
-    // 내 음식 가져오기
-    action-endpoint (GetMyFood) {
-      accepted-inputs ($vivContext)
-      local-endpoint (Food/MyFood/getMyFood.js)
-    }
-
-    action-endpoint (FindAllergy) {
+	action-endpoints {
+		
+		// 제품명 식품정보 알려줘
+		action-endpoint (FoodSearch) {
+			accepted-inputs (foodName)
+			local-endpoint (Food/foodSearch.js)
+		}
+		
+		// (Continuation) 제품명 이랑 비교해줘
+		action-endpoint (FoodCompare) {
+			accepted-inputs (food, foodTwo)
+			local-endpoint (Food/foodCompare.js)
+		}
+		
+		// 비교를 위한 ??? (어떻게 자동으로 동작이 이루어지는지 모르겠음..)
+		action-endpoint(FoodTwoSearch) {
+			accepted-inputs (foodName)
+			local-endpoint(Food/foodTwoSearch.js)
+		}
+		
+		// 내 음식 추가
+		action-endpoint (PutMyFood) {
+			accepted-inputs ($vivContext, food)
+			local-endpoint (Food/MyFood/putMyFood.js)
+		}
+		
+		// 내 음식 삭제
+		action-endpoint (DeleteOneFood) {
+			accepted-inputs ($vivContext, myFoodName)
+			local-endpoint (Food/MyFood/deleteOneFood.js)
+		}
+		
+		// 내 음식 전부 삭제
+		action-endpoint (DeleteAllFood) {
+			accepted-inputs ($vivContext)
+			local-endpoint (Food/MyFood/deleteAllFood.js)
+		}
+		
+		// 내 음식 가져오기
+		action-endpoint (GetMyFoodList) {
+			accepted-inputs ($vivContext)
+			local-endpoint (Food/MyFood/getMyFoodList.js)
+		}
+		
+		// 내 음식 통계
+		action-endpoint (GetMyFoodStat) {
+			accepted-inputs ($vivContext, food)
+			local-endpoint (Food/MyFood/getMyFoodStat.js)
+		}
+		
+		// 알러지 찾아줘
+		action-endpoint (FindAllergy) {
 			accepted-inputs (findAllergyItem)
-			local-endpoint (findAllergy.js)
+			local-endpoint (Allergy/findAllergy.js)
 		}
 		
 		// 미미한 대처방법 알려줘
 		action-endpoint (FindHandle) {
 			accepted-inputs (findHandleWayL, findHandleWayH)
-			local-endpoint (findHandle.js)
+			local-endpoint (Allergy/findHandle.js)
 		}
 
-    // ??
-    // action-endpoint (PrepareMyFood) {
-    //   accepted-inputs ($vivContext, previousMyFood, food)
-    //   local-endpoint (Food/Myfood/prepareMyFood.js)
-    // }
-
-
-    // // 제품명 식품정보 알려줘
-    //  action-endpoint (FindNutri) {
-    //    accepted-inputs (findNutriItem)
-    //    local-endpoint (findNutri.js)
-    //  }
-
-    // // 재료명 알레르기 등록/삭제해줘
-    //  action-endpoint (MyAllergy) {
-    //    accepted-inputs (myMaterial, myCommand)
-    //    local-endpoint (myAllergy.js)
-    //  }
-
-    // // 등록된 알레르기 알려줘
-    //  action-endpoint (MyAllergyInfo) {
-    //    local-endpoint (myAllergyInfo.js)
-    //  }
-
-    // 외부 서버 API
-    // action-endpoint (__ACTION_NAME__) {
-    //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
-    //   remote-endpoint (__ENDPOINT_URL__) {
-    //     method (__HTTP_METHOD_USED__)
-    //   }
-    // }
-  }
+		    //위치 에있는 가게 위생정보 알려줘
+    action-endpoint (findRestaurant) {
+      accepted-inputs (restaurantLocation,restaurantName)
+      local-endpoint (Restaurant/findRestaurant.js)
+    }
+		
+	}
 }

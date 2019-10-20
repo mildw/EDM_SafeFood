@@ -1,7 +1,7 @@
 train (t-gcnvtnpmicpkgysytswsjvd2y) {
-  utterance ([g:GetMyFood] 내 식품 보여줘)
-  plan (Y2BiEE5NydUrTkxLTcvPT9HzrXQDUgxiKILuqSVQcUYgZIBiIAkA)
-  last-modified (1570981025829)
+  utterance ([g:GetMyFoodList] 내 식품 보여줘)
+  plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
+  last-modified (1571559080473)
 }
 train (t-gu9qmzs29ne527dy0a9hd0q32) {
   utterance ("[g:FindHandle] (미미한)[v:FindHandleWayL] 알레르기 반응 대처하기")

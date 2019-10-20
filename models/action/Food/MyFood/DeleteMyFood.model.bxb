@@ -1,5 +1,0 @@
-action (DeleteMyFood) {
-  description ("Delete user data from remote db")
-  type (Calculation)
-  output (core.Boolean)
-}

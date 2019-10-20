@@ -1,0 +1,5 @@
+train (t-1y1tmerp6advsqv4se7hpnn84) {
+  utterance ([g:PutMyFood] 내 식품으로 추가해줘)
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
+  last-modified (1571489833961)
+}

@@ -6,7 +6,6 @@ result-view {
 	}
 	
 	render {
-		
 		layout {
 			
 			// section {

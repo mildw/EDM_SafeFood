@@ -1,0 +1,38 @@
+result-view {
+	match: MyFoodImg(this) {
+		from-output: GetMyFoodStat(action)
+	}
+	
+	message {
+		if (exists(this)) {
+			template ("등록된 상품정보입니다.")
+		} else {
+			template ("등록된 상품이 없습니다.")
+		}
+	}
+	// render {
+	// 	if(exists(this)) {
+	// 		list-of (this) {
+	// 			where-each (myFoodImg) {
+	// 				layout-macro (myfood_img_macro) {
+	// 					param (myFoodImg) {
+	// 						expression (myFoodImg)
+	// 					}
+	// 				}
+	// 			}
+	// 		}
+	// 	}
+	// }
+	
+	// render {
+	// 	list-of (action) {
+	// 		where-each (food) {
+	// 			layout-macro (myfood_img_macro) {
+	// 				param (food['imgurl1']) {
+	// 					expression (food)
+	// 				}
+	// 			}
+	// 		}
+	// 	}
+	// }
+}

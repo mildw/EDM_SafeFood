@@ -1,0 +1,5 @@
+train (t-j2clfzmskll345ecun5j4pk7b) {
+  utterance ([g:GetMyFoodList] 내 식품목록 보여줘)
+  plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
+  last-modified (1571499832772)
+}
