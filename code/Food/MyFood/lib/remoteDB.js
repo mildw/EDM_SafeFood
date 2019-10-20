@@ -9,6 +9,7 @@ module.exports = {
   deleteAllFood: deleteAllFood,
   deleteOneFood: deleteOneFood,
   getMyFoodList: getMyFoodList,
+  getMyFoodStat: getMyFoodStat,
   putMyFood: putMyFood
 }
 
@@ -111,6 +112,33 @@ function getMyFoodList(bixbyUserId) {
     console.log("myFood")
     console.log(myFood)
     return myFood
+  } else {
+    // Doesn't exist
+    return
+  }
+}
+function getMyFoodStat(bixbyUserId) {
+  const url = "https://bixby-0c0f.restdb.io/rest/edm-safefood"
+  const query = {
+    apikey: secret.get('apikey'),
+    q: "{\"bixby-user-id\":\"" + bixbyUserId + "\"}"
+  }
+  const options = {
+    format: "json",
+    query: query,
+    cacheTime: 0
+  }
+  const response = http.getUrl(url, options)
+
+  if (response) {
+    var myFoodImg = new Array;
+    var len = response.length < 5 ? 0 : response.length -5
+    for (var i = response.length-1 ; i >= len; i--) {
+      var tmp = JSON.parse(response[i]['my-food']);
+      //tmp.$id = response[i]["_id"];
+      myFoodImg.push(tmp['imgurl1']);
+    }
+    return myFoodImg
   } else {
     // Doesn't exist
     return
