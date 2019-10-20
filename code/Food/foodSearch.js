@@ -60,9 +60,10 @@ module.exports.function = function foodSearch(foodName) {
       }
     }
 
+    list[i]['chart'] = 'notyet';
     ////////////////차트 넣기
-    var url = 'http://54.180.149.204/';
-    var queryParams = 'tt.php';
+    var url = 'http://54.180.149.204/chart/';
+    var queryParams = 'test.php';
     queryParams += '?' + 'carbo=' + list[i]['carbo'];
     queryParams += '&' + 'fat=' + list[i]['fat'];
     queryParams += '&' + 'natrium=' + list[i]['natrium'];

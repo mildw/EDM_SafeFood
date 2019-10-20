@@ -1,0 +1,5 @@
+train (t-acsuohe25mdtjmwphycsoj98k) {
+  utterance ("[g:DeleteOneFood] 내 식품에서 (신라면)[v:MyFoodName] 삭제해줘")
+  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571498498431)
+}

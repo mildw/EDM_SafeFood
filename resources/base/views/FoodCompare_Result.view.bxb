@@ -13,6 +13,7 @@ result-view {
 		// 		}
 		// 	}
 		// } else {
+		
 		layout {
 			section {
 				content {
@@ -51,4 +52,5 @@ result-view {
 		}
 	}
 }
+
 //}

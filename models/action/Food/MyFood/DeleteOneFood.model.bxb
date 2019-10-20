@@ -1,0 +1,18 @@
+action (DeleteOneFood) {
+	description ("Delete One user data from remote db")
+	type (Calculation)
+	collect {
+		input (myFoodName) {
+			type (MyFoodName)
+			min (Required) max (One)
+			//input 이 없을 때, 현재 값을 보여줌(?)
+			default-init {
+				intent {
+					//goal: PrepareMyFood
+					goal: GetMyFoodList
+				}
+			}
+		}
+	}
+	output (core.Boolean)
+}
