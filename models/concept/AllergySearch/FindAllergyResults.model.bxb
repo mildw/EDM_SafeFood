@@ -12,6 +12,11 @@ structure (FindAllergyResults) {
     min (Required) max (Many)
   }
 
+  property (aimages) {
+    type (AImage)
+    min (Required) max (Many)
+  }
+
   property (allergy_set) {
     type (Allergy_Set)
     min (Required) max (Many)

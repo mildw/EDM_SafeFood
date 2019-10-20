@@ -73,10 +73,6 @@ module.exports.function = function foodSearch(foodName) {
     var chartImg = http.getUrl(url + queryParams,{ format: 'text' });
     console.log(chartImg);
     list[i]['chart'] = chartImg;
-    ////////////////////////////
-
-
-
 
     Nm.push(list[i]['prdlstNm']);
     res.push(list[i]);
