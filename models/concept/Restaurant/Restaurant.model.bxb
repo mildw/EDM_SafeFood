@@ -1,5 +1,5 @@
-structure (searchRestaurantResult) {
-  description (__DESCRIPTION__)
+structure (Restaurant) {
+  description (검색한가게정보)
   property (location) {
     type (Location)
     min (Required) max (One)
@@ -22,10 +22,6 @@ structure (searchRestaurantResult) {
   }
   property (dagency) {
     type (Dagency)
-    min (Required) max (One)
-  }
-  property (sourcePoint) {
-    type (SourcePoint)
     min (Required) max (One)
   }
   property (destinationPoint) {

@@ -1,5 +1,0 @@
-train (t-qn1j7zebiocl96nmbjkrj017j) {
-  utterance ("[g:FoodCompare] {[g:FoodTwo] (진라면)[v:FoodName]}이랑 비교해줘")
-  plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
-  last-modified (1570679906436)
-}

@@ -1,6 +1,6 @@
 result-view {
-	match: findRestaurantResults (restaurant) {
-		from-output: findRestaurant
+	match: Restaurant (restaurant) {
+		from-output: RestaurantFind
 	}
 	
 	message {
@@ -12,7 +12,7 @@ result-view {
 			list-of (restaurant) {
 				has-details (true)
 				where-each (item) {
-					layout-macro (restaurant-compound-card) {
+					layout-macro (restaurant_compound_card) {
 						param (restaurant) {
 							expression (item)
 						}

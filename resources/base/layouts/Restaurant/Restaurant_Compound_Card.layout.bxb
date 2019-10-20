@@ -1,7 +1,7 @@
-layout-macro-def (restaurant-compound-card) {
+layout-macro-def (restaurant_compound_card) {
 	params {
 		param (restaurant) {
-			type (findRestaurantResults)
+			type (Restaurant)
 			min (Required) max (One)
 		}
 	}

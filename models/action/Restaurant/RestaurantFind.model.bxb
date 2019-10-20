@@ -1,0 +1,16 @@
+action (RestaurantFind) {
+	description (--에--가게 위생정보 알려줘)
+	collect {
+		input (restaurantLocation) {
+			type (RestaurantLocation)
+			min (Optional) max (One)
+		}
+		input (restaurantName) {
+			type (RestaurantName)
+			min (Optional) max (One)
+			
+		}
+	}
+	type(Search)
+	output (Restaurant)
+}

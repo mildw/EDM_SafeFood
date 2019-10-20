@@ -1,5 +1,5 @@
-train (t-6ezmnvh6yjzqhxrnsln8foxiv) {
-  utterance ([g:searchRestaurantResults] 내주변 가게의 위생정보 알려줘)
-  plan (Y2BkUElNydUrTkxLTcvPT9ErTk0sSs4ISi0uSSwtSswrAbJKc0qKGUCAEUQAAA==)
-  last-modified (1570864309308)
+train (t-672gv8flkvtcp28lednnnsn1x) {
+  utterance ([g:RestaurantRange] 내주변 가게 위생정보 알려줘)
+  plan (Y2BkkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lAAFGEAEA)
+  last-modified (1571468793361)
 }

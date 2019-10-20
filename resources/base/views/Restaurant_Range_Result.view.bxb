@@ -1,7 +1,7 @@
 result-view {
 	match {
-		searchRestaurantResults (restaurant){
-			from-output: searchRestaurant
+		RestaurantRange (restaurant){
+			from-output: RestaurantSearch
 		}
 	}
 	

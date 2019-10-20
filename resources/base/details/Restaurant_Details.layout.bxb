@@ -1,5 +1,5 @@
 layout {
-	match: findRestaurantResults(restaurant)
+	match: Restaurant(restaurant)
 	mode (Details)
 	
 	content {

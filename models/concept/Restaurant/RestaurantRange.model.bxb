@@ -1,4 +1,4 @@
-structure (searchRestaurantResult) {
+structure (RestaurantRange) {
   description (__DESCRIPTION__)
   property (location) {
     type (Location)

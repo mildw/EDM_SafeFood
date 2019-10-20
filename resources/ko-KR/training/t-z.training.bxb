@@ -1,0 +1,5 @@
+train (t-zlq6b3nb0pnoq3jhi5313h7wm) {
+  utterance ("[g:RestaurantFind] (분당)[v:RestaurantLocation] 에있는 (피자)[v:RestaurantName] 가게 위생정보 알려줘")
+  plan (Y2BhEE9NydUrTkxLTcvPT9ELSi0uSSwtSswrYZDGIeGWmZfCII9D0ic/ObEkMz8Pp26/xNxUBmYGRgYmIMkApEEQAuCiAA==)
+  last-modified (1571473403420)
+}

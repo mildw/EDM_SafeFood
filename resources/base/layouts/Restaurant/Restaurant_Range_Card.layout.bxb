@@ -1,7 +1,7 @@
 layout-macro-def (Restaurant_Range_Card) {
 	params {
 		param (restaurant) {
-			type (searchRestaurantResults)
+			type (RestaurantRange)
 			min (Required) max (Many)
 		}
 	}
