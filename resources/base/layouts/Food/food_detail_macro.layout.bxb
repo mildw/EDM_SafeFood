@@ -123,7 +123,12 @@ layout{
 
 				divider
 
-				spacer
+				image{
+					aspect-ratio(16:9)
+					url("#{value(food.chart)}")
+				}
+
+				divider
 
 				single-line{
 					text{
@@ -154,8 +159,6 @@ layout{
 					value("#{value(food.rawmtrl)}")
 					style(Detail_L)
 				}
-
-				
 
 				spacer
 

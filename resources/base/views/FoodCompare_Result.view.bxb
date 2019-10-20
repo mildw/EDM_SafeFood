@@ -21,47 +21,26 @@ result-view {
 			// 		}
 			// 	}
 			// }
-			section {
-				content {
-					image-card{
-						
-						aspect-ratio (16:9)
-						image-url ("#{value(action.food.imgurl1)}")
-						
-						title-area{
-							slot1{
-								text{
-									value("#{value (action.food.prdlstNm)}")
-									style(Title_S)
-								}
-							}
-						}
-					}
-				}
-			}
 			
 			section{
 				content{
 					
-					split-input-cell {
-						left {
-							input-cell {
-								//label ("#{value(action.food.manufacture)}")
-								label("Food 1")
-								value("#{value(action.food.prdlstNm)}")
-							}
-						}
-						right {
-							input-cell {
-								label("Food 2")
-								//label ("#{value(action.foodTwo.manufacture)}")
-								value("#{value(action.foodTwo.prdlstNm)}")
-							}
-						}
-					}
-					
-					
-					spacer
+					// split-input-cell {
+					// 	left {
+					// 		input-cell {
+					// 			//label ("#{value(action.food.manufacture)}")
+					// 			label("Food 1")
+					// 			value("#{value(action.food.prdlstNm)}")
+					// 		}
+					// 	}
+					// 	right {
+					// 		input-cell {
+					// 			label("Food 2")
+					// 			//label ("#{value(action.foodTwo.manufacture)}")
+					// 			value("#{value(action.foodTwo.prdlstNm)}")
+					// 		}
+					// 	}
+					// }
 					
 					hbox{
 						content{
@@ -253,423 +232,132 @@ result-view {
 									}
 								}
 							}
-
-							vbox{
-								content{
-									single-line{
-										if (action.food.carbo > action.foodTwo.carbo){
-											text{
-												value("#{value(action.food.carbo)}")
-												color (Red)
-												style(Detail_M)
-											}
-										}
-										else {
-											text{
-												value("#{value(action.foodTwo.carbo)}")
-												style(Detail_M)
-											}
-										}
-									}
-								}
-							}
-
-							vbox{
-								content{
-									single-line{
-										if (action.food.carbo > action.foodTwo.carbo){
-											text{
-												value("#{value(action.food.carbo)}")
-												color (Red)
-												style(Detail_M)
-											}
-										}
-										else {
-											text{
-												value("#{value(action.foodTwo.carbo)}")
-												style(Detail_M)
-											}
-										}
-									}
-								}
-							}
-
-							vbox{
-								content{
-									single-line{
-										if (action.food.carbo > action.foodTwo.carbo){
-											text{
-												value("#{value(action.food.carbo)}")
-												color (Red)
-												style(Detail_M)
-											}
-										}
-										else {
-											text{
-												value("#{value(action.foodTwo.carbo)}")
-												style(Detail_M)
-											}
-										}
-									}
-								}
-							}
-
 							
+							vbox{
+								content{
+									single-line{
+										if (action.food.carbo > action.foodTwo.carbo){
+											text{
+												value("#{value(action.food.carbo)}")
+												color (Red)
+												style(Detail_M)
+											}
+										}
+										else {
+											text{
+												value("#{value(action.foodTwo.carbo)}")
+												style(Detail_M)
+											}
+										}
+									}
+								}
+							}
+							
+							vbox{
+								content{
+									single-line{
+										if (action.food.carbo > action.foodTwo.carbo){
+											text{
+												value("#{value(action.food.carbo)}")
+												color (Red)
+												style(Detail_M)
+											}
+										}
+										else {
+											text{
+												value("#{value(action.foodTwo.carbo)}")
+												style(Detail_M)
+											}
+										}
+									}
+								}
+							}
+							
+							vbox{
+								content{
+									single-line{
+										if (action.food.carbo > action.foodTwo.carbo){
+											text{
+												value("#{value(action.food.carbo)}")
+												color (Red)
+												style(Detail_M)
+											}
+										}
+										else {
+											text{
+												value("#{value(action.foodTwo.carbo)}")
+												style(Detail_M)
+											}
+										}
+									}
+								}
+							}
 							
 						}
 					}
 					
-					// 		hbox {
-					// 			content{
-					// 				vbox {
-					// 					halign (Center)
-					// 					content {
-					// 						single-line {
-					// 							text{
-					// 								value("#{value(action.food.carbo)}")
-					// 								style(Detail_M)
-					// 							}
-					// 						}
-					// 					}
-					// 				}
-					// 				vbox {
-					// 					halign (Center)
-					// 					content {
-					// 						single-line {
-					// 							if (action.food.carbo > action.foodTwo.carbo){
-					// 								text{
-					// 									value(">")
-					// 									style(Detail_M)
-					// 								}
-					// 							}
-					// 							else if (action.food.carbo > action.foodTwo.carbo){
-					// 								text{
-					// 									value(">")
-					// 									style(Detail_M)
-					// 								}
-					// 							}
-					// 							else {
-					// 								text{
-					// 									value("=")
-					// 									style(Detail_M)
-					// 								}
-					// 							}
-					// 						}
-					// 					}
-					// 				}
+					divider
+					spacer
 					
-					// 				vbox {
-					// 					halign (Center)
-					// 					content {
-					// 						single-line {
-					// 							text{
-					// 								value("#{value(action.foodTwo.carbo)}")
-					// 								style(Detail_M)
-					// 							}
-					// 						}
-					// 					}
-					// 				}
-					// 			}
-					// 		}
+					cell-card {
+						slot1 {
+							image {
+								url("Aimg/F1.png")
+								shape (Square)
+							}
+						}
+						slot2 {
+							content {
+								order (PrimarySecondary)
+								primary ("#{value (action.food.prdlstNm)}") 
+								secondary ("#{value (action.food.prdlstNm)}") 
+							}
+						}
+						slot3{
+							image {
+								url("#{value(action.food.imgurl1)}")
+								shape (Square)
+							}
+						}
+					}
 					
-					// 		divider
+					image{
+						aspect-ratio(16:9)
+						url("#{value(action.food.chart)}")
+					}
 					
-					// 		hbox {
-					// 			content{
-					// 				vbox {
-					// 					halign (Center)
-					// 					content {
-					// 						single-line {
-					// 							text{
-					// 								value("#{value(action.food.carbo)}")
-					// 								style(Detail_M)
-					// 							}
-					// 						}
-					// 					}
-					// 				}
-					// 				vbox {
-					// 					halign (Center)
-					// 					content {
-					// 						single-line {
-					// 							if (action.food.carbo > action.foodTwo.carbo){
-					// 								text{
-					// 									value(">")
-					// 									style(Detail_M)
-					// 								}
-					// 							}
-					// 							else if (action.food.carbo > action.foodTwo.carbo){
-					// 								text{
-					// 									value(">")
-					// 									style(Detail_M)
-					// 								}
-					// 							}
-					// 							else {
-					// 								text{
-					// 									value("=")
-					// 									style(Detail_M)
-					// 								}
-					// 							}
-					// 						}
-					// 					}
-					// 				}
+					spacer
+
+					cell-card {
+						slot1 {
+							image {
+								url("Aimg/F2.png")
+								shape (Square)
+							}
+						}
+						slot2 {
+							content {
+								order (PrimarySecondary)
+								primary ("#{value (action.foodTwo.prdlstNm)}") 
+								secondary ("#{value (action.foodTwo.prdlstNm)}") 
+							}
+						}
+						slot3{
+							image {
+								url("#{value(action.foodTwo.imgurl1)}")
+								shape (Square)
+							}
+						}
+					}
 					
-					// 				vbox {
-					// 					halign (Center)
-					// 					content {
-					// 						single-line {
-					// 							text{
-					// 								value("#{value(action.foodTwo.carbo)}")
-					// 								style(Detail_M)
-					// 							}
-					// 						}
-					// 					}
-					// 				}
-					// 			}
-					// 		}
-					
-					// 		divider
-					
-					// 		hbox {
-					// 			content{
-					// 				vbox {
-					// 					halign (Center)
-					// 					content {
-					// 						single-line {
-					// 							text{
-					// 								value("#{value(action.food.carbo)}")
-					// 								style(Detail_M)
-					// 							}
-					// 						}
-					// 					}
-					// 				}
-					// 				vbox {
-					// 					halign (Center)
-					// 					content {
-					// 						single-line {
-					// 							if (action.food.carbo > action.foodTwo.carbo){
-					// 								text{
-					// 									value(">")
-					// 									style(Detail_M)
-					// 								}
-					// 							}
-					// 							else if (action.food.carbo > action.foodTwo.carbo){
-					// 								text{
-					// 									value(">")
-					// 									style(Detail_M)
-					// 								}
-					// 							}
-					// 							else {
-					// 								text{
-					// 									value("=")
-					// 									style(Detail_M)
-					// 								}
-					// 							}
-					// 						}
-					// 					}
-					// 				}
-					
-					// 				vbox {
-					// 					halign (Center)
-					// 					content {
-					// 						single-line {
-					// 							text{
-					// 								value("#{value(action.foodTwo.carbo)}")
-					// 								style(Detail_M)
-					// 							}
-					// 						}
-					// 					}
-					// 				}
-					// 			}
-					// 		}
-					
-					// 		divider
-					
-					// 		hbox {
-					// 			content{
-					// 				vbox {
-					// 					halign (Center)
-					// 					content {
-					// 						single-line {
-					// 							text{
-					// 								value("#{value(action.food.carbo)}")
-					// 								style(Detail_M)
-					// 							}
-					// 						}
-					// 					}
-					// 				}
-					// 				vbox {
-					// 					halign (Center)
-					// 					content {
-					// 						single-line {
-					// 							if (action.food.carbo > action.foodTwo.carbo){
-					// 								text{
-					// 									value(">")
-					// 									style(Detail_M)
-					// 								}
-					// 							}
-					// 							else if (action.food.carbo > action.foodTwo.carbo){
-					// 								text{
-					// 									value(">")
-					// 									style(Detail_M)
-					// 								}
-					// 							}
-					// 							else {
-					// 								text{
-					// 									value("=")
-					// 									style(Detail_M)
-					// 								}
-					// 							}
-					// 						}
-					// 					}
-					// 				}
-					
-					// 				vbox {
-					// 					halign (Center)
-					// 					content {
-					// 						single-line {
-					// 							text{
-					// 								value("#{value(action.foodTwo.carbo)}")
-					// 								style(Detail_M)
-					// 							}
-					// 						}
-					// 					}
-					// 				}
-					// 			}
-					// 		}
-					
-					// 		divider
-					
-					// 		hbox {
-					// 			content{
-					// 				vbox {
-					// 					halign (Center)
-					// 					content {
-					// 						single-line {
-					// 							text{
-					// 								value("#{value(action.food.carbo)}")
-					// 								style(Detail_M)
-					// 							}
-					// 						}
-					// 					}
-					// 				}
-					// 				vbox {
-					// 					halign (Center)
-					// 					content {
-					// 						single-line {
-					// 							if (action.food.carbo > action.foodTwo.carbo){
-					// 								text{
-					// 									value(">")
-					// 									style(Detail_M)
-					// 								}
-					// 							}
-					// 							else if (action.food.carbo > action.foodTwo.carbo){
-					// 								text{
-					// 									value(">")
-					// 									style(Detail_M)
-					// 								}
-					// 							}
-					// 							else {
-					// 								text{
-					// 									value("=")
-					// 									style(Detail_M)
-					// 								}
-					// 							}
-					// 						}
-					// 					}
-					// 				}
-					
-					// 				vbox {
-					// 					halign (Center)
-					// 					content {
-					// 						single-line {
-					// 							text{
-					// 								value("#{value(action.foodTwo.carbo)}")
-					// 								style(Detail_M)
-					// 							}
-					// 						}
-					// 					}
-					// 				}
-					// 			}
-					// 		}
-					
-					
-					// 		hbox {
-					// 			content{
-					// 				vbox {
-					
-					// 					halign (Center)
-					// 					content {
-					// 						single-line {
-					// 							text{
-					// 								color (Blue)
-					// 								value("#{value(action.food.carbo)}")
-					// 								style(Detail_M)
-					// 							}
-					// 						}
-					// 					}
-					// 				}
-					// 				vbox {
-					// 					halign (Center)
-					// 					content {
-					// 						single-line {
-					// 							if (action.food.carbo > action.foodTwo.carbo){
-					// 								text{
-					// 									value(">")
-					// 									style(Detail_M)
-					// 								}
-					// 							}
-					// 							else if (action.food.carbo > action.foodTwo.carbo){
-					// 								text{
-					// 									value(">")
-					// 									style(Detail_M)
-					// 								}
-					// 							}
-					// 							else {
-					// 								text{
-					// 									value("=")
-					// 									style(Detail_M)
-					// 								}
-					// 							}
-					// 						}
-					// 					}
-					// 				}
-					
-					// 				vbox {
-					// 					halign (Center)
-					// 					content {
-					// 						single-line {
-					// 							text{
-					// 								value("#{value(action.foodTwo.carbo)}")
-					// 								style(Detail_M)
-					// 							}
-					// 						}
-					// 					}
-					// 				}
-					// 			}
-					// 		}
-					
-					
-					
-					
-					// 	}
-					// }
-					
-					// section{
-					// 	content{
-					// 		image-card{
-					
-					// 			aspect-ratio (16:9)
-					// 			image-url ("#{value(action.foodTwo.imgurl1)}")
-					
-					// 			title-area{
-					// 				slot1{
-					// 					text{
-					// 						value("#{value (action.foodTwo.prdlstNm)}")
-					// 						style(Title_S)
-					// 					}
-					// 				}
-					// 			}
-					// 		}
+					image{
+						aspect-ratio(16:9)
+						url("#{value(action.foodTwo.chart)}")
+					}
+
+					spacer
+					divider
+					spacer
 				}
 			}
 		}
