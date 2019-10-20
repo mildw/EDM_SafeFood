@@ -1,0 +1,34 @@
+layout-macro-def(findhandle-header) {
+	params {
+		param (findHandleResults) {
+			type (FindHandleResults)
+			min (Required)
+			max (One)
+		}
+	}
+	
+	content {
+		//여기다 추가하기
+		thumbnail-card {
+			image-position (Start)
+			image-url ("[#{value(findHandleResults.img)}]")
+			title-area {
+				halign (Start)
+				slot1 {
+					text {
+						value  ("#{value (findHandleResults.title)}")
+						style (Title_XS)
+					}
+				}
+				 slot2 {
+				 	single-line {
+				 		text {
+				 			value ("#{value(findHandleResults.text)}")
+				 			style (Detail_L_Soft)
+				 		}
+				 	}
+				 }
+			}
+		}
+	}
+}

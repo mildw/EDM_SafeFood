@@ -1,0 +1,18 @@
+structure (FindHandleResults) {
+  description (__DESCRIPTION__)
+  
+  property (img) {
+    type (FindHandleimg)
+    min (Required) max (One)
+  }
+
+  property (title) {
+    type (FindHandletitle)
+    min (Required) max (One)
+  }
+
+  property (text) {
+    type (FindHandletext)
+    min (Required) max (One)
+  }
+}

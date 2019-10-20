@@ -1,0 +1,26 @@
+structure (FindAllergyResults) {
+  description (__식품검색 결과 -> 식품정보__)
+
+  //재품명
+  property (prdlstNm) {
+    type (FindAllergyPrdlstNm)
+    min (Required) max (One)
+  }
+ 
+  property (images) {
+    type (Image)
+    min (Required) max (Many)
+  }
+
+  property (allergy_set) {
+    type (Allergy_Set)
+    min (Required) max (Many)
+  }
+
+  //알러지
+  property (allergy) {
+    type (FindAllergyAllergy)
+    min (Required) max (One)
+  }
+  
+}

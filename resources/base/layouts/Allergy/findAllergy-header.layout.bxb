@@ -1,0 +1,422 @@
+layout-macro-def(findAllergy-header) {
+	params {
+		param (findAllergyResults) {
+			type (FindAllergyResults)
+			min (Required)
+			max (One)
+		}
+	}
+	
+	content {
+		section {
+			content {
+				
+				image-carousel {
+					images (findAllergyResults.images)
+				}
+				
+				title-area {
+					halign (Start)
+					slot1 {
+						text {
+							value ("#{value(findAllergyResults.prdlstNm)}")
+							style (Title_M)
+						}
+					}
+					slot2 {
+						single-line {
+							text {
+								value ("#{value(findAllergyResults.allergy)}")
+								style (Detail_L_Soft)
+							}
+						}
+					}
+				}
+				
+				single-line {
+					spacer
+				}
+				
+				hbox {
+					content{
+						vbox {
+							halign (Center)
+							content {
+								single-line {
+									image {
+										shape(Circle)
+										url ("[#{value(findAllergyResults.allergy_set[0])}]")
+										style (Title_M)
+									}
+								}
+								single-line {
+									text{
+										value("난류")
+										style(Detail_M)
+									}
+								}
+							}
+						}
+						vbox {
+							halign (Center)
+							content {
+								single-line {
+									image {
+										shape(Circle)
+										url ("[#{value(findAllergyResults.allergy_set[1])}]")
+										style (Title_M)
+									}
+								}
+								single-line {
+									text{
+										value("우유")
+										style(Detail_M)
+									}
+								}
+							}
+						}
+						vbox {
+							halign (Center)
+							content {
+								single-line {
+									image {
+										shape(Circle)
+										url ("[#{value(findAllergyResults.allergy_set[2])}]")
+										style (Title_M)
+									}
+								}
+								single-line {
+									text{
+										value("메밀")
+										style(Detail_M)
+									}
+								}
+							}
+						}
+						vbox {
+							halign (Center)
+							content {
+								single-line {
+									image {
+										shape(Circle)
+										url ("[#{value(findAllergyResults.allergy_set[3])}]")
+										style (Title_M)
+									}
+								}
+								single-line {
+									text{
+										value("땅콩")
+										style(Detail_M)
+									}
+								}
+							}
+						}
+						
+						vbox {
+							halign (Center)
+							content {
+								single-line {
+									image {
+										shape(Circle)
+										url ("[#{value(findAllergyResults.allergy_set[4])}]")
+										style (Title_M)
+									}
+								}
+								single-line {
+									text{
+										value("대두")
+										style(Detail_M)
+									}
+								}
+							}
+						}
+						
+						vbox {
+							halign (Center)
+							content {
+								single-line {
+									image {
+										shape(Circle)
+										url ("[#{value(findAllergyResults.allergy_set[5])}]")
+										style (Title_M)
+									}
+								}
+								single-line {
+									text{
+										value("밀")
+										style(Detail_M)
+									}
+								}
+							}
+						}
+					}
+				}
+
+				single-line {
+					spacer
+				}
+
+				hbox {
+					content{
+						vbox {
+							halign (Center)
+							content {
+								single-line {
+									image {
+										shape(Circle)
+										url ("[#{value(findAllergyResults.allergy_set[6])}]")
+										style (Title_M)
+									}
+								}
+								single-line {
+									text{
+										value("고등어")
+										style(Detail_M)
+									}
+								}
+							}
+						}
+						vbox {
+							halign (Center)
+							content {
+								single-line {
+									image {
+										shape(Circle)
+										url ("[#{value(findAllergyResults.allergy_set[7])}]")
+										style (Title_M)
+									}
+								}
+								single-line {
+									text{
+										value("게")
+										style(Detail_M)
+									}
+								}
+							}
+						}
+						vbox {
+							halign (Center)
+							content {
+								single-line {
+									image {
+										shape(Circle)
+										url ("[#{value(findAllergyResults.allergy_set[8])}]")
+										style (Title_M)
+									}
+								}
+								single-line {
+									text{
+										value("새우")
+										style(Detail_M)
+									}
+								}
+							}
+						}
+						vbox {
+							halign (Center)
+							content {
+								single-line {
+									image {
+										shape(Circle)
+										url ("[#{value(findAllergyResults.allergy_set[9])}]")
+										style (Title_M)
+									}
+								}
+								single-line {
+									text{
+										value("돼지")
+										style(Detail_M)
+									}
+								}
+							}
+						}
+						
+						vbox {
+							halign (Center)
+							content {
+								single-line {
+									image {
+										shape(Circle)
+										url ("[#{value(findAllergyResults.allergy_set[10])}]")
+										style (Title_M)
+									}
+								}
+								single-line {
+									text{
+										value("소")
+										style(Detail_M)
+									}
+								}
+							}
+						}
+						
+						vbox {
+							halign (Center)
+							content {
+								single-line {
+									image {
+										shape(Circle)
+										url ("[#{value(findAllergyResults.allergy_set[11])}]")
+										style (Title_M)
+									}
+								}
+								single-line {
+									text{
+										value("닭")
+										style(Detail_M)
+									}
+								}
+							}
+						}
+					}
+				}
+
+				single-line {
+					spacer
+				}
+				
+				hbox {
+					content{
+						
+						vbox {
+							halign (Center)
+							content {
+								single-line {
+									image {
+										shape(Circle)
+										url ("[#{value(findAllergyResults.allergy_set[12])}]")
+										style (Title_M)
+									}
+								}
+								single-line {
+									text{
+										value("복숭아")
+										style(Detail_M)
+									}
+								}
+							}
+						}
+						vbox {
+							halign (Center)
+							content {
+								single-line {
+									image {
+										shape(Circle)
+										url ("[#{value(findAllergyResults.allergy_set[13])}]")
+										style (Title_M)
+									}
+								}
+								single-line {
+									text{
+										value("토마토")
+										style(Detail_M)
+									}
+								}
+							}
+						}
+						vbox {
+							halign (Center)
+							content {
+								single-line {
+									image {
+										shape(Circle)
+										url ("[#{value(findAllergyResults.allergy_set[14])}]")
+										style (Title_M)
+									}
+								}
+								single-line {
+									text{
+										value("호두")
+										style(Detail_M)
+									}
+								}
+							}
+						}
+						vbox {
+							halign (Center)
+							content {
+								single-line {
+									image {
+										shape(Circle)
+										url ("[#{value(findAllergyResults.allergy_set[15])}]")
+										style (Title_M)
+									}
+								}
+								single-line {
+									text{
+										value("조개")
+										style(Detail_M)
+									}
+								}
+							}
+						}
+						
+						vbox {
+							halign (Center)
+							content {
+								single-line {
+									image {
+										shape(Circle)
+										url ("Aimg/imgEmpty.JPG")
+										style (Title_M)
+									}
+								}
+							}
+						}
+						
+						vbox {
+							halign (Center)
+							content {
+								single-line {
+									image {
+										shape(Circle)
+										url ("Aimg/imgEmpty.JPG")
+										style (Title_M)
+									}
+								}
+							}
+						}
+					}
+				}
+				
+				//  image-list {
+				//  		images (findAllergyResults.images)
+				//  }
+				
+				// split-input-cell {
+				// 	left {
+				// 		input-cell {
+				// 			label ("Quantity")
+				// 			value ("#{value(findAllergyResults.allergy_set[1])}")
+				// 		}
+				// 	}
+				// 	right {
+				// 		input-cell {
+				// 			label ("Size")
+				// 			value ("#{value(findAllergyResults.allergy)}")
+				// 		}
+				// 	}
+				// }
+				// single-line {
+				// 	spacer
+				// }
+				// split-input-cell {
+				// 	left {
+				// 		input-cell {
+				// 			label ("Quantity")
+				// 			value ("#{value(findAllergyResults.allergy)}")
+				// 		}
+				// 	}
+				// 	right {
+				// 		input-cell {
+				// 			label ("Size")
+				// 			value ("#{value(findAllergyResults.allergy)}")
+				// 		}
+				// 	}
+				// }
+			}
+		}
+		
+	}
+	
+}

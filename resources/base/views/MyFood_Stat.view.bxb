@@ -24,15 +24,15 @@ result-view {
 	// 	}
 	// }
 	
-	render {
-		list-of (action) {
-			where-each (food) {
-				layout-macro (myfood_img_macro) {
-					param (food['imgurl1']) {
-						expression (food)
-					}
-				}
-			}
-		}
-	}
+	// render {
+	// 	list-of (action) {
+	// 		where-each (food) {
+	// 			layout-macro (myfood_img_macro) {
+	// 				param (food['imgurl1']) {
+	// 					expression (food)
+	// 				}
+	// 			}
+	// 		}
+	// 	}
+	// }
 }

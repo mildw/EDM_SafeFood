@@ -17,6 +17,15 @@ result-view {
 		layout {
 			section {
 				content {
+					image-area{
+						title-area{
+							slot1{
+								text(" ")
+							}
+						}
+						image-url("#{value(action.food.imgurl1)}")
+					}
+
 					image-card {
 						aspect-ratio (4:3)
 						image-url ("#{value(action.food.imgurl1)}")

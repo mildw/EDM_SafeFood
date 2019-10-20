@@ -1,0 +1,32 @@
+result-view {
+	match {
+		FindHandleResults (this)
+	}
+	
+	message {
+   if ("size(this) >= 1") {
+     template ("검색하신 알레르기 대처법 입니다.")
+   }
+	}
+	
+	render {
+		if("size(this) > 1"){
+			list-of (this) {
+				where-each (findHandleResults) {
+					layout-macro (findhandle-header) {
+						param (findHandleResults) {
+							expression (findHandleResults)
+						}
+					}
+				}
+			}
+			
+		}
+		
+		else-if ("size(this) == 1") {
+			layout-match (this) {
+        mode (Details)
+			}
+		}
+	}
+}
