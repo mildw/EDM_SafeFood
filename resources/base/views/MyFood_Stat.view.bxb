@@ -24,15 +24,6 @@ result-view {
 	// 	}
 	// }
 	
-	// render {
-	// 	list-of (action) {
-	// 		where-each (food) {
-	// 			layout-macro (myfood_img_macro) {
-	// 				param (food['imgurl1']) {
-	// 					expression (food)
-	// 				}
-	// 			}
-	// 		}
-	// 	}
-	// }
+	// MyFoodImg 안에는 내 식품 음식 url 이 배열로 들어있음.
+	// 추가로 필요한 내용 (차트) 추가 예정
 }
