@@ -1,0 +1,46 @@
+layout-macro-def(myfood_list_macro) {
+	params {
+		param (food) {
+			type (Food)
+			min (Required)
+			max (One)
+		}
+	}
+
+	// content {
+	// 	section{
+	// 		content{
+
+	// 		}
+	// 	}
+	// }
+
+	content {
+
+		image-card{
+
+			aspect-ratio(1:1)
+      column-size (3)
+			image-url ("#{value(food.imgurl1)}")
+
+			title-area{
+				slot1{
+					text{
+						value("#{value (food.prdlstNm)}")
+						style(Title_XS)
+            color (Amber)
+					}
+				}
+
+				// slot2{
+				// 	paragraph{
+				// 		value("#{value (food.manufacture)}")
+				// 		style(Detail_L)
+				// 	}
+				// }
+			}
+		}
+		
+	
+	}
+}

@@ -26,16 +26,16 @@ layout-macro-def(food_list_macro) {
 				slot1{
 					text{
 						value("#{value (food.prdlstNm)}")
-						style(Title_S)
+						style(Title_XS)
 					}
 				}
 
-				slot2{
-					paragraph{
-						value("#{value (food.manufacture)}")
-						style(Detail_L)
-					}
-				}
+				// slot2{
+				// 	paragraph{
+				// 		value("#{value (food.manufacture)}")
+				// 		style(Detail_L)
+				// 	}
+				// }
 			}
 		}
 		

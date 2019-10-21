@@ -15,7 +15,7 @@ result-view {
 		if(exists(this)) {
 			list-of (this) {
 				where-each (food) {
-					layout-macro (food_list_macro) {
+					layout-macro (myfood_list_macro) {
 						param (food) {
 							expression (food)
 						}
