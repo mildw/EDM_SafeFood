@@ -26,7 +26,8 @@ layout-macro-def(myfood_list_macro) {
 			title-area{
 				slot1{
 					text{
-						value("#{value (food.prdlstNm)}")
+						//value("#{value (food.prdlstNm)}")
+						value("anjdianjdi")
 						style(Title_XS)
             color (Amber)
 					}

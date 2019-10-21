@@ -55,55 +55,75 @@ layout{
 							halign (Center)
 							content{
 								single-line{
+									spacer
+									spacer
+									spacer
+									spacer
+									spacer
+									spacer
 									text{
 										value("칼로리")
 										style(Detail_M_Soft)
 									}
 								}
+								single-line{
+									spacer
+									spacer
+									spacer
+									spacer
+									spacer
+									spacer
 								text{
 									value("#{value(food.calorie)}kcal")
 									style(Detail_L)
 								}
+								}
 							}
 						}
+						
 						vbox{
 							halign (Center)
 							content{
 								single-line{
-									image{
-										url("Aimg/S.png")
-										shape (Circle)
-										style(Detail_L)
-									}
-									spacer
-									text{
-										value("당")
-										style(Detail_M_Soft)
-									}
-								}
-								text{
-									value("#{value(food.sugar)}g")
-									style(Detail_L)
-								}
-							}
-						}
-						vbox{
-							halign (Center)
-							content{
-								single-line{
-									image{
-										url("Aimg/N.png")
-										shape (Circle)
-										style(Detail_L)
-									}
+
 									spacer
 									text{
 										value("나트륨")
 										style(Detail_M_Soft)
 									}
+									spacer
+									image{
+										url("Aimg/N.png")
+										shape (Circle)
+										style(Detail_L)
+									}
 								}
 								text{
 									value("#{value(food.natrium)}mg")
+									style(Detail_L)
+								}
+							}
+						}
+
+						vbox{
+							halign (Center)
+							content{
+								single-line{
+									spacer
+									spacer
+									text{
+										value("당")
+										style(Detail_M_Soft)
+									}
+									spacer
+									image{
+										url("Aimg/S.png")
+										shape (Circle)
+										style(Detail_L)
+									}
+								}
+								text{
+									value("#{value(food.sugar)}g")
 									style(Detail_L)
 								}
 							}

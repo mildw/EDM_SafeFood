@@ -517,7 +517,7 @@ result-view {
 					
 					image{
 						aspect-ratio(16:9)
-						url("#{value(this[0])}")
+						url("#{value(this[6])}")
 					}
 					
 					spacer
