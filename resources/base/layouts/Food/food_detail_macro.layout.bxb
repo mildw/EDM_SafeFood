@@ -183,7 +183,7 @@ layout{
 				
 				divider
 				spacer
-				
+
 				image{
 					aspect-ratio(16:9)
 					url("#{value(food.chart)}")
