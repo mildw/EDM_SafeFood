@@ -5,8 +5,6 @@ result-view {
 		}
 	}
 	
-	
-	
 	render {
 		layout {
 			
@@ -23,448 +21,508 @@ result-view {
 			// 		}
 			// 	}
 			// }
-			section {
-				content {
+			
+			section{
+				content{
+
+					split-input-cell {
+					left {
+						input-cell {
+							label ("Foold 1")
+							value ("#{value(action.food.prdlstNm)}")
+						}
+					}
+					right {
+						input-cell {
+							label ("Food 2")
+							value ("#{value(action.foodTwo.prdlstNm)}")
+						}
+					}
+				}
+					
 					image-card{
 						
-						aspect-ratio (16:9)
+						aspect-ratio(1:1)
+						column-size (2)
 						image-url ("#{value(action.food.imgurl1)}")
 						
 						title-area{
 							slot1{
 								text{
-									value("#{value (action.food.prdlstNm)}")
+									value(" ")
 									style(Title_S)
+								}
+							}
+							
+						}
+					}
+					
+					image-card{
+						
+						aspect-ratio(1:1)
+						column-size (2)
+						image-url ("#{value(action.foodTwo.imgurl1)}")
+						
+						title-area{
+							slot1{
+								text{
+									value(" ")
+									style(Title_S)
+								}
+							}
+							
+						}
+					}
+					
+					divider
+					
+					// cell-card {
+					// 	slot1 {
+					// 		image {
+					// 			url("Aimg/F1.png")
+					// 			shape (Square)
+					// 		}
+					// 	}
+					// 	slot2 {
+					// 		content {
+					// 			order (PrimarySecondary)
+					// 			primary ("#{value (action.food.prdlstNm)}")
+					// 			secondary ("#{value (action.food.prdlstNm)}")
+					// 		}
+					// 	}
+					// 	slot3{
+					// 		image {
+					// 			url("#{value(action.food.imgurl1)}")
+					// 			shape (Square)
+					// 		}
+					// 	}
+					// }
+					
+					// spacer
+					
+					// cell-card {
+					// 	slot1 {
+					// 		image {
+					// 			url("Aimg/F2.png")
+					// 			shape (Square)
+					// 		}
+					// 	}
+					// 	slot2 {
+					// 		content {
+					// 			order (PrimarySecondary)
+					// 			primary ("#{value (action.foodTwo.prdlstNm)}")
+					// 			secondary ("#{value (action.foodTwo.prdlstNm)}")
+					// 		}
+					// 	}
+					// 	slot3{
+					// 		image {
+					// 			url("#{value(action.foodTwo.imgurl1)}")
+					// 			shape (Square)
+					// 		}
+					// 	}
+					// }
+					
+					hbox{
+						content{
+							vbox{
+								content{
+									single-line{
+										text{
+											value("식품")
+											style(Detail_M_Soft)
+										}
+									}
+								}
+							}
+							
+							vbox{
+								content{
+									single-line{
+										text{
+											value("칼로리")
+											style(Detail_M_Soft)
+										}
+									}
+									single-line{
+										text{
+											value("(kcal)")
+											style(Detail_M_Soft)
+										}
+									}
+								}
+							}
+							
+							vbox{
+								content{
+									single-line{
+										text{
+											value("탄수화물")
+											style(Detail_M_Soft)
+										}
+									}
+									single-line{
+										text{
+											value("(g)")
+											style(Detail_M_Soft)
+										}
+									}
+								}
+							}
+							
+							vbox{
+								content{
+									single-line{
+										text{
+											value("지방")
+											style(Detail_M_Soft)
+										}
+									}
+									single-line{
+										text{
+											value("(g)")
+											style(Detail_M_Soft)
+										}
+									}
+								}
+							}
+							
+							vbox{
+								content{
+									single-line{
+										text{
+											value("단백질")
+											style(Detail_M_Soft)
+										}
+									}
+									single-line{
+										text{
+											value("(g)")
+											style(Detail_M_Soft)
+										}
+									}
+								}
+							}
+
+							vbox{
+								content{
+									single-line{
+										text{
+											value("나트륨")
+											style(Detail_M_Soft)
+										}
+									}
+									single-line{
+										text{
+											value("(mg)")
+											style(Detail_M_Soft)
+										}
+									}
+								}
+							}
+
+							vbox{
+								content{
+									single-line{
+										text{
+											value("당")
+											style(Detail_M_Soft)
+										}
+									}
+									single-line{
+										text{
+											value("(g)")
+											style(Detail_M_Soft)
+										}
+									}
 								}
 							}
 						}
 					}
-				}
-			}
-			
-			section{
-				content{
+					
+					divider
+					
+					hbox{
+						content{
+							vbox{
+								halign (Center)
+								content{
+									single-line{
+										image{
+											shape (Square)
+											url("Aimg/F1.png")
+										}
+									}
+								}
+							}
+							
+							vbox{
+								content{
+									single-line{
+										if (action.food.carbo > action.foodTwo.carbo){
+											text{
+												value("#{value(action.food.carbo)}")
+												style(Detail_M)
+											}
+										}
+										else {
+											text{
+												value("#{value(action.food.carbo)}")
+												color (Red)
+												style(Detail_M)
+											}
+										}
+									}
+								}
+							}
+							
+							vbox{
+								content{
+									single-line{
+										if (action.food.carbo > action.foodTwo.carbo){
+											text{
+												value("#{value(action.food.carbo)}")
+												style(Detail_M)
+											}
+										}
+										else {
+											text{
+												value("#{value(action.food.carbo)}")
+												color (Red)
+												style(Detail_M)
+											}
+										}
+									}
+								}
+							}
+							
+							vbox{
+								content{
+									single-line{
+										if (action.food.carbo > action.foodTwo.carbo){
+											text{
+												value("#{value(action.food.carbo)}")
+												style(Detail_M)
+											}
+										}
+										else {
+											text{
+												value("#{value(action.food.carbo)}")
+												color (Red)
+												style(Detail_M)
+											}
+										}
+									}
+								}
+							}
+							
+							vbox{
+								content{
+									single-line{
+										if (action.food.carbo > action.foodTwo.carbo){
+											text{
+												value("#{value(action.food.carbo)}")
+												style(Detail_M)
+											}
+										}
+										else {
+											text{
+												value("#{value(action.food.carbo)}")
+												color (Red)
+												style(Detail_M)
+											}
+										}
+									}
+								}
+							}
+
+							vbox{
+								content{
+									single-line{
+										if (action.food.carbo > action.foodTwo.carbo){
+											text{
+												value("#{value(action.food.carbo)}")
+												style(Detail_M)
+											}
+										}
+										else {
+											text{
+												value("#{value(action.food.carbo)}")
+												color (Red)
+												style(Detail_M)
+											}
+										}
+									}
+								}
+							}
+
+							vbox{
+								content{
+									single-line{
+										if (action.food.carbo > action.foodTwo.carbo){
+											text{
+												value("#{value(action.food.carbo)}")
+												style(Detail_M)
+											}
+										}
+										else {
+											text{
+												value("#{value(action.food.carbo)}")
+												color (Red)
+												style(Detail_M)
+											}
+										}
+									}
+								}
+							}
+							
+						}
+					}
+					
 					hbox{
 						content{
 							vbox{
 								content{
 									single-line{
 										image{
-											url("#{value(action.food.imgurl1)}")
+											shape (Square)
+											url("Aimg/F2.png")
 										}
 									}
 								}
 							}
+
 							vbox{
 								content{
 									single-line{
-										image{
-											url("#{value(action.food.imgurl2)}")
+										if (action.food.carbo > action.foodTwo.carbo){
+											text{
+												value("#{value(action.food.carbo)}")
+												color (Red)
+												style(Detail_M)
+											}
 										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-			
-			section{
-				content{
-					hbox {
-						content{
-							vbox {
-								halign (Center)
-								content {
-									single-line {
-										text{
-											//value("#{value(action.food.prdlstNm)}")
-											value("식품A")
-											style(Detail_M)
-										}
-									}
-								}
-							}
-							vbox {
-								halign (Center)
-								content {
-									single-line {
-										text{
-											value("vs")
-											style(Detail_M)
+										else {
+											text{
+												value("#{value(action.foodTwo.carbo)}")
+												style(Detail_M)
+											}
 										}
 									}
 								}
 							}
 							
-							vbox {
-								halign (Center)
-								content {
-									single-line {
-										text{
-											value("식품B")
-											//value("#{value(action.foodTwo.prdlstNm)}")
-											style(Detail_M)
+							vbox{
+								content{
+									single-line{
+										if (action.food.carbo > action.foodTwo.carbo){
+											text{
+												value("#{value(action.food.carbo)}")
+												color (Red)
+												style(Detail_M)
+											}
+										}
+										else {
+											text{
+												value("#{value(action.foodTwo.carbo)}")
+												style(Detail_M)
+											}
+										}
+									}
+								}
+							}
+							
+							vbox{
+								content{
+									single-line{
+										if (action.food.carbo > action.foodTwo.carbo){
+											text{
+												value("#{value(action.food.carbo)}")
+												color (Red)
+												style(Detail_M)
+											}
+										}
+										else {
+											text{
+												value("#{value(action.foodTwo.carbo)}")
+												style(Detail_M)
+											}
+										}
+									}
+								}
+							}
+							
+							vbox{
+								content{
+									single-line{
+										if (action.food.carbo > action.foodTwo.carbo){
+											text{
+												value("#{value(action.food.carbo)}")
+												color (Red)
+												style(Detail_M)
+											}
+										}
+										else {
+											text{
+												value("#{value(action.foodTwo.carbo)}")
+												style(Detail_M)
+											}
+										}
+									}
+								}
+							}
+							
+							vbox{
+								content{
+									single-line{
+										if (action.food.carbo > action.foodTwo.carbo){
+											text{
+												value("#{value(action.food.carbo)}")
+												color (Red)
+												style(Detail_M)
+											}
+										}
+										else {
+											text{
+												value("#{value(action.foodTwo.carbo)}")
+												style(Detail_M)
+											}
+										}
+									}
+								}
+							}
+
+							vbox{
+								content{
+									single-line{
+										if (action.food.carbo > action.foodTwo.carbo){
+											text{
+												value("#{value(action.food.carbo)}")
+												color (Red)
+												style(Detail_M)
+											}
+										}
+										else {
+											text{
+												value("#{value(action.foodTwo.carbo)}")
+												style(Detail_M)
+											}
 										}
 									}
 								}
 							}
 						}
 					}
-					
+
 					divider
 					
-					hbox {
-						content{
-							vbox {
-								halign (Center)
-								content {
-									single-line {
-										text{
-											value("#{value(action.food.carbo)}")
-											style(Detail_M)
-										}
-									}
-								}
-							}
-							vbox {
-								halign (Center)
-								content {
-									single-line {
-										if (action.food.carbo > action.foodTwo.carbo){
-											text{
-												value(">")
-												style(Detail_M)
-											}
-										}
-										else if (action.food.carbo > action.foodTwo.carbo){
-											text{
-												value(">")
-												style(Detail_M)
-											}
-										}
-										else {
-											text{
-												value("=")
-												style(Detail_M)
-											}
-										}
-									}
-								}
-							}
-							
-							vbox {
-								halign (Center)
-								content {
-									single-line {
-										text{
-											value("#{value(action.foodTwo.carbo)}")
-											style(Detail_M)
-										}
-									}
-								}
-							}
-						}
+					image{
+						aspect-ratio(16:9)
+						url("#{value(this[0])}")
 					}
 					
+					spacer
 					divider
-					
-					hbox {
-						content{
-							vbox {
-								halign (Center)
-								content {
-									single-line {
-										text{
-											value("#{value(action.food.carbo)}")
-											style(Detail_M)
-										}
-									}
-								}
-							}
-							vbox {
-								halign (Center)
-								content {
-									single-line {
-										if (action.food.carbo > action.foodTwo.carbo){
-											text{
-												value(">")
-												style(Detail_M)
-											}
-										}
-										else if (action.food.carbo > action.foodTwo.carbo){
-											text{
-												value(">")
-												style(Detail_M)
-											}
-										}
-										else {
-											text{
-												value("=")
-												style(Detail_M)
-											}
-										}
-									}
-								}
-							}
-							
-							vbox {
-								halign (Center)
-								content {
-									single-line {
-										text{
-											value("#{value(action.foodTwo.carbo)}")
-											style(Detail_M)
-										}
-									}
-								}
-							}
-						}
-					}
-					
-					divider
-					
-					hbox {
-						content{
-							vbox {
-								halign (Center)
-								content {
-									single-line {
-										text{
-											value("#{value(action.food.carbo)}")
-											style(Detail_M)
-										}
-									}
-								}
-							}
-							vbox {
-								halign (Center)
-								content {
-									single-line {
-										if (action.food.carbo > action.foodTwo.carbo){
-											text{
-												value(">")
-												style(Detail_M)
-											}
-										}
-										else if (action.food.carbo > action.foodTwo.carbo){
-											text{
-												value(">")
-												style(Detail_M)
-											}
-										}
-										else {
-											text{
-												value("=")
-												style(Detail_M)
-											}
-										}
-									}
-								}
-							}
-							
-							vbox {
-								halign (Center)
-								content {
-									single-line {
-										text{
-											value("#{value(action.foodTwo.carbo)}")
-											style(Detail_M)
-										}
-									}
-								}
-							}
-						}
-					}
-					
-					divider
-					
-					hbox {
-						content{
-							vbox {
-								halign (Center)
-								content {
-									single-line {
-										text{
-											value("#{value(action.food.carbo)}")
-											style(Detail_M)
-										}
-									}
-								}
-							}
-							vbox {
-								halign (Center)
-								content {
-									single-line {
-										if (action.food.carbo > action.foodTwo.carbo){
-											text{
-												value(">")
-												style(Detail_M)
-											}
-										}
-										else if (action.food.carbo > action.foodTwo.carbo){
-											text{
-												value(">")
-												style(Detail_M)
-											}
-										}
-										else {
-											text{
-												value("=")
-												style(Detail_M)
-											}
-										}
-									}
-								}
-							}
-							
-							vbox {
-								halign (Center)
-								content {
-									single-line {
-										text{
-											value("#{value(action.foodTwo.carbo)}")
-											style(Detail_M)
-										}
-									}
-								}
-							}
-						}
-					}
-					
-					divider
-					
-					hbox {
-						content{
-							vbox {
-								halign (Center)
-								content {
-									single-line {
-										text{
-											value("#{value(action.food.carbo)}")
-											style(Detail_M)
-										}
-									}
-								}
-							}
-							vbox {
-								halign (Center)
-								content {
-									single-line {
-										if (action.food.carbo > action.foodTwo.carbo){
-											text{
-												value(">")
-												style(Detail_M)
-											}
-										}
-										else if (action.food.carbo > action.foodTwo.carbo){
-											text{
-												value(">")
-												style(Detail_M)
-											}
-										}
-										else {
-											text{
-												value("=")
-												style(Detail_M)
-											}
-										}
-									}
-								}
-							}
-							
-							vbox {
-								halign (Center)
-								content {
-									single-line {
-										text{
-											value("#{value(action.foodTwo.carbo)}")
-											style(Detail_M)
-										}
-									}
-								}
-							}
-						}
-					}
-					
-					
-					hbox {
-						content{
-							vbox {
-								
-								halign (Center)
-								content {
-									single-line {
-										text{
-											color (Blue)
-											value("#{value(action.food.carbo)}")
-											style(Detail_M)
-										}
-									}
-								}
-							}
-							vbox {
-								halign (Center)
-								content {
-									single-line {
-										if (action.food.carbo > action.foodTwo.carbo){
-											text{
-												value(">")
-												style(Detail_M)
-											}
-										}
-										else if (action.food.carbo > action.foodTwo.carbo){
-											text{
-												value(">")
-												style(Detail_M)
-											}
-										}
-										else {
-											text{
-												value("=")
-												style(Detail_M)
-											}
-										}
-									}
-								}
-							}
-							
-							vbox {
-								halign (Center)
-								content {
-									single-line {
-										text{
-											value("#{value(action.foodTwo.carbo)}")
-											style(Detail_M)
-										}
-									}
-								}
-							}
-						}
-					}
-					
-					
-					
-					
-				}
-			}
-			
-			section{
-				content{
-					image-card{
-						
-						aspect-ratio (16:9)
-						image-url ("#{value(action.foodTwo.imgurl1)}")
-						
-						title-area{
-							slot1{
-								text{
-									value("#{value (action.foodTwo.prdlstNm)}")
-									style(Title_S)
-								}
-							}
-						}
-					}
+					spacer
 				}
 			}
 		}

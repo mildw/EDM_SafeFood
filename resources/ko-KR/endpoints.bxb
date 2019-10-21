@@ -45,7 +45,7 @@ endpoints {
 		
 		// 내 음식 통계
 		action-endpoint (GetMyFoodStat) {
-			accepted-inputs ($vivContext, food)
+			accepted-inputs ($vivContext)
 			local-endpoint (Food/MyFood/getMyFoodStat.js)
 		}
 		
