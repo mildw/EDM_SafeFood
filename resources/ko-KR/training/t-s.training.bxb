@@ -1,0 +1,5 @@
+train (t-sc23foa1hn2nzkqwi2nm7p9lu) {
+  utterance ("[g:ThisRestaurant] (인천)[v:RestaurantLocation]에 (햄버거)[v:RestaurantName]집 위생등급 알려줘")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571675996270)
+}

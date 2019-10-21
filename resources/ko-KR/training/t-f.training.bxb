@@ -1,0 +1,10 @@
+train (t-f0xbz2rjyisetrisz0vw2pmsf) {
+  utterance ([g:PutMyFood] 내 식품으로 추가)
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
+  last-modified (1571675921987)
+}
+train (t-fnt6fszi5x2y36j30p40dcn4k) {
+  utterance ("[g:ThisRestaurant] (경기도)[v:RestaurantLocation] (에이치)[v:RestaurantName] 위생등급")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571676056738)
+}

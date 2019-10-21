@@ -1,3 +1,8 @@
+train (t-bhra1vtwrewuboeh5bbdu6joi) {
+  utterance ("[g:ThisRestaurant] (서울)[v:RestaurantLocation]에 (스파게티)[v:RestaurantName]집 위생등급 알아와")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571675878370)
+}
 train (t-by6z8st84u486nt7yttl35pcs) {
   utterance ("[g:RestaurantRange] (내주변)[v:Dummy] 가게 위생정보 알려줘")
   plan (Y2BhkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCEIu1SmptbySCCIuZbGZCfmVfCwMzAyMAEJBmANAhCABMEAwA=)
