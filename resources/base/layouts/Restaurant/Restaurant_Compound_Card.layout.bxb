@@ -6,29 +6,76 @@ layout-macro-def (restaurant_compound_card) {
 		}
 	}
 	content {
-		compound-card {
-			content {
-
-				
-				single-line {
-					text {
-						value ("#{value(restaurant.name)}")
-						style (Title_M)
+		if (restaurant.rank == '매우 좋음'){
+			thumbnail-card {
+				image-position (Start)
+				image-url ("Aimg/F1.png")
+				title-area {
+					halign (Start)
+					slot1 {
+						text {
+							value  ("#{value(restaurant.name)}")
+							style (Title_XS)
+						}
 					}
-				}
-				single-line {
-					text {
-						value ("#{value(restaurant.location)}")
-						style (Detail_L)
-					}
-				}
-				single-line {
-					text {
-						value ("#{value(restaurant.rank)}")
-						style (Detail_M_Soft)
+					slot2 {
+						single-line {
+							text {
+								value ("#{value(restaurant.location)}")
+								style (Detail_L_Soft)
+							}
+						}
 					}
 				}
 			}
 		}
+		else-if (restaurant.rank == '우수'){
+			thumbnail-card {
+				image-position (Start)
+				image-url ("Aimg/F2.png")
+				title-area {
+					halign (Start)
+					slot1 {
+						text {
+							value  ("#{value(restaurant.name)}")
+							style (Title_XS)
+						}
+					}
+					slot2 {
+						single-line {
+							text {
+								value ("#{value(restaurant.location)}")
+								style (Detail_L_Soft)
+							}
+						}
+					}
+				}
+			}
+		}
+		else{
+			thumbnail-card {
+				image-position (Start)
+				image-url ("Aimg/F.png")
+				title-area {
+					halign (Start)
+					slot1 {
+						text {
+							value  ("#{value(restaurant.name)}")
+							style (Title_XS)
+						}
+					}
+					slot2 {
+						single-line {
+							text {
+								value ("#{value(restaurant.location)}")
+								style (Detail_L_Soft)
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		
 	}
 }

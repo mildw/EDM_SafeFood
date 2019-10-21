@@ -35,6 +35,16 @@ layout {
 					}
 				}
 				
+				single-line{
+					text{
+						value("위치")
+						style(Detail_M_Soft)
+					}
+				}
+				paragraph{
+					value("#{value(restaurant.location)}")
+				}
+
 				input-cell {
 					label {
 						template ("업소명")
@@ -43,14 +53,14 @@ layout {
 						template ("#{value(restaurant.name)}")
 					}
 				}
-				input-cell {
-					label {
-						template ("위치")
-					}
-					value {
-						template ("#{value(restaurant.location)}")
-					}
-				}
+				// input-cell {
+				// 	label {
+				// 		template ("위치")
+				// 	}
+				// 	value {
+				// 		template ("#{value(restaurant.location)}")
+				// 	}
+				// }
 				input-cell {
 					label {
 						template ("위생정보")

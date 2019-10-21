@@ -28,8 +28,6 @@ layout-macro-def (Restaurant_Range_Card) {
 							
 						}
 						
-						
-						
 						marker {
 							geo (restaurant.destinationPoint[0])
 							icon ("/img/icons/red-map-marker1.png")
