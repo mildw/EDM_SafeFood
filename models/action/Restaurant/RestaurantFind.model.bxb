@@ -12,5 +12,11 @@ action (RestaurantFind) {
 		}
 	}
 	type(Search)
-	output (Restaurant)
+	output (ThisRestaurant){
+		on-empty {
+      ordered-effects {
+        drop (restaurantName)
+      }
+    }
+	}
 }

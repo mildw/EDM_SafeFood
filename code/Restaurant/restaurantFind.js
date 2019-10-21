@@ -12,13 +12,13 @@ module.exports.function = function restaurantFind(restaurantLocation, restaurant
     { format: 'json' });
   console.log(result);
 
-  /*
+  
   if (restaurantName) {
     result = result.filter(function (restaurant) {
       return restaurant.name.includes(restaurantName);
     });
   }
-*/
+
   console.log(result);
 
   return result;

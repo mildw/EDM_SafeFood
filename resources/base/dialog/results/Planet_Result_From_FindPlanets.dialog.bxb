@@ -1,0 +1,23 @@
+dialog (Result) {
+  match: Restaurant (this) {
+    from-output: RestaurantFind (action)
+  }
+  
+  if (size(this) > 1) {
+    
+      if (exists(action.restaurantName)) {
+        template("Here are #{value(action.restaurantName)}")
+      } else {
+        template("Here are the Restaurant")
+      }
+    
+  }
+
+  if (size(this) == 1) {
+    template("Here is #{value(this)}:")
+  }
+
+  if (exists(action.restaurantName)) {
+    template("Here are #{value(action.restaurantName)}")
+  }
+}

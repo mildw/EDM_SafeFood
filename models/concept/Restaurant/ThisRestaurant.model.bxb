@@ -1,0 +1,4 @@
+structure (ThisRestaurant) {
+  role-of (Restaurant)
+  extends (Restaurant)
+}

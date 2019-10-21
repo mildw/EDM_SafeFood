@@ -1,0 +1,11 @@
+dialog (Concept) {
+  match: ThisRestaurant (this)
+  switch (plural(this)) {
+    case (One) {
+      template (Restaurant)
+    }
+    default {
+      template (Restaurants)
+    }
+  }
+}
