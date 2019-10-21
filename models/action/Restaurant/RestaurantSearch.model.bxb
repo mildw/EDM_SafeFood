@@ -1,0 +1,17 @@
+action (RestaurantSearch) {
+  description (주변음식점찾아줘)
+  collect {
+    input (myPoint) {
+      type (MyPoint)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: MyPoint
+          route: geo.CurrentLocation
+        }
+      }
+    }
+  }
+  type(Search)
+  output (RestaurantRange)
+}

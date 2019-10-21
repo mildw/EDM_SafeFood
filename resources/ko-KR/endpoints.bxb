@@ -62,9 +62,15 @@ endpoints {
 		}
 
 		    //위치 에있는 가게 위생정보 알려줘
-    action-endpoint (findRestaurant) {
+    action-endpoint (RestaurantFind) {
       accepted-inputs (restaurantLocation,restaurantName)
-      local-endpoint (Restaurant/findRestaurant.js)
+      local-endpoint (Restaurant/restaurantFind.js)
+    }
+
+		//내주변 가게의 위생정보 알려줘
+    action-endpoint (RestaurantSearch) {
+      accepted-inputs (myPoint)
+      local-endpoint (Restaurant/restaurantSearch.js)
     }
 		
 	}

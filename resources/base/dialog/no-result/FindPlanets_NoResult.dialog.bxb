@@ -1,0 +1,6 @@
+dialog (NoResult) {
+  match: Restaurant (this) {
+    from-output: RestaurantFind (action)
+  }
+  template("I couldn't find anything")
+}
