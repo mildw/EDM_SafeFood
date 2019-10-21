@@ -38,24 +38,11 @@ module.exports.function = function foodSearch(foodName) {
     }
 
     list[i]['prdlstNm'] = list[i]['prdlstNm'].replace(/ /gi, '');
-    list[i]['nutrient'] = list[i]['nutrient'].replace(/[,]| /gi, '');
+    list[i]['nutrient'] = list[i]['nutrient'].replace(/[,]| |\(.*\)/gi, '');
     list[i]['nutrient'] = list[i]['nutrient'].toLowerCase();
 
-    var i2 =0;
-if(i2 != Number.isInteger){
-
-}
-    ////////////////////////////////////////////////
-    // nutrient 정보를 각각 성분에 따라 나누어 넣어주는 작업. 
-    // 데이터가 없을시에는 0
-    // list[i]['calorie'] = 0;
-    // list[i]['carbo'] = 0;
-    // list[i]['fat'] = 0;
-    // list[i]['natrium'] = 0;
-    // list[i]['sugar'] = 0;
-
     for (var j = 0; j < 6; j++) {
-      list[i][nutriEng[j]] = 0;
+      list[i][nutriEng[j]] = '-';
       if (list[i]['nutrient'].indexOf(nutriName[j]) != -1) {
         var sta = list[i]['nutrient'].indexOf(nutriName[j]);
         var end = list[i]['nutrient'].indexOf(nutriSym[j], sta);
@@ -64,19 +51,22 @@ if(i2 != Number.isInteger){
       }
     }
 
-    list[i]['chart'] = 'notyet';
+
+    ////// 차트를 그릴 수 없는 경우 삽입할 default 이미지 정하기
+    list[i]['chart'] = '-';
     ////////////////차트 넣기
     var url = 'http://54.180.149.204/chart/';
-    var queryParams = 'test.php';
+    var queryParams = 'getFoodChart.php';
     queryParams += '?' + 'carbo=' + list[i]['carbo'];
     queryParams += '&' + 'fat=' + list[i]['fat'];
-    queryParams += '&' + 'natrium=' + list[i]['natrium'];
+    queryParams += '&' + 'natrium=' + list[i]['natrium'] / 1000;
     queryParams += '&' + 'sugar=' + list[i]['sugar'];
     queryParams += '&' + 'protein=' + list[i]['protein'];
 
-    var chartImg = http.getUrl(url + queryParams,{ format: 'text' });
-    console.log(chartImg);
-    list[i]['chart'] = chartImg;
+    if (list[i]['carbo'] != '-' && list[i]['fat'] != '-' && list[i]['natrium'] != '-' && list[i]['sugar'] != '-' && list[i]['protein'] != '-') {
+      var chartImg = http.getUrl(url + queryParams, { format: 'text' });
+      list[i]['chart'] = chartImg;
+    }
 
     Nm.push(list[i]['prdlstNm']);
     res.push(list[i]);

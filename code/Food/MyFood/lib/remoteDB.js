@@ -103,8 +103,8 @@ function getMyFoodList(bixbyUserId) {
   console.log(response)
   if (response) {
     var myFood = new Array;
-    var len = response.length < 5 ? 0 : response.length -5
-    for (var i = response.length-1 ; i >= len; i--) {
+    var len = response.length < 5 ? 0 : response.length - 5
+    for (var i = response.length - 1; i >= len; i--) {
       var tmp = JSON.parse(response[i]['my-food']);
       //tmp.$id = response[i]["_id"];
       myFood.push(tmp);
@@ -132,12 +132,31 @@ function getMyFoodStat(bixbyUserId) {
 
   if (response) {
     var myFoodImg = new Array;
-    var len = response.length < 5 ? 0 : response.length -5
-    for (var i = response.length-1 ; i >= len; i--) {
+    var len = response.length < 5 ? 0 : response.length - 5
+    var nutriTotal = new Array;
+    for (var i = response.length - 1; i >= len; i--) {
       var tmp = JSON.parse(response[i]['my-food']);
       //tmp.$id = response[i]["_id"];
       myFoodImg.push(tmp['imgurl1']);
+      var nutriEng = ["carbo", "fat", "natrium", "sugar", "protein"];
+      for (var j = 0; j < 5; j++) {
+        if (tmp[nutriEng[j]] != '-')
+          nutriTotal[j]++;
+      }
     }
+
+    ////////////////차트 넣기
+    var chartUrl = 'http://54.180.149.204/chart/';
+    var queryParams = 'getStatChart.php';
+    queryParams += '?' + 'carbo=' + nutriTotal[0];
+    queryParams += '&' + 'fat=' + nutriTotal[1];
+    queryParams += '&' + 'natrium=' + nutriTotal[2] / 1000;
+    queryParams += '&' + 'sugar=' + nutriTotal[3];
+    queryParams += '&' + 'protein=' + nutriTotal[4];
+
+    var chartImg = http.getUrl(chartUrl + queryParams, { format: 'text' });
+    myFoodImg.push(chartImg);
+
     return myFoodImg
   } else {
     // Doesn't exist
