@@ -19,7 +19,7 @@ layout-macro-def(food_list_macro) {
 
 		image-card{
 
-			aspect-ratio (3:4)
+			aspect-ratio(3:4)
 			image-url ("#{value(food.imgurl1)}")
 
 			title-area{

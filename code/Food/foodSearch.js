@@ -41,6 +41,10 @@ module.exports.function = function foodSearch(foodName) {
     list[i]['nutrient'] = list[i]['nutrient'].replace(/[,]| /gi, '');
     list[i]['nutrient'] = list[i]['nutrient'].toLowerCase();
 
+    var i2 =0;
+if(i2 != Number.isInteger){
+
+}
     ////////////////////////////////////////////////
     // nutrient 정보를 각각 성분에 따라 나누어 넣어주는 작업. 
     // 데이터가 없을시에는 0
