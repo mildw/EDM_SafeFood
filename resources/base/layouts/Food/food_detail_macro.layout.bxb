@@ -183,12 +183,25 @@ layout{
 				
 				divider
 				spacer
-
-				image{
-					aspect-ratio(16:9)
-					url("#{value(food.chart)}")
-				}
 				
+				if(food.chart != '-'){
+					image{
+						aspect-ratio(16:9)
+						url("#{value(food.chart)}")
+					}
+					
+				}
+				else{
+					single-line{
+						text{
+							value("검색된 식품 성분이 없습니다.")
+							style(Title_XS)
+							color (Blue)
+						}
+					}
+					spacer
+				}
+
 				divider
 				
 				single-line{
