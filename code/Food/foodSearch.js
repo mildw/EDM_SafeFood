@@ -32,7 +32,8 @@ module.exports.function = function foodSearch(foodName) {
   // 영양소 정보나 알레르기 정보가 없으면 보여주지 않기
   // 상품명의 띄어쓰기 지우기
   for (var i = 0; i < list.length; i++) {
-    if (list[i]['nutrient'] == '알수없음' || list[i]['allergy'] == '알수없음' || Nm.indexOf(list[i]['prdlstNm']) != -1) {
+    //if (list[i]['nutrient'] == '알수없음' || list[i]['allergy'] == '알수없음' || Nm.indexOf(list[i]['prdlstNm']) != -1) {
+    if (list[i]['nutrient'].indexOf('탄수화물') == -1 || list[i]['allergy'] == '알수없음' || Nm.indexOf(list[i]['prdlstNm']) != -1) {
       //console.log(Nm.indexOf(list[i]['prdlstNm']) + " " + list[i]['prdlstNm']);
       continue;
     }
@@ -47,7 +48,10 @@ module.exports.function = function foodSearch(foodName) {
         var sta = list[i]['nutrient'].indexOf(nutriName[j]);
         var end = list[i]['nutrient'].indexOf(nutriSym[j], sta);
         var val = list[i]['nutrient'].substr(sta + nutriName[j].length, end - sta - nutriName[j].length);
-        list[i][nutriEng[j]] = val;
+        console.log(val);
+        console.log(isNaN(val));
+        if (isNaN(val) == false)
+          list[i][nutriEng[j]] = val;
       }
     }
 
