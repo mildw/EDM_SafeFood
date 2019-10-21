@@ -8,20 +8,6 @@ result-view {
 	render {
 		layout {
 			
-			// section {
-			// 	content {
-			// 		list-of (action) {
-			// 			where-each (food) {
-			// 				layout-macro (compare-macro) {
-			// 					param (food) {
-			// 						expression (food)
-			// 					}
-			// 				}
-			// 			}
-			// 		}
-			// 	}
-			// }
-			
 			section{
 				content{
 
@@ -47,10 +33,11 @@ result-view {
 						image-url ("#{value(action.food.imgurl1)}")
 						
 						title-area{
+							halign (End)
 							slot1{
 								text{
-									value(" ")
-									style(Title_S)
+									value("#{value(action.food.calorie)}")
+									style(Title_XS)
 								}
 							}
 							
@@ -64,10 +51,11 @@ result-view {
 						image-url ("#{value(action.foodTwo.imgurl1)}")
 						
 						title-area{
+							halign (End)
 							slot1{
 								text{
-									value(" ")
-									style(Title_S)
+									value("#{value(action.foodTwo.calorie)}")
+									style(Title_XS)
 								}
 							}
 							
@@ -75,52 +63,6 @@ result-view {
 					}
 					
 					divider
-					
-					// cell-card {
-					// 	slot1 {
-					// 		image {
-					// 			url("Aimg/F1.png")
-					// 			shape (Square)
-					// 		}
-					// 	}
-					// 	slot2 {
-					// 		content {
-					// 			order (PrimarySecondary)
-					// 			primary ("#{value (action.food.prdlstNm)}")
-					// 			secondary ("#{value (action.food.prdlstNm)}")
-					// 		}
-					// 	}
-					// 	slot3{
-					// 		image {
-					// 			url("#{value(action.food.imgurl1)}")
-					// 			shape (Square)
-					// 		}
-					// 	}
-					// }
-					
-					// spacer
-					
-					// cell-card {
-					// 	slot1 {
-					// 		image {
-					// 			url("Aimg/F2.png")
-					// 			shape (Square)
-					// 		}
-					// 	}
-					// 	slot2 {
-					// 		content {
-					// 			order (PrimarySecondary)
-					// 			primary ("#{value (action.foodTwo.prdlstNm)}")
-					// 			secondary ("#{value (action.foodTwo.prdlstNm)}")
-					// 		}
-					// 	}
-					// 	slot3{
-					// 		image {
-					// 			url("#{value(action.foodTwo.imgurl1)}")
-					// 			shape (Square)
-					// 		}
-					// 	}
-					// }
 					
 					hbox{
 						content{
@@ -275,19 +217,21 @@ result-view {
 							// 	}
 							// }
 							
+
+							//"#{value(this[6])}"
 							vbox{
 								content{
 									single-line{
-										if (action.food.carbo > action.foodTwo.carbo){
+										if (this[1] == -1){
 											text{
 												value("#{value(action.food.carbo)}")
+												color (Red)
 												style(Detail_M)
 											}
 										}
 										else {
 											text{
 												value("#{value(action.food.carbo)}")
-												color (Red)
 												style(Detail_M)
 											}
 										}
@@ -298,16 +242,16 @@ result-view {
 							vbox{
 								content{
 									single-line{
-										if (action.food.carbo > action.foodTwo.carbo){
+										if (this[2] == -1){
 											text{
-												value("#{value(action.food.carbo)}")
+												value("#{value(action.food.fat)}")
+												color (Red)
 												style(Detail_M)
 											}
 										}
 										else {
 											text{
-												value("#{value(action.food.carbo)}")
-												color (Red)
+												value("#{value(action.food.fat)}")
 												style(Detail_M)
 											}
 										}
@@ -318,16 +262,16 @@ result-view {
 							vbox{
 								content{
 									single-line{
-										if (action.food.carbo > action.foodTwo.carbo){
+										if (this[3] == -1){
 											text{
-												value("#{value(action.food.carbo)}")
+												value("#{value(action.food.protein)}")
+												color (Red)
 												style(Detail_M)
 											}
 										}
 										else {
 											text{
-												value("#{value(action.food.carbo)}")
-												color (Red)
+												value("#{value(action.food.protein)}")
 												style(Detail_M)
 											}
 										}
@@ -338,16 +282,16 @@ result-view {
 							vbox{
 								content{
 									single-line{
-										if (action.food.carbo > action.foodTwo.carbo){
+										if (this[4] == -1){
 											text{
-												value("#{value(action.food.carbo)}")
+												value("#{value(action.food.natrium)}")
+												color (Red)
 												style(Detail_M)
 											}
 										}
 										else {
 											text{
-												value("#{value(action.food.carbo)}")
-												color (Red)
+												value("#{value(action.food.natrium)}")
 												style(Detail_M)
 											}
 										}
@@ -358,16 +302,16 @@ result-view {
 							vbox{
 								content{
 									single-line{
-										if (action.food.carbo > action.foodTwo.carbo){
+										if (this[5] == -1){
 											text{
-												value("#{value(action.food.carbo)}")
+												value("#{value(action.food.sugar)}")
+												color (Red)
 												style(Detail_M)
 											}
 										}
 										else {
 											text{
-												value("#{value(action.food.carbo)}")
-												color (Red)
+												value("#{value(action.food.sugar)}")
 												style(Detail_M)
 											}
 										}
@@ -381,6 +325,7 @@ result-view {
 					hbox{
 						content{
 							vbox{
+								halign (Center)
 								content{
 									single-line{
 										image{
@@ -391,32 +336,13 @@ result-view {
 								}
 							}
 
-							// vbox{
-							// 	content{
-							// 		single-line{
-							// 			if (action.food.carbo > action.foodTwo.carbo){
-							// 				text{
-							// 					value("#{value(action.food.carbo)}")
-							// 					color (Red)
-							// 					style(Detail_M)
-							// 				}
-							// 			}
-							// 			else {
-							// 				text{
-							// 					value("#{value(action.foodTwo.carbo)}")
-							// 					style(Detail_M)
-							// 				}
-							// 			}
-							// 		}
-							// 	}
-							// }
-							
+							//"#{value(this[6])}"
 							vbox{
 								content{
 									single-line{
-										if (action.food.carbo > action.foodTwo.carbo){
+										if (this[1] == 1){
 											text{
-												value("#{value(action.food.carbo)}")
+												value("#{value(action.foodTwo.carbo)}")
 												color (Red)
 												style(Detail_M)
 											}
@@ -434,16 +360,16 @@ result-view {
 							vbox{
 								content{
 									single-line{
-										if (action.food.carbo > action.foodTwo.carbo){
+										if (this[2] == 1){
 											text{
-												value("#{value(action.food.carbo)}")
+												value("#{value(action.foodTwo.fat)}")
 												color (Red)
 												style(Detail_M)
 											}
 										}
 										else {
 											text{
-												value("#{value(action.foodTwo.carbo)}")
+												value("#{value(action.foodTwo.fat)}")
 												style(Detail_M)
 											}
 										}
@@ -454,36 +380,16 @@ result-view {
 							vbox{
 								content{
 									single-line{
-										if (action.food.carbo > action.foodTwo.carbo){
+										if (this[3] == 1){
 											text{
-												value("#{value(action.food.carbo)}")
+												value("#{value(action.foodTwo.protein)}")
 												color (Red)
 												style(Detail_M)
 											}
 										}
 										else {
 											text{
-												value("#{value(action.foodTwo.carbo)}")
-												style(Detail_M)
-											}
-										}
-									}
-								}
-							}
-							
-							vbox{
-								content{
-									single-line{
-										if (action.food.carbo > action.foodTwo.carbo){
-											text{
-												value("#{value(action.food.carbo)}")
-												color (Red)
-												style(Detail_M)
-											}
-										}
-										else {
-											text{
-												value("#{value(action.foodTwo.carbo)}")
+												value("#{value(action.foodTwo.protein)}")
 												style(Detail_M)
 											}
 										}
@@ -494,22 +400,43 @@ result-view {
 							vbox{
 								content{
 									single-line{
-										if (action.food.carbo > action.foodTwo.carbo){
+										if (this[4] == 1){
 											text{
-												value("#{value(action.food.carbo)}")
+												value("#{value(action.foodTwo.natrium)}")
 												color (Red)
 												style(Detail_M)
 											}
 										}
 										else {
 											text{
-												value("#{value(action.foodTwo.carbo)}")
+												value("#{value(action.foodTwo.natrium)}")
 												style(Detail_M)
 											}
 										}
 									}
 								}
 							}
+
+							vbox{
+								content{
+									single-line{
+										if (this[5] == 1){
+											text{
+												value("#{value(action.foodTwo.sugar)}")
+												color (Red)
+												style(Detail_M)
+											}
+										}
+										else {
+											text{
+												value("#{value(action.foodTwo.sugar)}")
+												style(Detail_M)
+											}
+										}
+									}
+								}
+							}
+							
 						}
 					}
 

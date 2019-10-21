@@ -58,18 +58,12 @@ layout{
 									spacer
 									spacer
 									spacer
-									spacer
-									spacer
-									spacer
 									text{
 										value("칼로리")
 										style(Detail_M_Soft)
 									}
 								}
 								single-line{
-									spacer
-									spacer
-									spacer
 									spacer
 									spacer
 									spacer
@@ -150,6 +144,7 @@ layout{
 										style(Detail_L)
 									}
 								}
+
 								text{
 									value("#{value(food.carbo)}g")
 									style(Detail_L)
@@ -209,7 +204,6 @@ layout{
 						aspect-ratio(16:9)
 						url("#{value(food.chart)}")
 					}
-					
 				}
 				else{
 					single-line{

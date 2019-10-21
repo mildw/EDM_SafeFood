@@ -8,6 +8,8 @@ layout-macro-def (restaurant_compound_card) {
 	content {
 		compound-card {
 			content {
+
+				
 				single-line {
 					text {
 						value ("#{value(restaurant.name)}")
