@@ -1,32 +1,32 @@
-layout-macro-def (restaurant-compound-card) {
-  params {
-    param (restaurant) {
-      type (findRestaurantResualts)
-      min (Required) max (One)
-    }
-  }
-  content {
-    compound-card {
-      content {
-        single-line {
-          text {
-            value ("#{value(restaurant.name)}")
-            style (Title_M)
-          }
-        }
-        single-line {
-          text {
-            value ("Arrives in #{value(restaurant.location)}")
-            style (Detail_L)
-          }
-        }
-        single-line {
-          text {
-            value ("#{value(restaurant.rank)}")
-            style (Detail_M_Soft)
-          }
-        }
-      }
-    }
-  }
+layout-macro-def (restaurant_compound_card) {
+	params {
+		param (restaurant) {
+			type (Restaurant)
+			min (Required) max (One)
+		}
+	}
+	content {
+		compound-card {
+			content {
+				single-line {
+					text {
+						value ("#{value(restaurant.name)}")
+						style (Title_M)
+					}
+				}
+				single-line {
+					text {
+						value ("#{value(restaurant.location)}")
+						style (Detail_L)
+					}
+				}
+				single-line {
+					text {
+						value ("#{value(restaurant.rank)}")
+						style (Detail_M_Soft)
+					}
+				}
+			}
+		}
+	}
 }

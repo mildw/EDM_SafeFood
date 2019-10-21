@@ -1,3 +1,3 @@
-text (findRestaurantLocation) {
+text (Dagency) {
   description (__DESCRIPTION__)
 }

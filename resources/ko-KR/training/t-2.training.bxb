@@ -1,5 +1,5 @@
 train (t-2tsqjywnpfdpv7mqbzx10uktp) {
-  utterance ("[g:findRestaurantResualts] (분당)[v:RestaurantLocation]에 있는 (피자)[v:RestaurantName] 가게 위생등급 알려줘")
-  plan (Y2BhUE5NydUrTkxLTcvPT9FLy8xLCUotLkksLUrMKwGyShNzSooZpPEoYpBHkURI+OQnJ5Zk5ueh6UYo8EvMTWVgZmBkYAKSDEAaBCEAxAeLAgA=)
-  last-modified (1571559648403)
+  utterance ("[g:Restaurant] (분당)[v:RestaurantLocation]에 있는 (피자)[v:RestaurantName] 가게 위생등급 알려줘")
+  plan (Y2BhEE9NydUrTkxLTcvPT9ELSi0uSSwtSswrYZDGIeGWmZfCII9D0ic/ObEkMz8Pp26/xNxUBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571634405932)
 }
