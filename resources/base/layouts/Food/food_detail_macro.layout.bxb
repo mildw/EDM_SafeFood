@@ -9,7 +9,7 @@
 layout{
 	match: Food (food)
 	mode (Details)
-
+	
 	content{
 		section{
 			content{
@@ -17,9 +17,9 @@ layout{
 					aspect-ratio(16:9)
 					url("#{value(food.imgurl1)}")
 				}
-
+				
 				spacer
-
+				
 				hbox{
 					content{
 						vbox{
@@ -31,7 +31,7 @@ layout{
 								}
 							}
 						}
-
+						
 						vbox{
 							halign (End)
 							content{
@@ -48,18 +48,20 @@ layout{
 				}
 				
 				divider
-
+				
 				hbox{
 					content{
 						vbox{
 							halign (Center)
 							content{
-								text{
-									value("칼로리")
-									style(Detail_M_Soft)
+								single-line{
+									text{
+										value("칼로리")
+										style(Detail_M_Soft)
+									}
 								}
 								text{
-									value("#{value(food.calorie)}")
+									value("#{value(food.calorie)}kcal")
 									style(Detail_L)
 								}
 							}
@@ -67,12 +69,20 @@ layout{
 						vbox{
 							halign (Center)
 							content{
-								text{
-									value("나트륨")
-									style(Detail_M_Soft)
+								single-line{
+									image{
+										url("Aimg/S.png")
+										shape (Circle)
+										style(Detail_L)
+									}
+									spacer
+									text{
+										value("당")
+										style(Detail_M_Soft)
+									}
 								}
 								text{
-									value("#{value(food.natrium)}")
+									value("#{value(food.sugar)}g")
 									style(Detail_L)
 								}
 							}
@@ -80,92 +90,143 @@ layout{
 						vbox{
 							halign (Center)
 							content{
-								text{
-									value("지방")
-									style(Detail_M_Soft)
+								single-line{
+									image{
+										url("Aimg/N.png")
+										shape (Circle)
+										style(Detail_L)
+									}
+									spacer
+									text{
+										value("나트륨")
+										style(Detail_M_Soft)
+									}
 								}
 								text{
-									value("#{value(food.fat)}")
-									style(Detail_L)
-								}
-							}
-						}
-						vbox{
-							halign (Center)
-							content{
-								text{
-									value("당")
-									style(Detail_M_Soft)
-								}
-								text{
-									value("#{value(food.sugar)}")
-									style(Detail_L)
-								}
-							}
-						}
-						vbox{
-							halign (Center)
-							content{
-								text{
-									value("탄수화물")
-									style(Detail_M_Soft)
-								}
-								text{
-									value("#{value(food.carbo)}")
+									value("#{value(food.natrium)}mg")
 									style(Detail_L)
 								}
 							}
 						}
 					}
 				}
-
-				spacer
-
+				
 				divider
-
+				
+				hbox{
+					content{
+						vbox{
+							halign (Center)
+							content{
+								single-line{
+									text{
+										value("탄수화물")
+										style(Detail_M_Soft)
+									}
+									spacer
+									image{
+										url("Aimg/C.png")
+										shape (Circle)
+										style(Detail_L)
+									}
+								}
+								text{
+									value("#{value(food.carbo)}g")
+									style(Detail_L)
+								}
+							}
+						}
+						vbox{
+							halign (Center)
+							content{
+								single-line{
+									text{
+										value("지방")
+										style(Detail_M_Soft)
+									}
+									spacer
+									image{
+										url("Aimg/F.png")
+										shape (Circle)
+										style(Detail_L)
+									}
+								}
+								text{
+									value("#{value(food.fat)}g")
+									style(Detail_L)
+								}
+							}
+						}
+						vbox{
+							halign (Center)
+							content{
+								single-line{
+									text{
+										value("단백질")
+										style(Detail_M_Soft)
+									}
+									spacer
+									image{
+										url("Aimg/P.png")
+										shape (Circle)
+										style(Detail_L)
+									}
+								}
+								text{
+									value("#{value(food.protein)}g")
+									style(Detail_L)
+								}
+							}
+						}
+					}
+				}
+				
+				divider
+				spacer
+				
 				image{
 					aspect-ratio(16:9)
 					url("#{value(food.chart)}")
 				}
-
+				
 				divider
-
+				
 				single-line{
 					text{
 						value("알레르기")
 						style(Detail_L_Soft)
 					}
 				}
-
+				
 				paragraph{
 					value("#{value(food.allergy)}")
 					style(Detail_L)
 				}
-
+				
 				spacer
-
+				
 				divider
-
+				
 				spacer
-
+				
 				single-line{
 					text{
 						value("원재료")
 						style(Detail_L_Soft)
 					}
 				}
-
+				
 				paragraph{
 					value("#{value(food.rawmtrl)}")
 					style(Detail_L)
 				}
-
+				
 				spacer
-
+				
 				divider
-
+				
 				spacer
-
+				
 				split-input-cell {
 					left {
 						input-cell {
@@ -180,22 +241,22 @@ layout{
 						}
 					}
 				}
-
+				
 				spacer
-
+				
 				divider
-
+				
 				spacer
-
+				
 				cell-card{
-
+					
 					on-click{
 						intent{
 							goal: PutMyFood
 							value : $expr(food)
 						}
 					}
-
+					
 					slot1{
 						image{
 							url("#{value(food.imgurl1)}")
@@ -203,7 +264,7 @@ layout{
 							background-color (Transparent)
 						}
 					}
-
+					
 					slot2{
 						content{
 							primary{
@@ -215,7 +276,7 @@ layout{
 						}
 					}
 				}
-
+				
 			}
 		}
 	}
@@ -236,17 +297,17 @@ layout{
 	// 			}
 	// 		}
 	// 	}
-		
+	
 	// 	section {
 	// 		content {
-				
+	
 	// 			paragraph {
 	// 				value ("#{value(food.prdlstNm)}")
 	// 				style (Title_M)
 	// 			}
-				
+	
 	// 			spacer
-				
+	
 	// 			paragraph {
 	// 				value ("#{value(food.prdlstNm)}")
 	// 				style (Detail_L)
