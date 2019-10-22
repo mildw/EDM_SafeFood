@@ -1,5 +1,15 @@
+train (t-v33xon2ama0fevq3pg3jsn270) {
+  utterance ("[g:RestaurantRange] (근방)[v:Dummy]에 위생정보 알려줘")
+  plan (Y2BhkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCEIu1SmptbySCCIuZbGZCfmVfCwMzAyMAEJBmANAhCABMEAwA=)
+  last-modified (1571725787487)
+}
 train (t-v957jen8nb4ehyfishpx97qq1) {
   utterance ("[g:FoodCompare] {[g:FoodTwo] (한입오다리)[v:FoodName]}랑 다른게뭐야")
   plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
   last-modified (1571709168058)
+}
+train (t-vjuydbb01liqy776pu70nikt7) {
+  utterance ("[g:ThisRestaurant] (부평)[v:RestaurantLocation]에 있는 (신선설농탕)[v:RestaurantName] 위생상태 알려줘")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571725473454)
 }

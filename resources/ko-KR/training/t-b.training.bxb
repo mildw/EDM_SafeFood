@@ -1,3 +1,8 @@
+train (t-b2zhuhab6emww32vvsmf4p6so) {
+  utterance ("[g:ThisRestaurant] (분당)[v:RestaurantLocation] (페쉐)[v:RestaurantName] 정보")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571725480361)
+}
 train (t-bhra1vtwrewuboeh5bbdu6joi) {
   utterance ("[g:ThisRestaurant] (서울)[v:RestaurantLocation]에 (스파게티)[v:RestaurantName]집 위생등급 알아와")
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)

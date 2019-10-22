@@ -13,6 +13,11 @@ train (t-upptg8bu5xr3bmpw7r71owehn) {
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1571708038023)
 }
+train (t-uubqd11n4k3mvcklzl7elrk6y) {
+  utterance ("[g:RestaurantRange] (주변)[v:Dummy] 음식점 정보 알려줘")
+  plan (Y2BhkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCEIu1SmptbySCCIuZbGZCfmVfCwMzAyMAEJBmANAhCABMEAwA=)
+  last-modified (1571725949163)
+}
 train (t-uwv5i6yhkqot7ua5mxe85pkjv) {
   utterance ([g:GetMyFoodStat] 내가 먹은것 분석해줘)
   plan (Y2BiEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGRiBkgGIgCQA=)

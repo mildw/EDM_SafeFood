@@ -1,3 +1,8 @@
+train (t-569k5rbwiil3b9fj5ng5it77z) {
+  utterance ("[g:RestaurantRange] (가까운곳)[v:Dummy]에 음식점 위생정보 알려줘")
+  plan (Y2BhkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCEIu1SmptbySCCIuZbGZCfmVfCwMzAyMAEJBmANAhCABMEAwA=)
+  last-modified (1571726011270)
+}
 train (t-57rnpkoq337zqr1qcl469kor9) {
   utterance ("[g:FoodCompare] {[g:FoodTwo] (맛있는라면)[v:FoodName]}이랑 차이알려줘")
   plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)

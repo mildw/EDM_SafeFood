@@ -3,6 +3,11 @@ train (t-w0m2ivi1ivd3411x9s6mkj1er) {
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1571708179607)
 }
+train (t-w3l79jnngetcno7115l60wmtn) {
+  utterance ("[g:ThisRestaurant] (대구)[v:RestaurantLocation] (사이카보)[v:RestaurantName] 위생 정보 줘")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571725567771)
+}
 train (t-w9u2zc4hjre482740i3ga6d9x) {
   utterance ([g:GetMyFoodStat] 식품정보 통계내줘)
   plan (Y2BiEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGRiBkgGIgCQA=)

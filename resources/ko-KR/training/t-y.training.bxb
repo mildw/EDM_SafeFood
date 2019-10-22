@@ -18,3 +18,8 @@ train (t-ydsfhbz1nz1wgyexmvntvwsbe) {
   plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
   last-modified (1571709122397)
 }
+train (t-yvc6v32biq4o8jw3gpagncqdq) {
+  utterance ("[g:RestaurantRange] (동네)[v:Dummy] 가게 정보 알려줘")
+  plan (Y2BhkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCEIu1SmptbySCCIuZbGZCfmVfCwMzAyMAEJBmANAhCABMEAwA=)
+  last-modified (1571725850322)
+}

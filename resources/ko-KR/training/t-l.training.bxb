@@ -1,3 +1,8 @@
+train (t-l5ssvl72m2ksskh2n43y1waz1) {
+  utterance ("[g:RestaurantRange] (주변)[v:Dummy]에 좋은가게 보여줘")
+  plan (Y2BhkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCEIu1SmptbySCCIuZbGZCfmVfCwMzAyMAEJBmANAhCABMEAwA=)
+  last-modified (1571725738154)
+}
 train (t-lw0uo1688b1g95oeww0k295h7) {
   utterance ([g:GetMyFoodList] 나만의 식품리스트 내놔)
   plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)

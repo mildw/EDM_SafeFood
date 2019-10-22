@@ -8,6 +8,11 @@ train (t-qhqkga51pywtug42tbpn63g29) {
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
   last-modified (1571676316415)
 }
+train (t-qlwmpzpjwrl90ixb16wa44ynt) {
+  utterance ("[g:RestaurantRange] (근처)[v:Dummy] 식당 정보 알려줘")
+  plan (Y2BhkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCEIu1SmptbySCCIuZbGZCfmVfCwMzAyMAEJBmANAhCABMEAwA=)
+  last-modified (1571725879954)
+}
 train (t-qn1j7zebiocl96nmbjkrj017j) {
   utterance ("[g:FoodCompare] {[g:FoodTwo] (진라면)[v:FoodName]}이랑 비교해줘")
   plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)

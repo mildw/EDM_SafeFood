@@ -3,6 +3,11 @@ train (t-c30vbk6erahis1ndexr6348n0) {
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
   last-modified (1571710503962)
 }
+train (t-c9rbvmzd6bpsv19w2kslinnlb) {
+  utterance ("[g:ThisRestaurant] (충청남도)[v:RestaurantLocation] (사보텐)[v:RestaurantName] 에대해 알려줘")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571725320683)
+}
 train (t-cds5e9u0dwt5b0hjjtmt3vac2) {
   utterance ([g:GetMyFoodStat] 내 식품 통계 보여줘)
   plan (Y2BmEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGERQ5kLB/XioDEwMjEDMASUYGBhgNAA==)
