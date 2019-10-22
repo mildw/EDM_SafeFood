@@ -104,6 +104,9 @@ module.exports.function = function foodSearch(findAllergyItem) {
 
     Nm.push(list[i]['prdlstNm']);
     res.push(list[i]);
+    if(allergy.indexOf('알수없음') != -1){
+      return res[0];
+    }
   }
   console.log(Nm);
   console.log(res);
