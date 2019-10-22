@@ -1,0 +1,32 @@
+structure (MyFoodStat) {
+	description (__식품통계__)
+	
+	property (statFlag) {
+		type (StatFlag)
+		min (Required) max (One)
+	}
+	property (statUrl) {
+		type (StatUrl)
+		min (Required) max (One)
+	}
+	property (statCarbo) {
+		type (StatCarbo)
+		min (Optional) max (One)
+	}
+	property (statNatrium) {
+		type (StatNatrium)
+		min (Optional) max (One)
+	}
+	property (statFat) {
+		type (StatFat)
+		min (Optional) max (One)
+	}
+	property (statSugar) {
+		type (StatSugar)
+		min (Optional) max (One)
+	}
+	property (statProtein) {
+		type (StatProtein)
+		min (Optional) max (One)
+	}
+}

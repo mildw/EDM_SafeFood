@@ -60,24 +60,27 @@ module.exports.function = function foodSearch(foodName) {
       }
     }
 
+    ////// 차트를 그릴 수 없는 경우 삽입할 default 이미지 정하기
+    list[i]['chart'] = '-';
     if (nutriCnt < 4)
       continue;
 
-    ////// 차트를 그릴 수 없는 경우 삽입할 default 이미지 정하기
-    list[i]['chart'] = '-';
     ////////////////차트 넣기
     var url = 'http://54.180.149.204/chart/';
     var queryParams = 'getFoodChart.php';
-    queryParams += '?' + 'carbo=' + list[i]['carbo'];
-    queryParams += '&' + 'fat=' + list[i]['fat'];
-    queryParams += '&' + 'natrium=' + list[i]['natrium'] / 1000;
-    queryParams += '&' + 'sugar=' + list[i]['sugar'];
-    queryParams += '&' + 'protein=' + list[i]['protein'];
+    queryParams += '?' + 'carbo=' + list[i]['carbo'] == '-' ? 0 : list[i]['carbo'];
+    queryParams += '&' + 'fat=' + list[i]['fat'] == '-' ? 0 : list[i]['fat'];
+    queryParams += '&' + 'natrium=' + list[i]['natrium'] == '-' ? 0 : list[i]['natrium']/1000;
+    queryParams += '&' + 'sugar=' + list[i]['sugar'] == '-' ? 0 : list[i]['sugar'];
+    queryParams += '&' + 'protein=' + list[i]['protein'] == '-' ? 0 : list[i]['protein'];
+    // queryParams += '?' + 'carbo=21';
+    // queryParams += '&' + 'fat=24';
+    // queryParams += '&' + 'natrium=65';
+    // queryParams += '&' + 'sugar=3.4';
+    // queryParams += '&' + 'protein=23';
 
-    if (list[i]['carbo'] != '-' && list[i]['fat'] != '-' && list[i]['natrium'] != '-' && list[i]['sugar'] != '-' && list[i]['protein'] != '-') {
-      var chartImg = http.getUrl(url + queryParams, { format: 'text' });
-      list[i]['chart'] = chartImg;
-    }
+    var chartImg = http.getUrl(url + queryParams, { format: 'text' });
+    list[i]['chart'] = chartImg;
 
     Nm.push(list[i]['prdlstNm']);
     res.push(list[i]);

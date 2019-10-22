@@ -131,33 +131,44 @@ function getMyFoodStat(bixbyUserId) {
   const response = http.getUrl(url, options)
 
   if (response) {
-    var myFoodImg = new Array;
+    var statRes = new Array;
+    var nutriTotal = [0, 0, 0, 0, 0];
     var len = response.length < 5 ? 0 : response.length - 5
-    var nutriTotal = new Array;
     for (var i = response.length - 1; i >= len; i--) {
+      var item = { 'statFlag': 1 };
       var tmp = JSON.parse(response[i]['my-food']);
       //tmp.$id = response[i]["_id"];
-      myFoodImg.push(tmp['imgurl1']);
+      //statRes.push(tmp['imgurl1']);
+      item['statUrl'] = tmp['imgurl1'];
       var nutriEng = ["carbo", "fat", "natrium", "sugar", "protein"];
       for (var j = 0; j < 5; j++) {
-        if (tmp[nutriEng[j]] != '-')
-          nutriTotal[j]++;
+        if (isNaN(tmp[nutriEng[j]] * 1) == false)
+          nutriTotal[j] += tmp[nutriEng[j]] * 1;
       }
+      statRes.push(item);
+      //console.log(nutriTotal[0] + " " + nutriTotal[1] + " " + nutriTotal[2] + " " + nutriTotal[3] + " " + nutriTotal[4]);
     }
 
     ////////////////차트 넣기
+    nutriTotal[2] /= 1000;
     var chartUrl = 'http://54.180.149.204/chart/';
     var queryParams = 'getStatChart.php';
     queryParams += '?' + 'carbo=' + nutriTotal[0];
     queryParams += '&' + 'fat=' + nutriTotal[1];
-    queryParams += '&' + 'natrium=' + nutriTotal[2] / 1000;
+    queryParams += '&' + 'natrium=' + nutriTotal[2];
     queryParams += '&' + 'sugar=' + nutriTotal[3];
     queryParams += '&' + 'protein=' + nutriTotal[4];
 
     var chartImg = http.getUrl(chartUrl + queryParams, { format: 'text' });
-    myFoodImg.push(chartImg);
+    //myFoodImg.push(chartImg);
 
-    return myFoodImg
+    var item = {
+      'statFlag': 0, 'statUrl': chartImg, 'statCarbo': nutriTotal[0],
+      'statFat': nutriTotal[1], 'statNatrium': nutriTotal[2], 'statSugar': nutriTotal[3], 'statProtein': nutriTotal[4]
+    };
+    statRes.push(item);
+
+    return statRes;
   } else {
     // Doesn't exist
     return

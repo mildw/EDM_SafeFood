@@ -1,0 +1,3 @@
+text (StatFlag) {
+  description (__DESCRIPTION__)
+}

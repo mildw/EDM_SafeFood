@@ -1,4 +1,5 @@
 var http = require('http');
+var console = require('console');
 
 module.exports.function = function foodCompare(food, foodTwo) {
   //각 성분을 비교하고, 1번이 더 큰경우 -1 // 비교가 불가능 (같거나 Integer가 아니면)이면 0 // 2번이 더 큰 경우 1
@@ -8,12 +9,18 @@ module.exports.function = function foodCompare(food, foodTwo) {
   for (var i = 0; i < 6; i++) {
     if (i >= 1 && (food[nutriEng[i]] == '-' || foodTwo[nutriEng[i]] == '-'))
       flag = false;
-    if (food[nutriEng[i]] > foodTwo[nutriEng[i]])
+    if (food[nutriEng[i]]*1 > foodTwo[nutriEng[i]]*1) {
       res.push(-1);
-    else if (food[nutriEng[i]] < foodTwo[nutriEng[i]])
+      //console.log(nutriEng[i] + " item1:" + food[nutriEng[i]] + " ::: item2:" + foodTwo[nutriEng[i]] + " ==결과 -1")
+    }
+    else if (food[nutriEng[i]]*1 < foodTwo[nutriEng[i]]*1) {
       res.push(1);
-    else
+      //console.log(nutriEng[i] + " item1:" + food[nutriEng[i]] + " ::: item2:" + foodTwo[nutriEng[i]] + " ==결과 1")
+    }
+    else {
       res.push(0);
+      //console.log(nutriEng[i] + " item1:" + food[nutriEng[i]] + " ::: item2:" + foodTwo[nutriEng[i]] + " ==결과 0")
+    }
   }
 
   ////// 차트를 그릴 수 없는 경우 삽입할 default 이미지 정하기
