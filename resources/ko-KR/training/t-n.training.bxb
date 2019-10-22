@@ -9,12 +9,12 @@ train (t-nl9itq177fz1e6g1e07p1japg) {
   last-modified (1571708066759)
 }
 train (t-nluxbe3gp2ohc7u5bhjxmdt7s) {
-  utterance ("[g:FindHandle] 알러지 (심한데)[v:FindHandleWayH] 어떡해")
+  utterance ("[g:FindHandle] 알러지 (심한데)[v:FindHandleWayH:심각한] 어떡해")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)
-  last-modified (1571709796580)
+  last-modified (1571734194561)
 }
 train (t-nzatfkcra0bj7byl4n0s9koiv) {
-  utterance ("[g:FindHandle] (간지러움)[v:FindHandleWayL] 해결방법 알려줘")
+  utterance ("[g:FindHandle] (간지러움)[v:FindHandleWayL:미미한] 해결방법 알려줘")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
-  last-modified (1571710033824)
+  last-modified (1571734290594)
 }

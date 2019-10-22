@@ -3,6 +3,11 @@ train (t-80x8lr1dngr293995wpfuc9l0) {
   plan (Y2BiEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGRiBkgGIgCQA=)
   last-modified (1571707679255)
 }
+train (t-8a1u4je6cwngh0ydoaqyf6cvh) {
+  utterance ("[g:DeleteOneFood] 내 식품에서 (감자칩)[v:MyFoodName] 빼줘")
+  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571734044091)
+}
 train (t-8cunl0q3tkaj54zbdkaizfbez) {
   utterance ([g:GetMyFoodList] 식품목록 내꺼 줘봐)
   plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
@@ -14,7 +19,7 @@ train (t-8fvz3wxagpnxqm9lk1dwvb0qx) {
   last-modified (1571707701719)
 }
 train (t-8kotvqlutoq79pac4blsxwnv2) {
-  utterance ("[g:FindHandle] (간지러운)[v:FindHandleWayL] 알러지 해결방법")
+  utterance ("[g:FindHandle] (간지러운)[v:FindHandleWayL:미미한] 알러지 해결방법")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
-  last-modified (1571709952947)
+  last-modified (1571733570179)
 }

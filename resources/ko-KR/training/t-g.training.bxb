@@ -9,9 +9,9 @@ train (t-gnw3uq9qsctj5jtw1dgnvvqny) {
   last-modified (1571676181625)
 }
 train (t-gsbsvqve22483vw9na9haklbl) {
-  utterance ("[g:FindHandle] (초기)[v:FindHandleWayL] 알레르기 대처법")
+  utterance ("[g:FindHandle] (초기)[v:FindHandleWayL:미미한] 알레르기 대처법")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
-  last-modified (1571710000956)
+  last-modified (1571734328121)
 }
 train (t-gtcol7cgqunffg7drtqt5silu) {
   utterance ([g:DeleteAllFood] 전부 다 삭제)
@@ -19,12 +19,12 @@ train (t-gtcol7cgqunffg7drtqt5silu) {
   last-modified (1571708760057)
 }
 train (t-gu9qmzs29ne527dy0a9hd0q32) {
-  utterance ("[g:FindHandle] (미미한)[v:FindHandleWayL] 알레르기 반응 대처하기")
+  utterance ("[g:FindHandle] (미미한)[v:FindHandleWayL:미미한] 알레르기 반응 대처하기")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
-  last-modified (1571285582690)
+  last-modified (1571734296585)
 }
 train (t-gx49bcvd94laacxi4mgcfpcte) {
-  utterance ("[g:FindHandle] (심각한)[v:FindHandleWayH] 알레르기 어떻해")
+  utterance ("[g:FindHandle] (심각한)[v:FindHandleWayH:심각한] 알레르기 어떻해")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)
-  last-modified (1571709754790)
+  last-modified (1571734215579)
 }

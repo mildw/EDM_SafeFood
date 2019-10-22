@@ -1,7 +1,7 @@
 train (t-eex9k6zcqqz1ee7hhxf39ztjp) {
-  utterance ("[g:FindHandle] (가려운)[v:FindHandleWayL] 알러지 대처방법 알려줘")
+  utterance ("[g:FindHandle] (가려운)[v:FindHandleWayL:미미한] 알러지 대처방법 알려줘")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
-  last-modified (1571709997371)
+  last-modified (1571734209537)
 }
 train (t-eftvif2r4sxor4r2kbmnu91ff) {
   utterance ("[g:FindAllergy] (리얼초코스틱 아몬드)[v:FindAllergyItem] 알러지")
@@ -19,7 +19,7 @@ train (t-enjyx4av8hl8kc5c1fd4xvq52) {
   last-modified (1571732102525)
 }
 train (t-eoig7x1ydnj475g3jhyp1ljkr) {
-  utterance ("[g:FindHandle] (심한)[v:FindHandleWayH] 알러지")
+  utterance ("[g:FindHandle] (심한)[v:FindHandleWayH:심각한] 알러지")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)
-  last-modified (1571709753697)
+  last-modified (1571734284721)
 }

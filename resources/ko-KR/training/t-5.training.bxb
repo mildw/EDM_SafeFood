@@ -9,7 +9,7 @@ train (t-57rnpkoq337zqr1qcl469kor9) {
   last-modified (1571709066727)
 }
 train (t-5e7vjxltaw0hnp7lva0vx0qhs) {
-  utterance ("[g:FindHandle] (심각한)[v:FindHandleWayH] 알레르기 반응 대처하기")
+  utterance ("[g:FindHandle] (심각한)[v:FindHandleWayH:심각한] 알레르기 반응 대처하기")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)
-  last-modified (1571726493167)
+  last-modified (1571734168896)
 }

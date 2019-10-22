@@ -1,12 +1,12 @@
 train (t-q1wlf3sh3g3frvyfx46jrtb9e) {
-  utterance ("[g:FindHandle] (가벼운)[v:FindHandleWayL] 알레르기 해결법알려줘")
+  utterance ("[g:FindHandle] (가벼운)[v:FindHandleWayL:미미한] 알레르기 해결법알려줘")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
-  last-modified (1571709980310)
+  last-modified (1571734183034)
 }
 train (t-qhqkga51pywtug42tbpn63g29) {
-  utterance ("[g:FindHandle] (미미한)[v:FindHandleWayL] 알러지 대처법 알려줘")
+  utterance ("[g:FindHandle] (미미한)[v:FindHandleWayL:미미한] 알러지 대처법 알려줘")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
-  last-modified (1571676316415)
+  last-modified (1571734337617)
 }
 train (t-qlwmpzpjwrl90ixb16wa44ynt) {
   utterance ("[g:RestaurantRange] (근처)[v:Dummy] 식당 정보 알려줘")

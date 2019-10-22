@@ -33,6 +33,11 @@ train (t-ydsfhbz1nz1wgyexmvntvwsbe) {
   plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
   last-modified (1571709122397)
 }
+train (t-yrp7q2a51dh5ay9dtq17srum0) {
+  utterance ("[g:FindAllergy] (체리에이드)[v:FindAllergyItem]의 알러지 찾아줄래")
+  plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEGl4xnSWouAxMDIxAzAElGBhCA8gE=)
+  last-modified (1571732823277)
+}
 train (t-yvc6v32biq4o8jw3gpagncqdq) {
   utterance ("[g:RestaurantRange] (동네)[v:Dummy] 가게 정보 알려줘")
   plan (Y2BhkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCEIu1SmptbySCCIuZbGZCfmVfCwMzAyMAEJBmANAhCABMEAwA=)
