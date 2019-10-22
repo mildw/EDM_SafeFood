@@ -51,8 +51,8 @@ endpoints {
 		
 		// 알러지 찾아줘
 		action-endpoint (FindAllergy) {
-			accepted-inputs (findAllergyItem)
-			local-endpoint (Allergy/findAllergy.js)
+			accepted-inputs (foodName)
+			local-endpoint (Allergy/findAllergys.js)
 		}
 		
 		// 미미한 대처방법 알려줘

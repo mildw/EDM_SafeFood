@@ -106,4 +106,14 @@ structure (Food) {
 		type (Chart)
 		min (Required) max (One)
 	}
+
+	property (images) {
+    type (Image)
+    min (Optional) max (Many)
+  }
+
+	property (aimages) {
+    type (AImage)
+    min (Optional) max (Many)
+  }
 }

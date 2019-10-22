@@ -18,6 +18,11 @@ train (t-wpfi2pdju6k5izqo6yxyf1mr0) {
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
   last-modified (1571734175746)
 }
+train (t-wsv8u193shvhemcmseexwvjsh) {
+  utterance ("[g:FindAllergy] (까르보불닭)[v:FoodName]의 알러지 정보 알려줘")
+  plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGRiBkAGMmYAkEwMDAA==)
+  last-modified (1571734824802)
+}
 train (t-wuvjln6ppvfdbhwy00rzog981) {
   utterance ([g:DeleteAllFood] 내꺼 모두 삭제해줘)
   plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)

@@ -1,8 +1,3 @@
-train (t-3mbqxwjyl9fgawc08n44hlofm) {
-  utterance ("[g:FindAllergy] (까르보불닭)[v:FindAllergyItem] 알레르기 찾아줘")
-  plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEGl4xnSWouAxMDIxAzAElGBhCA8gE=)
-  last-modified (1571726492700)
-}
 train (t-3nli889fisgo2i683h42q4tz9) {
   utterance ("[g:FoodCompare] {[g:FoodTwo] (에너지바)[v:FoodName]}랑 뭐가더좋아")
   plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)

@@ -75,7 +75,6 @@ function Find(findAllergyResultTmp) {
     allergy_set : allergy,
     images : [{url:findAllergyResultTmp.imgurl1}, {url:findAllergyResultTmp.imgurl2}],
     aimages : image_al
-    //images : image_al
   };
 
   return findAllergyResult;

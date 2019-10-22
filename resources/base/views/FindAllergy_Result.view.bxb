@@ -1,6 +1,6 @@
 result-view {
 	match {
-		FindAllergyResults (this)
+		Food (this)
 	}
 	
 	message {
@@ -14,7 +14,7 @@ result-view {
 	render {
 		if (size(this) == 1) {
 			layout-macro (findAllergy-header) {
-				param (findAllergyResults) {
+				param (food) {
 					expression (this)
 				}
 			}
