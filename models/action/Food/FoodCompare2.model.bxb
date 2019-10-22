@@ -1,0 +1,27 @@
+action (FoodCompare2) {
+	description (포카칩이랑 스윙칩이랑 비교해줘)
+	type(Calculation)
+	collect {
+		input (food) {
+			type (FoodOne)
+			min (Required) max (One)
+			// default-init {
+			// 	intent {
+			// 		goal: FoodSearch
+			// 		value: FoodName(food)
+			// 	}
+			// }
+		}
+		input(foodTwo) {
+			type (FoodTwo)
+			min(Required) max(One)
+			// default-init {
+			// 	intent {
+			// 		goal: FoodSearch
+			// 		value: FoodName(foodTwo)
+			// 	}
+			// }
+		}
+	}
+	output (CompareResult)
+}

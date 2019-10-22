@@ -19,6 +19,12 @@ endpoints {
 			local-endpoint(Food/foodTwoSearch.js)
 		}
 		
+		// input1이랑 input2이랑 비교해줘
+		action-endpoint (FoodCompare2) {
+			accepted-inputs (food, foodTwo)
+			local-endpoint (Food/foodCompare.js)
+		}
+		
 		// 내 음식 추가
 		action-endpoint (PutMyFood) {
 			accepted-inputs ($vivContext, food)
@@ -60,18 +66,18 @@ endpoints {
 			accepted-inputs (findHandleWayL, findHandleWayH)
 			local-endpoint (Allergy/findHandle.js)
 		}
-
-		    //위치 에있는 가게 위생정보 알려줘
-    action-endpoint (RestaurantFind) {
-      accepted-inputs (restaurantLocation,restaurantName)
-      local-endpoint (Restaurant/restaurantFind.js)
-    }
-
+		
+		//위치 에있는 가게 위생정보 알려줘
+		action-endpoint (RestaurantFind) {
+			accepted-inputs (restaurantLocation,restaurantName)
+			local-endpoint (Restaurant/restaurantFind.js)
+		}
+		
 		//내주변 가게의 위생정보 알려줘
-    action-endpoint (RestaurantSearch) {
-      accepted-inputs (dummy,myPoint)
-      local-endpoint (Restaurant/restaurantSearch.js)
-    }
+		action-endpoint (RestaurantSearch) {
+			accepted-inputs (dummy,myPoint)
+			local-endpoint (Restaurant/restaurantSearch.js)
+		}
 		
 	}
 }

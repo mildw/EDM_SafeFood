@@ -2,6 +2,8 @@ var http = require('http');
 var console = require('console');
 
 module.exports.function = function foodCompare(food, foodTwo) {
+  console.log(food);
+  console.log(foodTwo);
   //각 성분을 비교하고, 1번이 더 큰경우 -1 // 비교가 불가능 (같거나 Integer가 아니면)이면 0 // 2번이 더 큰 경우 1
   var nutriEng = ["calorie", "carbo", "fat", "protein", "natrium", "sugar"];
   var res = new Array;
