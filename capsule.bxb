@@ -8,6 +8,11 @@ capsule {
 		target (bixby-mobile-ko-KR)
 	}
 	
+	permissions {
+		user-profile-access
+	}
+	
+	
 	runtime-flags {
 		no-filtering-with-validation
 		modern-default-view-behavior

@@ -1,0 +1,5 @@
+train (t-odw5fnsbubk1lqv4z2juviuto) {
+  utterance ("[g:FindAllergy] (신라면)[v:FindAllergyItem] 알레르기 찾아내")
+  plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEGl4xnSWouAxMDIxAzAElGBhCA8gE=)
+  last-modified (1571675495842)
+}
