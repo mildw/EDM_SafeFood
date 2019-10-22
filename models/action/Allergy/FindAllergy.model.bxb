@@ -8,5 +8,5 @@ action (FindAllergy) {
     }
   }
 
-  output (FindAllergyResults)
+  output (Food)
 }
