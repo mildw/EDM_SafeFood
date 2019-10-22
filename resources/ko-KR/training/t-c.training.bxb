@@ -1,3 +1,8 @@
+train (t-c0vp1wlsuc0faztrerqdecco7) {
+  utterance ("[g:DeleteOneFood] (탕수육)[v:MyFoodName] 제거할래")
+  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571726375956)
+}
 train (t-c30vbk6erahis1ndexr6348n0) {
   utterance ("[g:ThisRestaurant] (인천)[v:RestaurantLocation]에 (쭈꾸미)[v:RestaurantName] 위생등급 알려줘")
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)

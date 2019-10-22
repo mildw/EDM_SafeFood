@@ -1,7 +1,7 @@
 train (t-m07t00wu3t3arb2fnd078xo11) {
   utterance ("[g:RestaurantRange] (가까운)[v:Dummy] 가게 위생 정보")
   plan (Y2BhkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCEIu1SmptbySCCIuZbGZCfmVfCwMzAyMAEJBmANAhCABMEAwA=)
-  last-modified (1571726051069)
+  last-modified (1571726349813)
 }
 train (t-m1h24i1d5h1kurdvg6fcbohzb) {
   utterance ([g:PutMyFood] 넣어둬)

@@ -13,6 +13,11 @@ train (t-2mjd8axlen0lmoyd2x82295ve) {
   plan (Y2BhkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCEIu1SmptbySCCIuZbGZCfmVfCwMzAyMAEJBmANAhCABMEAwA=)
   last-modified (1571725654322)
 }
+train (t-2obgyfgh1zqseg8r7mdetmano) {
+  utterance ("[g:DeleteOneFood] (고구마)[v:MyFoodName] 뺴주라")
+  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571726364439)
+}
 train (t-2tsqjywnpfdpv7mqbzx10uktp) {
   utterance ("[g:ThisRestaurant] (분당)[v:RestaurantLocation]에 있는 (피자)[v:RestaurantName] 가게 위생등급 알려줘")
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)

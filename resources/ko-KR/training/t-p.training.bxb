@@ -1,3 +1,8 @@
+train (t-p031xnhwahkitddhxcghnf5j8) {
+  utterance ("[g:DeleteOneFood] (감자칩)[v:MyFoodName] 빼줘")
+  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571726353449)
+}
 train (t-p3153o06fam4q6wlaq53o5dob) {
   utterance ([g:PutMyFood] 내 식품에 추가해줘)
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)

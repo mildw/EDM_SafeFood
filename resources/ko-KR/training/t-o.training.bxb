@@ -1,3 +1,8 @@
+train (t-ob3coibj0xkcd89dhs58cwe36) {
+  utterance ("[g:DeleteOneFood] 식품중에 (새우)[v:MyFoodName] 없애")
+  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571726401681)
+}
 train (t-odw5fnsbubk1lqv4z2juviuto) {
   utterance ("[g:FindAllergy] (신라면)[v:FindAllergyItem] 알레르기 찾아내")
   plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEGl4xnSWouAxMDIxAzAElGBhCA8gE=)

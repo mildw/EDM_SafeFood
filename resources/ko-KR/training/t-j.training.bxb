@@ -3,3 +3,8 @@ train (t-j2clfzmskll345ecun5j4pk7b) {
   plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
   last-modified (1571499832772)
 }
+train (t-j2hulq0a25pr4ob6vuuwva89d) {
+  utterance ("[g:DeleteOneFood] 식품에서 (삼계탕)[v:MyFoodName] 없애줘")
+  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571726337796)
+}
