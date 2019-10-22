@@ -26,7 +26,7 @@ module.exports.function = function foodSearch(foodName) {
   // var nutriName = ["칼로리", "열량", "탄수화물", "지방", "나트륨", "당류"];
   // var nutriEng = ["calorie", "calorie", "carbo", "fat", "natrium", "sugar"];
   // var nutriSym = ["kcal", "kcal", "g", "g", "mg", "g"];
-  var nutriName = ["칼로리", "탄수화물", "지방", "나트륨", "당류", "단백질"];
+  var nutriName = ["열량", "탄수화물", "지방", "나트륨", "당류", "단백질"];
   var nutriEng = ["calorie", "carbo", "fat", "natrium", "sugar", "protein"];
   var nutriSym = ["kcal", "g", "g", "mg", "g", "g"];
   // 영양소 정보나 알레르기 정보가 없으면 보여주지 않기
@@ -34,26 +34,34 @@ module.exports.function = function foodSearch(foodName) {
   for (var i = 0; i < list.length; i++) {
     //if (list[i]['nutrient'] == '알수없음' || list[i]['allergy'] == '알수없음' || Nm.indexOf(list[i]['prdlstNm']) != -1) {
     if (list[i]['nutrient'].indexOf('탄수화물') == -1 || list[i]['allergy'] == '알수없음' || Nm.indexOf(list[i]['prdlstNm']) != -1) {
-      //console.log(Nm.indexOf(list[i]['prdlstNm']) + " " + list[i]['prdlstNm']);
+      console.log(list[i]['prdlstNm'])
       continue;
     }
 
     list[i]['prdlstNm'] = list[i]['prdlstNm'].replace(/ /gi, '');
-    list[i]['nutrient'] = list[i]['nutrient'].replace(/[,]| |\(.*\)/gi, '');
+    list[i]['nutrient'] = list[i]['nutrient'].replace(/[,]| /gi, '');
+
     list[i]['nutrient'] = list[i]['nutrient'].toLowerCase();
 
+    var nutriCnt = 0;
     for (var j = 0; j < 6; j++) {
       list[i][nutriEng[j]] = '-';
       if (list[i]['nutrient'].indexOf(nutriName[j]) != -1) {
         var sta = list[i]['nutrient'].indexOf(nutriName[j]);
         var end = list[i]['nutrient'].indexOf(nutriSym[j], sta);
         var val = list[i]['nutrient'].substr(sta + nutriName[j].length, end - sta - nutriName[j].length);
-        console.log(val);
-        console.log(isNaN(val));
-        if (isNaN(val) == false)
+        val = val.replace(/\(.*\)/gi, '');
+        // console.log(val);
+        // console.log(isNaN(val));
+        if (val != "" && isNaN(val) == false) {
           list[i][nutriEng[j]] = val;
+          nutriCnt++;
+        }
       }
     }
+
+    if (nutriCnt < 4)
+      continue;
 
     ////// 차트를 그릴 수 없는 경우 삽입할 default 이미지 정하기
     list[i]['chart'] = '-';

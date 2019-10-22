@@ -1,0 +1,5 @@
+train (t-d6g9me7brl92c949nw237hijy) {
+  utterance ("[g:FoodSearch] (깐쇼)[v:FoodName] 찾아")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571708049464)
+}

@@ -1,0 +1,10 @@
+train (t-m1h24i1d5h1kurdvg6fcbohzb) {
+  utterance ([g:PutMyFood] 넣어둬)
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
+  last-modified (1571707800638)
+}
+train (t-mm886io0k796exh93fdlqrwkz) {
+  utterance ([g:GetMyFoodList] 내 식품들 보여)
+  plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
+  last-modified (1571707572538)
+}
