@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-module.exports.function = function foodCompare (food, foodTwo) {
-  //var res = "비교결과값";
-  var res = new Array;
-  res.push(food['imgurl1']);
-  res.push(foodTwo['imgurl1']);
-=======
 var http = require('http');
 
 module.exports.function = function foodCompare(food, foodTwo) {
@@ -45,6 +38,5 @@ module.exports.function = function foodCompare(food, foodTwo) {
 
   //res 마지막 res[6] 에 차트 그림의 url이 담겨있음
   res.push(chartImg)
->>>>>>> e3359ef00f93a4e72e9cfcaadef7397d841da7af
   return res;
 }
