@@ -4,8 +4,7 @@ result-view {
 			from-output: RestaurantSearch
 		}
 	}
-	
-	
+
 	message ("주변 가게 위생 정보 입니다.")
 	
 	render {

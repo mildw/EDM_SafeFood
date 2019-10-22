@@ -1,0 +1,130 @@
+layout {
+	match: searchRestaurantResult(restaurant)
+	mode (Details)
+	
+	content {
+		section {
+			content {
+				map-card {
+					title-area {
+						slot1 {
+							text {
+								value ("")
+							}
+						}
+					}
+					markers {
+						marker {
+							geo (restaurant.sourcePoint)
+							icon ("/img/icons/green-map-marker.png")
+							width (15)
+							height (20)
+							anchor-x (5)
+							anchor-y (15)
+							rotation (0)
+						}
+						marker {
+							geo (restaurant.destinationPoint)
+							icon ("/img/icons/red-map-marker.png")
+							width (20)
+							height (20)
+							anchor-x (5)
+							anchor-y (15)
+							rotation (0)
+						}
+					}
+				}
+				
+				spacer
+				single-line{
+					image{
+						url(/img/icons/red-map-marker.png)
+						shape (Square)
+						style(Detail_M)
+					}
+					spacer
+					text{
+						value("#{value(restaurant.name)}")
+						style(Title_XS)
+					}
+				}
+				
+				spacer
+				
+				divider
+				
+				single-line{
+					text{
+						value("위치")
+						style(Detail_M_Soft)
+					}
+				}
+				paragraph{
+					value("#{value(restaurant.location)}")
+				}
+				
+				spacer
+				divider
+				
+				single-line{
+					text{
+						value("등급")
+						style(Detail_M_Soft)
+					}
+				}
+				single-line{
+					text{
+						value("#{value(restaurant.rank)}")
+						style(Detail_M)
+					}
+					spacer
+					image{
+						url(Aimg/star.png)
+						style(Detail_M)
+					}
+					if (restaurant.rank == '매우우수'){
+						image{
+							url(Aimg/star.png)
+							style(Detail_M)
+						}
+						image{
+							url(Aimg/star.png)
+							style(Detail_M)
+						}
+					}
+					else-if(restaurant.rank == '우수'){
+						image{
+							url(Aimg/star.png)
+							style(Detail_M)
+						}
+					}
+				}
+				
+				spacer
+				divider
+				
+				input-cell {
+					label {
+						template ("거리")
+					}
+					value {
+						template ("#{value(restaurant.dagency)}")
+					}
+				}
+				
+				spacer
+				divider
+				
+				attribution-link {
+					label {
+						template ("Naver에서 식당 후기 보기")
+					}
+					url {
+						template ("https://search.naver.com/search.naver?where=post&sm=tab_jum&query=#{value(restaurant.name)}")
+					}
+				}
+				
+			}
+		}
+	}
+}

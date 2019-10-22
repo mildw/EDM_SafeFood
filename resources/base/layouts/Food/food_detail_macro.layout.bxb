@@ -55,55 +55,69 @@ layout{
 							halign (Center)
 							content{
 								single-line{
+									spacer
+									spacer
+									spacer
 									text{
 										value("칼로리")
 										style(Detail_M_Soft)
 									}
 								}
+								single-line{
+									spacer
+									spacer
+									spacer
 								text{
 									value("#{value(food.calorie)}kcal")
 									style(Detail_L)
 								}
+								}
 							}
 						}
+						
 						vbox{
 							halign (Center)
 							content{
 								single-line{
-									image{
-										url("Aimg/S.png")
-										shape (Circle)
-										style(Detail_L)
-									}
-									spacer
-									text{
-										value("당")
-										style(Detail_M_Soft)
-									}
-								}
-								text{
-									value("#{value(food.sugar)}g")
-									style(Detail_L)
-								}
-							}
-						}
-						vbox{
-							halign (Center)
-							content{
-								single-line{
-									image{
-										url("Aimg/N.png")
-										shape (Circle)
-										style(Detail_L)
-									}
+
 									spacer
 									text{
 										value("나트륨")
 										style(Detail_M_Soft)
 									}
+									spacer
+									image{
+										url("Aimg/N.png")
+										shape (Circle)
+										style(Detail_L)
+									}
 								}
 								text{
 									value("#{value(food.natrium)}mg")
+									style(Detail_L)
+								}
+							}
+						}
+
+						vbox{
+							halign (Center)
+							content{
+								single-line{
+									spacer
+									spacer
+									text{
+										value("당")
+										style(Detail_M_Soft)
+									}
+									spacer
+									image{
+										url("Aimg/S.png")
+										shape (Circle)
+										style(Detail_L)
+									}
+								}
+								text{
+									value("#{value(food.sugar)}g")
 									style(Detail_L)
 								}
 							}
@@ -130,6 +144,7 @@ layout{
 										style(Detail_L)
 									}
 								}
+
 								text{
 									value("#{value(food.carbo)}g")
 									style(Detail_L)
@@ -184,11 +199,23 @@ layout{
 				divider
 				spacer
 				
-				image{
-					aspect-ratio(16:9)
-					url("#{value(food.chart)}")
+				if(food.chart != '-'){
+					image{
+						aspect-ratio(16:9)
+						url("#{value(food.chart)}")
+					}
 				}
-				
+				else{
+					single-line{
+						text{
+							value("검색된 식품 성분이 없습니다.")
+							style(Title_XS)
+							color (Blue)
+						}
+					}
+					spacer
+				}
+
 				divider
 				
 				single-line{

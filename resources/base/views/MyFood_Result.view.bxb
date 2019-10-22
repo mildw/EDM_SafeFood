@@ -1,5 +1,5 @@
 result-view {
-  match: MyFood(this) {
+  match: Food(this) {
     from-output: GetMyFoodList()
     from-output: PutMyFood()
   }
@@ -11,11 +11,13 @@ result-view {
       template ("등록된 상품이 없습니다.")
     }
   }
+
+	
 	render {
 		if(exists(this)) {
 			list-of (this) {
 				where-each (food) {
-					layout-macro (food_list_macro) {
+					layout-macro (myfood_list_macro) {
 						param (food) {
 							expression (food)
 						}
@@ -23,5 +25,8 @@ result-view {
 				}
 			}
 		}
+
+		
+
 	}
 }

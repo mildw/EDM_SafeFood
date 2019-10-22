@@ -1,0 +1,33 @@
+result-view {
+	match: Restaurant (restaurant) {
+		from-output: RestaurantFind
+	}
+	
+	message {
+		if (size(restaurant) < 0){
+			template ("등록되있는 정보가 없습니다")
+		}
+		else {
+			template ("검색하신 음식점 결과 입니다.")
+		}
+	}
+	
+	render {
+		if (size(restaurant) > 1) {
+			list-of (restaurant) {
+				has-details (true)
+				where-each (item) {
+					layout-macro (restaurant_compound_card) {
+						param (restaurant) {
+							expression (item)
+						}
+					}
+				}
+			}
+		} else-if (size(restaurant) == 1) {
+			layout-match (restaurant) {
+				mode (Details)
+			}
+		}
+	}
+}
