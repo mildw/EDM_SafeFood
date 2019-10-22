@@ -1,3 +1,3 @@
-text (findRestaurantDnum) {
+text (Lng) {
   description (__DESCRIPTION__)
 }

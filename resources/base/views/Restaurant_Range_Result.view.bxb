@@ -1,0 +1,27 @@
+result-view {
+	match {
+		RestaurantRange (restaurant){
+			from-output: RestaurantSearch
+		}
+	}
+	
+	
+	message ("주변 가게 위생 정보 입니다.")
+	
+	render {
+		
+		if (size(restaurant) > 1) {
+			layout-macro (Restaurant_Range_Card) {
+				param (restaurant) {
+					expression (restaurant)
+				}
+			}
+		}
+		
+		else-if (size(restaurant) == 1) {
+			layout-match (restaurant) {
+				mode (Details)
+			}
+		}
+	}
+}

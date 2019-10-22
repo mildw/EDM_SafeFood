@@ -55,7 +55,6 @@ module.exports.function = function foodSearch(foodName) {
       }
     }
 
-
     ////// 차트를 그릴 수 없는 경우 삽입할 default 이미지 정하기
     list[i]['chart'] = '-';
     ////////////////차트 넣기
@@ -86,3 +85,5 @@ module.exports.function = function foodSearch(foodName) {
   //let findAllergyResult = "찾은 결과";
   return res;
 }
+
+//this[i]['natrium']

@@ -1,0 +1,136 @@
+layout {
+	match: Restaurant(restaurant)
+	mode (Details)
+	
+	content {
+		section {
+			content {
+				map-card {
+					title-area {
+						slot1 {
+							text {
+								value ("")
+							}
+						}
+					}
+					markers {
+						marker {
+							geo (restaurant.destinationPoint)
+							icon ("/img/icons/red-map-marker.png")
+							width (20)
+							height (20)
+							anchor-x (5)
+							anchor-y (15)
+							rotation (0)
+						}
+					}
+				}
+				
+				// single-line{
+				// 	text{
+				// 		value("업소명")
+				// 		style(Detail_M_Soft)
+				// 	}
+				// }
+				spacer
+				single-line{
+					image{
+						url(Aimg/F.png)
+						shape (Square)
+						style(Detail_M)
+					}
+					spacer
+					text{
+						value("#{value(restaurant.name)}")
+						style(Title_XS)
+					}
+				}
+				spacer
+
+				divider
+
+				single-line{
+					text{
+						value("위치")
+						style(Detail_M_Soft)
+					}
+				}
+				paragraph{
+					value("#{value(restaurant.location)}")
+				}
+
+				spacer
+				divider
+
+				single-line{
+					text{
+						value("등급")
+						style(Detail_M_Soft)
+					}
+				}
+				paragraph{
+					value("#{value(restaurant.rank)}")
+				}
+
+				spacer
+				divider
+
+				// single-line{
+				// 	text{
+				// 		value("지정기관")
+				// 		style(Detail_M_Soft)
+				// 	}
+				// }
+				// paragraph{
+				// 	value("#{value(restaurant.dagency)}")
+				// }
+
+				// spacer
+				// divider
+
+				attribution-link {
+					label {
+						template ("Naver에서 식당 후기 보기")
+					}
+					url {
+						template ("https://search.naver.com/search.naver?where=post&sm=tab_jum&query=#{value(restaurant.name)}")
+					}
+				}
+
+
+				// input-cell {
+				// 	label {
+				// 		template ("업소명")
+				// 	}
+				// 	value {
+				// 		template ("#{value(restaurant.name)}")
+				// 	}
+				// }
+				// input-cell {
+				// 	label {
+				// 		template ("위치")
+				// 	}
+				// 	value {
+				// 		template ("#{value(restaurant.location)}")
+				// 	}
+				// }
+				// input-cell {
+				// 	label {
+				// 		template ("등급")
+				// 	}
+				// 	value {
+				// 		template ("#{value(restaurant.rank)}")
+				// 	}
+				// }
+				// input-cell {
+				// 	label {
+				// 		template ("지정 기관")
+				// 	}
+				// 	value {
+				// 		template ("#{value(restaurant.dagency)}")
+				// 	}
+				// }
+			}
+		}
+	}
+}

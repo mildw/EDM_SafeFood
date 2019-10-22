@@ -1,0 +1,5 @@
+train (t-by6z8st84u486nt7yttl35pcs) {
+  utterance ([g:RestaurantRange] 내주변 가게 위생정보 알려줘)
+  plan (Y2BkkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lAAFGEAEA)
+  last-modified (1571635834948)
+}

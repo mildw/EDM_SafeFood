@@ -1,3 +1,3 @@
-text (findRestaurantDdate) {
+text (Name) {
   description (__DESCRIPTION__)
 }

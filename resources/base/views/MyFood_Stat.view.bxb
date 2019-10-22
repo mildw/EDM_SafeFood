@@ -10,19 +10,23 @@ result-view {
 			template ("등록된 상품이 없습니다.")
 		}
 	}
-	// render {
-	// 	if(exists(this)) {
-	// 		list-of (this) {
-	// 			where-each (myFoodImg) {
-	// 				layout-macro (myfood_img_macro) {
-	// 					param (myFoodImg) {
-	// 						expression (myFoodImg)
-	// 					}
-	// 				}
-	// 			}
-	// 		}
-	// 	}
-	// }
+	
+	render {
+		
+		if(exists(this)) {
+			list-of (this) {
+				where-each (myFoodImg) {
+					layout-macro (myfood_img_macro) {
+						param (myFoodImg) {
+							expression (myFoodImg)
+						}
+					}
+				}
+			}
+		}
+		
+		
+	}
 	
 	// MyFoodImg 안에는 내 식품 음식 url 이 배열로 들어있음.
 	// 추가로 필요한 내용 (차트) 추가 예정

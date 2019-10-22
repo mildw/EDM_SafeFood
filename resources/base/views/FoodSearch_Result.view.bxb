@@ -2,6 +2,7 @@ result-view {
 	match{
 		Food(this) {
 			min (Required)
+			from-output: FoodSearch()
 		}
 	}
 	

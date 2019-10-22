@@ -1,0 +1,83 @@
+layout {
+	match: searchRestaurantResult(restaurant)
+	mode (Details)
+	
+	content {
+		section {
+			content {
+				map-card {
+					title-area {
+						slot1 {
+							text {
+								value ("")
+							}
+						}
+					}
+					markers {
+						marker {
+							geo (restaurant.sourcePoint)
+							icon ("/img/icons/green-map-marker.png")
+							width (15)
+							height (20)
+							anchor-x (5)
+							anchor-y (15)
+							rotation (0)
+						}
+						marker {
+							geo (restaurant.destinationPoint)
+							icon ("/img/icons/red-map-marker.png")
+							width (20)
+							height (20)
+							anchor-x (5)
+							anchor-y (15)
+							rotation (0)
+						}
+					}
+				}
+				
+				single-line{
+					text{
+						value("위치")
+						style(Detail_M_Soft)
+					}
+				}
+				paragraph{
+					value("#{value(restaurant.location)}")
+				}
+
+				input-cell {
+					label {
+						template ("업소명")
+					}
+					value {
+						template ("#{value(restaurant.name)}")
+					}
+				}
+				// input-cell {
+				// 	label {
+				// 		template ("위치")
+				// 	}
+				// 	value {
+				// 		template ("#{value(restaurant.location)}")
+				// 	}
+				// }
+				input-cell {
+					label {
+						template ("위생정보")
+					}
+					value {
+						template ("#{value(restaurant.rank)}")
+					}
+				}
+				input-cell {
+					label {
+						template ("거리")
+					}
+					value {
+						template ("#{value(restaurant.dagency)}")
+					}
+				}
+			}
+		}
+	}
+}
