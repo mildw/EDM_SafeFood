@@ -1,0 +1,10 @@
+train (t-tfvqidqdgsr5llxswbgs7c1jr) {
+  utterance ([g:PutMyFood] 식품 추가)
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
+  last-modified (1571707778459)
+}
+train (t-tlve3vggq1e6tszhojz20q9ut) {
+  utterance ("[g:FoodSearch] (구운 돌김)[v:FoodName] 정보 알려줘")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571708097904)
+}

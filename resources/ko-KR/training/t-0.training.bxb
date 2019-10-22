@@ -1,0 +1,5 @@
+train (t-0co7b41g28q6excuy23xiptnb) {
+  utterance ([g:GetMyFoodStat] 내 식품 분석해줘)
+  plan (Y2BiEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGRiBkgGIgCQA=)
+  last-modified (1571707662366)
+}

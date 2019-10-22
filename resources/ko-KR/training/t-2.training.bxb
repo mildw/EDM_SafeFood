@@ -1,3 +1,8 @@
+train (t-2i9k4f3k0r055zrz8ayfv7ov3) {
+  utterance ("[g:FoodSearch] (BBQ)[v:FoodName] 성분이 뭐야")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571708143159)
+}
 train (t-2tsqjywnpfdpv7mqbzx10uktp) {
   utterance ("[g:ThisRestaurant] (분당)[v:RestaurantLocation]에 있는 (피자)[v:RestaurantName] 가게 위생등급 알려줘")
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)

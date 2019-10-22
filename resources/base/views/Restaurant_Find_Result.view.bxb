@@ -1,0 +1,32 @@
+result-view {
+	match {
+		Restaurant (this) {
+			min (Required)
+		}
+	}
+	
+	
+	message {
+		template ("검색하신 음식점 결과 입니다.")
+	}
+	
+	render {
+		if (size(this) > 1) {
+			list-of (this) {
+				where-each (restaurant) {
+					layout-macro (restaurant_compound_card) {
+						param (restaurant) {
+							expression (restaurant)
+						}
+					}
+				}
+			}
+		} else-if (size(this) == 1) {
+			layout-macro (restaurant_details_macro) {
+				param (restaurant) {
+					expression (this)
+				}
+			}
+		}
+	}
+}

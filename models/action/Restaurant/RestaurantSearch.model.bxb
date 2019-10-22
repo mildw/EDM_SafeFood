@@ -1,6 +1,10 @@
 action (RestaurantSearch) {
   description (주변음식점찾아줘)
   collect {
+    input (dummy) {
+      type (Dummy)
+      min (Required) max (One)
+    }
     input (myPoint) {
       type (MyPoint)
       min (Required) max (One)
