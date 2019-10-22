@@ -1,6 +1,12 @@
-layout {
-	match: Restaurant(restaurant)
-	mode (Details)
+layout-macro-def(restaurant_details_macro) {
+  params {
+    param (restaurant) {
+      type (Restaurant)
+      min (Required)
+      max (One)
+    }
+  }
+
 	
 	content {
 		section {

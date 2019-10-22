@@ -1,0 +1,10 @@
+train (t-w0m2ivi1ivd3411x9s6mkj1er) {
+  utterance ("[g:FoodSearch] (3분카레)[v:FoodName] 정보줘")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571708179607)
+}
+train (t-w9u2zc4hjre482740i3ga6d9x) {
+  utterance ([g:GetMyFoodStat] 식품정보 통계내줘)
+  plan (Y2BiEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGRiBkgGIgCQA=)
+  last-modified (1571707687975)
+}

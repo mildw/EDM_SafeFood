@@ -1,0 +1,5 @@
+train (t-ru7hlazmzmpj2o1ha7l5h6zjj) {
+  utterance ("[g:FoodSearch] (스트링 치즈)[v:FoodName] 성분 알려줘")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571708157247)
+}

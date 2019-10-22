@@ -3,3 +3,8 @@ train (t-odw5fnsbubk1lqv4z2juviuto) {
   plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEGl4xnSWouAxMDIxAzAElGBhCA8gE=)
   last-modified (1571675495842)
 }
+train (t-oy0nsa2jmri788o7eoi0z4kcu) {
+  utterance ([g:GetMyFoodList] 나의 식품리스트)
+  plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
+  last-modified (1571707607046)
+}

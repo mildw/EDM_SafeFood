@@ -1,0 +1,10 @@
+train (t-y5huil3wnmmo7x7wnt89b9glp) {
+  utterance ([g:PutMyFood] 이거 내식품에 넣어줘)
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
+  last-modified (1571707823174)
+}
+train (t-y7ydck2en7b6xh0j5jwg2bro9) {
+  utterance ([g:PutMyFood] 추가)
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
+  last-modified (1571707787591)
+}

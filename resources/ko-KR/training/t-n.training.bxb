@@ -1,0 +1,10 @@
+train (t-nesixi4iveq8in1s5141ootw7) {
+  utterance ([g:PutMyFood] 이거 추가해줘)
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
+  last-modified (1571707793728)
+}
+train (t-nl9itq177fz1e6g1e07p1japg) {
+  utterance ("[g:FoodSearch] 찾아봐 (감자칩)[v:FoodName]")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571708066759)
+}
