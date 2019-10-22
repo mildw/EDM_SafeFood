@@ -4,6 +4,10 @@ structure (Restaurant) {
     type (Location)
     min (Required) max (One)
   }
+  property (num) {
+    type (Num)
+    min (Required) max (One)
+  }
   property (name) {
     type (Name)
     min (Required) max (One)

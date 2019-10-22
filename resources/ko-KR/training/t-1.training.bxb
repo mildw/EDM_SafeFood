@@ -1,3 +1,13 @@
+train (t-1121jzzz7gmkenqeydmx3hc4v) {
+  utterance ([g:GetMyFoodStat] 통계)
+  plan (Y2BiEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGRiBkgGIgCQA=)
+  last-modified (1571701088719)
+}
+train (t-1ocb478oo99sbksrvb9gy7g4s) {
+  utterance ([g:GetMyFoodStat] 내가 먹은거 통계내줘)
+  plan (Y2BiEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGRiBkgGIgCQA=)
+  last-modified (1571707655867)
+}
 train (t-1y1tmerp6advsqv4se7hpnn84) {
   utterance ([g:PutMyFood] 내 식품으로 추가해줘)
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)

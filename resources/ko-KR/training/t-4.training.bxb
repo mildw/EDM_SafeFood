@@ -1,0 +1,10 @@
+train (t-4h6makbi4zd0vvt9bfpej9dl9) {
+  utterance ("[g:FoodSearch] (빈츠)[v:FoodName] 찾아줘")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571708131159)
+}
+train (t-4xfhfc6jv5w246xl95jrhtncg) {
+  utterance ([g:GetMyFoodStat] 나의 통계정보 줘)
+  plan (Y2BiEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGRiBkgGIgCQA=)
+  last-modified (1571707649222)
+}
