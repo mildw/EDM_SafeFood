@@ -1,3 +1,8 @@
+train (t-09m7kddn8cmhdy9fcexyp92g9) {
+  utterance ("[g:FoodSearch] (프라임 리얼프랑크)[v:FoodName] 식품정보 검색해라")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571731800622)
+}
 train (t-0co7b41g28q6excuy23xiptnb) {
   utterance ([g:GetMyFoodStat] 내 식품 분석해줘)
   plan (Y2BiEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGRiBkgGIgCQA=)

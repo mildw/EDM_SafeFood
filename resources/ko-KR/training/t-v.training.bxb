@@ -13,3 +13,13 @@ train (t-vjuydbb01liqy776pu70nikt7) {
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
   last-modified (1571725473454)
 }
+train (t-vq5o7bfbcrtnjghuce92rm2df) {
+  utterance ("[g:FindAllergy] (파스타소스)[v:FindAllergyItem] 알러지 성분")
+  plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEGl4xnSWouAxMDIxAzAElGBhCA8gE=)
+  last-modified (1571732176365)
+}
+train (t-vxf73qoci29i4i61qvgwhd9jo) {
+  utterance ([g:DeleteAllFood] 내가고른 식품 전부 삭제해)
+  plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
+  last-modified (1571731985172)
+}

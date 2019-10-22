@@ -1,3 +1,8 @@
+train (t-y0vep3a9xko2tv5jkpxk65dtu) {
+  utterance ("[g:FoodSearch] (두부)[v:FoodName] 식품정보 찾아줄래")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571730452335)
+}
 train (t-y1ixxy0m64vjv4bmrvx1tqio6) {
   utterance ("[g:FoodCompare] 다른점이뭐야 {[g:FoodTwo] (녹차라떼쉬폰)[v:FoodName]}이랑")
   plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
@@ -6,7 +11,7 @@ train (t-y1ixxy0m64vjv4bmrvx1tqio6) {
 train (t-y1xf1c25s7lutztmfm7m5lapq) {
   utterance ("[g:DeleteOneFood] 식품들중에 (토마토)[v:MyFoodName] 없애주세요")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571726413813)
+  last-modified (1571730449536)
 }
 train (t-y5huil3wnmmo7x7wnt89b9glp) {
   utterance ([g:PutMyFood] 이거 내식품에 넣어줘)

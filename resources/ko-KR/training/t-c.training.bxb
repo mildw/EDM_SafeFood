@@ -15,6 +15,6 @@ train (t-c9rbvmzd6bpsv19w2kslinnlb) {
 }
 train (t-cds5e9u0dwt5b0hjjtmt3vac2) {
   utterance ([g:GetMyFoodStat] 내 식품 통계 보여줘)
-  plan (Y2BmEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGERQ5kLB/XioDEwMjEDMASUYGBhgNAA==)
-  last-modified (1571565005623)
+  plan (Y2BiEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGRiBkgGIgCQA=)
+  last-modified (1571726494354)
 }

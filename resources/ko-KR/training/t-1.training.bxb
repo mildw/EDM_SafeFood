@@ -23,3 +23,8 @@ train (t-1y1tmerp6advsqv4se7hpnn84) {
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
   last-modified (1571489833961)
 }
+train (t-1zlx83cv28xkfru01w6cedevh) {
+  utterance ("[g:FindAllergy] (훈제연어)[v:FindAllergyItem] 알레르기 요소")
+  plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEGl4xnSWouAxMDIxAzAElGBhCA8gE=)
+  last-modified (1571732189848)
+}

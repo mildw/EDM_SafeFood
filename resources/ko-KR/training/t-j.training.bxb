@@ -8,3 +8,8 @@ train (t-j2hulq0a25pr4ob6vuuwva89d) {
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1571726337796)
 }
+train (t-jsyo32cks6um5urkpxwg1tz0q) {
+  utterance ("[g:DeleteOneFood] 내식품중 (햄)[v:MyFoodName] 삭제해라")
+  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571731957557)
+}
