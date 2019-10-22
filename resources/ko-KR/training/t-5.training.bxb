@@ -1,3 +1,8 @@
+train (t-57rnpkoq337zqr1qcl469kor9) {
+  utterance ("[g:FoodCompare] {[g:FoodTwo] (맛있는라면)[v:FoodName]}이랑 차이알려줘")
+  plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
+  last-modified (1571709066727)
+}
 train (t-5e7vjxltaw0hnp7lva0vx0qhs) {
   utterance ("[g:FindHandle] (심각한)[v:FindHandleWayH] 알레르기 반응 대처하기")
   last-modified (1571284859312)

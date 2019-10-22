@@ -1,5 +1,30 @@
+train (t-d2dlcnshfs486q1msg44793e3) {
+  utterance ("[g:FindHandle] (가벼운)[v:FindHandleWayL] 알러지 해결하고싶어")
+  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
+  last-modified (1571709940568)
+}
 train (t-d6g9me7brl92c949nw237hijy) {
   utterance ("[g:FoodSearch] (깐쇼)[v:FoodName] 찾아")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1571708049464)
+}
+train (t-dijv3c5rpceijrz2oik8a6nhs) {
+  utterance ("[g:FindHandle] 알레르기 (심각해)[v:FindHandleWayH]")
+  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)
+  last-modified (1571709824960)
+}
+train (t-dji3xu5ogvkdcpjokaxc026qe) {
+  utterance ("[g:FoodCompare] {[g:FoodTwo] (포카칩 구운맛)[v:FoodName]}이랑 뭐가더나빠")
+  plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
+  last-modified (1571709192838)
+}
+train (t-dq0jrlen7y9lsfkcjudfe6uqr) {
+  utterance ("[g:ThisRestaurant] (경기도)[v:RestaurantLocation] (에이치)[v:RestaurantName] 위생등급")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571710524348)
+}
+train (t-dqewpn1fj9iay023569nctcng) {
+  utterance ([g:DeleteAllFood] 나의 식품정보 모두 삭제해)
+  plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
+  last-modified (1571708699248)
 }

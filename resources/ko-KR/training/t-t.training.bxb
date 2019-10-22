@@ -1,3 +1,8 @@
+train (t-t044hbl1tukr0dof2b2w8h426) {
+  utterance ("[g:FoodSearch] (샐러드)[v:FoodName] 식품정보 줘")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571716252255)
+}
 train (t-tfvqidqdgsr5llxswbgs7c1jr) {
   utterance ([g:PutMyFood] 식품 추가)
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)

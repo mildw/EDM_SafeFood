@@ -8,3 +8,8 @@ train (t-6k07mf5m0dbwihmljy6bm4xqx) {
   plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
   last-modified (1571707589903)
 }
+train (t-6s92ioawsqq2r0iwc9q7b4v5q) {
+  utterance ("[g:FoodSearch] (김치)[v:FoodName] 정보 찾아")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571716131950)
+}

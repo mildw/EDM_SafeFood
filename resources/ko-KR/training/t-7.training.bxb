@@ -1,0 +1,5 @@
+train (t-7zrx1xoxdv2mak1rpkoyr4y1n) {
+  utterance ([g:DeleteAllFood] 내꺼 다 삭제해)
+  plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
+  last-modified (1571708731140)
+}

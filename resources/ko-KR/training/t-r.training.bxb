@@ -1,3 +1,8 @@
+train (t-romssd7pkmnboxl4tpxn9u3vu) {
+  utterance ("[g:FindHandle] (미미한)[v:FindHandleWayL] 알러지 대처법 알려줘")
+  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
+  last-modified (1571709907910)
+}
 train (t-ru7hlazmzmpj2o1ha7l5h6zjj) {
   utterance ("[g:FoodSearch] (스트링 치즈)[v:FoodName] 성분 알려줘")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)

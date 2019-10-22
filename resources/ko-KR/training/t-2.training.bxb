@@ -1,3 +1,8 @@
+train (t-27jh9vwvzsm6fdyh7i0ktfcjm) {
+  utterance ("[g:FindHandle] (심각한)[v:FindHandleWayH] 알레르기")
+  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)
+  last-modified (1571709699526)
+}
 train (t-2i9k4f3k0r055zrz8ayfv7ov3) {
   utterance ("[g:FoodSearch] (BBQ)[v:FoodName] 성분이 뭐야")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
@@ -7,4 +12,9 @@ train (t-2tsqjywnpfdpv7mqbzx10uktp) {
   utterance ("[g:ThisRestaurant] (분당)[v:RestaurantLocation]에 있는 (피자)[v:RestaurantName] 가게 위생등급 알려줘")
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
   last-modified (1571641903101)
+}
+train (t-2u0671mq7x2wvuc7qwdp8nst9) {
+  utterance ([g:DeleteAllFood] 내정보 다 삭제해줘)
+  plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
+  last-modified (1571708715359)
 }

@@ -1,3 +1,8 @@
+train (t-c30vbk6erahis1ndexr6348n0) {
+  utterance ("[g:ThisRestaurant] (인천)[v:RestaurantLocation]에 (쭈꾸미)[v:RestaurantName] 위생등급 알려줘")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571710503962)
+}
 train (t-cds5e9u0dwt5b0hjjtmt3vac2) {
   utterance ([g:GetMyFoodStat] 내 식품 통계 보여줘)
   plan (Y2BmEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGERQ5kLB/XioDEwMjEDMASUYGBhgNAA==)

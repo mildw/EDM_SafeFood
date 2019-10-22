@@ -3,6 +3,11 @@ train (t-m1h24i1d5h1kurdvg6fcbohzb) {
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
   last-modified (1571707800638)
 }
+train (t-m2cq2jplc2ord0cxrwnoi8ck5) {
+  utterance ([g:DeleteAllFood] 삭제해 다)
+  plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
+  last-modified (1571708743238)
+}
 train (t-mm886io0k796exh93fdlqrwkz) {
   utterance ([g:GetMyFoodList] 내 식품들 보여)
   plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)

@@ -1,0 +1,5 @@
+train (t-zig1lvn360np4x3n6rgt7nbao) {
+  utterance ("[g:FoodSearch] (추어탕)[v:FoodName] 식품 찾아줘")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571716199606)
+}

@@ -13,3 +13,8 @@ train (t-8fvz3wxagpnxqm9lk1dwvb0qx) {
   plan (Y2BiEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGRiBkgGIgCQA=)
   last-modified (1571707701719)
 }
+train (t-8kotvqlutoq79pac4blsxwnv2) {
+  utterance ("[g:FindHandle] (간지러운)[v:FindHandleWayL] 알러지 해결방법")
+  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
+  last-modified (1571709952947)
+}
