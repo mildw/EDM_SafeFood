@@ -15,6 +15,7 @@ result-view {
 		
 		if(exists(this)) {
 			list-of (this) {
+				has-details (false)
 				where-each (myFoodImg) {
 					layout-macro (myfood_img_macro) {
 						param (myFoodImg) {

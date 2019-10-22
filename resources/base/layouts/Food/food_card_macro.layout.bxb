@@ -37,14 +37,6 @@ layout-macro-def(food_card_macro) {
 					}
 					style (Detail_L)
 				}
-				// single-line {
-				//   text {
-				//     value {
-				//       template ("#{value(flower.deliveryType)}")
-				//     }
-				//     style (Detail_M_Soft)
-				//   }
-				// }
 			}
 		}
 	}

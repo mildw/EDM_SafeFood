@@ -27,7 +27,7 @@ layout-macro-def(findAllergy-header) {
 						single-line {
 							text {
 								value ("#{value(findAllergyResults.allergy)}")
-								style (Detail_L_Soft)
+								style (Detail_L)
 							}
 						}
 					}
@@ -41,32 +41,32 @@ layout-macro-def(findAllergy-header) {
 				
 				spacer
 
-				cell-card{
-					on-click{
-						intent{
-							goal : FoodSearch
-						}
-					}
+				// cell-card{
+				// 	on-click{
+				// 		intent{
+				// 			goal : FoodSearch
+				// 		}
+				// 	}
 
-					slot1{
-						image{
-							url ("[#{value(findAllergyResults.allergy_set[0])}]")
-							shape (Circle)
-							background-color (Transparent)
-						}
-					}
+				// 	slot1{
+				// 		image{
+				// 			url ("[#{value(findAllergyResults.allergy_set[0])}]")
+				// 			shape (Circle)
+				// 			background-color (Transparent)
+				// 		}
+				// 	}
 
-					slot2{
-						content{
-							primary{
-								template ("식품정보 더 보기")
-							}
-							secondary{
-								template (Click here)
-							}
-						}
-					}
-				}
+				// 	slot2{
+				// 		content{
+				// 			primary{
+				// 				template ("식품정보 더 보기")
+				// 			}
+				// 			secondary{
+				// 				template (Click here)
+				// 			}
+				// 		}
+				// 	}
+				// }
 			}
 		}
 		

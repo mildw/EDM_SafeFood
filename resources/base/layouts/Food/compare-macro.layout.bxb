@@ -14,8 +14,6 @@ layout-macro-def(compare-macro) {
 			aspect-ratio (3:4)
 			image-url ("#{value(food.imgurl1)}")
 
-      
-
 			title-area{
 				slot1{
 					text{

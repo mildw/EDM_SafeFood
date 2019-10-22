@@ -11,6 +11,8 @@ result-view {
       template ("등록된 상품이 없습니다.")
     }
   }
+
+	
 	render {
 		if(exists(this)) {
 			list-of (this) {
@@ -23,6 +25,8 @@ result-view {
 				}
 			}
 		}
+
+		
 
 	}
 }

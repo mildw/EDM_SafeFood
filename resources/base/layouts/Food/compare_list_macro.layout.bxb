@@ -7,14 +7,6 @@ layout-macro-def(compare_list_macro) {
 		}
 	}
 
-	// content {
-	// 	section{
-	// 		content{
-
-	// 		}
-	// 	}
-	// }
-
 	content {
 
 		image-card{
@@ -38,44 +30,5 @@ layout-macro-def(compare_list_macro) {
 				}
 			}
 		}
-		
-		// thumbnail-card {
-		// 	image-position (End)
-		// 	image-url ("[#{value(food.imgurl1)}]")
-		// 	title-area {
-		// 		halign (Start)
-		// 		slot1 {
-		// 			single-line{
-		// 				image{
-		// 					shape (Circle)
-		// 					url ("/img/logo_img.png")
-		// 					style(Detail_M)
-		// 				}
-		// 				spacer
-		// 				text {
-		// 					value  ("#{value (food.prdlstNm)}")
-		// 					style (Title_XS)
-		// 				}
-		// 			}
-		// 		}
-		// 		slot2 {
-		// 			single-line {
-		// 				text {
-		// 					value ("#{value (food.natrium)}")
-		// 					style (Detail_L_Soft)
-		// 				}
-		// 			}
-		// 		}
-
-		// 		slot3{
-		// 			single-line {
-		// 				text {
-		// 					value ("#{value (food.manufacture)}")
-		// 					style (Detail_L_Soft)
-		// 				}
-		// 			}
-		// 		}
-		// 	}
-		// }
 	}
 }
