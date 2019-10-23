@@ -14,7 +14,7 @@ train (t-5jixlvwvrxt0j3s9hhjzlq1mr) {
   last-modified (1571821084160)
 }
 train (t-5ot0xnco3hghd20hywbg2id53) {
-  utterance ("[g:FindAllergy] (자몽)[v:FoodName]이 알러지를 유발할까")
+  utterance ("[g:FindAllergy] (자몽)[v:FoodName]이 알러지를 유발하나요\n")
   plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGZgYGIGYAUgyMoAAlA8A)
-  last-modified (1571825044699)
+  last-modified (1571846482004)
 }

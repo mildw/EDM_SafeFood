@@ -1,7 +1,7 @@
 train (t-a4esnkvw017f5pchpcs2g6l8q) {
-  utterance ("[g:ThisRestaurant] (경상남도)[v:RestaurantLocation] (횟집)[v:RestaurantName]은 어때")
-  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
-  last-modified (1571725386628)
+  utterance ("[g:RestaurantFind] (경상남도)[v:RestaurantLocation]에 있는 (횟집)[v:RestaurantName] 위생등급 찾아줘")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1571848856653)
 }
 train (t-aui9muqbw4jqpxwq7f3n6e7nc) {
   utterance ("[g:DeleteOneFood] 내상품중 (떡갈비)[v:MyFoodName]인 것들 삭제해줘")

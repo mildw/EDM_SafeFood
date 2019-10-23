@@ -4,7 +4,12 @@ train (t-09m7kddn8cmhdy9fcexyp92g9) {
   last-modified (1571731800622)
 }
 train (t-0ap0p7x2s8hlf8t65033h3d12) {
-  utterance ([g:RestaurantRange] 근방에 청결한 식당 찾아줘)
-  plan (Y2BkkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lAAFGEAEA)
-  last-modified (1571819463384)
+  utterance ([g:RestaurantSearch] 근방에 위생 청결한 식당 찾아줘)
+  plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)
+  last-modified (1571847688849)
+}
+train (t-0idzdfb84fdb73sj6jn0ny56k) {
+  utterance ([g:GetMyFoodStat] 식품정보 통계내줘)
+  plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
+  last-modified (1571845698934)
 }

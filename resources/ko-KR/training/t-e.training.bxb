@@ -3,13 +3,18 @@ train (t-eex9k6zcqqz1ee7hhxf39ztjp) {
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
   last-modified (1571734209537)
 }
+train (t-ehimkyn3ur4m6gucjfq6sgzye) {
+  utterance ([g:GetMyFoodStat] 내 식품리스트 통계 내줘)
+  plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
+  last-modified (1571845456067)
+}
 train (t-eoig7x1ydnj475g3jhyp1ljkr) {
   utterance ("[g:FindHandle] (심한)[v:FindHandleWayH:심각한] 알러지")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)
   last-modified (1571734284721)
 }
 train (t-eoua1yzw78idjj1u2y7c41g02) {
-  utterance ([g:RestaurantRange] 근방에 위생 좋은 식당 찾아놔)
-  plan (Y2BkkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lAAFGEAEA)
-  last-modified (1571820464823)
+  utterance ([g:RestaurantSearch] 근방에 위생 좋은 식당 찾아놔)
+  plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)
+  last-modified (1571847787578)
 }

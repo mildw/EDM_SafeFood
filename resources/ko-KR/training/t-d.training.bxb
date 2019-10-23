@@ -13,18 +13,13 @@ train (t-dijv3c5rpceijrz2oik8a6nhs) {
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)
   last-modified (1571734238057)
 }
-train (t-dji3xu5ogvkdcpjokaxc026qe) {
-  utterance ("[g:FoodCompare] {[g:FoodTwo] (포카칩 구운맛)[v:FoodName]}이랑 뭐가더나빠")
-  plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
-  last-modified (1571709192838)
-}
 train (t-dncc7jeuw6mcoawwysllqsm6g) {
-  utterance ([g:RestaurantRange] 근처에 깨끗한 식당 찾아줄래)
-  plan (Y2BkkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lAAFGEAEA)
-  last-modified (1571819433099)
+  utterance ([g:RestaurantSearch] 근처에 깨끗한 식당 찾아줄래)
+  plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)
+  last-modified (1571847710969)
 }
 train (t-dq0jrlen7y9lsfkcjudfe6uqr) {
-  utterance ("[g:ThisRestaurant] (경기도)[v:RestaurantLocation] (에이치)[v:RestaurantName] 위생등급")
-  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
-  last-modified (1571710524348)
+  utterance ("[g:RestaurantFind] (경기도)[v:RestaurantLocation]에 (에이치)[v:RestaurantName] 위생등급 찾아줘")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1571848936259)
 }

@@ -1,12 +1,12 @@
 train (t-c30vbk6erahis1ndexr6348n0) {
-  utterance ("[g:ThisRestaurant] (인천)[v:RestaurantLocation]에 (쭈꾸미)[v:RestaurantName] 위생등급 알려줘")
-  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
-  last-modified (1571710503962)
+  utterance ("[g:RestaurantFind] (인천)[v:RestaurantLocation]에 있는 (쭈꾸미)[v:RestaurantName]집 위생등급 알려줘")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1571848729265)
 }
 train (t-c9rbvmzd6bpsv19w2kslinnlb) {
-  utterance ("[g:ThisRestaurant] (충청남도)[v:RestaurantLocation] (사보텐)[v:RestaurantName] 에대해 알려줘")
-  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
-  last-modified (1571725320683)
+  utterance ("[g:RestaurantFind] (충청남도)[v:RestaurantLocation]에 (사보텐)[v:RestaurantName] 정보 검색해줘")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1571848917673)
 }
 train (t-cxnr6r1on0n23osrk8z9fb5to) {
   utterance ("[g:FoodSearch] (샐러드)[v:FoodName] 상품정보 알려줘")

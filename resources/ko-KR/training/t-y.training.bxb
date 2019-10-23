@@ -1,8 +1,3 @@
-train (t-y1ixxy0m64vjv4bmrvx1tqio6) {
-  utterance ("[g:FoodCompare] 다른점이뭐야 {[g:FoodTwo] (녹차라떼쉬폰)[v:FoodName]}이랑")
-  plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
-  last-modified (1571709144442)
-}
 train (t-y5huil3wnmmo7x7wnt89b9glp) {
   utterance ([g:PutMyFood] 이거 내식품에 넣어줘)
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
@@ -17,9 +12,4 @@ train (t-y7ydck2en7b6xh0j5jwg2bro9) {
   utterance ([g:PutMyFood] 추가)
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
   last-modified (1571707787591)
-}
-train (t-ydsfhbz1nz1wgyexmvntvwsbe) {
-  utterance ("[g:FoodCompare] {[g:FoodTwo] (고구마케이크)[v:FoodName]}랑 어떻게 달라")
-  plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
-  last-modified (1571709122397)
 }

@@ -19,7 +19,7 @@ train (t-rrm65nt2p9qbb7mbo9c57ba7c) {
   last-modified (1571823514379)
 }
 train (t-ry65gsiy7yofjnwag1fi53kys) {
-  utterance ([g:RestaurantRange] 근처에 위생 좋은 식당 알아봐줘)
-  plan (Y2BkkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lAAFGEAEA)
-  last-modified (1571820437360)
+  utterance ([g:RestaurantSearch] 근처에 위생 좋은 식당 알아봐줘)
+  plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)
+  last-modified (1571847822250)
 }

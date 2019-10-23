@@ -3,6 +3,11 @@ train (t-p3153o06fam4q6wlaq53o5dob) {
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
   last-modified (1571707815911)
 }
+train (t-p5o5v1vwr32c47q1i40hit7bc) {
+  utterance ("[g:FoodSearch] (신라면)[v:FoodName] 식품정보 찾아줘")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571840163752)
+}
 train (t-pnn37xuhqm6z5gn55y77rqtug) {
   utterance ("[g:FindAllergy] (오징어)[v:FoodName]가 알레르기 성분을 가지고있니")
   plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGZgYGIGYAUgyMoAAlA8A)
@@ -24,7 +29,7 @@ train (t-px92gsapkoae4z1oo36p33vio) {
   last-modified (1571824400130)
 }
 train (t-px9x7pdxy11u0de8ceurvz1il) {
-  utterance ([g:RestaurantRange] 여기서 위생 좋은 식당은 어디니)
-  plan (Y2BkkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lAAFGEAEA)
-  last-modified (1571820553416)
+  utterance ([g:RestaurantSearch] 여기서 위생좋은 식당은 어디니)
+  plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)
+  last-modified (1571848009414)
 }

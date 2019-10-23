@@ -4,9 +4,9 @@ train (t-8kotvqlutoq79pac4blsxwnv2) {
   last-modified (1571733570179)
 }
 train (t-8nsl6ka6y8ui9bhwxllqczj5u) {
-  utterance ([g:RestaurantRange] 지금 주변에 위생 좋은 식당 어디야)
-  plan (Y2BkkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lAAFGEAEA)
-  last-modified (1571820514034)
+  utterance ([g:RestaurantSearch] 지금 주변에 위생 좋은 식당 어디야)
+  plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)
+  last-modified (1571847705492)
 }
 train (t-8tjcbf96xpxcqmak9fim3gom5) {
   utterance ("[g:DeleteOneFood] 내 리스트에 (족발)[v:MyFoodName] 제거해줘")

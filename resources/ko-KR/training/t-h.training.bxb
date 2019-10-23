@@ -3,6 +3,11 @@ train (t-hjjyrduvcb0d3hton1t7x3jwt) {
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1571716206975)
 }
+train (t-hs5444tdsbm4jx2yaw46jso8r) {
+  utterance ("[g:FoodCompare] {[g:FoodTwo] (불짬봉)[v:FoodName]}이랑 비교해봐")
+  plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
+  last-modified (1571844330314)
+}
 train (t-hu4uwc46hclpvvt23bmgk960c) {
   utterance ("[g:FindHandle] 나 알레르기 (심각해)[v:FindHandleWayH:심각한]")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)

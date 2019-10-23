@@ -4,7 +4,7 @@ train (t-kf4c3fvhpa876ctsczrkfgjqz) {
   last-modified (1571733573641)
 }
 train (t-kp9xah78c6qolz0rrs7nyck1a) {
-  utterance ("[g:ThisRestaurant] (서울)[v:RestaurantLocation]에 (토다이)[v:RestaurantName] 위생등급 알아와")
-  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
-  last-modified (1571710487763)
+  utterance ("[g:RestaurantFind] (서울)[v:RestaurantLocation]에 (토다이)[v:RestaurantName] 위생등급 알려줘")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1571848977964)
 }

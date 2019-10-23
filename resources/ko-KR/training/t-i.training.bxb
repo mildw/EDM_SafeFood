@@ -9,7 +9,7 @@ train (t-ibg8shpb4wwhf7434thb969n7) {
   last-modified (1571716066447)
 }
 train (t-irmdo5z1jw9epqg6wbdon7v04) {
-  utterance ("[g:ThisRestaurant] (충청남도)[v:RestaurantLocation]에 (사보텐)[v:RestaurantName] 에대해 알려줘")
-  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
-  last-modified (1571710553381)
+  utterance ("[g:RestaurantFind] (충청남도)[v:RestaurantLocation]에 (사보텐)[v:RestaurantName] 에대해 알려줘")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1571848379652)
 }

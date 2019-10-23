@@ -4,14 +4,14 @@ train (t-sag9kpialztrwpjksdlaod05c) {
   last-modified (1571827480242)
 }
 train (t-sc23foa1hn2nzkqwi2nm7p9lu) {
-  utterance ("[g:ThisRestaurant] (인천)[v:RestaurantLocation]에 (햄버거)[v:RestaurantName]집 위생등급 알려줘")
-  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
-  last-modified (1571675996270)
+  utterance ("[g:RestaurantFind] (인천)[v:RestaurantLocation]에 (햄버거)[v:RestaurantName]집 위생등급 알려줘")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1571848564377)
 }
 train (t-sm4x5lw2nvub62xzrlsypn8yd) {
-  utterance ("[g:FindAllergy] 알러지 될만한게 (딸기)[v:FoodName]에 있을까")
+  utterance ("[g:FindAllergy] 알러지 성분이 (딸기)[v:FoodName]에 있을까")
   plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGZgYGIGYAUgyMoAAlA8A)
-  last-modified (1571824753605)
+  last-modified (1571846567290)
 }
 train (t-sn0cnbiqh4mvyhda3frrs6yh8) {
   utterance ([g:PutMyFood] 이식품 추가해줘)
@@ -19,9 +19,9 @@ train (t-sn0cnbiqh4mvyhda3frrs6yh8) {
   last-modified (1571823545492)
 }
 train (t-srq5d6qkseuldt4obodywumfz) {
-  utterance ("[g:ThisRestaurant] (부산)[v:RestaurantLocation] (웰스토리)[v:RestaurantName]는 좋니")
-  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
-  last-modified (1571725415628)
+  utterance ("[g:RestaurantFind] (부산)[v:RestaurantLocation]에 있는 (웰스토리)[v:RestaurantName]는 위생상태가 좋니")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1571849016252)
 }
 train (t-ssze2pnbssrwfzhu1znv0gg25) {
   utterance ("[g:FindAllergy] (치킨너겟)[v:FoodName]에  알레르기 유발 성분 뭐있을까")

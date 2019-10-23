@@ -1,3 +1,8 @@
+train (t-60c2g3qd5qw0a99jxanlloah8) {
+  utterance ([g:GetMyFoodStat] 내 식품 분석해줘)
+  plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
+  last-modified (1571845542875)
+}
 train (t-67kf2svpq4cxldje9swtw6f4a) {
   utterance ("[g:FindHandle] (심한)[v:FindHandleWayH:심각한] 알레르기 대처법")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)

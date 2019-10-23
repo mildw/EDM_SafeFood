@@ -4,14 +4,14 @@ train (t-1e3cgbic4fhysc0d2j5bp1x3h) {
   last-modified (1571709101695)
 }
 train (t-1ncmt2lr7qnrb537fmj0gjyap) {
-  utterance ([g:RestaurantRange] 가까운곳에 위생 좋은 식당 찾아줘)
-  plan (Y2BkkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lAAFGEAEA)
-  last-modified (1571819420758)
+  utterance ("[g:RestaurantSearch] 가까운곳에 위생좋은 식당 찾아주세요\n")
+  plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)
+  last-modified (1571847990098)
 }
 train (t-1vv8jncrhyb846pnwicekq97u) {
-  utterance ("[g:FindAllergy] (김치)[v:FoodName]에 알러지 될만한게 있니")
+  utterance ("[g:FindAllergy] (김치)[v:FoodName]에 알러지유발 성분 있니")
   plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGZgYGIGYAUgyMoAAlA8A)
-  last-modified (1571824711887)
+  last-modified (1571846503491)
 }
 train (t-1wu9ao8d4efjgdqpgqv2adjek) {
   utterance ("[g:FindHandle] (심각한)[v:FindHandleWayH:심각한] 알러지")
