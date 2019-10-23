@@ -1,7 +1,7 @@
 train (t-80x8lr1dngr293995wpfuc9l0) {
   utterance ([g:GetMyFoodStat] 식품 리스트 분석해줘)
-  plan (Y2BiEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGRiBkgGIgCQA=)
-  last-modified (1571707679255)
+  plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
+  last-modified (1571841842538)
 }
 train (t-8a1u4je6cwngh0ydoaqyf6cvh) {
   utterance ("[g:DeleteOneFood] 내 식품에서 (감자칩)[v:MyFoodName] 빼줘")
@@ -15,8 +15,8 @@ train (t-8cunl0q3tkaj54zbdkaizfbez) {
 }
 train (t-8fvz3wxagpnxqm9lk1dwvb0qx) {
   utterance ([g:GetMyFoodStat] 그래프 보여줘)
-  plan (Y2BiEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGRiBkgGIgCQA=)
-  last-modified (1571707701719)
+  plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
+  last-modified (1571841843013)
 }
 train (t-8kotvqlutoq79pac4blsxwnv2) {
   utterance ("[g:FindHandle] (간지러운)[v:FindHandleWayL:미미한] 알러지 해결방법")

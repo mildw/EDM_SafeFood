@@ -5,8 +5,8 @@ train (t-ob3coibj0xkcd89dhs58cwe36) {
 }
 train (t-odw5fnsbubk1lqv4z2juviuto) {
   utterance ("[g:FindAllergy] (신라면)[v:FindAllergyItem] 알레르기 찾아내")
-  plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEGl4xnSWouAxMDIxAzAElGBhCA8gE=)
-  last-modified (1571675495842)
+  plan (Y2BmkElNydUrTkxLTcvPT9Fzy8xLcczJSS1Kr/QsSc1lEESVBRIMErg0MDAyMAExI5hmYgACAA==)
+  last-modified (1571841855085)
 }
 train (t-oeozy37y6pailpmws387jlyoz) {
   utterance ("[g:FoodCompare] {[g:FoodTwo] (짱구)[v:FoodName]}랑 비교")

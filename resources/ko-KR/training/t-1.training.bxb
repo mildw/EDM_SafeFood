@@ -1,7 +1,7 @@
 train (t-1121jzzz7gmkenqeydmx3hc4v) {
   utterance ([g:GetMyFoodStat] 통계)
-  plan (Y2BiEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGRiBkgGIgCQA=)
-  last-modified (1571701088719)
+  plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
+  last-modified (1571841838317)
 }
 train (t-1e3cgbic4fhysc0d2j5bp1x3h) {
   utterance ("[g:FoodCompare] {[g:FoodTwo] (삼양라면)[v:FoodName]}과 차이가뭐야")
@@ -10,8 +10,8 @@ train (t-1e3cgbic4fhysc0d2j5bp1x3h) {
 }
 train (t-1ocb478oo99sbksrvb9gy7g4s) {
   utterance ([g:GetMyFoodStat] 내가 먹은거 통계내줘)
-  plan (Y2BiEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGRiBkgGIgCQA=)
-  last-modified (1571707655867)
+  plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
+  last-modified (1571841840355)
 }
 train (t-1wu9ao8d4efjgdqpgqv2adjek) {
   utterance ("[g:FindHandle] (심각한)[v:FindHandleWayH:심각한] 알러지")
@@ -25,6 +25,6 @@ train (t-1y1tmerp6advsqv4se7hpnn84) {
 }
 train (t-1zlx83cv28xkfru01w6cedevh) {
   utterance ("[g:FindAllergy] (훈제연어)[v:FindAllergyItem] 알레르기 요소")
-  plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEGl4xnSWouAxMDIxAzAElGBhCA8gE=)
-  last-modified (1571732189848)
+  plan (Y2BmkElNydUrTkxLTcvPT9Fzy8xLcczJSS1Kr/QsSc1lEESVBRIMErg0MDAyMAExI5hmYgACAA==)
+  last-modified (1571841838939)
 }

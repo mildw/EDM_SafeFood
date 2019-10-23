@@ -1,7 +1,7 @@
 train (t-s72jwki1clq3w518am3968emp) {
   utterance ([g:GetMyFoodStat] 식품 통계 보여줘)
-  plan (Y2BiEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGRiBkgGIgCQA=)
-  last-modified (1571707671750)
+  plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
+  last-modified (1571841858074)
 }
 train (t-sc23foa1hn2nzkqwi2nm7p9lu) {
   utterance ("[g:ThisRestaurant] (인천)[v:RestaurantLocation]에 (햄버거)[v:RestaurantName]집 위생등급 알려줘")

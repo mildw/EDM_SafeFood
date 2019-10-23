@@ -15,8 +15,8 @@ train (t-vjuydbb01liqy776pu70nikt7) {
 }
 train (t-vq5o7bfbcrtnjghuce92rm2df) {
   utterance ("[g:FindAllergy] (파스타소스)[v:FindAllergyItem] 알러지 성분")
-  plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEGl4xnSWouAxMDIxAzAElGBhCA8gE=)
-  last-modified (1571732176365)
+  plan (Y2BmkElNydUrTkxLTcvPT9Fzy8xLcczJSS1Kr/QsSc1lEESVBRIMErg0MDAyMAExI5hmYgACAA==)
+  last-modified (1571841861321)
 }
 train (t-vxf73qoci29i4i61qvgwhd9jo) {
   utterance ([g:DeleteAllFood] 내가고른 식품 전부 삭제해)

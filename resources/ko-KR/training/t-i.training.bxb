@@ -5,8 +5,8 @@ train (t-ibg8shpb4wwhf7434thb969n7) {
 }
 train (t-iezuabxdjyp0vtun1myy0j247) {
   utterance ("[g:FindAllergy] (진라면)[v:FindAllergyItem] 알러지 찾아")
-  plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEGl4xnSWouAxMDIxAzAElGBhCA8gE=)
-  last-modified (1571675191755)
+  plan (Y2BmkElNydUrTkxLTcvPT9Fzy8xLcczJSS1Kr/QsSc1lEESVBRIMErg0MDAyMAExI5hmYgACAA==)
+  last-modified (1571841849914)
 }
 train (t-irmdo5z1jw9epqg6wbdon7v04) {
   utterance ("[g:ThisRestaurant] (충청남도)[v:RestaurantLocation]에 (사보텐)[v:RestaurantName] 에대해 알려줘")

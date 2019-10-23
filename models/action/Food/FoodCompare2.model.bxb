@@ -23,5 +23,17 @@ action (FoodCompare2) {
 			// }
 		}
 	}
-	output (CompareResult)
+	output (CompareResult) {
+		throws {
+			error (Error) {
+				on-catch {
+					halt {
+						dialog {
+							template ("공공데이터 서버 또는 외부 서버 통신에 문제가 발생했습니다.	잠시후 다시 시도해 주세요")
+						}
+					}
+				}
+			}
+		}
+	}
 }

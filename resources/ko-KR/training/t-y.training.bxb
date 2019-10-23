@@ -35,8 +35,8 @@ train (t-ydsfhbz1nz1wgyexmvntvwsbe) {
 }
 train (t-yrp7q2a51dh5ay9dtq17srum0) {
   utterance ("[g:FindAllergy] (체리에이드)[v:FindAllergyItem]의 알러지 찾아줄래")
-  plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEGl4xnSWouAxMDIxAzAElGBhCA8gE=)
-  last-modified (1571732823277)
+  plan (Y2BmkElNydUrTkxLTcvPT9Fzy8xLcczJSS1Kr/QsSc1lEESVBRIMErg0MDAyMAExI5hmYgACAA==)
+  last-modified (1571841864991)
 }
 train (t-yvc6v32biq4o8jw3gpagncqdq) {
   utterance ("[g:RestaurantRange] (동네)[v:Dummy] 가게 정보 알려줘")

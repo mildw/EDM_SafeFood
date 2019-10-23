@@ -2,8 +2,9 @@
 
 var http = require('http')
 var secret = require('secret')
-var properties = require('./properties.js')
 var console = require('console')
+var fail = require('fail')
+var config = require('config')
 
 module.exports = {
   deleteAllFood: deleteAllFood,
@@ -14,172 +15,192 @@ module.exports = {
 }
 
 function deleteAllFood(bixbyUserId) {
-  var myFood = getMyFoodId(bixbyUserId, "")
-  for (var i = 0; i < myFood.length; i++) {
-    var dbId = myFood[i]
-    console.log(dbId)
-    var url = "https://bixby-0c0f.restdb.io/rest/edm-safefood/" + dbId;
-    var query = {
-      apikey: secret.get('apikey'),
+  try {
+    var myFood = getMyFoodId(bixbyUserId, "")
+    for (var i = 0; i < myFood.length; i++) {
+      var dbId = myFood[i]
+      console.log(dbId)
+      var url = config.get('myFoodUrl') + "/" + dbId;
+      var query = {
+        apikey: secret.get('apikey'),
+      }
+      var options = {
+        format: "json",
+        query: query,
+        cacheTime: 0
+      }
+      var response = http.deleteUrl(url, {}, options)
+      if (!response) {
+        return false;
+      }
     }
-    var options = {
-      format: "json",
-      query: query,
-      cacheTime: 0
-    }
-    var response = http.deleteUrl(url, {}, options)
-    if (!response) {
+    if (myFood.length == 0)
       return false;
-    }
+    return true;
+  } catch (e) {
+    throw fail.checkedError('', 'Error', {});
   }
-  if (myFood.length == 0)
-    return false;
-  return true;
 }
 
 function deleteOneFood(bixbyUserId, myFoodName) {
-  var myFood = getMyFoodId(bixbyUserId, myFoodName)
-  for (var i = 0; i < myFood.length; i++) {
-    var dbId = myFood[i]
-    console.log(dbId)
-    var url = "https://bixby-0c0f.restdb.io/rest/edm-safefood/" + dbId;
-    var query = {
-      apikey: secret.get('apikey'),
+  try {
+    var myFood = getMyFoodId(bixbyUserId, myFoodName)
+    for (var i = 0; i < myFood.length; i++) {
+      var dbId = myFood[i]
+      console.log(dbId)
+      var url = config.get('myFoodUrl') + "/" + dbId;
+      var query = {
+        apikey: secret.get('apikey'),
+      }
+      var options = {
+        format: "json",
+        query: query,
+        cacheTime: 0
+      }
+      var response = http.deleteUrl(url, {}, options)
+      if (!response) {
+        return false;
+      }
     }
-    var options = {
+    if (myFood.length == 0)
+      return false;
+    return true;
+  } catch (e) {
+    throw fail.checkedError('', 'Error', {});
+  }
+}
+
+function putMyFood(bixbyUserId, myFood) {
+  try {
+    const url = config.get('myFoodUrl');
+    const query = {
+      apikey: secret.get('apikey')
+    }
+    const body = {}
+    body[config.get('myFoodIdField')] = bixbyUserId
+    body[config.get('myFoodField1')] = JSON.stringify(myFood)
+    body[config.get('myFoodField2')] = myFood['prdlstNm']
+    //console.log(myFood)
+
+    const options = {
       format: "json",
       query: query,
       cacheTime: 0
     }
-    var response = http.deleteUrl(url, {}, options)
-    if (!response) {
-      return false;
+    const response = http.postUrl(url, body, options)
+    if (response) {
+      return getMyFoodList(bixbyUserId);
     }
-  }
-  if (myFood.length == 0)
-    return false;
-  return true;
-}
-
-function putMyFood(bixbyUserId, myFood) {
-  //const url = properties.get("config", "baseUrl") + properties.get("config", "collection")
-  const url = "https://bixby-0c0f.restdb.io/rest/edm-safefood"
-  const query = {
-    apikey: secret.get('apikey')
-  }
-  const body = {}
-  // body[properties.get("config", "userIdField")] = bixbyUserId
-  // body[properties.get("config", "myFoodField")] = myFood
-  body["bixby-user-id"] = bixbyUserId
-  body["my-food"] = JSON.stringify(myFood)
-  body["food-name"] = myFood['prdlstNm']
-  //console.log(myFood)
-
-  const options = {
-    format: "json",
-    query: query,
-    cacheTime: 0
-  }
-  const response = http.postUrl(url, body, options)
-  if (response) {
-    return getMyFoodList(bixbyUserId);
+  } catch (e) {
+    throw fail.checkedError('', 'Error', {});
   }
 }
 
 function getMyFoodList(bixbyUserId) {
-  const url = "https://bixby-0c0f.restdb.io/rest/edm-safefood"
-  const query = {
-    apikey: secret.get('apikey'),
-    q: "{\"bixby-user-id\":\"" + bixbyUserId + "\"}"
-  }
-  const options = {
-    format: "json",
-    query: query,
-    cacheTime: 0
-  }
-  const response = http.getUrl(url, options)
-
-  console.log("response")
-  console.log(response)
-  if (response) {
-    var myFood = new Array;
-    var len = response.length < 5 ? 0 : response.length - 5
-    for (var i = response.length - 1; i >= len; i--) {
-      var tmp = JSON.parse(response[i]['my-food']);
-      //tmp.$id = response[i]["_id"];
-      myFood.push(tmp);
+  try {
+    const url = config.get('myFoodUrl')
+    const query = {
+      apikey: secret.get('apikey'),
+      q: "{\"" + config.get('myFoodIdField') + "\":\"" + bixbyUserId + "\"}"
     }
-    console.log("myFood")
-    console.log(myFood)
-    return myFood
-  } else {
-    // Doesn't exist
-    return
+    const options = {
+      format: "json",
+      query: query,
+      cacheTime: 0
+    }
+    const response = http.getUrl(url, options)
+    function comparator(a, b) {
+      return a['num'] * 1 < b['num'] * 1 ? -1 : 1;
+    }
+    response.sort(comparator);
+    if (response) {
+      var myFood = new Array;
+      var len = response.length < 5 ? 0 : response.length - 5
+      for (var i = response.length - 1; i >= len; i--) {
+        var tmp = JSON.parse(response[i][config.get('myFoodField1')]);
+        myFood.push(tmp);
+        //console.log(response[i]['num'])
+      }
+      console.log("myFood")
+      console.log(myFood)
+      return myFood
+    } else {
+      // Doesn't exist
+      return
+    }
+  } catch (e) {
+    throw fail.checkedError('', 'Error', {});
   }
 }
 function getMyFoodStat(bixbyUserId) {
-  const url = "https://bixby-0c0f.restdb.io/rest/edm-safefood"
-  const query = {
-    apikey: secret.get('apikey'),
-    q: "{\"bixby-user-id\":\"" + bixbyUserId + "\"}"
-  }
-  const options = {
-    format: "json",
-    query: query,
-    cacheTime: 0
-  }
-  const response = http.getUrl(url, options)
-
-  if (response) {
-    var statRes = new Array;
-    var nutriTotal = [0, 0, 0, 0, 0];
-    var len = response.length < 5 ? 0 : response.length - 5
-    for (var i = response.length - 1; i >= len; i--) {
-      var item = { 'statFlag': 1 };
-      var tmp = JSON.parse(response[i]['my-food']);
-      //tmp.$id = response[i]["_id"];
-      //statRes.push(tmp['imgurl1']);
-      item['statUrl'] = tmp['imgurl1'];
-      var nutriEng = ["carbo", "fat", "natrium", "sugar", "protein"];
-      for (var j = 0; j < 5; j++) {
-        if (isNaN(tmp[nutriEng[j]] * 1) == false)
-          nutriTotal[j] += tmp[nutriEng[j]] * 1;
-      }
-      statRes.push(item);
-      //console.log(nutriTotal[0] + " " + nutriTotal[1] + " " + nutriTotal[2] + " " + nutriTotal[3] + " " + nutriTotal[4]);
+  try {
+    const url = config.get('myFoodUrl')
+    const query = {
+      apikey: secret.get('apikey'),
+      q: "{\"" + config.get('myFoodIdField') + "\":\"" + bixbyUserId + "\"}"
     }
+    const options = {
+      format: "json",
+      query: query,
+      cacheTime: 0
+    }
+    const response = http.getUrl(url, options)
+    function comparator(a, b) {
+      return a['num'] * 1 < b['num'] * 1 ? -1 : 1;
+    }
+    response.sort(comparator);
 
-    ////////////////차트 넣기
-    nutriTotal[2] /= 1000;
-    var chartUrl = 'http://54.180.149.204/chart/';
-    var queryParams = 'getStatChart.php';
-    queryParams += '?' + 'carbo=' + nutriTotal[0];
-    queryParams += '&' + 'fat=' + nutriTotal[1];
-    queryParams += '&' + 'natrium=' + nutriTotal[2];
-    queryParams += '&' + 'sugar=' + nutriTotal[3];
-    queryParams += '&' + 'protein=' + nutriTotal[4];
+    if (response) {
+      var statRes = new Array;
+      var nutriTotal = [0, 0, 0, 0, 0];
+      var len = response.length < 5 ? 0 : response.length - 5
+      for (var i = response.length - 1; i >= len; i--) {
+        var item = { 'statFlag': 1 };
+        var tmp = JSON.parse(response[i][config.get('myFoodField1')]);
+        item['statUrl'] = tmp['imgurl1'];
+        var nutriEng = ["carbo", "fat", "natrium", "sugar", "protein"];
+        for (var j = 0; j < 5; j++) {
+          if (isNaN(tmp[nutriEng[j]] * 1) == false)
+            nutriTotal[j] += tmp[nutriEng[j]] * 1;
+        }
+        statRes.push(item);
+        //console.log(nutriTotal[0] + " " + nutriTotal[1] + " " + nutriTotal[2] + " " + nutriTotal[3] + " " + nutriTotal[4]);
+      }
 
-    var chartImg = http.getUrl(chartUrl + queryParams, { format: 'text' });
-    //myFoodImg.push(chartImg);
+      ////////////////차트 넣기
+      nutriTotal[2] /= 1000;
+      var chartUrl = config.get('chartBaseUrl')
+      var queryParams = 'getStatChart.php';
+      queryParams += '?' + 'carbo=' + nutriTotal[0];
+      queryParams += '&' + 'fat=' + nutriTotal[1];
+      queryParams += '&' + 'natrium=' + nutriTotal[2];
+      queryParams += '&' + 'sugar=' + nutriTotal[3];
+      queryParams += '&' + 'protein=' + nutriTotal[4];
 
-    var item = {
-      'statFlag': 0, 'statUrl': chartImg, 'statCarbo': nutriTotal[0],
-      'statFat': nutriTotal[1], 'statNatrium': nutriTotal[2], 'statSugar': nutriTotal[3], 'statProtein': nutriTotal[4]
-    };
-    statRes.push(item);
+      var chartImg = http.getUrl(chartUrl + queryParams, { format: 'text' });
+      //myFoodImg.push(chartImg);
 
-    return statRes;
-  } else {
-    // Doesn't exist
-    return
+      var item = {
+        'statFlag': 0, 'statUrl': chartImg, 'statCarbo': nutriTotal[0],
+        'statFat': nutriTotal[1], 'statNatrium': nutriTotal[2], 'statSugar': nutriTotal[3], 'statProtein': nutriTotal[4]
+      };
+      statRes.push(item);
+
+      return statRes;
+    } else {
+      // Doesn't exist
+      return
+    }
+  } catch (e) {
+    throw fail.checkedError('', 'Error', {});
   }
 }
 
 function getMyFoodId(bixbyUserId, myFoodName) {
-  const url = "https://bixby-0c0f.restdb.io/rest/edm-safefood"
+  const url = config.get('myFoodUrl')
   const query = {
     apikey: secret.get('apikey'),
-    q: "{\"bixby-user-id\":\"" + bixbyUserId + "\"}"
+    q: "{\"" + config.get('myFoodIdField') + "\":\"" + bixbyUserId + "\"}"
   }
   const options = {
     format: "json",
@@ -187,16 +208,22 @@ function getMyFoodId(bixbyUserId, myFoodName) {
     cacheTime: 0
   }
   const response = http.getUrl(url, options)
+  function comparator(a, b) {
+    return a['num'] * 1 < b['num'] * 1 ? -1 : 1;
+  }
+  response.sort(comparator);
 
   console.log(response)
   if (response) {
     const myFood = new Array;
-    for (var i = 0; i < response.length; i++) {
-      if (myFoodName == "" || response[i]['food-name'] == myFoodName) {
-        console.log("이상품이 삭제된닷 " + response[i]['food-name'])
+    var cnt = 0;
+    for (var i = response.length - 1; i >= 0; i--) {
+      if (myFoodName == "" || response[i][config.get('myFoodField2')] == myFoodName || cnt >= 5) {
+        console.log("이상품이 삭제된닷 " + response[i][config.get('myFoodField2')])
         var tmp = response[i]["_id"];
         myFood.push(tmp);
       }
+      cnt++
     }
     console.log(myFood)
     return myFood
