@@ -8,8 +8,3 @@ train (t-fnt6fszi5x2y36j30p40dcn4k) {
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
   last-modified (1571676056738)
 }
-train (t-fqfhuerhr0kj4ouluq3bsf22u) {
-  utterance ([g:GetMyFoodList] 나의 식품정보)
-  plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
-  last-modified (1571707551406)
-}

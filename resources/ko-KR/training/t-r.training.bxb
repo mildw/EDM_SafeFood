@@ -1,10 +1,25 @@
+train (t-r2695fttxo9gogd6zm4svs1jk) {
+  utterance ("[g:DeleteOneFood] 내리스트중 (안심크랩)[v:MyFoodName] 삭제해줘")
+  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571827236424)
+}
+train (t-r66q9n1xa3hubf72sgtt1gff4) {
+  utterance ([g:GetMyFoodList] 등록한 식품 리스트 알려줘)
+  plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
+  last-modified (1571821049446)
+}
 train (t-romssd7pkmnboxl4tpxn9u3vu) {
   utterance ("[g:FindHandle] (미미한)[v:FindHandleWayL:미미한] 알러지 대처법 알려줘")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
   last-modified (1571734314706)
 }
-train (t-ru7hlazmzmpj2o1ha7l5h6zjj) {
-  utterance ("[g:FoodSearch] (스트링 치즈)[v:FoodName] 성분 알려줘")
-  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571708157247)
+train (t-rrm65nt2p9qbb7mbo9c57ba7c) {
+  utterance ([g:PutMyFood] 이거 등록해줘)
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
+  last-modified (1571823514379)
+}
+train (t-ry65gsiy7yofjnwag1fi53kys) {
+  utterance ([g:RestaurantRange] 근처에 위생 좋은 식당 알아봐줘)
+  plan (Y2BkkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lAAFGEAEA)
+  last-modified (1571820437360)
 }

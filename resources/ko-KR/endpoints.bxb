@@ -75,7 +75,7 @@ endpoints {
 		
 		//내주변 가게의 위생정보 알려줘
 		action-endpoint (RestaurantSearch) {
-			accepted-inputs (dummy,myPoint)
+			accepted-inputs (myPoint)
 			local-endpoint (Restaurant/restaurantSearch.js)
 		}
 		

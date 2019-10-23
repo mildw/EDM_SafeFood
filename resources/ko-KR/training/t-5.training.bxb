@@ -1,8 +1,3 @@
-train (t-569k5rbwiil3b9fj5ng5it77z) {
-  utterance ("[g:RestaurantRange] (가까운곳)[v:Dummy]에 음식점 위생정보 알려줘")
-  plan (Y2BhkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCEIu1SmptbySCCIuZbGZCfmVfCwMzAyMAEJBmANAhCABMEAwA=)
-  last-modified (1571726011270)
-}
 train (t-57rnpkoq337zqr1qcl469kor9) {
   utterance ("[g:FoodCompare] {[g:FoodTwo] (맛있는라면)[v:FoodName]}이랑 차이알려줘")
   plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
@@ -12,4 +7,14 @@ train (t-5e7vjxltaw0hnp7lva0vx0qhs) {
   utterance ("[g:FindHandle] (심각한)[v:FindHandleWayH:심각한] 알레르기 반응 대처하기")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)
   last-modified (1571734168896)
+}
+train (t-5jixlvwvrxt0j3s9hhjzlq1mr) {
+  utterance ([g:GetMyFoodList] 내가 등록한 리스트 보여줘)
+  plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
+  last-modified (1571821084160)
+}
+train (t-5ot0xnco3hghd20hywbg2id53) {
+  utterance ("[g:FindAllergy] (자몽)[v:FoodName]이 알러지를 유발할까")
+  plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGZgYGIGYAUgyMoAAlA8A)
+  last-modified (1571825044699)
 }

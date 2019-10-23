@@ -1,7 +1,7 @@
-train (t-91yni3a7fvkc8orfqszqif4oi) {
-  utterance ([g:GetMyFoodList] 내 식품들 뭐있어)
-  plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
-  last-modified (1571707580919)
+train (t-921hjk6dr10aeiozhy2zyfgh0) {
+  utterance ("[g:FindAllergy] (불고기)[v:FoodName]가 알레르기를 발생시키니")
+  plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGZgYGIGYAUgyMoAAlA8A)
+  last-modified (1571825068374)
 }
 train (t-931z995ayye90o9ilj9nbem06) {
   utterance ([g:PutMyFood] 내꺼에 추가해줘)

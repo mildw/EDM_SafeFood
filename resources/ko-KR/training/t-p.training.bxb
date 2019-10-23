@@ -3,8 +3,28 @@ train (t-p3153o06fam4q6wlaq53o5dob) {
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
   last-modified (1571707815911)
 }
-train (t-p58xw6b1h1qw118iltxvjuzl4) {
-  utterance ("[g:FoodSearch] (들깨)[v:FoodName]의 식품정보 검색")
-  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571731463542)
+train (t-pnn37xuhqm6z5gn55y77rqtug) {
+  utterance ("[g:FindAllergy] (오징어)[v:FoodName]가 알레르기 성분을 가지고있니")
+  plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGZgYGIGYAUgyMoAAlA8A)
+  last-modified (1571825005479)
+}
+train (t-pnoviqgck6abqs71phpoapo1w) {
+  utterance ([g:DeleteAllFood] 내가 저장한 상품 모두 삭제해줘)
+  plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
+  last-modified (1571824195034)
+}
+train (t-ptfivl2k131q3ctluc034qj4k) {
+  utterance ("[g:FindAllergy] (순대)[v:FoodName]가 알러지성분 포함하니")
+  plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGZgYGIGYAUgyMoAAlA8A)
+  last-modified (1571824988807)
+}
+train (t-px92gsapkoae4z1oo36p33vio) {
+  utterance ([g:DeleteAllFood] 등록했던 상품 다 삭제해)
+  plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
+  last-modified (1571824400130)
+}
+train (t-px9x7pdxy11u0de8ceurvz1il) {
+  utterance ([g:RestaurantRange] 여기서 위생 좋은 식당은 어디니)
+  plan (Y2BkkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lAAFGEAEA)
+  last-modified (1571820553416)
 }

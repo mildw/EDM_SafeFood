@@ -8,13 +8,18 @@ train (t-qhqkga51pywtug42tbpn63g29) {
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
   last-modified (1571734337617)
 }
-train (t-qlwmpzpjwrl90ixb16wa44ynt) {
-  utterance ("[g:RestaurantRange] (근처)[v:Dummy] 식당 정보 알려줘")
-  plan (Y2BhkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCEIu1SmptbySCCIuZbGZCfmVfCwMzAyMAEJBmANAhCABMEAwA=)
-  last-modified (1571725879954)
-}
 train (t-qn1j7zebiocl96nmbjkrj017j) {
   utterance ("[g:FoodCompare] {[g:FoodTwo] (진라면)[v:FoodName]}이랑 비교해줘")
   plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
   last-modified (1571386083427)
+}
+train (t-qo9icqkkiglhe7tmgau80q4rw) {
+  utterance ([g:DeleteAllFood] 저장했던 식품 다 지워)
+  plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
+  last-modified (1571824412394)
+}
+train (t-qt2wrmjzjv8e8teorzurm6u22) {
+  utterance ("[g:FindAllergy] 알레르기 성분이 (육개장)[v:FoodName]에 있냐")
+  plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGZgYGIGYAUgyMoAAlA8A)
+  last-modified (1571824907274)
 }

@@ -1,4 +1,4 @@
-module.exports.function = function restaurantSearch (dummy,myPoint) {
+module.exports.function = function restaurantSearch (myPoint) {
  var console = require('console');
   var http = require('http');
   var searchResult = [];

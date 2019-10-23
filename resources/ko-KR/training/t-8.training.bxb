@@ -1,25 +1,15 @@
-train (t-80x8lr1dngr293995wpfuc9l0) {
-  utterance ([g:GetMyFoodStat] 식품 리스트 분석해줘)
-  plan (Y2BiEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGRiBkgGIgCQA=)
-  last-modified (1571707679255)
-}
-train (t-8a1u4je6cwngh0ydoaqyf6cvh) {
-  utterance ("[g:DeleteOneFood] 내 식품에서 (감자칩)[v:MyFoodName] 빼줘")
-  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571734044091)
-}
-train (t-8cunl0q3tkaj54zbdkaizfbez) {
-  utterance ([g:GetMyFoodList] 식품목록 내꺼 줘봐)
-  plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
-  last-modified (1571707612642)
-}
-train (t-8fvz3wxagpnxqm9lk1dwvb0qx) {
-  utterance ([g:GetMyFoodStat] 그래프 보여줘)
-  plan (Y2BiEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGRiBkgGIgCQA=)
-  last-modified (1571707701719)
-}
 train (t-8kotvqlutoq79pac4blsxwnv2) {
   utterance ("[g:FindHandle] (간지러운)[v:FindHandleWayL:미미한] 알러지 해결방법")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
   last-modified (1571733570179)
+}
+train (t-8nsl6ka6y8ui9bhwxllqczj5u) {
+  utterance ([g:RestaurantRange] 지금 주변에 위생 좋은 식당 어디야)
+  plan (Y2BkkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lAAFGEAEA)
+  last-modified (1571820514034)
+}
+train (t-8tjcbf96xpxcqmak9fim3gom5) {
+  utterance ("[g:DeleteOneFood] 내 리스트에 (족발)[v:MyFoodName] 제거해줘")
+  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571827319109)
 }

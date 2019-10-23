@@ -1,30 +1,20 @@
+train (t-253muhm1qv1733z2ndxhkaki4) {
+  utterance ([g:DeleteAllFood] 내가 저장했던 식품들 다 지워줄래)
+  plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
+  last-modified (1571824457203)
+}
 train (t-27jh9vwvzsm6fdyh7i0ktfcjm) {
   utterance ("[g:FindHandle] (심각한)[v:FindHandleWayH:심각한] 알레르기")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)
   last-modified (1571734160897)
 }
-train (t-2i9k4f3k0r055zrz8ayfv7ov3) {
-  utterance ("[g:FoodSearch] (BBQ)[v:FoodName] 성분이 뭐야")
-  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571708143159)
-}
-train (t-2mjd8axlen0lmoyd2x82295ve) {
-  utterance ("[g:RestaurantRange] (주변)[v:Dummy] 가게 알려줘")
-  plan (Y2BhkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCEIu1SmptbySCCIuZbGZCfmVfCwMzAyMAEJBmANAhCABMEAwA=)
-  last-modified (1571725654322)
-}
-train (t-2obgyfgh1zqseg8r7mdetmano) {
-  utterance ("[g:DeleteOneFood] (고구마)[v:MyFoodName] 뺴주라")
-  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571726364439)
+train (t-2fgambjz9q0empw343bcd393v) {
+  utterance ([g:GetMyFoodList] 등록된 식품 뭐있어)
+  plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
+  last-modified (1571821216704)
 }
 train (t-2tsqjywnpfdpv7mqbzx10uktp) {
   utterance ("[g:ThisRestaurant] (분당)[v:RestaurantLocation]에 있는 (피자)[v:RestaurantName] 가게 위생등급 알려줘")
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
   last-modified (1571641903101)
-}
-train (t-2u0671mq7x2wvuc7qwdp8nst9) {
-  utterance ([g:DeleteAllFood] 내정보 다 삭제해줘)
-  plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
-  last-modified (1571708715359)
 }

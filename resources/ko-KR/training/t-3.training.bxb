@@ -1,3 +1,13 @@
+train (t-36lzk0wlac8phkbb24lshiq12) {
+  utterance ([g:GetMyFoodList] 저장한 식품들 알려줘)
+  plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
+  last-modified (1571821115288)
+}
+train (t-3ln6xh36uh1jkf770lso6xwy3) {
+  utterance ("[g:DeleteOneFood] (불닭볶음탕면)[v:MyFoodName] 내식품에서 삭제해")
+  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571827368474)
+}
 train (t-3nli889fisgo2i683h42q4tz9) {
   utterance ("[g:FoodCompare] {[g:FoodTwo] (에너지바)[v:FoodName]}랑 뭐가더좋아")
   plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
@@ -8,8 +18,8 @@ train (t-3q4idcm7u2uxhrbm7jeya5ufj) {
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)
   last-modified (1571734221050)
 }
-train (t-3s7w5ba05qhneahv02m6zcjz7) {
-  utterance ("[g:FindAllergy] (옛 두부)[v:FindAllergyItem]에 알러지성분이 포함되니")
-  plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEGl4xnSWouAxMDIxAzAElGBhCA8gE=)
-  last-modified (1571732146218)
+train (t-3viuxhdes2ib07jvjnyoa6lz7) {
+  utterance ([g:PutMyFood] 내 정보에 이 식품 추가해놔)
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
+  last-modified (1571823566018)
 }

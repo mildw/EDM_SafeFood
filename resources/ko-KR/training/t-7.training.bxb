@@ -1,15 +1,20 @@
-train (t-76susmkxkq969katcnlf0rg4y) {
-  utterance ("[g:FindAllergy] (맛있는 유산균)[v:FindAllergyItem] 알레르기 재료")
-  plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEGl4xnSWouAxMDIxAzAElGBhCA8gE=)
-  last-modified (1571732201694)
+train (t-71o20mb15xy03mqifp5le786f) {
+  utterance ("[g:FindAllergy] (설렁탕)[v:FoodName]에 알레르기 일으킬만한게 있니")
+  plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGZgYGIGYAUgyMoAAlA8A)
+  last-modified (1571824795276)
+}
+train (t-73vqtitvigqyntt8kmy0va0fr) {
+  utterance ("[g:FoodSearch] (두부)[v:FoodName] 상품정보 찾아줄래")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571823435074)
+}
+train (t-7exf85fggxcox4mbra1mezspy) {
+  utterance ([g:RestaurantRange] 근처에 위생 좋은 식당 찾아)
+  plan (Y2BkkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lAAFGEAEA)
+  last-modified (1571820334072)
 }
 train (t-7q7wl95ws7okx01rspxmuoei7) {
   utterance ("[g:FoodSearch] (떡볶이)[v:FoodName] 식품정보 찾아놔")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1571731083182)
-}
-train (t-7zrx1xoxdv2mak1rpkoyr4y1n) {
-  utterance ([g:DeleteAllFood] 내꺼 다 삭제해)
-  plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
-  last-modified (1571708731140)
 }

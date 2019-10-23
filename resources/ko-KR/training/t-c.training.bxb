@@ -1,8 +1,3 @@
-train (t-c0vp1wlsuc0faztrerqdecco7) {
-  utterance ("[g:DeleteOneFood] (탕수육)[v:MyFoodName] 제거할래")
-  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571726375956)
-}
 train (t-c30vbk6erahis1ndexr6348n0) {
   utterance ("[g:ThisRestaurant] (인천)[v:RestaurantLocation]에 (쭈꾸미)[v:RestaurantName] 위생등급 알려줘")
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
@@ -13,8 +8,8 @@ train (t-c9rbvmzd6bpsv19w2kslinnlb) {
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
   last-modified (1571725320683)
 }
-train (t-cds5e9u0dwt5b0hjjtmt3vac2) {
-  utterance ([g:GetMyFoodStat] 내 식품 통계 보여줘)
-  plan (Y2BiEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGRiBkgGIgCQA=)
-  last-modified (1571726494354)
+train (t-cxnr6r1on0n23osrk8z9fb5to) {
+  utterance ("[g:FoodSearch] (샐러드)[v:FoodName] 상품정보 알려줘")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571823387658)
 }
