@@ -1,7 +1,7 @@
 result-view {
-  match: Food(this) {
-    from-output: GetMyFoodList()
-    from-output: PutMyFood()
+  match: FoodOne(this) {
+    // from-output: GetMyFoodList()
+    // from-output: PutMyFood()
   }
   
   message {
@@ -16,10 +16,10 @@ result-view {
 	render {
 		if(exists(this)) {
 			list-of (this) {
-				where-each (food) {
+				where-each (foodOne) {
 					layout-macro (myfood_list_macro) {
-						param (food) {
-							expression (food)
+						param (foodOne) {
+							expression (foodOne)
 						}
 					}
 				}

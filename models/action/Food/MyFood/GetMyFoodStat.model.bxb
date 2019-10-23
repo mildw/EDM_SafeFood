@@ -1,5 +1,5 @@
 action (GetMyFoodStat) {
 	description ("사용자 섭취 식품 통계")
 	type (Calculation)
-	output (MyFoodImg)
+	output (MyFoodStat)
 }

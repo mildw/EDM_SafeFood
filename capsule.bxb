@@ -10,6 +10,7 @@ capsule {
 	
 	permissions {
 		user-profile-access
+		bixby-user-id-access
 	}
 	
 	

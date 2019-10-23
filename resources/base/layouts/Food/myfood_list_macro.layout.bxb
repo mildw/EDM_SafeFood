@@ -1,7 +1,7 @@
 layout-macro-def(myfood_list_macro) {
 	params {
-		param (food) {
-			type (Food)
+		param (foodOne) {
+			type (FoodOne)
 			min (Required)
 			max (One)
 		}
@@ -21,7 +21,7 @@ layout-macro-def(myfood_list_macro) {
 
 			aspect-ratio(1:1)
       column-size (3)
-			image-url ("#{value(food.imgurl1)}")
+			image-url ("#{value(foodOne.imgurl1)}")
 
 			title-area{
 				slot1{

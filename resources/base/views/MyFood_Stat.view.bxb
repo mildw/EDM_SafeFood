@@ -1,6 +1,6 @@
 result-view {
-	match: MyFoodImg(this) {
-		from-output: GetMyFoodStat(action)
+	match: MyFoodStat(this) {
+		//from-output: GetMyFoodStat(action)
 	}
 	
 	message {
@@ -16,10 +16,10 @@ result-view {
 		if(exists(this)) {
 			list-of (this) {
 				has-details (false)
-				where-each (myFoodImg) {
+				where-each (myFoodStat) {
 					layout-macro (myfood_img_macro) {
-						param (myFoodImg) {
-							expression (myFoodImg)
+						param (myFoodStat) {
+							expression (myFoodStat)
 						}
 					}
 				}
