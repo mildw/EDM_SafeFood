@@ -9,7 +9,7 @@ layout-macro-def(myfood_img_macro) {
 	
 	content {
 		
-		//if(myFoodImg[0] != '0') {
+		if(myFoodStat.statFlag != 0) {
 			image-card {
 				aspect-ratio (1:1)
 				column-size (3)
@@ -24,21 +24,21 @@ layout-macro-def(myfood_img_macro) {
 					}
 				}
 			}
-		//}
-		// else{
-		// 	image-card {
-		// 		aspect-ratio (4:3)
-		// 		image-url ("#{value(myFoodImg[0])}")
-		// 		title-area {
-		// 			halign (Start)
-		// 			slot1 {
-		// 				text {
-		// 					value ("")
-		// 					style (Title_M)
-		// 				}
-		// 			}
-		// 		}
-		// 	}
-		// }
+		}
+		else{
+			image-card {
+				aspect-ratio (4:3)
+				image-url ("#{value(myFoodStat.statUrl)}")
+				title-area {
+					halign (Start)
+					slot1 {
+						text {
+							value ("")
+							style (Title_M)
+						}
+					}
+				}
+			}
+		}
 	}
 }
