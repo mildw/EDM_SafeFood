@@ -14,7 +14,7 @@ train (t-1vv8jncrhyb846pnwicekq97u) {
   last-modified (1571846503491)
 }
 train (t-1wu9ao8d4efjgdqpgqv2adjek) {
-  utterance ("[g:FindHandle] (심각한)[v:FindHandleWayH:심각한] 알러지")
+  utterance ("[g:FindHandle] (심각한)[v:FindHandleWayH] 알러지")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)
-  last-modified (1571734232073)
+  last-modified (1571850251244)
 }

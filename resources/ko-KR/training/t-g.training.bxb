@@ -19,9 +19,9 @@ train (t-gsbsvqve22483vw9na9haklbl) {
   last-modified (1571734328121)
 }
 train (t-gu9qmzs29ne527dy0a9hd0q32) {
-  utterance ("[g:FindHandle] (미미한)[v:FindHandleWayL:미미한] 알레르기 반응 대처하기")
+  utterance ("[g:FindHandle] (미미한)[v:FindHandleWayL] 알레르기 반응 대처하기")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
-  last-modified (1571734296585)
+  last-modified (1571850290639)
 }
 train (t-gw25f0mliy1lz3e8bn260c4sv) {
   utterance ([g:DeleteAllFood] 저장했던 상품 전부 삭제해)
