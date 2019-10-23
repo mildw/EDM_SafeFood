@@ -3,8 +3,28 @@ train (t-w0m2ivi1ivd3411x9s6mkj1er) {
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1571708179607)
 }
+train (t-w3l79jnngetcno7115l60wmtn) {
+  utterance ("[g:ThisRestaurant] (대구)[v:RestaurantLocation] (사이카보)[v:RestaurantName] 위생 정보 줘")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571725567771)
+}
 train (t-w9u2zc4hjre482740i3ga6d9x) {
   utterance ([g:GetMyFoodStat] 식품정보 통계내줘)
   plan (Y2BiEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGRiBkgGIgCQA=)
   last-modified (1571707687975)
+}
+train (t-wpfi2pdju6k5izqo6yxyf1mr0) {
+  utterance ("[g:FindHandle] (미미한)[v:FindHandleWayL:미미한] 알레르기 반응 대처하기")
+  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
+  last-modified (1571734175746)
+}
+train (t-wsv8u193shvhemcmseexwvjsh) {
+  utterance ("[g:FindAllergy] (까르보불닭)[v:FoodName]의 알러지 정보 알려줘")
+  plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGRiBkAGMmYAkEwMDAA==)
+  last-modified (1571734824802)
+}
+train (t-wuvjln6ppvfdbhwy00rzog981) {
+  utterance ([g:DeleteAllFood] 내꺼 모두 삭제해줘)
+  plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
+  last-modified (1571708692299)
 }

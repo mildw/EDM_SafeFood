@@ -1,4 +1,15 @@
-train (t-3mbqxwjyl9fgawc08n44hlofm) {
-  utterance ("[g:FindAllergy] (까르보불닭)[v:FindAllergyItem] 알레르기 찾아줘")
-  last-modified (1571284812738)
+train (t-3nli889fisgo2i683h42q4tz9) {
+  utterance ("[g:FoodCompare] {[g:FoodTwo] (에너지바)[v:FoodName]}랑 뭐가더좋아")
+  plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
+  last-modified (1571709212646)
+}
+train (t-3q4idcm7u2uxhrbm7jeya5ufj) {
+  utterance ("[g:FindHandle] (심각한)[v:FindHandleWayH:심각한] 알러지 대처")
+  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)
+  last-modified (1571734221050)
+}
+train (t-3s7w5ba05qhneahv02m6zcjz7) {
+  utterance ("[g:FindAllergy] (옛 두부)[v:FindAllergyItem]에 알러지성분이 포함되니")
+  plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEGl4xnSWouAxMDIxAzAElGBhCA8gE=)
+  last-modified (1571732146218)
 }

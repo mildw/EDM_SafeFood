@@ -1,0 +1,10 @@
+train (t-zig1lvn360np4x3n6rgt7nbao) {
+  utterance ("[g:FoodSearch] (추어탕)[v:FoodName] 식품 찾아줘")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571716199606)
+}
+train (t-zscivghp2ms03x000up699zz3) {
+  utterance ("[g:DeleteOneFood] (돈까스)[v:MyFoodName] 식품 제거해주세요")
+  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571726426564)
+}

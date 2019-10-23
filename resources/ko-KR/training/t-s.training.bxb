@@ -8,3 +8,8 @@ train (t-sc23foa1hn2nzkqwi2nm7p9lu) {
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
   last-modified (1571675996270)
 }
+train (t-srq5d6qkseuldt4obodywumfz) {
+  utterance ("[g:ThisRestaurant] (부산)[v:RestaurantLocation] (웰스토리)[v:RestaurantName]는 좋니")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571725415628)
+}

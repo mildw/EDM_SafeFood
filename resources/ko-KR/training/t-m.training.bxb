@@ -1,7 +1,22 @@
+train (t-m07t00wu3t3arb2fnd078xo11) {
+  utterance ("[g:RestaurantRange] (가까운)[v:Dummy] 가게 위생 정보")
+  plan (Y2BhkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCEIu1SmptbySCCIuZbGZCfmVfCwMzAyMAEJBmANAhCABMEAwA=)
+  last-modified (1571726349813)
+}
 train (t-m1h24i1d5h1kurdvg6fcbohzb) {
   utterance ([g:PutMyFood] 넣어둬)
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
   last-modified (1571707800638)
+}
+train (t-m2cq2jplc2ord0cxrwnoi8ck5) {
+  utterance ([g:DeleteAllFood] 삭제해 다)
+  plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
+  last-modified (1571708743238)
+}
+train (t-meq5bki1dux4vdbbz95w9yym4) {
+  utterance ("[g:ThisRestaurant] (경기도 성남시)[v:RestaurantLocation]에 (라파스타)[v:RestaurantName] 위생상태")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571725457277)
 }
 train (t-mm886io0k796exh93fdlqrwkz) {
   utterance ([g:GetMyFoodList] 내 식품들 보여)

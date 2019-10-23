@@ -5,8 +5,18 @@ result-view {
 			from-output: FoodSearch()
 		}
 	}
+
+	conversation-drivers{
+		if (size(this) == 1){
+			conversation-driver{
+				template ()
+				
+			}
+		}
+	}
 	
 	render {
+
 		if(size(this) > 1) {
 			list-of (this) {
 				where-each (food) {
@@ -22,7 +32,8 @@ result-view {
 		else-if ("size(this) == 1") {
 			layout-match (this) {
 				mode (Details)
-			}
+			}		
 		}
+		
 	}
 }

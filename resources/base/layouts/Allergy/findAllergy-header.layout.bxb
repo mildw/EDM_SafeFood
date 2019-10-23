@@ -1,7 +1,7 @@
 layout-macro-def(findAllergy-header) {
 	params {
-		param (findAllergyResults) {
-			type (FindAllergyResults)
+		param (food) {
+			type (Food)
 			min (Required)
 			max (One)
 		}
@@ -12,21 +12,21 @@ layout-macro-def(findAllergy-header) {
 			content {
 				
 				image-carousel {
-					images (findAllergyResults.images)
+					images (food.images)
 				}
 				
 				title-area {
 					halign (Start)
 					slot1 {
 						text {
-							value ("#{value(findAllergyResults.prdlstNm)}")
+							value ("#{value(food.prdlstNm)}")
 							style (Title_M)
 						}
 					}
 					slot2 {
 						single-line {
 							text {
-								value ("#{value(findAllergyResults.allergy)}")
+								value ("#{value(food.allergy)}")
 								style (Detail_L)
 							}
 						}
@@ -36,37 +36,12 @@ layout-macro-def(findAllergy-header) {
 				spacer
 
 				image-list {
-				  images (findAllergyResults.aimages)
+				  images (food.aimages)
 				}
 				
 				spacer
 
-				// cell-card{
-				// 	on-click{
-				// 		intent{
-				// 			goal : FoodSearch
-				// 		}
-				// 	}
-
-				// 	slot1{
-				// 		image{
-				// 			url ("[#{value(findAllergyResults.allergy_set[0])}]")
-				// 			shape (Circle)
-				// 			background-color (Transparent)
-				// 		}
-				// 	}
-
-				// 	slot2{
-				// 		content{
-				// 			primary{
-				// 				template ("식품정보 더 보기")
-				// 			}
-				// 			secondary{
-				// 				template (Click here)
-				// 			}
-				// 		}
-				// 	}
-				// }
+				
 			}
 		}
 		

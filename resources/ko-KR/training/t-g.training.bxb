@@ -1,15 +1,30 @@
 train (t-gcnvtnpmicpkgysytswsjvd2y) {
   utterance ([g:GetMyFoodList] 내 식품 보여줘)
   plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
-  last-modified (1571559080473)
+  last-modified (1571708904511)
 }
 train (t-gnw3uq9qsctj5jtw1dgnvvqny) {
   utterance ("[g:DeleteOneFood] 내식품에서 (만두)[v:MyFoodName] 삭제")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1571676181625)
 }
-train (t-gu9qmzs29ne527dy0a9hd0q32) {
-  utterance ("[g:FindHandle] (미미한)[v:FindHandleWayL] 알레르기 반응 대처하기")
+train (t-gsbsvqve22483vw9na9haklbl) {
+  utterance ("[g:FindHandle] (초기)[v:FindHandleWayL:미미한] 알레르기 대처법")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
-  last-modified (1571285582690)
+  last-modified (1571734328121)
+}
+train (t-gtcol7cgqunffg7drtqt5silu) {
+  utterance ([g:DeleteAllFood] 전부 다 삭제)
+  plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
+  last-modified (1571708760057)
+}
+train (t-gu9qmzs29ne527dy0a9hd0q32) {
+  utterance ("[g:FindHandle] (미미한)[v:FindHandleWayL:미미한] 알레르기 반응 대처하기")
+  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
+  last-modified (1571734296585)
+}
+train (t-gx49bcvd94laacxi4mgcfpcte) {
+  utterance ("[g:FindHandle] (심각한)[v:FindHandleWayH:심각한] 알레르기 어떻해")
+  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)
+  last-modified (1571734215579)
 }

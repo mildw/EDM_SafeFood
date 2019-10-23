@@ -1,7 +1,17 @@
+train (t-ibg8shpb4wwhf7434thb969n7) {
+  utterance ("[g:FoodSearch] (두부)[v:FoodName] 식품정보 검색해줘")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571716066447)
+}
 train (t-iezuabxdjyp0vtun1myy0j247) {
   utterance ("[g:FindAllergy] (진라면)[v:FindAllergyItem] 알러지 찾아")
   plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEGl4xnSWouAxMDIxAzAElGBhCA8gE=)
   last-modified (1571675191755)
+}
+train (t-irmdo5z1jw9epqg6wbdon7v04) {
+  utterance ("[g:ThisRestaurant] (충청남도)[v:RestaurantLocation]에 (사보텐)[v:RestaurantName] 에대해 알려줘")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571710553381)
 }
 train (t-isocrxc1mgvrd350oewfpmytn) {
   utterance ([g:DeleteAllFood] 내 식품 전부 삭제해줘)

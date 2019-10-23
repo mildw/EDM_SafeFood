@@ -3,3 +3,18 @@ train (t-x5317kbbp6sb0hip6kbjvnkzc) {
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1571708168208)
 }
+train (t-xf7h9lzkl4dvehjvqkb6r55of) {
+  utterance ("[g:FoodSearch] (목우촌 흑마늘햄)[v:FoodName] 식품정보 검색좀요")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571731847055)
+}
+train (t-xizbfryghjyh5tz9exo011way) {
+  utterance ("[g:FindHandle] (미적지근)[v:FindHandleWayL:미미한]한 알레르기 어쩌지")
+  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
+  last-modified (1571734345889)
+}
+train (t-xlz8i9y97hf3fw5p0b4yg36jt) {
+  utterance ([g:DeleteAllFood] 전부 삭제해줘)
+  plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
+  last-modified (1571708751246)
+}

@@ -1,10 +1,15 @@
 train (t-67kf2svpq4cxldje9swtw6f4a) {
-  utterance ("[g:FindHandle] (심한)[v:FindHandleWayH] 알레르기 대처법")
+  utterance ("[g:FindHandle] (심한)[v:FindHandleWayH:심각한] 알레르기 대처법")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)
-  last-modified (1571675412640)
+  last-modified (1571734320738)
 }
 train (t-6k07mf5m0dbwihmljy6bm4xqx) {
   utterance ([g:GetMyFoodList] 식품 내꺼 보여줘)
   plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
   last-modified (1571707589903)
+}
+train (t-6s92ioawsqq2r0iwc9q7b4v5q) {
+  utterance ("[g:FoodSearch] (김치)[v:FoodName] 정보 찾아")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571716131950)
 }

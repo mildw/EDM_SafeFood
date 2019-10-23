@@ -1,5 +1,15 @@
-train (t-h4vf261dsos1ihj9mw2pe6yfo) {
-  utterance ("[g:FoodCompare2] {[g:FoodOne] (포카칩)[v:FoodName]}이랑 {[g:FoodTwo] (스윙칩)[v:FoodName]}이랑 비교해줘")
-  plan (Y+BgkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBEkXMDElB5IwYRDCn/vFQGcQzR4NTEouQMBlEMCb/E3FQspoSU56M5CSqK3yB2BkYGJgZmBhYGVgY2II8BymcE8xnBfAY4yQqWBallB9JMDKwA)
-  last-modified (1571763568314)
+train (t-hjjyrduvcb0d3hton1t7x3jwt) {
+  utterance ("[g:FoodSearch] (돈까스)[v:FoodName] 정보 검색해줘")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571716206975)
+}
+train (t-hu4uwc46hclpvvt23bmgk960c) {
+  utterance ("[g:FindHandle] 나 알레르기 (심각해)[v:FindHandleWayH:심각한]")
+  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)
+  last-modified (1571734246874)
+}
+train (t-hvt9h0ciz2sqlg65x8dr67rv9) {
+  utterance ("[g:FindHandle] (가려워)[v:FindHandleWayL:미미한] 어떻게해")
+  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
+  last-modified (1571734340505)
 }

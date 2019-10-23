@@ -3,6 +3,11 @@ train (t-4h6makbi4zd0vvt9bfpej9dl9) {
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1571708131159)
 }
+train (t-4r596csw4yaecn73atg2cs2yc) {
+  utterance ("[g:FindAllergy] (앱솔루트)[v:FindAllergyItem] 먹으면 알레르기 나니")
+  plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEGl4xnSWouAxMDIxAzAElGBhCA8gE=)
+  last-modified (1571732131765)
+}
 train (t-4xfhfc6jv5w246xl95jrhtncg) {
   utterance ([g:GetMyFoodStat] 나의 통계정보 줘)
   plan (Y2BiEEtNydUrTkxLTcvPT9HzrXQDUp656QxSKOLuqSUQqeCSxBIGRiBkgGIgCQA=)

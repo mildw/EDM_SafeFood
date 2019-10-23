@@ -3,3 +3,8 @@ train (t-p3153o06fam4q6wlaq53o5dob) {
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
   last-modified (1571707815911)
 }
+train (t-p58xw6b1h1qw118iltxvjuzl4) {
+  utterance ("[g:FoodSearch] (들깨)[v:FoodName]의 식품정보 검색")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571731463542)
+}
