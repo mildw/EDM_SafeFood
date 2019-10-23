@@ -62,6 +62,7 @@ module.exports.function = function foodSearch(foodName) {
 
     if (nutriCnt < 4)
       continue;
+    
 
     ////// 차트를 그릴 수 없는 경우 삽입할 default 이미지 정하기
     list[i]['chart'] = '-';
