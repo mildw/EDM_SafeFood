@@ -1,8 +1,3 @@
-train (t-8kotvqlutoq79pac4blsxwnv2) {
-  utterance ("[g:FindHandle] (간지러운)[v:FindHandleWayL:미미한] 알러지 해결방법")
-  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
-  last-modified (1571733570179)
-}
 train (t-8nsl6ka6y8ui9bhwxllqczj5u) {
   utterance ([g:RestaurantSearch] 지금 주변에 위생 좋은 식당 어디야)
   plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)

@@ -1,7 +1,7 @@
-train (t-kf4c3fvhpa876ctsczrkfgjqz) {
-  utterance ("[g:FindHandle] 나 알러지 (심해)[v:FindHandleWayH:심각한]")
-  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)
-  last-modified (1571733573641)
+train (t-kn8jithpwdw9h5pwl810f6n7m) {
+  utterance ("[g:FindHandle] (미미)[v:FindHandleWay]한 알레르기 대처법 알려줘")
+  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPIIVDIjyxkoGJgRGIGYAkIwMIQPkA)
+  last-modified (1571928564838)
 }
 train (t-kp9xah78c6qolz0rrs7nyck1a) {
   utterance ("[g:RestaurantFind] (서울)[v:RestaurantLocation]에 (토다이)[v:RestaurantName] 위생등급 알려줘")

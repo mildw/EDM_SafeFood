@@ -4,9 +4,9 @@ train (t-253muhm1qv1733z2ndxhkaki4) {
   last-modified (1571824457203)
 }
 train (t-27jh9vwvzsm6fdyh7i0ktfcjm) {
-  utterance ("[g:FindHandle] (심각한)[v:FindHandleWayH:심각한] 알레르기")
-  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)
-  last-modified (1571734160897)
+  utterance ("[g:FindHandle] (심각)[v:FindHandleWay]한 알레르기 대처")
+  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPIIVDIjyxkoGJgRGIGYAkIwMIQPkA)
+  last-modified (1571928968121)
 }
 train (t-2fgambjz9q0empw343bcd393v) {
   utterance ([g:GetMyFoodList] 등록된 식품 뭐있어)

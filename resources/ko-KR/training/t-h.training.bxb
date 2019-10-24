@@ -9,12 +9,7 @@ train (t-hs5444tdsbm4jx2yaw46jso8r) {
   last-modified (1571844330314)
 }
 train (t-hu4uwc46hclpvvt23bmgk960c) {
-  utterance ("[g:FindHandle] 나 알레르기 (심각해)[v:FindHandleWayH:심각한]")
-  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)
-  last-modified (1571734246874)
-}
-train (t-hvt9h0ciz2sqlg65x8dr67rv9) {
-  utterance ("[g:FindHandle] (가려워)[v:FindHandleWayL:미미한] 어떻게해")
-  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
-  last-modified (1571734340505)
+  utterance ("[g:FindHandle] 나 알레르기 (심각)[v:FindHandleWay]해 대처법 찾아줘\n")
+  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPIIVDIjyxkoGJgRGIGYAkIwMIQPkA)
+  last-modified (1571929028020)
 }

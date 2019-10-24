@@ -63,7 +63,7 @@ endpoints {
 		
 		// 미미한 대처방법 알려줘
 		action-endpoint (FindHandle) {
-			accepted-inputs (findHandleWayL, findHandleWayH)
+			accepted-inputs (findHandleWay)
 			local-endpoint (Allergy/findHandle.js)
 		}
 		

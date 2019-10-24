@@ -24,7 +24,7 @@ train (t-wpdc6p28hqnk2vm22121yn3cy) {
   last-modified (1571845652770)
 }
 train (t-wpfi2pdju6k5izqo6yxyf1mr0) {
-  utterance ("[g:FindHandle] (미미한)[v:FindHandleWayL:미미한] 알레르기 반응 대처하기")
-  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
-  last-modified (1571734175746)
+  utterance ("[g:FindHandle] (미미)[v:FindHandleWay]한 알레르기 반응 대처하기")
+  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPIIVDIjyxkoGJgRGIGYAkIwMIQPkA)
+  last-modified (1571928339064)
 }

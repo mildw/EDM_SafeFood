@@ -1,8 +1,3 @@
-train (t-q1wlf3sh3g3frvyfx46jrtb9e) {
-  utterance ("[g:FindHandle] (가벼운)[v:FindHandleWayL:미미한] 알레르기 해결법알려줘")
-  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
-  last-modified (1571734183034)
-}
 train (t-qj99vewnvneybdv1ygnsqvlax) {
   utterance ([g:RestaurantSearch] 위생 청결한 식당 가까운곳에 있나요)
   plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)

@@ -2,13 +2,8 @@ action (FindHandle) {
   description (미미한 알레르기 반응 대처법 알려줘)
   type(Search)
   collect {
-    input (findHandleWayL) {
-      type (FindHandleWayL)
-      min (Optional) max (One)
-    }
-
-    input (findHandleWayH) {
-      type (FindHandleWayH)
+    input (findHandleWay) {
+      type (FindHandleWay)
       min (Optional) max (One)
     }
   }

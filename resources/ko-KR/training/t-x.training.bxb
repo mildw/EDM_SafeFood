@@ -9,7 +9,7 @@ train (t-xhmvyqdzx0zlk80wqoutbe80w) {
   last-modified (1571845717663)
 }
 train (t-xizbfryghjyh5tz9exo011way) {
-  utterance ("[g:FindHandle] (미적지근)[v:FindHandleWayL:미미한]한 알레르기 어쩌지")
-  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
-  last-modified (1571734345889)
+  utterance ("[g:FindHandle] (미미)[v:FindHandleWay]한 알레르기 어떻게 대처하지")
+  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPIIVDIjyxkoGJgRGIGYAkIwMIQPkA)
+  last-modified (1571929059169)
 }

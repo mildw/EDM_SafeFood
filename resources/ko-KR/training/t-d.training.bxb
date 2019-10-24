@@ -1,17 +1,12 @@
-train (t-d2dlcnshfs486q1msg44793e3) {
-  utterance ("[g:FindHandle] (가벼운)[v:FindHandleWayL:미미한] 알러지 해결하고싶어")
-  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
-  last-modified (1571733572434)
-}
 train (t-d52uuk7aadfb6incldb8f63bw) {
   utterance ([g:GetMyFoodList] 내가 저장한 목록들 보여줘)
   plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
   last-modified (1571821152603)
 }
 train (t-dijv3c5rpceijrz2oik8a6nhs) {
-  utterance ("[g:FindHandle] 알레르기 (심각해)[v:FindHandleWayH:심각한]")
-  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)
-  last-modified (1571734238057)
+  utterance ("[g:FindHandle] 알레르기 (심각)[v:FindHandleWay]해 대처법 알려줘")
+  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPIIVDIjyxkoGJgRGIGYAkIwMIQPkA)
+  last-modified (1571928993855)
 }
 train (t-dncc7jeuw6mcoawwysllqsm6g) {
   utterance ([g:RestaurantSearch] 근처에 깨끗한 식당 찾아줄래)
