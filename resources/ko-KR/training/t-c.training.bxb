@@ -8,6 +8,11 @@ train (t-c30vbk6erahis1ndexr6348n0) {
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
   last-modified (1571848729265)
 }
+train (t-c9f9kuhasqn50189ma0nzra73) {
+  utterance ("[g:FoodCompare2] {[g:FoodOne] (물만두)[v:FoodName]}랑 {[g:FoodTwo] (고구마)[v:FoodName]}랑 차이점 알려줘")
+  plan (Y+BgkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBEkXMDElB5IwYRDCn/vFQGcQzR4NTEouQMBlEMCb/E3FQspoSU56M5CSqK3yB2BkYGJgZmBhYGVgY2II8BymcE8xnBfAY4yQqWBallB9JMDKwA)
+  last-modified (1571931568713)
+}
 train (t-c9rbvmzd6bpsv19w2kslinnlb) {
   utterance ("[g:RestaurantFind] (충청남도)[v:RestaurantLocation]에 (사보텐)[v:RestaurantName] 정보 검색해줘")
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)

@@ -13,6 +13,11 @@ train (t-7exf85fggxcox4mbra1mezspy) {
   plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)
   last-modified (1571847980535)
 }
+train (t-7mfjj6vspe582mkknrmkao70t) {
+  utterance ("[g:FoodCompare2] {[g:FoodOne] (자몽)[v:FoodName]}이랑 {[g:FoodTwo] (김치)[v:FoodName]}랑 다른점 알려줘")
+  plan (Y+BgkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBEkXMDElB5IwYRDCn/vFQGcQzR4NTEouQMBlEMCb/E3FQspoSU56M5CSqK3yB2BkYGJgZmBhYGVgY2II8BymcE8xnBfAY4yQqWBallB9JMDKwA)
+  last-modified (1571931488478)
+}
 train (t-7q7wl95ws7okx01rspxmuoei7) {
   utterance ("[g:FoodSearch] (떡볶이)[v:FoodName] 식품정보 찾아놔")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)

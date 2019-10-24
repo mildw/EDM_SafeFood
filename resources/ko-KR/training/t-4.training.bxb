@@ -1,0 +1,5 @@
+train (t-459h6kocn63zyz7xtetbh7mkt) {
+  utterance ("[g:FoodCompare2] {[g:FoodOne] (치킨너겟)[v:FoodName]}이랑 {[g:FoodTwo] (훈제오리)[v:FoodName]}랑 다른점 비교해줘")
+  plan (Y+BgkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBEkXMDElB5IwYRDCn/vFQGcQzR4NTEouQMBlEMCb/E3FQspoSU56M5CSqK3yB2BkYGJgZmBhYGVgY2II8BymcE8xnBfAY4yQqWBallB9JMDKwA)
+  last-modified (1571931194642)
+}

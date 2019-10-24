@@ -8,6 +8,11 @@ train (t-sc23foa1hn2nzkqwi2nm7p9lu) {
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
   last-modified (1571848564377)
 }
+train (t-sjfbe1g2xrje3d7xbr1lheu9o) {
+  utterance ("[g:FoodCompare2] {[g:FoodOne] (연두부)[v:FoodName]}랑 {[g:FoodTwo] (프로틴)[v:FoodName]}이랑 뭐가 달라")
+  plan (Y+BgkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBEkXMDElB5IwYRDCn/vFQGcQzR4NTEouQMBlEMCb/E3FQspoSU56M5CSqK3yB2BkYGJgZmBhYGVgY2II8BymcE8xnBfAY4yQqWBallB9JMDKwA)
+  last-modified (1571931255774)
+}
 train (t-sm4x5lw2nvub62xzrlsypn8yd) {
   utterance ("[g:FindAllergy] 알러지 성분이 (딸기)[v:FoodName]에 있을까")
   plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGZgYGIGYAUgyMoAAlA8A)

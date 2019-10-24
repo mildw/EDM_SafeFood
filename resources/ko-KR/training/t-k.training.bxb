@@ -1,3 +1,8 @@
+train (t-kb67935b7hu135kodxlh6a1he) {
+  utterance ("[g:FoodCompare2] {[g:FoodOne] (짱구)[v:FoodName]}랑 {[g:FoodTwo] (감동란)[v:FoodName]}이랑 비교해")
+  plan (Y+BgkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBEkXMDElB5IwYRDCn/vFQGcQzR4NTEouQMBlEMCb/E3FQspoSU56M5CSqK3yB2BkYGJgZmBhYGVgY2II8BymcE8xnBfAY4yQqWBallB9JMDKwA)
+  last-modified (1571931844258)
+}
 train (t-kn8jithpwdw9h5pwl810f6n7m) {
   utterance ("[g:FindHandle] (미미)[v:FindHandleWay]한 알레르기 대처법 알려줘")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPIIVDIjyxkoGJgRGIGYAkIwMIQPkA)

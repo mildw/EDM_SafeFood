@@ -18,3 +18,8 @@ train (t-qt2wrmjzjv8e8teorzurm6u22) {
   plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGZgYGIGYAUgyMoAAlA8A)
   last-modified (1571824907274)
 }
+train (t-qz4ou0ydznutkycmdo3y0bgt4) {
+  utterance ("[g:FoodCompare2] {[g:FoodOne] (스파게티)[v:FoodName]}랑 {[g:FoodTwo] (불고기)[v:FoodName]}랑 차이가 뭐야")
+  plan (Y+BgkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBEkXMDElB5IwYRDCn/vFQGcQzR4NTEouQMBlEMCb/E3FQspoSU56M5CSqK3yB2BkYGJgZmBhYGVgY2II8BymcE8xnBfAY4yQqWBallB9JMDKwA)
+  last-modified (1571931753195)
+}
