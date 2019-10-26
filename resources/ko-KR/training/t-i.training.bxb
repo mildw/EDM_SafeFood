@@ -1,7 +1,7 @@
 train (t-i84zve8roarde7ajuphmzguba) {
-  utterance ("[g:FoodCompare2] {[g:FoodOne] (쭈꾸미)[v:FoodName]}랑 {[g:FoodTwo] (불짬뽕)[v:FoodName]}이랑 비교해봐")
+  utterance ("[g:FoodCompare2] {[g:FoodOne] (쭈꾸미)[v:FoodName]}랑 {[g:FoodTwo] (불짬뽕)[v:FoodName]}이랑 비교해")
   plan (Y+BgkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBEkXMDElB5IwYRDCn/vFQGcQzR4NTEouQMBlEMCb/E3FQspoSU56M5CSqK3yB2BkYGJgZmBhYGVgY2II8BymcE8xnBfAY4yQqWBallB9JMDKwA)
-  last-modified (1571931494217)
+  last-modified (1572078104762)
 }
 train (t-iau7bhqsli0jfy4pipfqnifvu) {
   utterance ("[g:DeleteOneFood] (물만두)[v:MyFoodName] 내리스트에서 제거")
