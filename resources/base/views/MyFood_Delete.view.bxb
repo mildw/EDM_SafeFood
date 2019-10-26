@@ -1,0 +1,30 @@
+result-view {
+	match: core.Boolean(this) {
+	}
+	
+	message {
+		if (this==true) {
+			template ("식품이 삭제되었습니다.")
+		} else {
+			template ("삭제할 식품이 없습니다.")
+		}
+	}
+	
+	
+	// render {
+	// 	if(exists(this)) {
+	// 		list-of (this) {
+	// 			where-each (foodOne) {
+	// 				layout-macro (myfood_list_macro) {
+	// 					param (foodOne) {
+	// 						expression (foodOne)
+	// 					}
+	// 				}
+	// 			}
+	// 		}
+	// 	}
+	
+	
+	
+	//}
+}
