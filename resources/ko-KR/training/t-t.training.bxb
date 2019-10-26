@@ -3,8 +3,18 @@ train (t-tfvqidqdgsr5llxswbgs7c1jr) {
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
   last-modified (1571707778459)
 }
+train (t-tgavlnwr2smktlb1h4jpzczlq) {
+  utterance ("[g:RestaurantFind] (강원도)[v:RestaurantLocation]에 있는 (호두과자)[v:RestaurantName]집 위생정보 찾아봐")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1572105894996)
+}
 train (t-tru57rqwf5zy6211yf0fw3u85) {
   utterance ("[g:DeleteOneFood] 내식품중 (감동란)[v:MyFoodName] 빼줘")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1571827185818)
+}
+train (t-tznderwy3ee38c2i7fbj663yo) {
+  utterance ("[g:FoodSearch] (왕교자)[v:FoodName]  식품 찾아주세요")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572102497607)
 }

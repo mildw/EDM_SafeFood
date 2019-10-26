@@ -3,7 +3,7 @@ action (RestaurantFind) {
 	collect {
 		input (restaurantLocation) {
 			type (RestaurantLocation)
-			min (Optional) max (One)
+			min (Required) max (One)
 		}
 		input (restaurantName) {
 			type (RestaurantName)

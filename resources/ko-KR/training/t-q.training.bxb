@@ -1,3 +1,8 @@
+train (t-qic4k5mjh8mvv4qnllkgcjhod) {
+  utterance ("[g:RestaurantFind] (부평)[v:RestaurantLocation]에 있는 (직화구이)[v:RestaurantName] 가게 위생정보 알려주세요")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1572105782039)
+}
 train (t-qj99vewnvneybdv1ygnsqvlax) {
   utterance ([g:RestaurantSearch] 위생 청결한 식당 가까운곳에 있나요)
   plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)
@@ -7,6 +12,11 @@ train (t-qn1j7zebiocl96nmbjkrj017j) {
   utterance ("[g:FoodCompare] {[g:FoodTwo] (진라면)[v:FoodName]}이랑 비교해줘")
   plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
   last-modified (1571386083427)
+}
+train (t-qni9mdr8vj053jgv01qkfrt4i) {
+  utterance ("[g:DeleteOneFood] 내 식품 목록에서 (신라면)[v:MyFoodName] 삭제해줘")
+  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572103909890)
 }
 train (t-qo9icqkkiglhe7tmgau80q4rw) {
   utterance ([g:DeleteAllFood] 저장했던 식품 다 지워)

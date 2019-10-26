@@ -3,3 +3,8 @@ train (t-lwpfmoteys6k79df7gpkyk9ap) {
   plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
   last-modified (1571824285523)
 }
+train (t-lzct2yynrfxc5ufr67hnmiiu5) {
+  utterance ("[g:RestaurantFind] (거제시)[v:RestaurantLocation]에 (뷔페)[v:RestaurantName] 식당 정보 알려줘")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1572105548268)
+}

@@ -18,3 +18,8 @@ train (t-6s92ioawsqq2r0iwc9q7b4v5q) {
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1571716131950)
 }
+train (t-6w72s1xsdvt4tk478t0ntw67i) {
+  utterance ("[g:DeleteOneFood] 식품목록에서 (호박엿)[v:MyFoodName] 삭제")
+  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572103404694)
+}

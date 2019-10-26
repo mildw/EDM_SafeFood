@@ -13,3 +13,8 @@ train (t-y7ydck2en7b6xh0j5jwg2bro9) {
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
   last-modified (1571707787591)
 }
+train (t-yytxo0gorfi0b6unh4kzyxf3a) {
+  utterance ("[g:FoodSearch] (카스타드)[v:FoodName] 상품 검색")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572102659440)
+}

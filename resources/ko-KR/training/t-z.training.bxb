@@ -3,8 +3,18 @@ train (t-z78o18wretkqf7a6ajh41uuhi) {
   plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
   last-modified (1571821095218)
 }
+train (t-z9hp98ee2wpapjsi6lnvq2as9) {
+  utterance ("[g:FoodSearch] (유기농 떡볶이)[v:FoodName] 상품 정보 검색")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572102359038)
+}
 train (t-zig1lvn360np4x3n6rgt7nbao) {
   utterance ("[g:FoodSearch] (추어탕)[v:FoodName] 식품 찾아줘")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1571716199606)
+}
+train (t-zq08ljiaeyjgb7r53902ytpus) {
+  utterance ("[g:FoodSearch] (훈제오리)[v:FoodName] 식품 정보 찾아줘")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572102385118)
 }

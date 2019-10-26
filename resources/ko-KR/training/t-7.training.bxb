@@ -1,3 +1,8 @@
+train (t-71bbgwroxz22s9suszojfs3d4) {
+  utterance ("[g:FoodSearch] (라면)[v:FoodName] 식품 정보 검색해줘")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572104239254)
+}
 train (t-71o20mb15xy03mqifp5le786f) {
   utterance ("[g:FindAllergy] (설렁탕)[v:FoodName]에 알레르기 유발할게\n 있니")
   plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGZgYGIGYAUgyMoAAlA8A)

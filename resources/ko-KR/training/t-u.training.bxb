@@ -3,6 +3,16 @@ train (t-uefry2bpl1h69wobhxrbdxmuz) {
   plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
   last-modified (1571707600295)
 }
+train (t-ufhqf2gdesskdtd7af7ybtdgg) {
+  utterance ("[g:RestaurantFind] (대구)[v:RestaurantLocation]에 있는 (오세요)[v:RestaurantName] 위생 정보 검색해줘\n")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1572105666376)
+}
+train (t-uj0umf35vtalwv6wj4ce1s4zw) {
+  utterance ("[g:FoodSearch] (허쉬 초코)[v:FoodName] 상품 정보 검색")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572102703621)
+}
 train (t-umf4idnlv2h5mgves1bgf6p1k) {
   utterance ("[g:FoodCompare2] {[g:FoodOne] (포카칩)[v:FoodName]}이랑 {[g:FoodTwo] (스윙칩)[v:FoodName]}이랑 비교해줘")
   plan (Y+BgkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBEkXMDElB5IwYRDCn/vFQGcQzR4NTEouQMBlEMCb/E3FQspoSU56M5CSqK3yB2BkYGJgZmBhYGVgY2II8BymcE8xnBfAY4yQqWBallB9JMDKwA)

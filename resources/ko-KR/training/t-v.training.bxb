@@ -1,10 +1,25 @@
+train (t-vibsemguswr65i7xamnaaq6z4) {
+  utterance ("[g:FoodSearch] (현미 크런치)[v:FoodName] 상품 찾아주세요")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572103450414)
+}
 train (t-vjuydbb01liqy776pu70nikt7) {
   utterance ("[g:RestaurantFind] (부평)[v:RestaurantLocation]에 있는 (신선설농탕)[v:RestaurantName]가게 위생상태 알려줘")
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
   last-modified (1571849160240)
 }
+train (t-vledro1aye5nq5wccwx01jv2p) {
+  utterance ("[g:FoodSearch] (홈플러스 소면)[v:FoodName] 식품 검색해줘")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572102280874)
+}
 train (t-vve7hv0gdg9lbn98wv5vwj27a) {
   utterance ([g:DeleteAllFood] 등록했던 식품 전부 지워줘)
   plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
   last-modified (1571824248722)
+}
+train (t-vwka9e0t8opynn676uo1i26gg) {
+  utterance ("[g:DeleteOneFood] 내 리스트에서 (나뚜루 초코)[v:MyFoodName] 삭제")
+  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572103196829)
 }

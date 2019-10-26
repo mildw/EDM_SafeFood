@@ -13,3 +13,13 @@ train (t-xizbfryghjyh5tz9exo011way) {
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPIIVDIjyxkoGJgRGIGYAkIwMIQPkA)
   last-modified (1571929059169)
 }
+train (t-xlxy0gfhrkblankc0sgedyiv8) {
+  utterance ("[g:RestaurantFind] (인천)[v:RestaurantLocation]에 (한우)[v:RestaurantName] 위생 검색")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1572105695266)
+}
+train (t-xv3hv2pairyycir4zgzp45403) {
+  utterance ("[g:FoodSearch] (가마솥 국산콩 두부)[v:FoodName] 상품 검색해줘")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572102454662)
+}

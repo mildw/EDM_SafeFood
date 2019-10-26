@@ -3,3 +3,8 @@ train (t-459h6kocn63zyz7xtetbh7mkt) {
   plan (Y+BgkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBEkXMDElB5IwYRDCn/vFQGcQzR4NTEouQMBlEMCb/E3FQspoSU56M5CSqK3yB2BkYGJgZmBhYGVgY2II8BymcE8xnBfAY4yQqWBallB9JMDKwA)
   last-modified (1571931194642)
 }
+train (t-4toz2tbh27tz9568dh5n3j2s7) {
+  utterance ("[g:RestaurantFind] (진주시)[v:RestaurantLocation]에 (본죽)[v:RestaurantName] 위생 정보 찾아주세요")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1572105834649)
+}

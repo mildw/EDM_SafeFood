@@ -8,6 +8,11 @@ train (t-r66q9n1xa3hubf72sgtt1gff4) {
   plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
   last-modified (1571821049446)
 }
+train (t-rdnhgf4gyijdammrkuvg8cw5j) {
+  utterance ("[g:DeleteOneFood] (쿨피스 파인애플맛)[v:MyFoodName] 내 식품 리스트에서 없애주세요")
+  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572103351897)
+}
 train (t-romssd7pkmnboxl4tpxn9u3vu) {
   utterance ("[g:FindHandle] (미미)[v:FindHandleWay]한 알러지 대처법 알려줘")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPIIVDIjyxkoGJgRGIGYAkIwMIQPkA)

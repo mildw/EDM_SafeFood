@@ -8,3 +8,8 @@ train (t-931z995ayye90o9ilj9nbem06) {
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
   last-modified (1571707807368)
 }
+train (t-9slltzotrzo6o69d8sgx56016) {
+  utterance ("[g:RestaurantFind] (인천)[v:RestaurantLocation]에 (이베이커리)[v:RestaurantName] 위생 정보 찾아줘")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1572105865613)
+}

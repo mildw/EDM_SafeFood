@@ -1,3 +1,13 @@
+train (t-522i2p3ayeqfle1smvh8cl9sh) {
+  utterance ("[g:RestaurantFind] (분당)[v:RestaurantLocation]에 있는  (사보텐)[v:RestaurantName] 위생 정보 알려줘")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1572105491775)
+}
+train (t-53szpesp60mw7yi4fuxg18taa) {
+  utterance ("[g:FoodSearch] (리얼 바나나)[v:FoodName] 식품 검색해주세요")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572103475326)
+}
 train (t-57rnpkoq337zqr1qcl469kor9) {
   utterance ("[g:FoodCompare] {[g:FoodTwo] (맛있는라면)[v:FoodName]}이랑 차이알려줘")
   plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
@@ -12,6 +22,11 @@ train (t-5jixlvwvrxt0j3s9hhjzlq1mr) {
   utterance ([g:GetMyFoodList] 내가 등록한 리스트 보여줘)
   plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
   last-modified (1571821084160)
+}
+train (t-5lkh7rnx7snyf8pvmnkf8szh8) {
+  utterance ("[g:DeleteOneFood] 내 리스트에서 (누네띠네 딸기)[v:MyFoodName] 제거해줘")
+  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572103261076)
 }
 train (t-5ot0xnco3hghd20hywbg2id53) {
   utterance ("[g:FindAllergy] (자몽)[v:FoodName]이 알러지를 유발하나요\n")

@@ -18,6 +18,11 @@ train (t-c9rbvmzd6bpsv19w2kslinnlb) {
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
   last-modified (1571848917673)
 }
+train (t-co03zk1maxb0fen8jq7iyt232) {
+  utterance ("[g:RestaurantFind] (순천시)[v:RestaurantLocation]에 있는 (자연별곡)[v:RestaurantName] 정보 검색")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1572105720546)
+}
 train (t-cxnr6r1on0n23osrk8z9fb5to) {
   utterance ("[g:FoodSearch] (샐러드)[v:FoodName] 상품정보 알려줘")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
