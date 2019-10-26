@@ -1,16 +1,21 @@
 capsule-info {
-  display-name  (세이프 푸드)
+  display-name  (미더블)
   developer-name  (세이프 푸드)
   icon-asset (/img/logo.PNG)
-  description ("세이프 푸드 capsule 입니다")
-  //우리 주소 아님!!
+  description ("미더블 capsule 입니다")
+  //우리 주소 아님!! 이건어따씀?
   website-url (https://github.com/bixbydevelopers/capsule-sample-arithmetic-KR)
   terms-url (https://github.com/bixbydevelopers/capsule-sample-arithmetic-KR/blob/master/LICENSE)
-  dispatch-name (세이프 푸드)
+
+  dispatch-name (미더블)
+  
   dispatch-aliases {
-    alias (검색)
+    alias (미덕을)
+    alias (니더블)
+    alias (미 더블)
+    alias (미 덕을)
   }
   search-keywords{
-    keyword (예제)
+    keyword (미더블)
   }
 }

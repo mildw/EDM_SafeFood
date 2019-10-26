@@ -6,18 +6,18 @@ dialog (Result) {
   if (size(this) > 1) {
     
       if (exists(action.restaurantName)) {
-        template("Here are #{value(action.restaurantName)}")
+        template("#{value(action.restaurantName)}로 검색한 결과입니다.")
       } else {
-        template("Here are the Restaurant")
+        template("식당 검색 결과입니다.")
       }
     
   }
 
-  if (size(this) == 1) {
-    template("Here is #{value(this)}:")
+  if (size(this) <= 1) {
+    template("#{value(this)}의검색 결과입니다")
   }
 
   if (exists(action.restaurantName)) {
-    template("Here are #{value(action.restaurantName)}")
+    template("#{value(action.restaurantName)}로 검색한 결과입니다.")
   }
 }

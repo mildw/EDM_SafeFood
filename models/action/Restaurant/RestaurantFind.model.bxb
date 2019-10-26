@@ -13,11 +13,6 @@ action (RestaurantFind) {
 	}
 	type(Search)
 	output (ThisRestaurant){
-		on-empty {
-			ordered-effects {
-				drop (restaurantName)
-			}
-		}
 		throws {
 			error (Error) {
 				on-catch {

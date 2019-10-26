@@ -2,5 +2,5 @@ dialog (NoResult) {
   match: Restaurant (this) {
     from-output: RestaurantFind (action)
   }
-  template("I couldn't find anything")
+  template("검색한 이름의 식당을 찾을수 없습니다.")
 }

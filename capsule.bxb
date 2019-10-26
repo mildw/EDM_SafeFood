@@ -3,6 +3,12 @@ capsule {
 	version (0.1.0)
 	format (3)
 	
+
+	store-sections {
+    section (FoodAndDrink)
+  }
+
+
 	targets {
 		target (bixby-mobile-en-US) {enabled (false)}
 		target (bixby-mobile-ko-KR)
