@@ -1,4 +1,0 @@
-enum (FindHandleWayL) {
-  description (__DESCRIPTION__)
-  symbol (미미한)
-}

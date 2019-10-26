@@ -1,15 +1,10 @@
-train (t-91yni3a7fvkc8orfqszqif4oi) {
-  utterance ([g:GetMyFoodList] 내 식품들 뭐있어)
-  plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
-  last-modified (1571707580919)
+train (t-921hjk6dr10aeiozhy2zyfgh0) {
+  utterance ("[g:FindAllergy] (불고기)[v:FoodName]가 알레르기를 발생시키니")
+  plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGZgYGIGYAUgyMoAAlA8A)
+  last-modified (1571825068374)
 }
 train (t-931z995ayye90o9ilj9nbem06) {
   utterance ([g:PutMyFood] 내꺼에 추가해줘)
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
   last-modified (1571707807368)
-}
-train (t-9bkkzv1ao29wtburvtwfkj9i0) {
-  utterance ("[g:FindHandle] (심각한)[v:FindHandleWayH:심각한] 알러지 반응 대처법 알려줘")
-  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)
-  last-modified (1571733571033)
 }

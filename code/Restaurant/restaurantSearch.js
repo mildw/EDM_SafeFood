@@ -1,5 +1,6 @@
-module.exports.function = function restaurantSearch(dummy, myPoint) {
-  var console = require('console');
+module.exports.function = function restaurantSearch (myPoint) {
+ var console = require('console');
+
   var http = require('http');
   var fail = require('fail');
   try {

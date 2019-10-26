@@ -3,8 +3,13 @@ train (t-09m7kddn8cmhdy9fcexyp92g9) {
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1571731800622)
 }
-train (t-0co7b41g28q6excuy23xiptnb) {
-  utterance ([g:GetMyFoodStat] 내 식품 분석해줘)
+train (t-0ap0p7x2s8hlf8t65033h3d12) {
+  utterance ([g:RestaurantSearch] 근방에 위생 청결한 식당 찾아줘)
+  plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)
+  last-modified (1571847688849)
+}
+train (t-0idzdfb84fdb73sj6jn0ny56k) {
+  utterance ([g:GetMyFoodStat] 식품정보 통계내줘)
   plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
-  last-modified (1571841838189)
+  last-modified (1571845698934)
 }

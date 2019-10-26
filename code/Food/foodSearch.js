@@ -63,10 +63,11 @@ module.exports.function = function foodSearch(foodName) {
         }
       }
 
-      ////// 차트를 그릴 수 없는 경우 삽입할 default 이미지 정하기
+      // 차트를 그릴 수 없는 경우 삽입할 default 이미지 정하기
       list[i]['chart'] = '-';
       if (nutriCnt < 4)
         continue;
+
 
       ////////////////차트 넣기
       var url = config.get('chartBaseUrl');

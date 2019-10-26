@@ -1,15 +1,5 @@
-train (t-4h6makbi4zd0vvt9bfpej9dl9) {
-  utterance ("[g:FoodSearch] (빈츠)[v:FoodName] 찾아줘")
-  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571708131159)
-}
-train (t-4r596csw4yaecn73atg2cs2yc) {
-  utterance ("[g:FindAllergy] (앱솔루트)[v:FindAllergyItem] 먹으면 알레르기 나니")
-  plan (Y2BmkElNydUrTkxLTcvPT9Fzy8xLcczJSS1Kr/QsSc1lEESVBRIMErg0MDAyMAExI5hmYgACAA==)
-  last-modified (1571841841018)
-}
-train (t-4xfhfc6jv5w246xl95jrhtncg) {
-  utterance ([g:GetMyFoodStat] 나의 통계정보 줘)
-  plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
-  last-modified (1571841841173)
+train (t-459h6kocn63zyz7xtetbh7mkt) {
+  utterance ("[g:FoodCompare2] {[g:FoodOne] (치킨너겟)[v:FoodName]}이랑 {[g:FoodTwo] (훈제오리)[v:FoodName]}랑 다른점 비교해줘")
+  plan (Y+BgkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBEkXMDElB5IwYRDCn/vFQGcQzR4NTEouQMBlEMCb/E3FQspoSU56M5CSqK3yB2BkYGJgZmBhYGVgY2II8BymcE8xnBfAY4yQqWBallB9JMDKwA)
+  last-modified (1571931194642)
 }

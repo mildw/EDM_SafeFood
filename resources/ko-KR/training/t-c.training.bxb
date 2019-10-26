@@ -1,20 +1,25 @@
-train (t-c0vp1wlsuc0faztrerqdecco7) {
-  utterance ("[g:DeleteOneFood] (탕수육)[v:MyFoodName] 제거할래")
-  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571726375956)
+train (t-c2bhl6y1s6iuxi4l5k1s6epzv) {
+  utterance ("[g:FindHandle] (미미)[v:FindHandleWay]한 알러지 대처법 알려줘")
+  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPIIVDIjyxkoGJgRGIGYAkIwMIQPkA)
+  last-modified (1571928626451)
 }
 train (t-c30vbk6erahis1ndexr6348n0) {
-  utterance ("[g:ThisRestaurant] (인천)[v:RestaurantLocation]에 (쭈꾸미)[v:RestaurantName] 위생등급 알려줘")
-  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
-  last-modified (1571710503962)
+  utterance ("[g:RestaurantFind] (인천)[v:RestaurantLocation]에 있는 (쭈꾸미)[v:RestaurantName]집 위생등급 알려줘")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1571848729265)
+}
+train (t-c9f9kuhasqn50189ma0nzra73) {
+  utterance ("[g:FoodCompare2] {[g:FoodOne] (물만두)[v:FoodName]}랑 {[g:FoodTwo] (고구마)[v:FoodName]}랑 차이점 알려줘")
+  plan (Y+BgkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBEkXMDElB5IwYRDCn/vFQGcQzR4NTEouQMBlEMCb/E3FQspoSU56M5CSqK3yB2BkYGJgZmBhYGVgY2II8BymcE8xnBfAY4yQqWBallB9JMDKwA)
+  last-modified (1571931568713)
 }
 train (t-c9rbvmzd6bpsv19w2kslinnlb) {
-  utterance ("[g:ThisRestaurant] (충청남도)[v:RestaurantLocation] (사보텐)[v:RestaurantName] 에대해 알려줘")
-  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
-  last-modified (1571725320683)
+  utterance ("[g:RestaurantFind] (충청남도)[v:RestaurantLocation]에 (사보텐)[v:RestaurantName] 정보 검색해줘")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1571848917673)
 }
-train (t-cds5e9u0dwt5b0hjjtmt3vac2) {
-  utterance ([g:GetMyFoodStat] 내 식품 통계 보여줘)
-  plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
-  last-modified (1571841845489)
+train (t-cxnr6r1on0n23osrk8z9fb5to) {
+  utterance ("[g:FoodSearch] (샐러드)[v:FoodName] 상품정보 알려줘")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571823387658)
 }

@@ -1,8 +1,8 @@
-module.exports.function = function findHandle(findHandleWayL, findHandleWayH) {
+module.exports.function = function findHandle(findHandleWay) {
 
   var findHandleResults = [];
 
-  if (findHandleWayL) {
+  if (findHandleWay == '미미') {
     findHandleResults[0] = {
       //handleNum : "H1",
       img: "https://www.wikihow.com/images_en/thumb/3/32/Deal-With-Allergic-Reactions-Step-1-Version-2.jpg/v4-728px-Deal-With-Allergic-Reactions-Step-1-Version-2.jpg.webp",
@@ -38,7 +38,7 @@ module.exports.function = function findHandle(findHandleWayL, findHandleWayH) {
       text: "알레르기 증상이 사라지고 나서 바로 피부과/내과/알레르기 내과에 예약을 넣도록 한다. 의사가 검사를 통해 알레르기 반응의 원인을 찾아 증상 개선을 위한 알레르기 주사 또는 약을 처방할 것이다."
     };
   }
-  else if (findHandleWayH) {
+  else if (findHandleWay == '심각') {
     findHandleResults[0] = {
       //handleNum : "H1",
       img: "Aimg/img_E.jpg",

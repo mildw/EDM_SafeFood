@@ -1,15 +1,35 @@
-train (t-s72jwki1clq3w518am3968emp) {
-  utterance ([g:GetMyFoodStat] 식품 통계 보여줘)
-  plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
-  last-modified (1571841858074)
+train (t-sag9kpialztrwpjksdlaod05c) {
+  utterance ("[g:DeleteOneFood] (오리주물럭)[v:MyFoodName] 내리스트에서 제거해줘")
+  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571827480242)
 }
 train (t-sc23foa1hn2nzkqwi2nm7p9lu) {
-  utterance ("[g:ThisRestaurant] (인천)[v:RestaurantLocation]에 (햄버거)[v:RestaurantName]집 위생등급 알려줘")
-  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
-  last-modified (1571675996270)
+  utterance ("[g:RestaurantFind] (인천)[v:RestaurantLocation]에 (햄버거)[v:RestaurantName]집 위생등급 알려줘")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1571848564377)
+}
+train (t-sjfbe1g2xrje3d7xbr1lheu9o) {
+  utterance ("[g:FoodCompare2] {[g:FoodOne] (연두부)[v:FoodName]}랑 {[g:FoodTwo] (프로틴)[v:FoodName]}이랑 뭐가 달라")
+  plan (Y+BgkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBEkXMDElB5IwYRDCn/vFQGcQzR4NTEouQMBlEMCb/E3FQspoSU56M5CSqK3yB2BkYGJgZmBhYGVgY2II8BymcE8xnBfAY4yQqWBallB9JMDKwA)
+  last-modified (1571931255774)
+}
+train (t-sm4x5lw2nvub62xzrlsypn8yd) {
+  utterance ("[g:FindAllergy] 알러지 성분이 (딸기)[v:FoodName]에 있을까")
+  plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGZgYGIGYAUgyMoAAlA8A)
+  last-modified (1571846567290)
+}
+train (t-sn0cnbiqh4mvyhda3frrs6yh8) {
+  utterance ([g:PutMyFood] 이식품 추가해줘)
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
+  last-modified (1571823545492)
 }
 train (t-srq5d6qkseuldt4obodywumfz) {
-  utterance ("[g:ThisRestaurant] (부산)[v:RestaurantLocation] (웰스토리)[v:RestaurantName]는 좋니")
-  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
-  last-modified (1571725415628)
+  utterance ("[g:RestaurantFind] (부산)[v:RestaurantLocation]에 있는 (웰스토리)[v:RestaurantName]는 위생상태가 좋니")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1571849016252)
+}
+train (t-ssze2pnbssrwfzhu1znv0gg25) {
+  utterance ("[g:FindAllergy] (치킨너겟)[v:FoodName]에  알레르기 유발 성분 뭐있을까")
+  plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGZgYGIGYAUgyMoAAlA8A)
+  last-modified (1571824837878)
 }

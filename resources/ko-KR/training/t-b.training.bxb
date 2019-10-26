@@ -1,25 +1,35 @@
 train (t-b2zhuhab6emww32vvsmf4p6so) {
-  utterance ("[g:ThisRestaurant] (분당)[v:RestaurantLocation] (페쉐)[v:RestaurantName] 정보")
-  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
-  last-modified (1571725480361)
+  utterance ("[g:RestaurantFind] (분당)[v:RestaurantLocation]에 있는 (페쉐)[v:RestaurantName] 정보 검색해줘\n")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1571848767011)
+}
+train (t-b42k0liv1hec0tksns0b991c5) {
+  utterance ("[g:DeleteOneFood] (삼계탕)[v:MyFoodName] 내상품에서 빼줘")
+  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571827446091)
+}
+train (t-b7jztoumxl760kav2nf55b8cl) {
+  utterance ([g:GetMyFoodStat] 내 식품들 통계해줘)
+  plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
+  last-modified (1571845520687)
 }
 train (t-bhra1vtwrewuboeh5bbdu6joi) {
-  utterance ("[g:ThisRestaurant] (서울)[v:RestaurantLocation]에 (스파게티)[v:RestaurantName]집 위생등급 알아와")
-  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
-  last-modified (1571675878370)
+  utterance ("[g:RestaurantFind] (서울)[v:RestaurantLocation]에 있는 (스파게티)[v:RestaurantName]집 위생등급 알아와")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1571848720836)
 }
 train (t-bq1a5nru6umzsop3wqapoxks4) {
   utterance ("[g:FoodCompare] 비교해 {[g:FoodTwo] (생강차)[v:FoodName]}랑")
   plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
   last-modified (1571709040129)
 }
-train (t-bx2z7i5gw72a4q8qq44ag28mg) {
-  utterance ("[g:FoodSearch] (참기름)[v:FoodName]의 식품정보 검색해줘")
-  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571731564237)
+train (t-bqf89csnw8huy5yghvew0h9qe) {
+  utterance ("[g:FoodCompare] {[g:FoodTwo] (치킨텐더)[v:FoodName]}랑 차이점이 뭐야")
+  plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
+  last-modified (1571843992372)
 }
-train (t-by6z8st84u486nt7yttl35pcs) {
-  utterance ("[g:RestaurantRange] (내주변)[v:Dummy] 가게 위생정보 알려줘")
-  plan (Y2BhkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCEIu1SmptbySCCIuZbGZCfmVfCwMzAyMAEJBmANAhCABMEAwA=)
-  last-modified (1571669200812)
+train (t-bz3s1s7yypbm5spkdctoinbg2) {
+  utterance ("[g:FoodCompare] {[g:FoodTwo] (곰탕)[v:FoodName]}이랑 차이점 비교해줘")
+  plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
+  last-modified (1571844610783)
 }

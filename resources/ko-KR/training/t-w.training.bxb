@@ -1,30 +1,30 @@
-train (t-w0m2ivi1ivd3411x9s6mkj1er) {
-  utterance ("[g:FoodSearch] (3분카레)[v:FoodName] 정보줘")
-  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571708179607)
-}
 train (t-w3l79jnngetcno7115l60wmtn) {
-  utterance ("[g:ThisRestaurant] (대구)[v:RestaurantLocation] (사이카보)[v:RestaurantName] 위생 정보 줘")
-  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
-  last-modified (1571725567771)
+  utterance ("[g:RestaurantFind] (대구)[v:RestaurantLocation]에 (사이카보)[v:RestaurantName] 위생 정보 줘")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1571849033693)
 }
-train (t-w9u2zc4hjre482740i3ga6d9x) {
-  utterance ([g:GetMyFoodStat] 식품정보 통계내줘)
+train (t-wfutkqaq4djt51knwnwo7cyfd) {
+  utterance ("[g:FoodCompare] {[g:FoodTwo] (연두부)[v:FoodName]}랑 다른점이 뭐야")
+  plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
+  last-modified (1571844393516)
+}
+train (t-wi585f4epkugqz4x7sf15ldik) {
+  utterance ([g:GetMyFoodList] 나의 식품 리스트 보여줄래)
+  plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
+  last-modified (1571821068623)
+}
+train (t-wkjsnpflmzill67aoleo2ex8r) {
+  utterance ([g:GetMyFoodStat] 내 식품목록 통계내줄래)
   plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
-  last-modified (1571841862055)
+  last-modified (1571845817036)
+}
+train (t-wpdc6p28hqnk2vm22121yn3cy) {
+  utterance ([g:GetMyFoodStat] 내식품 통계 보여줘)
+  plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
+  last-modified (1571845652770)
 }
 train (t-wpfi2pdju6k5izqo6yxyf1mr0) {
-  utterance ("[g:FindHandle] (미미한)[v:FindHandleWayL:미미한] 알레르기 반응 대처하기")
-  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oeBiYERiBmAJCMDCED5AA==)
-  last-modified (1571734175746)
-}
-train (t-wsv8u193shvhemcmseexwvjsh) {
-  utterance ("[g:FindAllergy] (까르보불닭)[v:FoodName]의 알러지 정보 알려줘")
-  plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGZgYGIGYAUgyMoAAlA8A)
-  last-modified (1571841862795)
-}
-train (t-wuvjln6ppvfdbhwy00rzog981) {
-  utterance ([g:DeleteAllFood] 내꺼 모두 삭제해줘)
-  plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
-  last-modified (1571708692299)
+  utterance ("[g:FindHandle] (미미)[v:FindHandleWay]한 알레르기 반응 대처하기")
+  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPIIVDIjyxkoGJgRGIGYAkIwMIQPkA)
+  last-modified (1571928339064)
 }

@@ -1,15 +1,35 @@
-train (t-j2clfzmskll345ecun5j4pk7b) {
-  utterance ([g:GetMyFoodList] 내 식품목록 보여줘)
-  plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
-  last-modified (1571499832772)
-}
 train (t-j2hulq0a25pr4ob6vuuwva89d) {
   utterance ("[g:DeleteOneFood] 식품에서 (삼계탕)[v:MyFoodName] 없애줘")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1571726337796)
 }
-train (t-jsyo32cks6um5urkpxwg1tz0q) {
-  utterance ("[g:DeleteOneFood] 내식품중 (햄)[v:MyFoodName] 삭제해라")
-  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571731957557)
+train (t-j5bkupivawhhs2zaviukr74n9) {
+  utterance ("[g:FoodCompare2] {[g:FoodOne] (닭갈비)[v:FoodName]}랑 {[g:FoodTwo] (닭백숙)[v:FoodName]}이랑 다른점 알려줘")
+  plan (Y+BgkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBEkXMDElB5IwYRDCn/vFQGcQzR4NTEouQMBlEMCb/E3FQspoSU56M5CSqK3yB2BkYGJgZmBhYGVgY2II8BymcE8xnBfAY4yQqWBallB9JMDKwA)
+  last-modified (1571931067925)
+}
+train (t-jbu0gbks0s3o4bvrm1zanm8fr) {
+  utterance ([g:GetMyFoodList] 식품 등록해 놓은거 뭐있냐)
+  plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
+  last-modified (1571821280704)
+}
+train (t-jcyhkr2fpw1h4b2m1cef51qfa) {
+  utterance ("[g:FoodCompare2] {[g:FoodOne] (신라면)[v:FoodName]}이랑 {[g:FoodTwo] (진라면)[v:FoodName]}이랑 차이점 비교해줘")
+  plan (Y+BgkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBEkXMDElB5IwYRDCn/vFQGcQzR4NTEouQMBlEMCb/E3FQspoSU56M5CSqK3yB2BkYGJgZmBhYGVgY2II8BymcE8xnBfAY4yQqWBallB9JMDKwA)
+  last-modified (1571931047312)
+}
+train (t-jhoe15hpq3np9pzj7tlrghmhk) {
+  utterance ([g:GetMyFoodList] 내가 등록한 식품 목록 보여줘)
+  plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
+  last-modified (1571821033476)
+}
+train (t-jkqizz9xvdcrx5p6gljc4io4a) {
+  utterance ([g:PutMyFood] 지금상품 저장해줘)
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
+  last-modified (1571823490775)
+}
+train (t-jtn8acdxn58am18cyybl6td90) {
+  utterance ([g:PutMyFood] 현재상품 등록해줘)
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
+  last-modified (1571823483867)
 }

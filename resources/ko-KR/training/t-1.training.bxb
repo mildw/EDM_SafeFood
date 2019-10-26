@@ -1,30 +1,20 @@
-train (t-1121jzzz7gmkenqeydmx3hc4v) {
-  utterance ([g:GetMyFoodStat] 통계)
-  plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
-  last-modified (1571841838317)
-}
 train (t-1e3cgbic4fhysc0d2j5bp1x3h) {
   utterance ("[g:FoodCompare] {[g:FoodTwo] (삼양라면)[v:FoodName]}과 차이가뭐야")
   plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
   last-modified (1571709101695)
 }
-train (t-1ocb478oo99sbksrvb9gy7g4s) {
-  utterance ([g:GetMyFoodStat] 내가 먹은거 통계내줘)
-  plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
-  last-modified (1571841840355)
+train (t-1ncmt2lr7qnrb537fmj0gjyap) {
+  utterance ("[g:RestaurantSearch] 가까운곳에 위생좋은 식당 찾아주세요\n")
+  plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)
+  last-modified (1571847990098)
+}
+train (t-1vv8jncrhyb846pnwicekq97u) {
+  utterance ("[g:FindAllergy] (김치)[v:FoodName]에 알러지유발 성분 있니")
+  plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGZgYGIGYAUgyMoAAlA8A)
+  last-modified (1571846503491)
 }
 train (t-1wu9ao8d4efjgdqpgqv2adjek) {
-  utterance ("[g:FindHandle] (심각한)[v:FindHandleWayH:심각한] 알러지")
-  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPII1DIjyx0oOBiYERiBmAJCMDCED5AA==)
-  last-modified (1571734232073)
-}
-train (t-1y1tmerp6advsqv4se7hpnn84) {
-  utterance ([g:PutMyFood] 내 식품으로 추가해줘)
-  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
-  last-modified (1571489833961)
-}
-train (t-1zlx83cv28xkfru01w6cedevh) {
-  utterance ("[g:FindAllergy] (훈제연어)[v:FindAllergyItem] 알레르기 요소")
-  plan (Y2BmkElNydUrTkxLTcvPT9Fzy8xLcczJSS1Kr/QsSc1lEESVBRIMErg0MDAyMAExI5hmYgACAA==)
-  last-modified (1571841838939)
+  utterance ("[g:FindHandle] (심각)[v:FindHandleWay]한 알러지 대처\n")
+  plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPIIVDIjyxkoGJgRGIGYAkIwMIQPkA)
+  last-modified (1571928955594)
 }

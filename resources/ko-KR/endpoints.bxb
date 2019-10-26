@@ -63,7 +63,7 @@ endpoints {
 		
 		// 미미한 대처방법 알려줘
 		action-endpoint (FindHandle) {
-			accepted-inputs (findHandleWayL, findHandleWayH)
+			accepted-inputs (findHandleWay)
 			local-endpoint (Allergy/findHandle.js)
 		}
 		
@@ -75,7 +75,7 @@ endpoints {
 		
 		//내주변 가게의 위생정보 알려줘
 		action-endpoint (RestaurantSearch) {
-			accepted-inputs (dummy,myPoint)
+			accepted-inputs (myPoint)
 			local-endpoint (Restaurant/restaurantSearch.js)
 		}
 		

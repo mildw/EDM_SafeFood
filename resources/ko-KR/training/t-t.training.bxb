@@ -1,15 +1,10 @@
-train (t-t044hbl1tukr0dof2b2w8h426) {
-  utterance ("[g:FoodSearch] (샐러드)[v:FoodName] 식품정보 줘")
-  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571716252255)
-}
 train (t-tfvqidqdgsr5llxswbgs7c1jr) {
   utterance ([g:PutMyFood] 식품 추가)
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
   last-modified (1571707778459)
 }
-train (t-tlve3vggq1e6tszhojz20q9ut) {
-  utterance ("[g:FoodSearch] (구운 돌김)[v:FoodName] 정보 알려줘")
-  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571708097904)
+train (t-tru57rqwf5zy6211yf0fw3u85) {
+  utterance ("[g:DeleteOneFood] 내식품중 (감동란)[v:MyFoodName] 빼줘")
+  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1571827185818)
 }

@@ -1,4 +1,0 @@
-enum (FindHandleWayH) {
-  description (__DESCRIPTION__)
-  symbol (심각한)
-}
