@@ -1,11 +1,10 @@
 capsule-info {
   display-name  (미더블)
   developer-name  (EDM)
-  icon-asset (/img/logo_img.PNG)
-  description ("medible은 식품을 믿고 먹을 수 있도록 도와주는 캡슐 입니다")
-  //우리 주소 아님!! 이건어따씀?
-  website-url (https://github.com/bixbydevelopers/capsule-sample-arithmetic-KR)
-  terms-url (https://github.com/bixbydevelopers/capsule-sample-arithmetic-KR/blob/master/LICENSE)
+  icon-asset (logo_img.png)
+  description ("medible은 식품을 믿고 먹을 수 있도록 도와주는 캡슐 입니다.")
+  
+  website-url (https://github.com/mildup/EDM_SafeFood)
 
   dispatch-name (미더블)
   

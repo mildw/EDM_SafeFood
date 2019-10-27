@@ -35,7 +35,7 @@ layout-macro-def (Restaurant_Range_Card) {
 							height (25)
 							anchor-x (5)
 							anchor-y (15)
-							rotation (0)	
+							rotation (0)
 						}
 						marker {
 							geo (restaurant.destinationPoint[1])
@@ -44,7 +44,7 @@ layout-macro-def (Restaurant_Range_Card) {
 							height (25)
 							anchor-x (5)
 							anchor-y (15)
-							rotation (0)	
+							rotation (0)
 						}
 						marker {
 							geo (restaurant.destinationPoint[2])
@@ -53,7 +53,7 @@ layout-macro-def (Restaurant_Range_Card) {
 							height (25)
 							anchor-x (5)
 							anchor-y (15)
-							rotation (0)	
+							rotation (0)
 						}
 						marker {
 							geo (restaurant.destinationPoint[3])
@@ -62,7 +62,7 @@ layout-macro-def (Restaurant_Range_Card) {
 							height (25)
 							anchor-x (5)
 							anchor-y (15)
-							rotation (0)	
+							rotation (0)
 						}
 						marker {
 							geo (restaurant.destinationPoint[4])
@@ -71,7 +71,7 @@ layout-macro-def (Restaurant_Range_Card) {
 							height (25)
 							anchor-x (5)
 							anchor-y (15)
-							rotation (0)	
+							rotation (0)
 						}
 						marker {
 							geo (restaurant.destinationPoint[5])
@@ -80,7 +80,7 @@ layout-macro-def (Restaurant_Range_Card) {
 							height (25)
 							anchor-x (5)
 							anchor-y (15)
-							rotation (0)	
+							rotation (0)
 						}
 						marker {
 							geo (restaurant.destinationPoint[6])
@@ -89,7 +89,7 @@ layout-macro-def (Restaurant_Range_Card) {
 							height (25)
 							anchor-x (5)
 							anchor-y (15)
-							rotation (0)	
+							rotation (0)
 						}
 						marker {
 							geo (restaurant.destinationPoint[7])
@@ -98,7 +98,7 @@ layout-macro-def (Restaurant_Range_Card) {
 							height (25)
 							anchor-x (5)
 							anchor-y (15)
-							rotation (0)	
+							rotation (0)
 						}
 						marker {
 							geo (restaurant.destinationPoint[8])
@@ -107,9 +107,9 @@ layout-macro-def (Restaurant_Range_Card) {
 							height (25)
 							anchor-x (5)
 							anchor-y (15)
-							rotation (0)	
+							rotation (0)
 						}
-
+						
 						marker {
 							geo (restaurant.destinationPoint[9])
 							icon ("/img/icons/red-map-marker10.png")
@@ -117,34 +117,90 @@ layout-macro-def (Restaurant_Range_Card) {
 							height (25)
 							anchor-x (5)
 							anchor-y (15)
-							rotation (0)	
+							rotation (0)
 						}
 						
 					}
 					
 				}
 				
+				
+				
+				
+				
 				for-each (restaurant){
 					as (item){
 						compound-card{
 							content{
-								
-								single-line {
-									text {
-										value ("#{value(item.name)}")
-										style (Title_M)
+								if (item.rank == '매우우수'){
+									thumbnail-card {
+										image-position (Start)
+										image-object-fit (Contain)
+										image-url ("Aimg/star3.png")
+										title-area {
+											halign (Start)
+											slot1 {
+												text {
+													value  ("#{value(item.name)}")
+													style (Title_XS)
+												}
+											}
+											slot2 {
+												single-line {
+													text {
+														value ("#{value(item.location)}")
+														style (Detail_L_Soft)
+													}
+												}
+											}
+										}
 									}
 								}
-								single-line {
-									text {
-										value ("#{value(item.location)}")
-										style (Detail_L)
+								else-if (item.rank == '우수'){
+									thumbnail-card {
+										image-position (Start)
+										image-url ("Aimg/star2.png")
+										image-object-fit (Contain)
+										title-area {
+											halign (Start)
+											slot1 {
+												text {
+													value  ("#{value(item.name)}")
+													style (Title_XS)
+												}
+											}
+											slot2 {
+												single-line {
+													text {
+														value ("#{value(item.location)}")
+														style (Detail_L_Soft)
+													}
+												}
+											}
+										}
 									}
 								}
-								single-line {
-									text {
-										value ("#{value(item.rank)} #{value(item.destinationPoint.currentDistance)}")
-										style (Detail_M_Soft)
+								else{
+									thumbnail-card {
+										image-position (Start)
+										image-url ("Aimg/star1.png")
+										title-area {
+											halign (Start)
+											slot1 {
+												text {
+													value  ("#{value(item.name)}")
+													style (Title_XS)
+												}
+											}
+											slot2 {
+												single-line {
+													text {
+														value ("#{value(item.location)}")
+														style (Detail_L_Soft)
+													}
+												}
+											}
+										}
 									}
 								}
 							}
