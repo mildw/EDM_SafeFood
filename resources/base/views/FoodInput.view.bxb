@@ -3,6 +3,14 @@ input-view {
     Food (this)
   }
 
+  message {
+		if (exists(this)) {
+			template ("어떤 식품을 선택할까요?")
+		} else {
+			template ("검색된 상품이 없습니다.")
+		}
+	}
+
   render {
     selection-of (this) {
       where-each (food) {

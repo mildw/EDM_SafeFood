@@ -6,12 +6,19 @@ result-view {
 	
 	message {
 		if (exists(this)) {
-			template ("등록된 상품정보입니다.")
+			template ("등록된 상품 정보입니다.")
 		} else {
 			template ("등록된 상품이 없습니다.")
 		}
 	}
-	
+
+	conversation-drivers {
+		if(size(this) == 1){
+			conversation-driver ("#{value(this.prdlstNm)} 삭제해줘")
+			conversation-driver ("등록된 식품 보여줘")
+		}
+		conversation-driver ("통계 보여줘")
+	}
 	
 	render {
 		if(exists(this)) {
@@ -33,9 +40,5 @@ result-view {
 				}
 			}
 		}
-		
-		
-		
-		
 	}
 }

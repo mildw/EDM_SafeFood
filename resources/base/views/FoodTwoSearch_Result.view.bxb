@@ -4,16 +4,24 @@ result-view {
 		}
 	}
 	
+	message {
+		if (exists(this)) {
+			template ("검색된 식품 정보 입니다.")
+		} else {
+			template ("검색된 상품이 없습니다.")
+		}
+	}
+	
 	render {
-	//	if(size(this) > 1) {
-			list-of (this) {
-				where-each (food) {
-					layout-macro (food_list_macro) {
-						param (food) {
-							expression (food)
-						}
+		//	if(size(this) > 1) {
+		list-of (this) {
+			where-each (food) {
+				layout-macro (food_list_macro) {
+					param (food) {
+						expression (food)
 					}
 				}
 			}
+		}
 	}
 }

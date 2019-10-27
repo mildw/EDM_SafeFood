@@ -11,6 +11,10 @@ result-view {
 		}
 	}
 	
+	conversation-drivers {
+		conversation-driver ("#{value(this.prdlstNm)} 식품 성분 검색해줘")
+	}
+	
 	render {
 		if (size(this) == 1) {
 			layout-macro (findAllergy-header) {

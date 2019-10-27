@@ -9,7 +9,11 @@ result-view {
 			template ("삭제할 식품이 없습니다.")
 		}
 	}
-	
+
+	conversation-drivers {
+    conversation-driver ("등록된 식품 보여줘")
+		conversation-driver ("통계 보여줘")
+  }
 	
 	// render {
 	// 	if(exists(this)) {
@@ -23,8 +27,5 @@ result-view {
 	// 			}
 	// 		}
 	// 	}
-	
-	
-	
 	//}
 }
