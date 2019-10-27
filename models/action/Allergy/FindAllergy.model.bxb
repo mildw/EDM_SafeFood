@@ -8,7 +8,7 @@ action (FindAllergy) {
 		}
 	}
 	
-	output (Food) {
+	output (FindAllergyResults) {
 		throws {
 			error (Error) {
 				on-catch {

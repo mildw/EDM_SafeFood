@@ -1,7 +1,7 @@
 layout-macro-def(findAllergy-header) {
 	params {
 		param (food) {
-			type (Food)
+			type (FindAllergyResults)
 			min (Required)
 			max (One)
 		}
