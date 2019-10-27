@@ -1,21 +1,19 @@
 capsule-info {
-  display-name  (미더블)
+  display-name  (알고먹자)
   developer-name  (EDM)
   icon-asset (logo_img.png)
-  description ("medible은 식품을 믿고 먹을 수 있도록 도와주는 캡슐 입니다.")
+  description ("알고먹자은 식품을 믿고 먹을 수 있도록 도와주는 캡슐 입니다.")
   
   website-url (https://github.com/mildup/EDM_SafeFood)
 
-  dispatch-name (미더블)
+  dispatch-name (알고먹자)
   
   dispatch-aliases {
-    alias (미덕을)
-    alias (니더블)
-    alias (미 더블)
-    alias (미 덕을)
+    alias (알고먹사)
+    alias (알먹자)
   }
   search-keywords{
-    keyword (미더블)
+    keyword (알고먹자)
     keyword (식품)
     keyword (식품안전)
     keyword (식품 안전)

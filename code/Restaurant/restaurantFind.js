@@ -2,10 +2,11 @@ module.exports.function = function restaurantFind(restaurantLocation, restaurant
   var console = require('console');
   var http = require('http');
   var fail = require('fail');
+  var config = require('config');
   try {
     var result = [];
     var copy = [];
-    var url = 'http://54.180.149.204/restaurant/selectRestaurant.php'; //이 주소 뺴놓으면 될듯
+    var url = config.get('restUrl'); //이 주소 뺴놓으면 될듯
     var queryParams = '?' + 'location=' + restaurantLocation;
 
     result = http.getUrl(url + queryParams,
