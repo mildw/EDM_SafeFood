@@ -1,32 +1,41 @@
 result-view {
-  match: FoodOne(this) {
-    // from-output: GetMyFoodList()
-    // from-output: PutMyFood()
-  }
-  
-  message {
-    if (exists(this)) {
-      template ("등록된 상품정보입니다.")
-    } else {
-      template ("등록된 상품이 없습니다.")
-    }
-  }
-
+	match: FoodOne(this) {
+		// from-output: GetMyFoodList()
+		// from-output: PutMyFood()
+	}
+	
+	message {
+		if (exists(this)) {
+			template ("등록된 상품정보입니다.")
+		} else {
+			template ("등록된 상품이 없습니다.")
+		}
+	}
+	
 	
 	render {
 		if(exists(this)) {
-			list-of (this) {
-				where-each (foodOne) {
-					layout-macro (myfood_list_macro) {
-						param (foodOne) {
-							expression (foodOne)
+			if(size(this) > 1){
+				list-of (this) {
+					//has-details (false)
+					where-each (foodOne) {
+						layout-macro (myfood_list_macro) {
+							param (foodOne) {
+								expression (foodOne)
+							}
 						}
 					}
 				}
 			}
+			else {
+				layout-match (this){
+					mode (Details)
+				}
+			}
 		}
-
 		
-
+		
+		
+		
 	}
 }

@@ -13,20 +13,237 @@ result-view {
 	
 	render {
 		
-		if(exists(this)) {
-			list-of (this) {
-				has-details (false)
-				where-each (myFoodStat) {
-					layout-macro (myfood_img_macro) {
-						param (myFoodStat) {
-							expression (myFoodStat)
+		// if(exists(this)) {
+		// 	list-of (this) {
+		// 		has-details (false)
+		// 		where-each (myFoodStat) {
+		// 			layout-macro (myfood_img_macro) {
+		// 				param (myFoodStat) {
+		// 					expression (myFoodStat)
+		// 				}
+		// 			}
+		// 		}
+		// 	}
+		// }
+		layout{
+			section{
+				content{
+					
+					if(exists(this)){
+						
+						if(exists(this[0])){
+							if(this[0].statFlag != 0){
+								image-card {
+									aspect-ratio (1:1)
+									column-size (3)
+									image-url ("#{value(this[0].statUrl)}")
+									title-area {
+										halign (Start)
+										slot1 {
+											text {
+												value ("")
+												style (Title_M)
+											}
+										}
+									}
+								}
+							}
+						}
+						
+						if(exists(this[1])){
+							if(this[1].statFlag != 0){
+								image-card {
+									aspect-ratio (1:1)
+									column-size (3)
+									image-url ("#{value(this[1].statUrl)}")
+									title-area {
+										halign (Start)
+										slot1 {
+											text {
+												value ("")
+												style (Title_M)
+											}
+										}
+									}
+								}
+							}
+							else{
+								image-card {
+									aspect-ratio (4:3)
+									image-url ("#{value(this[1].statUrl)}")
+									title-area {
+										halign (Start)
+										slot1 {
+											text {
+												value ("")
+												style (Title_M)
+											}
+										}
+									}
+								}
+							}
+						}
+						
+						if(exists(this[2])){
+							if(this[2].statFlag != 0){
+								image-card {
+									aspect-ratio (1:1)
+									column-size (3)
+									image-url ("#{value(this[2].statUrl)}")
+									title-area {
+										halign (Start)
+										slot1 {
+											text {
+												value ("")
+												style (Title_M)
+											}
+										}
+									}
+								}
+							}
+							else{
+								image-card {
+									aspect-ratio (4:3)
+									image-url ("#{value(this[2].statUrl)}")
+									title-area {
+										halign (Start)
+										slot1 {
+											text {
+												value ("")
+												style (Title_M)
+											}
+										}
+									}
+								}
+							}
+						}
+						
+						if(exists(this[3])){
+							if(this[3].statFlag != 0){
+								image-card {
+									aspect-ratio (1:1)
+									column-size (3)
+									image-url ("#{value(this[3].statUrl)}")
+									title-area {
+										halign (Start)
+										slot1 {
+											text {
+												value ("")
+												style (Title_M)
+											}
+										}
+									}
+								}
+							}
+							else{
+								image-card {
+									aspect-ratio (4:3)
+									image-url ("#{value(this[3].statUrl)}")
+									title-area {
+										halign (Start)
+										slot1 {
+											text {
+												value ("")
+												style (Title_M)
+											}
+										}
+									}
+								}
+							}
+						}
+						
+						if(exists(this[4])){
+							if(this[4].statFlag != 0){
+								image-card {
+									aspect-ratio (1:1)
+									column-size (3)
+									image-url ("#{value(this[4].statUrl)}")
+									title-area {
+										halign (Start)
+										slot1 {
+											text {
+												value ("")
+												style (Title_M)
+											}
+										}
+									}
+								}
+							}
+							else{
+								spacer
+								divider
+
+								image-card {
+									aspect-ratio (Sixteen_Nine)
+									image-object-fit (Contain)
+									image-url ("#{value(this[4].statUrl)}")
+									title-area {
+										halign (Start)
+										slot1 {
+											text {
+												value ("")
+												style (Title_M)
+											}
+										}
+									}
+								}
+								
+								
+								
+							}
+							
+						}
+						
+						if(exists(this[5])){
+							if(this[5].statFlag != 0){
+								image-card {
+									aspect-ratio (1:1)
+									column-size (3)
+									image-url ("#{value(this[5].statUrl)}")
+									title-area {
+										halign (Start)
+										slot1 {
+											text {
+												value ("")
+												style (Title_M)
+											}
+										}
+									}
+								}
+							}
+							else{
+								image-card {
+									aspect-ratio (Sixteen_Nine)
+									image-object-fit (Contain)
+									image-url ("#{value(this[5].statUrl)}")
+									title-area {
+										halign (Start)
+										slot1 {
+											text {
+												value ("")
+												style (Title_M)
+											}
+										}
+									}
+								}
+								
+								hbox{
+									content
+								}
+								
+							}
+							
+						}
+						
+						paragraph{
+							style(Detail_M_Soft)
+							value("* 누락된 정보를 제외한 통계 결과 입니다.")
 						}
 					}
+					
 				}
 			}
 		}
-		
-		
 	}
 	
 	// MyFoodImg 안에는 내 식품 음식 url 이 배열로 들어있음.

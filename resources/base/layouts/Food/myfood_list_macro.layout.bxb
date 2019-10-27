@@ -19,15 +19,15 @@ layout-macro-def(myfood_list_macro) {
 
 		image-card{
 
-			aspect-ratio(1:1)
+			aspect-ratio(Three_Four)
       column-size (3)
 			image-url ("#{value(foodOne.imgurl1)}")
 
 			title-area{
 				slot1{
 					text{
-						//value("#{value (food.prdlstNm)}")
-						value("anjdianjdi")
+						value("#{value (foodOne.prdlstNm)}")
+						//value("anjdianjdi")
 						style(Title_XS)
             color (Amber)
 					}

@@ -17,11 +17,6 @@ structure (FindAllergyResults) {
     min (Required) max (Many)
   }
 
-  property (allergy_set) {
-    type (Allergy_Set)
-    min (Required) max (Many)
-  }
-
   //알러지
   property (allergy) {
     type (FindAllergyAllergy)
