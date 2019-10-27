@@ -181,8 +181,8 @@ function getMyFoodStat(bixbyUserId) {
       //myFoodImg.push(chartImg);
 
       var item = {
-        'statFlag': 0, 'statUrl': chartImg, 'statCarbo': nutriTotal[0],
-        'statFat': nutriTotal[1], 'statNatrium': nutriTotal[2], 'statSugar': nutriTotal[3], 'statProtein': nutriTotal[4]
+        'statFlag': 0, 'statUrl': chartImg, 'statCarbo': nutriTotal[0].toFixed(1),
+        'statFat': nutriTotal[1].toFixed(1), 'statNatrium': nutriTotal[2].toFixed(1), 'statSugar': nutriTotal[3].toFixed(1), 'statProtein': nutriTotal[4].toFixed(1)
       };
       statRes.push(item);
 
