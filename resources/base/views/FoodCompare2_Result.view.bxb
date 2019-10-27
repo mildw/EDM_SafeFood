@@ -5,26 +5,35 @@ result-view {
 		}
 	}
 	
+	message {
+		template ("#{value(action.food.prdlstNm)}, #{value(action.foodTwo.prdlstNm)} 비교 정보입니다" )
+	}
+	
+	conversation-drivers {
+		conversation-driver ("등록된 식품 보여줘")
+		conversation-driver ("통계 보여줘")
+	}
+	
 	render {
 		layout {
 			
 			section{
 				content{
-
+					
 					split-input-cell {
-					left {
-						input-cell {
-							label ("Foold 1")
-							value ("#{value(action.food.prdlstNm)}")
+						left {
+							input-cell {
+								label ("Food 1")
+								value ("#{value(action.food.prdlstNm)}")
+							}
+						}
+						right {
+							input-cell {
+								label ("Food 2")
+								value ("#{value(action.foodTwo.prdlstNm)}")
+							}
 						}
 					}
-					right {
-						input-cell {
-							label ("Food 2")
-							value ("#{value(action.foodTwo.prdlstNm)}")
-						}
-					}
-				}
 					
 					image-card{
 						
@@ -35,9 +44,16 @@ result-view {
 						title-area{
 							halign (End)
 							slot1{
-								text{
-									value("#{value(action.food.calorie)}")
-									style(Title_XS)
+								if(action.food.calorie != '-'){
+									text{
+										value("#{value(action.food.calorie)}kcal")
+										style(Title_XS)
+									}
+								}
+								else{
+									text{
+										value(" ")
+									}
 								}
 							}
 							
@@ -53,9 +69,16 @@ result-view {
 						title-area{
 							halign (End)
 							slot1{
-								text{
-									value("#{value(action.foodTwo.calorie)}")
-									style(Title_XS)
+								if(action.foodTwo.calorie != '-'){
+									text{
+										value("#{value(action.foodTwo.calorie)}kcal")
+										style(Title_XS)
+									}
+								}
+								else{
+									text{
+										value(" ")
+									}
 								}
 							}
 							
@@ -144,7 +167,7 @@ result-view {
 									}
 								}
 							}
-
+							
 							vbox{
 								content{
 									single-line{
@@ -161,7 +184,7 @@ result-view {
 									}
 								}
 							}
-
+							
 							vbox{
 								content{
 									single-line{
@@ -217,7 +240,7 @@ result-view {
 							// 	}
 							// }
 							
-
+							
 							//"#{value(this[6])}"
 							vbox{
 								content{
@@ -278,7 +301,7 @@ result-view {
 									}
 								}
 							}
-
+							
 							vbox{
 								content{
 									single-line{
@@ -298,7 +321,7 @@ result-view {
 									}
 								}
 							}
-
+							
 							vbox{
 								content{
 									single-line{
@@ -335,7 +358,7 @@ result-view {
 									}
 								}
 							}
-
+							
 							//"#{value(this[6])}"
 							vbox{
 								content{
@@ -396,7 +419,7 @@ result-view {
 									}
 								}
 							}
-
+							
 							vbox{
 								content{
 									single-line{
@@ -416,7 +439,7 @@ result-view {
 									}
 								}
 							}
-
+							
 							vbox{
 								content{
 									single-line{
@@ -439,7 +462,7 @@ result-view {
 							
 						}
 					}
-
+					
 					divider
 					
 					image{
@@ -450,8 +473,43 @@ result-view {
 					spacer
 					divider
 					spacer
+					
+					split-input-cell{
+						
+						left{
+							input-cell{
+								on-click{
+									intent{
+										goal: PutMyFood
+										value : $expr(action.food)
+									}
+								}
+								
+								//value("#{value(action.food.prdlstNm)}")
+								label("내 식품에 저장")
+								value("Food1")
+							}
+						}
+						
+						right{
+							input-cell{
+								on-click{
+									intent{
+										goal: PutMyFood
+										value : $expr(action.foodTwo)
+									}
+								}
+								
+								label("내 식품에 저장")
+								value("Food2")
+							}
+						}
+						
+					}
 				}
+				
 			}
+			
 		}
 	}
 }

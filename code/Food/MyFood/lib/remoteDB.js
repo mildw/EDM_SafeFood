@@ -163,7 +163,7 @@ function getMyFoodStat(bixbyUserId) {
           if (isNaN(tmp[nutriEng[j]] * 1) == false)
             nutriTotal[j] += tmp[nutriEng[j]] * 1;
         }
-        statRes.push(item);
+        //statRes.push(item);
         //console.log(nutriTotal[0] + " " + nutriTotal[1] + " " + nutriTotal[2] + " " + nutriTotal[3] + " " + nutriTotal[4]);
       }
 
@@ -185,6 +185,19 @@ function getMyFoodStat(bixbyUserId) {
         'statFat': nutriTotal[1], 'statNatrium': nutriTotal[2], 'statSugar': nutriTotal[3], 'statProtein': nutriTotal[4]
       };
       statRes.push(item);
+
+      for (var i = response.length - 1; i >= len; i--) {
+        var item = { 'statFlag': 1 };
+        var tmp = JSON.parse(response[i][config.get('myFoodField1')]);
+        item['statUrl'] = tmp['imgurl1'];
+        var nutriEng = ["carbo", "fat", "natrium", "sugar", "protein"];
+        for (var j = 0; j < 5; j++) {
+          if (isNaN(tmp[nutriEng[j]] * 1) == false)
+            nutriTotal[j] += tmp[nutriEng[j]] * 1;
+        }
+        statRes.push(item);
+        //console.log(nutriTotal[0] + " " + nutriTotal[1] + " " + nutriTotal[2] + " " + nutriTotal[3] + " " + nutriTotal[4]);
+      }
 
       return statRes;
     } else {
