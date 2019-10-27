@@ -10,7 +10,7 @@ module.exports.function = function restaurantSearch (myPoint) {
     var queryParams = '?' + 'lat='+ sp.point.latitude;
     queryParams += '&'+ 'lng='+sp.point.longitude;
     
-    
+    console.log(url+queryParams);
     searchResult = http.getUrl(url+queryParams,
       { format: 'json' });
     return searchResult;
