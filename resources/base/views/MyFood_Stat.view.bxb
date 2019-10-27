@@ -68,8 +68,149 @@ result-view {
 								}
 							}
 							else{
+
+								spacer
+								divider
+								spacer
+								
+								hbox{
+									content{
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/C.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("carbo")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[1].statCarbo)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/F.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("Fat")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[1].statFat)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/P.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("Protein")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[1].statProtein)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/S.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("Sugar")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[1].statSugar)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/N.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("Natrium")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[1].statNatrium)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+									}
+									
+									
+								}
+								
+								spacer
+								divider
+
 								image-card {
-									aspect-ratio (4:3)
+									aspect-ratio (Sixteen_Nine)
+									image-object-fit (Contain)
 									image-url ("#{value(this[1].statUrl)}")
 									title-area {
 										halign (Start)
@@ -102,8 +243,149 @@ result-view {
 								}
 							}
 							else{
+
+								spacer
+								divider
+								spacer
+								
+								hbox{
+									content{
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/C.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("carbo")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[2].statCarbo)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/F.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("Fat")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[2].statFat)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/P.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("Protein")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[2].statProtein)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/S.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("Sugar")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[2].statSugar)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/N.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("Natrium")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[2].statNatrium)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+									}
+									
+									
+								}
+								
+								spacer
+								divider
+
 								image-card {
-									aspect-ratio (4:3)
+									aspect-ratio (Sixteen_Nine)
+									image-object-fit (Contain)
 									image-url ("#{value(this[2].statUrl)}")
 									title-area {
 										halign (Start)
@@ -136,8 +418,149 @@ result-view {
 								}
 							}
 							else{
+
+								spacer
+								divider
+								spacer
+								
+								hbox{
+									content{
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/C.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("carbo")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[3].statCarbo)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/F.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("Fat")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[3].statFat)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/P.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("Protein")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[3].statProtein)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/S.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("Sugar")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[3].statSugar)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/N.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("Natrium")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[3].statNatrium)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+									}
+									
+									
+								}
+								
+								spacer
+								divider
+
 								image-card {
-									aspect-ratio (4:3)
+									aspect-ratio (Sixteen_Nine)
+									image-object-fit (Contain)
 									image-url ("#{value(this[3].statUrl)}")
 									title-area {
 										halign (Start)
@@ -172,7 +595,143 @@ result-view {
 							else{
 								spacer
 								divider
-
+								spacer
+								
+								hbox{
+									content{
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/C.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("carbo")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[4].statCarbo)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/F.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("Fat")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[4].statFat)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/P.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("Protein")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[4].statProtein)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/S.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("Sugar")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[4].statSugar)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/N.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("Natrium")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[4].statNatrium)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+									}
+									
+									
+								}
+								
+								spacer
+								divider
+								
 								image-card {
 									aspect-ratio (Sixteen_Nine)
 									image-object-fit (Contain)
@@ -187,8 +746,6 @@ result-view {
 										}
 									}
 								}
-								
-								
 								
 							}
 							
@@ -212,6 +769,145 @@ result-view {
 								}
 							}
 							else{
+
+								spacer
+								divider
+								spacer
+								
+								hbox{
+									content{
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/C.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("carbo")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[5].statCarbo)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/F.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("Fat")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[5].statFat)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/P.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("Protein")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[5].statProtein)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/S.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("Sugar")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[5].statSugar)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+										vbox{
+											halign (Center)
+											content{
+												single-line{
+													image{
+														url("Aimg/N.png")
+														shape (Circle)
+														style(Detail_L)
+													}
+												}
+												single-line{
+													text{
+														value("Natrium")
+														style(Detail_M_Soft)
+													}
+												}
+												single-line{
+													text{
+														value("#{value(this[5].statNatrium)}")
+														style(Detail_L)
+													}
+												}
+											}
+										}
+										
+									}
+									
+									
+								}
+								
+								spacer
+								divider
 								image-card {
 									aspect-ratio (Sixteen_Nine)
 									image-object-fit (Contain)
@@ -239,6 +935,10 @@ result-view {
 							style(Detail_M_Soft)
 							value("* 누락된 정보를 제외한 통계 결과 입니다.")
 						}
+						
+						
+						
+						
 					}
 					
 				}
