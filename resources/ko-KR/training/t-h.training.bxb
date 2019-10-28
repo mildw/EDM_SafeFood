@@ -1,7 +1,7 @@
 train (t-hjjyrduvcb0d3hton1t7x3jwt) {
-  utterance ("[g:FoodSearch] (돈까스)[v:FoodName] 정보 검색해줘")
+  utterance ("[g:FoodSearch] (돈까스)[v:FoodName]의 상품정보 검색해줘")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571716206975)
+  last-modified (1572245696008)
 }
 train (t-hs5444tdsbm4jx2yaw46jso8r) {
   utterance ("[g:FoodCompare] {[g:FoodTwo] (불짬봉)[v:FoodName]}이랑 비교해봐")
@@ -14,7 +14,7 @@ train (t-hu4uwc46hclpvvt23bmgk960c) {
   last-modified (1571929028020)
 }
 train (t-hxn1wuqy98zkvm0tqh750c4js) {
-  utterance ("[g:DeleteOneFood] (새우왕)[v:MyFoodName]은 내 리스트에서 없애")
+  utterance ("[g:DeleteOneFood] (새우왕)[v:MyFoodName]을 내 리스트에서 없애")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572243760664)
+  last-modified (1572249217423)
 }

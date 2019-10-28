@@ -4,7 +4,7 @@ train (t-8nsl6ka6y8ui9bhwxllqczj5u) {
   last-modified (1572243119632)
 }
 train (t-8tjcbf96xpxcqmak9fim3gom5) {
-  utterance ("[g:DeleteOneFood] 내 리스트에 (족발)[v:MyFoodName]은 제거해줘")
+  utterance ("[g:DeleteOneFood] 내 리스트에 (족발)[v:MyFoodName]을 제거해줘")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572243708501)
+  last-modified (1572249153371)
 }

@@ -1,7 +1,7 @@
 train (t-60c2g3qd5qw0a99jxanlloah8) {
   utterance ([g:GetMyFoodStat] 내 식품 분석해줘)
   plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
-  last-modified (1571845542875)
+  last-modified (1572246421627)
 }
 train (t-67kf2svpq4cxldje9swtw6f4a) {
   utterance ("[g:FindHandle] (심한)[v:FindHandleWay] 알레르기 대처법")
@@ -9,17 +9,17 @@ train (t-67kf2svpq4cxldje9swtw6f4a) {
   last-modified (1571928226961)
 }
 train (t-6gpk4h25683zabrb1khlivimb) {
-  utterance ([g:DeleteAllFood] 등록된 식품 전부 삭제해줘)
+  utterance ([g:DeleteAllFood] 식품들 전부 삭제해줘)
   plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
-  last-modified (1571824140998)
+  last-modified (1572247258186)
 }
 train (t-6s92ioawsqq2r0iwc9q7b4v5q) {
-  utterance ("[g:FoodSearch] (김치)[v:FoodName] 정보 찾아")
+  utterance ("[g:FoodSearch] (김치)[v:FoodName]의 식품 정보 찾아")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571716131950)
+  last-modified (1572245628743)
 }
 train (t-6w72s1xsdvt4tk478t0ntw67i) {
-  utterance ("[g:DeleteOneFood] 식품목록에서 (호박엿)[v:MyFoodName]은 삭제")
+  utterance ("[g:DeleteOneFood] 식품목록에서 (호박엿)[v:MyFoodName]을 삭제")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572243697221)
+  last-modified (1572249145734)
 }

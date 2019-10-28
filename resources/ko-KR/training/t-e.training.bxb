@@ -1,7 +1,7 @@
 train (t-ehimkyn3ur4m6gucjfq6sgzye) {
-  utterance ([g:GetMyFoodStat] 내 식품리스트 통계 내줘)
+  utterance ([g:GetMyFoodStat] 내 식품 통계 내줘)
   plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
-  last-modified (1571845456067)
+  last-modified (1572246453650)
 }
 train (t-eoua1yzw78idjj1u2y7c41g02) {
   utterance ([g:RestaurantSearch] 근방에 청결한 식당 찾아놔)

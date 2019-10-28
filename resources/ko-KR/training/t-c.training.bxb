@@ -24,7 +24,7 @@ train (t-co03zk1maxb0fen8jq7iyt232) {
   last-modified (1572105720546)
 }
 train (t-cxnr6r1on0n23osrk8z9fb5to) {
-  utterance ("[g:FoodSearch] (샐러드)[v:FoodName] 상품정보 알려줘")
+  utterance ("[g:FoodSearch] (샐러드)[v:FoodName]의 상품정보 알려줘")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571823387658)
+  last-modified (1572245684886)
 }

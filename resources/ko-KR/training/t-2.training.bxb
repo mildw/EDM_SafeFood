@@ -1,7 +1,7 @@
 train (t-253muhm1qv1733z2ndxhkaki4) {
-  utterance ([g:DeleteAllFood] 내가 저장했던 식품들 다 지워줄래)
+  utterance ([g:DeleteAllFood] 식품들 다 지워줄래)
   plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
-  last-modified (1571824457203)
+  last-modified (1572247212887)
 }
 train (t-27jh9vwvzsm6fdyh7i0ktfcjm) {
   utterance ("[g:FindHandle] (심각)[v:FindHandleWay]한 알레르기 대처")
@@ -24,7 +24,7 @@ train (t-2u9mojq7q17mscfkrisxhukx9) {
   last-modified (1572105807816)
 }
 train (t-2xslmn694ml0g4aa8v107ds3w) {
-  utterance ("[g:DeleteOneFood] (진라면)[v:MyFoodName]은 제거해줘")
+  utterance ("[g:DeleteOneFood] (진라면)[v:MyFoodName]을 제거해줘")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572243642116)
+  last-modified (1572249120273)
 }

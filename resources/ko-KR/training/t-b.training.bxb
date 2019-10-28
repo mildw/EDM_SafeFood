@@ -9,14 +9,14 @@ train (t-b3pz6fsgofpy0p2i1kdn8in1q) {
   last-modified (1572105748600)
 }
 train (t-b42k0liv1hec0tksns0b991c5) {
-  utterance ("[g:DeleteOneFood] (삼계탕)[v:MyFoodName]은 내상품에서 빼줘")
+  utterance ("[g:DeleteOneFood] (삼계탕)[v:MyFoodName]을 내상품에서 빼줘")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572243730774)
+  last-modified (1572249172605)
 }
 train (t-b7jztoumxl760kav2nf55b8cl) {
-  utterance ([g:GetMyFoodStat] 내 식품들 통계해줘)
+  utterance ([g:GetMyFoodStat] 내 식품 통계해줘)
   plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
-  last-modified (1571845520687)
+  last-modified (1572246447227)
 }
 train (t-bhra1vtwrewuboeh5bbdu6joi) {
   utterance ("[g:RestaurantFind] (서울)[v:RestaurantLocation]에 있는 (스파게티)[v:RestaurantName]집 위생등급 알아와")
@@ -24,14 +24,14 @@ train (t-bhra1vtwrewuboeh5bbdu6joi) {
   last-modified (1571848720836)
 }
 train (t-bp278bn656n8qlvuaoqv0w3bx) {
-  utterance ("[g:DeleteOneFood] (자가비 에그크랩)[v:MyFoodName]은 내 목록에서 삭제해줘")
+  utterance ("[g:DeleteOneFood] (자가비 에그크랩)[v:MyFoodName]을 내 목록에서 삭제해줘")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572243740099)
+  last-modified (1572249180899)
 }
 train (t-bpjyqm1y56h97ctj0ivmcki4h) {
-  utterance ("[g:FoodSearch] (햄버거패티 식품)[v:FoodName] 정보 알려주세요")
+  utterance ("[g:FoodSearch] (햄버거패티)[v:FoodName]의 식품 정보 알려주세요")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572102584640)
+  last-modified (1572245835413)
 }
 train (t-bq1a5nru6umzsop3wqapoxks4) {
   utterance ("[g:FoodCompare] 비교해 {[g:FoodTwo] (생강차)[v:FoodName]}랑")

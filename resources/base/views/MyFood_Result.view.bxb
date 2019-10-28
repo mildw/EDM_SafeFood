@@ -14,7 +14,7 @@ result-view {
 
 	conversation-drivers {
 		if(size(this) == 1){
-			conversation-driver ("#{value(this.prdlstNm)} 삭제해줘")
+			conversation-driver ("#{value(this.prdlstNm)}을(를) 삭제해줘")
 			conversation-driver ("등록된 식품 보여줘")
 		}
 		conversation-driver ("통계 보여줘")

@@ -4,9 +4,9 @@ train (t-m1h24i1d5h1kurdvg6fcbohzb) {
   last-modified (1571707800638)
 }
 train (t-m4p1p8lokv63v5viz8wh1nfcz) {
-  utterance ([g:DeleteAllFood] 저장된 상품 모두 삭제해줘)
+  utterance ([g:DeleteAllFood] 상품들 모두 삭제해줘)
   plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
-  last-modified (1571824169245)
+  last-modified (1572247270282)
 }
 train (t-meq5bki1dux4vdbbz95w9yym4) {
   utterance ("[g:RestaurantFind] (경기도 성남시)[v:RestaurantLocation]에 (라파스타)[v:RestaurantName] 위생상태 검색")
@@ -14,12 +14,12 @@ train (t-meq5bki1dux4vdbbz95w9yym4) {
   last-modified (1571849189947)
 }
 train (t-mtflztuhkl6n9lq0ewer9uqds) {
-  utterance ("[g:DeleteOneFood] 내상품에서 (칼슘미트볼)[v:MyFoodName]은 삭제해")
+  utterance ("[g:DeleteOneFood] 내상품에서 (칼슘미트볼)[v:MyFoodName]을 삭제해")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572243795338)
+  last-modified (1572249275463)
 }
 train (t-mtg6nsuwruy5vx2nt7qq6xde7) {
-  utterance ([g:GetMyFoodStat] 통계 그래프 보여줘)
+  utterance ([g:GetMyFoodStat] 상품 통계 보여주세요)
   plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
-  last-modified (1571845670179)
+  last-modified (1572246543315)
 }

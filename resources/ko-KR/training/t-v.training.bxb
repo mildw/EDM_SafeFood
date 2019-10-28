@@ -14,12 +14,12 @@ train (t-vledro1aye5nq5wccwx01jv2p) {
   last-modified (1572102280874)
 }
 train (t-vve7hv0gdg9lbn98wv5vwj27a) {
-  utterance ([g:DeleteAllFood] 등록했던 식품 전부 지워줘)
+  utterance ([g:DeleteAllFood] 식품들 전부 지워주세요)
   plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
-  last-modified (1571824248722)
+  last-modified (1572247414549)
 }
 train (t-vwka9e0t8opynn676uo1i26gg) {
-  utterance ("[g:DeleteOneFood] 내 리스트에서 (나뚜루 초코)[v:MyFoodName]은 삭제")
+  utterance ("[g:DeleteOneFood] 내 리스트에서 (나뚜루 초코)[v:MyFoodName]를 삭제")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572243845973)
+  last-modified (1572249326056)
 }

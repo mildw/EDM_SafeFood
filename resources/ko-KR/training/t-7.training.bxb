@@ -1,7 +1,7 @@
 train (t-71bbgwroxz22s9suszojfs3d4) {
-  utterance ("[g:FoodSearch] (라면)[v:FoodName] 식품 정보 검색해줘")
+  utterance ("[g:FoodSearch] (라면)[v:FoodName]의 식품 정보 검색해줘")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572104239254)
+  last-modified (1572245649951)
 }
 train (t-71o20mb15xy03mqifp5le786f) {
   utterance ("[g:FindAllergy] (설렁탕)[v:FoodName]에 알레르기 유발할게\n 있니")
@@ -9,9 +9,9 @@ train (t-71o20mb15xy03mqifp5le786f) {
   last-modified (1572182898859)
 }
 train (t-73vqtitvigqyntt8kmy0va0fr) {
-  utterance ("[g:FoodSearch] (두부)[v:FoodName] 상품정보 찾아줄래")
+  utterance ("[g:FoodSearch] (두부)[v:FoodName]의 상품정보 찾아줄래")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571823435074)
+  last-modified (1572245647462)
 }
 train (t-7exf85fggxcox4mbra1mezspy) {
   utterance ([g:RestaurantSearch] 근처에 청결한 식당 찾아)
@@ -24,9 +24,9 @@ train (t-7mfjj6vspe582mkknrmkao70t) {
   last-modified (1571931488478)
 }
 train (t-7q7wl95ws7okx01rspxmuoei7) {
-  utterance ("[g:FoodSearch] (떡볶이)[v:FoodName] 식품정보 찾아놔")
+  utterance ("[g:FoodSearch] (떡볶이)[v:FoodName]의 식품정보 찾아놔")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571731083182)
+  last-modified (1572245666603)
 }
 train (t-7y1to5nezevn5vi4mcnq22bbz) {
   utterance ("[g:FoodCompare] {[g:FoodTwo] (호박엿)[v:FoodName]}이랑 다른점 알려줘")

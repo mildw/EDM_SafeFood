@@ -14,14 +14,14 @@ train (t-wi585f4epkugqz4x7sf15ldik) {
   last-modified (1572244791151)
 }
 train (t-wkjsnpflmzill67aoleo2ex8r) {
-  utterance ([g:GetMyFoodStat] 내 식품목록 통계내줄래)
+  utterance ([g:GetMyFoodStat] 내 상품 통계내줄래)
   plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
-  last-modified (1571845817036)
+  last-modified (1572246544576)
 }
 train (t-wpdc6p28hqnk2vm22121yn3cy) {
-  utterance ([g:GetMyFoodStat] 내식품 통계 보여줘)
+  utterance ([g:GetMyFoodStat] 식품 통계 해줄래)
   plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
-  last-modified (1571845652770)
+  last-modified (1572246546577)
 }
 train (t-wpfi2pdju6k5izqo6yxyf1mr0) {
   utterance ("[g:FindHandle] (미미)[v:FindHandleWay]한 알레르기 대처하기")
