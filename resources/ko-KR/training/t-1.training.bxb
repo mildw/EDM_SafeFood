@@ -10,8 +10,8 @@ train (t-1ncmt2lr7qnrb537fmj0gjyap) {
 }
 train (t-1vv8jncrhyb846pnwicekq97u) {
   utterance ("[g:FindAllergy] (김치)[v:FoodName]에 알러지유발 성분 있니")
-  plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGZgYGIGYAUgyMoAAlA8A)
-  last-modified (1571846503491)
+  plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEUVQZI+CXmpjIwMTACMQOQZGQAASgfAA==)
+  last-modified (1572182897496)
 }
 train (t-1wu9ao8d4efjgdqpgqv2adjek) {
   utterance ("[g:FindHandle] (심각)[v:FindHandleWay]한 알러지 대처\n")

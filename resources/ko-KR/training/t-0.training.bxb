@@ -9,14 +9,14 @@ train (t-09m7kddn8cmhdy9fcexyp92g9) {
   last-modified (1572103995108)
 }
 train (t-0ap0p7x2s8hlf8t65033h3d12) {
-  utterance ([g:RestaurantSearch] 근방에 위생 청결한 식당 찾아줘)
+  utterance ([g:RestaurantSearch] 근방에 청결한 식당 찾아줘)
   plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)
-  last-modified (1571847688849)
+  last-modified (1572242593174)
 }
 train (t-0d8hn5un6qnhyj0sjs3in3zhk) {
-  utterance ("[g:FoodSearch] (즐거운 요리두부)[v:FoodName] 식품 찾아줘")
+  utterance ("[g:FoodSearch] (즐거운 요리두부)[v:FoodName] 식품 정보 찾아줘")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572102430265)
+  last-modified (1572241285781)
 }
 train (t-0idzdfb84fdb73sj6jn0ny56k) {
   utterance ([g:GetMyFoodStat] 식품정보 통계내줘)

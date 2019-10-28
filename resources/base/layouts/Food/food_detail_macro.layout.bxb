@@ -15,6 +15,7 @@ layout{
 			content{
 				image{
 					aspect-ratio(16:9)
+					object-fit (Cover)
 					url("#{value(food.imgurl1)}")
 				}
 				
@@ -32,18 +33,18 @@ layout{
 							}
 						}
 						
-						vbox{
-							halign (End)
-							content{
-								single-line{
-									image{
-										shape (Circle)
-										style (Title_S)
-										url("/img/logo_img.png")
-									}
-								}
-							}
-						}
+						// vbox{
+						// 	halign (End)
+						// 	content{
+						// 		single-line{
+						// 			image{
+						// 				shape (Circle)
+						// 				style (Title_S)
+						// 				url("/img/logo_img.png")
+						// 			}
+						// 		}
+						// 	}
+						// }
 					}
 				}
 				

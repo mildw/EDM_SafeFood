@@ -25,8 +25,8 @@ train (t-qo9icqkkiglhe7tmgau80q4rw) {
 }
 train (t-qt2wrmjzjv8e8teorzurm6u22) {
   utterance ("[g:FindAllergy] 알레르기 성분이 (육개장)[v:FoodName]에 있냐")
-  plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGZgYGIGYAUgyMoAAlA8A)
-  last-modified (1571824907274)
+  plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEUVQZI+CXmpjIwMTACMQOQZGQAASgfAA==)
+  last-modified (1572182902432)
 }
 train (t-qz4ou0ydznutkycmdo3y0bgt4) {
   utterance ("[g:FoodCompare2] {[g:FoodOne] (스파게티)[v:FoodName]}랑 {[g:FoodTwo] (불고기)[v:FoodName]}랑 차이가 뭐야")

@@ -10,8 +10,8 @@ train (t-p5o5v1vwr32c47q1i40hit7bc) {
 }
 train (t-pnn37xuhqm6z5gn55y77rqtug) {
   utterance ("[g:FindAllergy] (오징어)[v:FoodName]가 알레르기 성분을 가지고있니")
-  plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGZgYGIGYAUgyMoAAlA8A)
-  last-modified (1571825005479)
+  plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEUVQZI+CXmpjIwMTACMQOQZGQAASgfAA==)
+  last-modified (1572182902077)
 }
 train (t-pnoviqgck6abqs71phpoapo1w) {
   utterance ([g:DeleteAllFood] 내가 저장한 상품 모두 삭제해줘)
@@ -20,8 +20,8 @@ train (t-pnoviqgck6abqs71phpoapo1w) {
 }
 train (t-ptfivl2k131q3ctluc034qj4k) {
   utterance ("[g:FindAllergy] (순대)[v:FoodName]가 알러지성분 포함하니")
-  plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGZgYGIGYAUgyMoAAlA8A)
-  last-modified (1571824988807)
+  plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEUVQZI+CXmpjIwMTACMQOQZGQAASgfAA==)
+  last-modified (1572182902142)
 }
 train (t-px92gsapkoae4z1oo36p33vio) {
   utterance ([g:DeleteAllFood] 등록했던 상품 다 삭제해)

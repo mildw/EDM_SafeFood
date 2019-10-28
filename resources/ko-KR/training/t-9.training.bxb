@@ -1,7 +1,7 @@
 train (t-921hjk6dr10aeiozhy2zyfgh0) {
   utterance ("[g:FindAllergy] (불고기)[v:FoodName]가 알레르기를 발생시키니")
-  plan (Y2BmEExNydUrTkxLTcvPT9FzAxIMEqhCmXkpjjk5qUXplQyiGIr9EnNTGZgYGIGYAUgyMoAAlA8A)
-  last-modified (1571825068374)
+  plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEUVQZI+CXmpjIwMTACMQOQZGQAASgfAA==)
+  last-modified (1572182899184)
 }
 train (t-931z995ayye90o9ilj9nbem06) {
   utterance ([g:PutMyFood] 내꺼에 추가해줘)
