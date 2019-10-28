@@ -28,6 +28,11 @@ train (t-qoyxbzks1g92dqlblv5cdmefd) {
   plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
   last-modified (1572253223477)
 }
+train (t-qpantakhxhz6llramupfweyth) {
+  utterance ([g:RestaurantSearch] 주변에 깨끗한 식당 알려줘)
+  plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572256416044)
+}
 train (t-qt2wrmjzjv8e8teorzurm6u22) {
   utterance ("[g:FindAllergy] 알레르기 성분이 (육개장)[v:FoodName] 있냐")
   plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEUVQZI+CXmpjIwMTACMQOQZGQAASgfAA==)

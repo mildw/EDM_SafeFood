@@ -470,42 +470,42 @@ result-view {
 						url("#{value(this[6])}")
 					}
 					
-					spacer
-					divider
-					spacer
+					// spacer
+					// divider
+					// spacer
 					
-					split-input-cell{
+					// split-input-cell{
 						
-						left{
-							input-cell{
-								on-click{
-									intent{
-										goal: PutMyFood
-										value : $expr(action.food)
-									}
-								}
+					// 	left{
+					// 		input-cell{
+					// 			on-click{
+					// 				intent{
+					// 					goal: PutMyFood
+					// 					value : $expr(action.food)
+					// 				}
+					// 			}
 								
-								//value("#{value(action.food.prdlstNm)}")
-								label("내 식품에 저장")
-								value("Food1")
-							}
-						}
+					// 			//value("#{value(action.food.prdlstNm)}")
+					// 			label("내 식품에 저장")
+					// 			value("Food1")
+					// 		}
+					// 	}
 						
-						right{
-							input-cell{
-								on-click{
-									intent{
-										goal: PutMyFood
-										value : $expr(action.foodTwo)
-									}
-								}
+					// 	right{
+					// 		input-cell{
+					// 			on-click{
+					// 				intent{
+					// 					goal: PutMyFood
+					// 					value : $expr(action.foodTwo)
+					// 				}
+					// 			}
 								
-								label("내 식품에 저장")
-								value("Food2")
-							}
-						}
+					// 			label("내 식품에 저장")
+					// 			value("Food2")
+					// 		}
+					// 	}
 						
-					}
+					// }
 				}
 				
 			}

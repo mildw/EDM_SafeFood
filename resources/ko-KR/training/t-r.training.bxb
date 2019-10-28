@@ -23,6 +23,11 @@ train (t-rrm65nt2p9qbb7mbo9c57ba7c) {
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
   last-modified (1571823514379)
 }
+train (t-rvmagiley3gphe0msa7v7xd1h) {
+  utterance ([g:DeleteAllFood] 저장한 식품 전부 지워줘)
+  plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
+  last-modified (1572256570476)
+}
 train (t-ry65gsiy7yofjnwag1fi53kys) {
   utterance ([g:RestaurantSearch] 근처에 청결한 식당 알아봐줘)
   plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)

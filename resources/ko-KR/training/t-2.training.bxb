@@ -1,3 +1,8 @@
+train (t-222v7rj6ffc9jdb1xmsj61qus) {
+  utterance ([g:RestaurantSearch] 근방에 위생 식당 보여줘)
+  plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572256433659)
+}
 train (t-253muhm1qv1733z2ndxhkaki4) {
   utterance ([g:DeleteAllFood] 식품들 다 지워줄래)
   plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
