@@ -14,9 +14,9 @@ train (t-1ncmt2lr7qnrb537fmj0gjyap) {
   last-modified (1572243081036)
 }
 train (t-1vv8jncrhyb846pnwicekq97u) {
-  utterance ("[g:FindAllergy] (김치)[v:FoodName]에 알러지 성분 있니")
+  utterance ("[g:FindAllergy] (김치)[v:FoodName] 알러지 성분 있니")
   plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEUVQZI+CXmpjIwMTACMQOQZGQAASgfAA==)
-  last-modified (1572253494792)
+  last-modified (1572254963076)
 }
 train (t-1wu9ao8d4efjgdqpgqv2adjek) {
   utterance ("[g:FindHandle] (심각)[v:FindHandleWay]한 알러지 대처\n")

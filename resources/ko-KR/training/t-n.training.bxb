@@ -3,6 +3,11 @@ train (t-nesixi4iveq8in1s5141ootw7) {
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
   last-modified (1571707793728)
 }
+train (t-njcm7296xaq5b1p0hdszhhki9) {
+  utterance ("[g:FindAllergy] (우유)[v:FoodName] 알레르기 정보 알려줘")
+  plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEUVQZI+CXmpjIwMTACMQOQZGQAASgfAA==)
+  last-modified (1572255157254)
+}
 train (t-nuazegtkeumol7cfkgv4fzeb3) {
   utterance ([g:PutMyFood] 내 식품으로 추가해줄래)
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)

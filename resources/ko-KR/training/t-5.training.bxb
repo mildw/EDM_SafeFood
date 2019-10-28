@@ -29,7 +29,7 @@ train (t-5lkh7rnx7snyf8pvmnkf8szh8) {
   last-modified (1572249231232)
 }
 train (t-5ot0xnco3hghd20hywbg2id53) {
-  utterance ("[g:FindAllergy] (자몽)[v:FoodName]에 알러지 성분이 있을까\n")
+  utterance ("[g:FindAllergy] (자몽)[v:FoodName] 알러지 성분이 있을까\n")
   plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEUVQZI+CXmpjIwMTACMQOQZGQAASgfAA==)
-  last-modified (1572253608929)
+  last-modified (1572254974627)
 }

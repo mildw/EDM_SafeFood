@@ -4,9 +4,9 @@ train (t-71bbgwroxz22s9suszojfs3d4) {
   last-modified (1572250521736)
 }
 train (t-71o20mb15xy03mqifp5le786f) {
-  utterance ("[g:FindAllergy] (설렁탕)[v:FoodName]에 알레르기 성분 있을까")
+  utterance ("[g:FindAllergy] (설렁탕)[v:FoodName] 알레르기 성분 있을까")
   plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEUVQZI+CXmpjIwMTACMQOQZGQAASgfAA==)
-  last-modified (1572253607272)
+  last-modified (1572254980024)
 }
 train (t-73vqtitvigqyntt8kmy0va0fr) {
   utterance ("[g:FoodSearch] (두부)[v:FoodName] 상품정보 찾아줄래")

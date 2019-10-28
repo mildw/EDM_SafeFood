@@ -14,9 +14,9 @@ train (t-sjfbe1g2xrje3d7xbr1lheu9o) {
   last-modified (1571931255774)
 }
 train (t-sm4x5lw2nvub62xzrlsypn8yd) {
-  utterance ("[g:FindAllergy] 알러지 성분이 (딸기)[v:FoodName]에 있을까")
+  utterance ("[g:FindAllergy] 알러지 성분이 (딸기)[v:FoodName] 있을까")
   plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEUVQZI+CXmpjIwMTACMQOQZGQAASgfAA==)
-  last-modified (1572182903129)
+  last-modified (1572255024270)
 }
 train (t-sn0cnbiqh4mvyhda3frrs6yh8) {
   utterance ([g:PutMyFood] 이것 추가해줘)
@@ -29,7 +29,7 @@ train (t-srq5d6qkseuldt4obodywumfz) {
   last-modified (1571849016252)
 }
 train (t-ssze2pnbssrwfzhu1znv0gg25) {
-  utterance ("[g:FindAllergy] (치킨너겟)[v:FoodName]에  알레르기 성분 뭐있을까")
+  utterance ("[g:FindAllergy] (치킨너겟)[v:FoodName] 알레르기 성분 뭐있을까")
   plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEUVQZI+CXmpjIwMTACMQOQZGQAASgfAA==)
-  last-modified (1572253480603)
+  last-modified (1572255036798)
 }

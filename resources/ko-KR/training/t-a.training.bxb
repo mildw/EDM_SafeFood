@@ -3,6 +3,11 @@ train (t-a4esnkvw017f5pchpcs2g6l8q) {
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
   last-modified (1571848856653)
 }
+train (t-atllh4lgdeso4ewytdbvm1glh) {
+  utterance ("[g:FindAllergy] (사과)[v:FoodName] 알레르기 알려줘")
+  plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEUVQZI+CXmpjIwMTACMQOQZGQAASgfAA==)
+  last-modified (1572255238306)
+}
 train (t-aui9muqbw4jqpxwq7f3n6e7nc) {
   utterance ("[g:DeleteOneFood] 내상품중 (떡갈비)[v:MyFoodName]를 삭제해줘")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
