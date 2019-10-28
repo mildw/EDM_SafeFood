@@ -8,3 +8,8 @@ train (t-aui9muqbw4jqpxwq7f3n6e7nc) {
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1572249207627)
 }
+train (t-aunelmy8m3t1v5z8mbwhkcyw7) {
+  utterance ("[g:FoodSearch] (주스)[v:FoodName] 식품정보 알려줘")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572254309776)
+}

@@ -3,15 +3,20 @@ train (t-1e3cgbic4fhysc0d2j5bp1x3h) {
   plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
   last-modified (1571709101695)
 }
+train (t-1faon3rcz4ntjuo5n16dlqf7s) {
+  utterance ([g:GetMyFoodList] 내 식품목록 보여줘)
+  plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
+  last-modified (1572253769415)
+}
 train (t-1ncmt2lr7qnrb537fmj0gjyap) {
   utterance ("[g:RestaurantSearch] 가까운곳에 청결한 식당 찾아주세요\n")
   plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)
   last-modified (1572243081036)
 }
 train (t-1vv8jncrhyb846pnwicekq97u) {
-  utterance ("[g:FindAllergy] (김치)[v:FoodName]에 알러지유발 성분 있니")
+  utterance ("[g:FindAllergy] (김치)[v:FoodName]에 알러지 성분 있니")
   plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEUVQZI+CXmpjIwMTACMQOQZGQAASgfAA==)
-  last-modified (1572182897496)
+  last-modified (1572253494792)
 }
 train (t-1wu9ao8d4efjgdqpgqv2adjek) {
   utterance ("[g:FindHandle] (심각)[v:FindHandleWay]한 알러지 대처\n")

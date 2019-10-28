@@ -3,6 +3,11 @@ train (t-ehimkyn3ur4m6gucjfq6sgzye) {
   plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
   last-modified (1572246453650)
 }
+train (t-eoov112ra1tywx3564wecnmf6) {
+  utterance ([g:DeleteAllFood] 전부 삭제해줘)
+  plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
+  last-modified (1572253193589)
+}
 train (t-eoua1yzw78idjj1u2y7c41g02) {
   utterance ([g:RestaurantSearch] 근방에 청결한 식당 찾아놔)
   plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)

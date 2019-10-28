@@ -19,12 +19,12 @@ train (t-jhoe15hpq3np9pzj7tlrghmhk) {
   last-modified (1572244720976)
 }
 train (t-jkqizz9xvdcrx5p6gljc4io4a) {
-  utterance ([g:PutMyFood] 지금상품 저장해줘)
+  utterance ([g:PutMyFood] 저장해줘)
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
-  last-modified (1571823490775)
+  last-modified (1572252758455)
 }
 train (t-jtn8acdxn58am18cyybl6td90) {
-  utterance ([g:PutMyFood] 현재상품 등록해줘)
+  utterance ([g:PutMyFood] 등록해줘)
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
-  last-modified (1571823483867)
+  last-modified (1572252769526)
 }

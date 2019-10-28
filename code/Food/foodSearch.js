@@ -10,7 +10,7 @@ module.exports.function = function foodSearch(foodName) {
 
     var param = "?" + encodeURIComponent('ServiceKey') + '=' + secret.get('foodkey');
     param += "&" + encodeURIComponent('prdlstNm') + '=' + encodeURIComponent(foodName);
-    param += "&" + encodeURIComponent('numOfRows') + '=' + "30";
+    param += "&" + encodeURIComponent('numOfRows') + '=' + "20";
     param += "&returnType=json";
     var infoResult = http.getUrl(config.get('foodUrl') + param, { format: 'json' });
 
@@ -41,7 +41,7 @@ module.exports.function = function foodSearch(foodName) {
         continue;
       }
 
-      list[i]['prdlstNm'] = list[i]['prdlstNm'].replace(/ /gi, '');
+      //list[i]['prdlstNm'] = list[i]['prdlstNm'].replace(/ /gi, '');
       list[i]['nutrient'] = list[i]['nutrient'].replace(/[,]| /gi, '');
 
       list[i]['nutrient'] = list[i]['nutrient'].toLowerCase();

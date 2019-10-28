@@ -23,6 +23,11 @@ train (t-qo9icqkkiglhe7tmgau80q4rw) {
   plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
   last-modified (1572247384595)
 }
+train (t-qoyxbzks1g92dqlblv5cdmefd) {
+  utterance ([g:DeleteAllFood] 모두 지워줘)
+  plan (Y2BiECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUl1zMlxA/IYGIGQAYqBJAA=)
+  last-modified (1572253223477)
+}
 train (t-qt2wrmjzjv8e8teorzurm6u22) {
   utterance ("[g:FindAllergy] 알레르기 성분이 (육개장)[v:FoodName]에 있냐")
   plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEUVQZI+CXmpjIwMTACMQOQZGQAASgfAA==)

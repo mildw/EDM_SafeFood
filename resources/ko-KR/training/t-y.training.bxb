@@ -1,7 +1,7 @@
 train (t-y5huil3wnmmo7x7wnt89b9glp) {
-  utterance ([g:PutMyFood] 이거 내식품에 넣어줘)
+  utterance ([g:PutMyFood] 이거 넣어줘)
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
-  last-modified (1571707823174)
+  last-modified (1572252661379)
 }
 train (t-y71y9llgx2eu4yd3k6neh49d3) {
   utterance ([g:PutMyFood] 지금 보고있는거 저장해줘)

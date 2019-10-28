@@ -4,9 +4,9 @@ train (t-36lzk0wlac8phkbb24lshiq12) {
   last-modified (1571821115288)
 }
 train (t-3do9wdh54r6oeeh9xdqivz5ff) {
-  utterance ("[g:FoodName] (포켓팝콘 딸기맛)[v:FoodName] 상품 정보 알려줘")
-  plan (Y2BiEE1NydUrTkxLTcvPT9FzAxJ+ibmpuIQZgZCBgQeImYAYyAYA)
-  last-modified (1572102479095)
+  utterance ("[g:FoodSearch] (포켓팝콘 딸기맛)[v:FoodName] 상품 정보 알려줘")
+  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572254123962)
 }
 train (t-3hcl5ta84ohc0h921pau3pl8p) {
   utterance ("[g:FoodCompare] {[g:FoodTwo] (훈제오리)[v:FoodName]}랑 다른게 뭐야")
@@ -39,9 +39,9 @@ train (t-3svokw8mcbwdqmi3ncgs7kfsa) {
   last-modified (1572250502122)
 }
 train (t-3viuxhdes2ib07jvjnyoa6lz7) {
-  utterance ([g:PutMyFood] 내 정보에 이 식품 추가해놔)
+  utterance ([g:PutMyFood] 내 정보에 추가해놔)
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
-  last-modified (1571823566018)
+  last-modified (1572252736689)
 }
 train (t-3yl8as9pwen88xt6m67f0u2hm) {
   utterance ([g:RestaurantSearch] 근처에 청결한 식당 찾아줄래)

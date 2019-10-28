@@ -19,9 +19,9 @@ train (t-sm4x5lw2nvub62xzrlsypn8yd) {
   last-modified (1572182903129)
 }
 train (t-sn0cnbiqh4mvyhda3frrs6yh8) {
-  utterance ([g:PutMyFood] 이식품 추가해줘)
+  utterance ([g:PutMyFood] 이것 추가해줘)
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
-  last-modified (1571823545492)
+  last-modified (1572252675265)
 }
 train (t-srq5d6qkseuldt4obodywumfz) {
   utterance ("[g:RestaurantFind] (부산)[v:RestaurantLocation]에 있는 (웰스토리)[v:RestaurantName]는 위생상태가 좋니")
@@ -29,7 +29,7 @@ train (t-srq5d6qkseuldt4obodywumfz) {
   last-modified (1571849016252)
 }
 train (t-ssze2pnbssrwfzhu1znv0gg25) {
-  utterance ("[g:FindAllergy] (치킨너겟)[v:FoodName]에  알레르기 유발 성분 뭐있을까")
+  utterance ("[g:FindAllergy] (치킨너겟)[v:FoodName]에  알레르기 성분 뭐있을까")
   plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEUVQZI+CXmpjIwMTACMQOQZGQAASgfAA==)
-  last-modified (1572182903247)
+  last-modified (1572253480603)
 }
