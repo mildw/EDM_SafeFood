@@ -1,7 +1,7 @@
 train (t-sag9kpialztrwpjksdlaod05c) {
-  utterance ("[g:DeleteOneFood] (오리주물럭)[v:MyFoodName] 내리스트에서 제거해줘")
+  utterance ("[g:DeleteOneFood] (오리주물럭)[v:MyFoodName]은 내리스트에서 제거해줘")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571827480242)
+  last-modified (1572243830801)
 }
 train (t-sc23foa1hn2nzkqwi2nm7p9lu) {
   utterance ("[g:RestaurantFind] (인천)[v:RestaurantLocation]에 (햄버거)[v:RestaurantName]집 위생등급 알려줘")

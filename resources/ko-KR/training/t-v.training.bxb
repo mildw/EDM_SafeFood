@@ -19,7 +19,7 @@ train (t-vve7hv0gdg9lbn98wv5vwj27a) {
   last-modified (1571824248722)
 }
 train (t-vwka9e0t8opynn676uo1i26gg) {
-  utterance ("[g:DeleteOneFood] 내 리스트에서 (나뚜루 초코)[v:MyFoodName] 삭제")
+  utterance ("[g:DeleteOneFood] 내 리스트에서 (나뚜루 초코)[v:MyFoodName]은 삭제")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572103196829)
+  last-modified (1572243845973)
 }

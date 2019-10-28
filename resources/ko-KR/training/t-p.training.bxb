@@ -29,7 +29,7 @@ train (t-px92gsapkoae4z1oo36p33vio) {
   last-modified (1571824400130)
 }
 train (t-px9x7pdxy11u0de8ceurvz1il) {
-  utterance ([g:RestaurantSearch] 여기서 위생좋은 식당은 어디니)
+  utterance ([g:RestaurantSearch] 여기서 청결한 식당은 어디니)
   plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)
-  last-modified (1571848009414)
+  last-modified (1572243224972)
 }

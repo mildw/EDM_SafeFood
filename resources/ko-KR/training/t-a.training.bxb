@@ -4,7 +4,7 @@ train (t-a4esnkvw017f5pchpcs2g6l8q) {
   last-modified (1571848856653)
 }
 train (t-aui9muqbw4jqpxwq7f3n6e7nc) {
-  utterance ("[g:DeleteOneFood] 내상품중 (떡갈비)[v:MyFoodName]인 것들 삭제해줘")
+  utterance ("[g:DeleteOneFood] 내상품중 (떡갈비)[v:MyFoodName]은 것들 삭제해줘")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571826062687)
+  last-modified (1572243721651)
 }

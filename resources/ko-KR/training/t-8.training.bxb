@@ -1,10 +1,10 @@
 train (t-8nsl6ka6y8ui9bhwxllqczj5u) {
-  utterance ([g:RestaurantSearch] 지금 주변에 위생 좋은 식당 어디야)
+  utterance ([g:RestaurantSearch] 지금 주변에 청결한 식당 어디야)
   plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)
-  last-modified (1571847705492)
+  last-modified (1572243119632)
 }
 train (t-8tjcbf96xpxcqmak9fim3gom5) {
-  utterance ("[g:DeleteOneFood] 내 리스트에 (족발)[v:MyFoodName] 제거해줘")
+  utterance ("[g:DeleteOneFood] 내 리스트에 (족발)[v:MyFoodName]은 제거해줘")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571827319109)
+  last-modified (1572243708501)
 }

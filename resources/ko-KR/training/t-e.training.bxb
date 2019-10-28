@@ -4,7 +4,7 @@ train (t-ehimkyn3ur4m6gucjfq6sgzye) {
   last-modified (1571845456067)
 }
 train (t-eoua1yzw78idjj1u2y7c41g02) {
-  utterance ([g:RestaurantSearch] 근방에 위생 좋은 식당 찾아놔)
+  utterance ([g:RestaurantSearch] 근방에 청결한 식당 찾아놔)
   plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)
-  last-modified (1571847787578)
+  last-modified (1572243137924)
 }

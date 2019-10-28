@@ -14,9 +14,9 @@ train (t-3hcl5ta84ohc0h921pau3pl8p) {
   last-modified (1571844607133)
 }
 train (t-3ln6xh36uh1jkf770lso6xwy3) {
-  utterance ("[g:DeleteOneFood] (불닭볶음탕면)[v:MyFoodName] 내식품에서 삭제해")
+  utterance ("[g:DeleteOneFood] (불닭볶음탕면)[v:MyFoodName]은 내식품에서 삭제해")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571827368474)
+  last-modified (1572243678538)
 }
 train (t-3nli889fisgo2i683h42q4tz9) {
   utterance ("[g:FoodCompare] {[g:FoodTwo] (에너지바)[v:FoodName]}랑 뭐가더좋아")
@@ -44,7 +44,7 @@ train (t-3viuxhdes2ib07jvjnyoa6lz7) {
   last-modified (1571823566018)
 }
 train (t-3yl8as9pwen88xt6m67f0u2hm) {
-  utterance ([g:RestaurantSearch] 근처에 위생좋은 식당 찾아줄래)
+  utterance ([g:RestaurantSearch] 근처에 청결한 식당 찾아줄래)
   plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)
-  last-modified (1571848042654)
+  last-modified (1572243095734)
 }

@@ -14,9 +14,9 @@ train (t-73vqtitvigqyntt8kmy0va0fr) {
   last-modified (1571823435074)
 }
 train (t-7exf85fggxcox4mbra1mezspy) {
-  utterance ([g:RestaurantSearch] 근처에 위생좋은 식당 찾아)
+  utterance ([g:RestaurantSearch] 근처에 청결한 식당 찾아)
   plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)
-  last-modified (1571847980535)
+  last-modified (1572243108100)
 }
 train (t-7mfjj6vspe582mkknrmkao70t) {
   utterance ("[g:FoodCompare2] {[g:FoodOne] (자몽)[v:FoodName]}이랑 {[g:FoodTwo] (김치)[v:FoodName]}랑 다른점 알려줘")

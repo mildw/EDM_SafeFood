@@ -14,7 +14,7 @@ train (t-hu4uwc46hclpvvt23bmgk960c) {
   last-modified (1571929028020)
 }
 train (t-hxn1wuqy98zkvm0tqh750c4js) {
-  utterance ("[g:DeleteOneFood] (새우왕)[v:MyFoodName] 내 리스트에서 없애")
+  utterance ("[g:DeleteOneFood] (새우왕)[v:MyFoodName]은 내 리스트에서 없애")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572103376788)
+  last-modified (1572243760664)
 }

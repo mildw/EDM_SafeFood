@@ -14,9 +14,9 @@ train (t-meq5bki1dux4vdbbz95w9yym4) {
   last-modified (1571849189947)
 }
 train (t-mtflztuhkl6n9lq0ewer9uqds) {
-  utterance ("[g:DeleteOneFood] 내상품에서 (칼슘미트볼)[v:MyFoodName] 삭제해")
+  utterance ("[g:DeleteOneFood] 내상품에서 (칼슘미트볼)[v:MyFoodName]은 삭제해")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571827421163)
+  last-modified (1572243795338)
 }
 train (t-mtg6nsuwruy5vx2nt7qq6xde7) {
   utterance ([g:GetMyFoodStat] 통계 그래프 보여줘)

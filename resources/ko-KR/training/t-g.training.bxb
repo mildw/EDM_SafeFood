@@ -1,12 +1,7 @@
-train (t-g0oefve48jn3mfwg1ut9dbpsd) {
-  utterance ([g:RestaurantSearch] 주위에 위생 좋은 가게 찾아볼래)
-  plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)
-  last-modified (1571847806093)
-}
 train (t-g1jlx1b85r3xkxvnmi709pnbw) {
-  utterance ("[g:DeleteOneFood] 내 식품 목록에서 (쇠고기 카레호빵)[v:MyFoodName] 삭제해주세요")
+  utterance ("[g:DeleteOneFood] 내 식품 목록에서 (쇠고기 카레호빵)[v:MyFoodName]은 삭제해주세요")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572103294130)
+  last-modified (1572243750037)
 }
 train (t-g1qeqoru4uaf1ohokisudqpei) {
   utterance ("[g:FoodCompare] {[g:FoodTwo] (프로틴)[v:FoodName]}이랑 비교해봐")

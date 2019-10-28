@@ -4,9 +4,9 @@ train (t-1e3cgbic4fhysc0d2j5bp1x3h) {
   last-modified (1571709101695)
 }
 train (t-1ncmt2lr7qnrb537fmj0gjyap) {
-  utterance ("[g:RestaurantSearch] 가까운곳에 위생좋은 식당 찾아주세요\n")
+  utterance ("[g:RestaurantSearch] 가까운곳에 청결한 식당 찾아주세요\n")
   plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)
-  last-modified (1571847990098)
+  last-modified (1572243081036)
 }
 train (t-1vv8jncrhyb846pnwicekq97u) {
   utterance ("[g:FindAllergy] (김치)[v:FoodName]에 알러지유발 성분 있니")

@@ -19,7 +19,7 @@ train (t-kp9xah78c6qolz0rrs7nyck1a) {
   last-modified (1571848977964)
 }
 train (t-kx3s71bqj5ckzdk021dhapgjx) {
-  utterance ("[g:DeleteOneFood] (요거트 왕슈)[v:MyFoodName] 내 식품 목록에서 제거해주세요")
+  utterance ("[g:DeleteOneFood] (요거트 왕슈)[v:MyFoodName]은 내 식품 목록에서 제거해주세요")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572103328386)
+  last-modified (1572243787692)
 }

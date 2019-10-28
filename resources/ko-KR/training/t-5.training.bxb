@@ -24,9 +24,9 @@ train (t-5jixlvwvrxt0j3s9hhjzlq1mr) {
   last-modified (1571821084160)
 }
 train (t-5lkh7rnx7snyf8pvmnkf8szh8) {
-  utterance ("[g:DeleteOneFood] 내 리스트에서 (누네띠네 딸기)[v:MyFoodName] 제거해줘")
+  utterance ("[g:DeleteOneFood] (누네띠네 딸기)[v:MyFoodName]은 제거해")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572103261076)
+  last-modified (1572243687225)
 }
 train (t-5ot0xnco3hghd20hywbg2id53) {
   utterance ("[g:FindAllergy] (자몽)[v:FoodName]이 알러지를 유발하나요\n")

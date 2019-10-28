@@ -14,9 +14,9 @@ train (t-qn1j7zebiocl96nmbjkrj017j) {
   last-modified (1571386083427)
 }
 train (t-qni9mdr8vj053jgv01qkfrt4i) {
-  utterance ("[g:DeleteOneFood] 내 식품 목록에서 (신라면)[v:MyFoodName] 삭제해줘")
+  utterance ("[g:DeleteOneFood] 내 식품 목록에서 (신라면)[v:MyFoodName]은 삭제해줘")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572103909890)
+  last-modified (1572243803505)
 }
 train (t-qo9icqkkiglhe7tmgau80q4rw) {
   utterance ([g:DeleteAllFood] 저장했던 식품 다 지워)

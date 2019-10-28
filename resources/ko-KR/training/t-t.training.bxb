@@ -9,9 +9,9 @@ train (t-tgavlnwr2smktlb1h4jpzczlq) {
   last-modified (1572105894996)
 }
 train (t-tru57rqwf5zy6211yf0fw3u85) {
-  utterance ("[g:DeleteOneFood] 내식품중 (감동란)[v:MyFoodName] 빼줘")
+  utterance ("[g:DeleteOneFood] 내식품중 (감동란)[v:MyFoodName]은 빼줘")
   plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571827185818)
+  last-modified (1572243837793)
 }
 train (t-tznderwy3ee38c2i7fbj663yo) {
   utterance ("[g:FoodSearch] (왕교자)[v:FoodName]  식품 찾아주세요")
