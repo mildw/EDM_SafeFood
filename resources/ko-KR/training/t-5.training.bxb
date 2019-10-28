@@ -21,7 +21,7 @@ train (t-5e7vjxltaw0hnp7lva0vx0qhs) {
 train (t-5jixlvwvrxt0j3s9hhjzlq1mr) {
   utterance ([g:GetMyFoodList] 내가 등록한 리스트 보여줘)
   plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
-  last-modified (1571821084160)
+  last-modified (1572244478111)
 }
 train (t-5lkh7rnx7snyf8pvmnkf8szh8) {
   utterance ("[g:DeleteOneFood] (누네띠네 딸기)[v:MyFoodName]은 제거해")

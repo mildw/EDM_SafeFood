@@ -1,7 +1,7 @@
 train (t-z78o18wretkqf7a6ajh41uuhi) {
   utterance ([g:GetMyFoodList] 등록한 식품 목록 보여줘)
   plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
-  last-modified (1571821095218)
+  last-modified (1572244789631)
 }
 train (t-z9hp98ee2wpapjsi6lnvq2as9) {
   utterance ("[g:FoodSearch] (유기농 떡볶이)[v:FoodName] 상품 정보 검색")

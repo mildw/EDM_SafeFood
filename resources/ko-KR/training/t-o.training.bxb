@@ -14,7 +14,7 @@ train (t-onq4xdhyq25xuozw99dll7ogn) {
   last-modified (1572182901929)
 }
 train (t-oqxgrmfg1r9ht53xzgr46krx4) {
-  utterance ([g:GetMyFoodList] 저장한 음식 알려줄래)
+  utterance ([g:GetMyFoodList] 저장한 식품목록 알려줄래)
   plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
-  last-modified (1571821236505)
+  last-modified (1572244767367)
 }

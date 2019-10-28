@@ -1,7 +1,7 @@
 train (t-uefry2bpl1h69wobhxrbdxmuz) {
-  utterance ([g:GetMyFoodList] 내 식품 봐봐)
+  utterance ([g:GetMyFoodList] 내 식품리스트 봐봐)
   plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
-  last-modified (1571707600295)
+  last-modified (1572244777865)
 }
 train (t-ufhqf2gdesskdtd7af7ybtdgg) {
   utterance ("[g:RestaurantFind] (대구)[v:RestaurantLocation]에 있는 (오세요)[v:RestaurantName] 위생 정보 검색해줘\n")

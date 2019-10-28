@@ -6,7 +6,7 @@ train (t-d3ynlqsjxfzn49s4v783ca6yr) {
 train (t-d52uuk7aadfb6incldb8f63bw) {
   utterance ([g:GetMyFoodList] 내가 저장한 목록들 보여줘)
   plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
-  last-modified (1571821152603)
+  last-modified (1572244486310)
 }
 train (t-dijv3c5rpceijrz2oik8a6nhs) {
   utterance ("[g:FindHandle] 알레르기 (심각)[v:FindHandleWay]해 대처법 알려줘")

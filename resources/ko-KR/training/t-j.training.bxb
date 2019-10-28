@@ -8,20 +8,15 @@ train (t-j5bkupivawhhs2zaviukr74n9) {
   plan (Y+BgkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBEkXMDElB5IwYRDCn/vFQGcQzR4NTEouQMBlEMCb/E3FQspoSU56M5CSqK3yB2BkYGJgZmBhYGVgY2II8BymcE8xnBfAY4yQqWBallB9JMDKwA)
   last-modified (1571931067925)
 }
-train (t-jbu0gbks0s3o4bvrm1zanm8fr) {
-  utterance ([g:GetMyFoodList] 식품 등록해 놓은거 뭐있냐)
-  plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
-  last-modified (1571821280704)
-}
 train (t-jcyhkr2fpw1h4b2m1cef51qfa) {
   utterance ("[g:FoodCompare2] {[g:FoodOne] (신라면)[v:FoodName]}이랑 {[g:FoodTwo] (진라면)[v:FoodName]}이랑 차이점 비교해줘")
   plan (Y+BgkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBEkXMDElB5IwYRDCn/vFQGcQzR4NTEouQMBlEMCb/E3FQspoSU56M5CSqK3yB2BkYGJgZmBhYGVgY2II8BymcE8xnBfAY4yQqWBallB9JMDKwA)
   last-modified (1571931047312)
 }
 train (t-jhoe15hpq3np9pzj7tlrghmhk) {
-  utterance ([g:GetMyFoodList] 내가 등록한 식품 목록 보여줘)
+  utterance ([g:GetMyFoodList] 내가 등록한 식품목록 보여줘)
   plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)
-  last-modified (1571821033476)
+  last-modified (1572244720976)
 }
 train (t-jkqizz9xvdcrx5p6gljc4io4a) {
   utterance ([g:PutMyFood] 지금상품 저장해줘)
