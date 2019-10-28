@@ -1,7 +1,7 @@
 train (t-vibsemguswr65i7xamnaaq6z4) {
-  utterance ("[g:FoodSearch] (현미 크런치)[v:FoodName] 상품 찾아주세요")
+  utterance ("[g:FoodSearch] (현미 크런치)[v:FoodName] 상품 정보 찾아주세요")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572103450414)
+  last-modified (1572250381216)
 }
 train (t-vjuydbb01liqy776pu70nikt7) {
   utterance ("[g:RestaurantFind] (부평)[v:RestaurantLocation]에 있는 (신선설농탕)[v:RestaurantName]가게 위생상태 알려줘")

@@ -9,9 +9,9 @@ train (t-iau7bhqsli0jfy4pipfqnifvu) {
   last-modified (1572249249705)
 }
 train (t-ibg8shpb4wwhf7434thb969n7) {
-  utterance ("[g:FoodSearch] (두부)[v:FoodName]의 식품정보 검색해줘")
+  utterance ("[g:FoodSearch] (두부)[v:FoodName] 식품정보 검색해줘")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572245713026)
+  last-modified (1572250493915)
 }
 train (t-igo6u7o1ykz2q2vm8tnuxabor) {
   utterance ("[g:FindHandle] (심각)[v:FindHandleWay]한 알러지 대처법 알려줘")

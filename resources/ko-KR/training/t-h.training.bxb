@@ -1,7 +1,7 @@
 train (t-hjjyrduvcb0d3hton1t7x3jwt) {
-  utterance ("[g:FoodSearch] (돈까스)[v:FoodName]의 상품정보 검색해줘")
+  utterance ("[g:FoodSearch] (돈까스)[v:FoodName] 상품정보 검색해줘")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572245696008)
+  last-modified (1572250486315)
 }
 train (t-hs5444tdsbm4jx2yaw46jso8r) {
   utterance ("[g:FoodCompare] {[g:FoodTwo] (불짬봉)[v:FoodName]}이랑 비교해봐")

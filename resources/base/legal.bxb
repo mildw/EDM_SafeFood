@@ -1,17 +1,9 @@
 legal {
   country-documents { 
     store-country (KR) 
-    terms-and-conditions { 
-      url (https://mycapsule.com/korean-toc) 
-    }
     privacy-policy {
-      url (https://mycapsule.com/korean-privacy-policy) 
+      url (https://mycapsule.com/korean-privacy-policy.html) 
     }
-    additional-terms-and-conditions { 
-      url (https://mycapsule.com/korean-location-terms.com) 
-    }
-    cross-border-data-transfer { 
-      url (https://mycapsule.com/korean-cross-border-data-transfer.com)
-    }
+    
   }
 }

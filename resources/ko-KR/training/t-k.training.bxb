@@ -1,7 +1,7 @@
 train (t-k0wjled49rg2dy1j3fh8b81p2) {
-  utterance ("[g:FoodSearch] (하비스트 오리지널)[v:FoodName]의 상품정보 검색해주세요")
+  utterance ("[g:FoodSearch] (하비스트 오리지널)[v:FoodName] 상품정보 검색해주세요")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572245726499)
+  last-modified (1572250422414)
 }
 train (t-kb67935b7hu135kodxlh6a1he) {
   utterance ("[g:FoodCompare2] {[g:FoodOne] (짱구)[v:FoodName]}랑 {[g:FoodTwo] (감동란)[v:FoodName]}이랑 비교해")

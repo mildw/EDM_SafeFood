@@ -24,9 +24,9 @@ train (t-3nli889fisgo2i683h42q4tz9) {
   last-modified (1571709212646)
 }
 train (t-3om28w8afmkfa76da9k9tvj7q) {
-  utterance ("[g:FoodSearch] (함박스테이크)[v:FoodName]의 정보 검색해주세요")
+  utterance ("[g:FoodSearch] (함박스테이크)[v:FoodName] 정보 검색해주세요")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572245582927)
+  last-modified (1572250592709)
 }
 train (t-3q4idcm7u2uxhrbm7jeya5ufj) {
   utterance ("[g:FindHandle] (심각)[v:FindHandleWay]한 알러지 대처법 검색")
@@ -34,9 +34,9 @@ train (t-3q4idcm7u2uxhrbm7jeya5ufj) {
   last-modified (1571928978527)
 }
 train (t-3svokw8mcbwdqmi3ncgs7kfsa) {
-  utterance ("[g:FoodSearch] (대림선 김치손만두)[v:FoodName]의 상품 정보 알려줘")
+  utterance ("[g:FoodSearch] (대림선 김치손만두)[v:FoodName] 상품 정보 알려줘")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572245595027)
+  last-modified (1572250502122)
 }
 train (t-3viuxhdes2ib07jvjnyoa6lz7) {
   utterance ([g:PutMyFood] 내 정보에 이 식품 추가해놔)

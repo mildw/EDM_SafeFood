@@ -14,7 +14,7 @@ train (t-tru57rqwf5zy6211yf0fw3u85) {
   last-modified (1572249315645)
 }
 train (t-tznderwy3ee38c2i7fbj663yo) {
-  utterance ("[g:FoodSearch] (왕교자)[v:FoodName]의 식품 찾아주세요")
+  utterance ("[g:FoodSearch] (왕교자)[v:FoodName] 식품 찾아주세요")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572245743498)
+  last-modified (1572250439371)
 }

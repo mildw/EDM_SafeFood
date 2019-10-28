@@ -36,7 +36,7 @@ module.exports.function = function foodSearch(foodName) {
     // 상품명의 띄어쓰기 지우기
     for (var i = 0; i < list.length; i++) {
       //if (list[i]['nutrient'] == '알수없음' || list[i]['allergy'] == '알수없음' || Nm.indexOf(list[i]['prdlstNm']) != -1) {
-      if (list[i]['nutrient'].indexOf('탄수화물') == -1 || list[i]['allergy'] == '알수없음' || Nm.indexOf(list[i]['prdlstNm']) != -1) {
+      if (list[i]['nutrient'].indexOf('탄수화물') == -1  || Nm.indexOf(list[i]['prdlstNm']) != -1) {
         console.log(list[i]['prdlstNm'])
         continue;
       }

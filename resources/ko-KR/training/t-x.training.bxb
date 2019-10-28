@@ -1,7 +1,7 @@
 train (t-xf7h9lzkl4dvehjvqkb6r55of) {
-  utterance ("[g:FoodSearch] (목우촌 흑마늘햄)[v:FoodName] 식품정보 검색좀요")
+  utterance ("[g:FoodSearch] (목우촌 흑마늘햄)[v:FoodName] 식품정보 검색해요")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1571731847055)
+  last-modified (1572250398806)
 }
 train (t-xhmvyqdzx0zlk80wqoutbe80w) {
   utterance ([g:GetMyFoodStat] 내 식품 분석)

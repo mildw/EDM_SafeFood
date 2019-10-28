@@ -29,9 +29,9 @@ train (t-bp278bn656n8qlvuaoqv0w3bx) {
   last-modified (1572249180899)
 }
 train (t-bpjyqm1y56h97ctj0ivmcki4h) {
-  utterance ("[g:FoodSearch] (햄버거패티)[v:FoodName]의 식품 정보 알려주세요")
+  utterance ("[g:FoodSearch] (햄버거패티)[v:FoodName] 식품 정보 알려주세요")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572245835413)
+  last-modified (1572250471664)
 }
 train (t-bq1a5nru6umzsop3wqapoxks4) {
   utterance ("[g:FoodCompare] 비교해 {[g:FoodTwo] (생강차)[v:FoodName]}랑")

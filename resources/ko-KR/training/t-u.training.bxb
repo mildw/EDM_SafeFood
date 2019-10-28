@@ -9,9 +9,9 @@ train (t-ufhqf2gdesskdtd7af7ybtdgg) {
   last-modified (1572105666376)
 }
 train (t-uj0umf35vtalwv6wj4ce1s4zw) {
-  utterance ("[g:FoodSearch] (허쉬 초코)[v:FoodName]의 상품 정보 검색")
+  utterance ("[g:FoodSearch] (허쉬 초코)[v:FoodName] 상품 정보 검색")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572245757257)
+  last-modified (1572250446505)
 }
 train (t-umf4idnlv2h5mgves1bgf6p1k) {
   utterance ("[g:FoodCompare2] {[g:FoodOne] (포카칩)[v:FoodName]}이랑 {[g:FoodTwo] (스윙칩)[v:FoodName]}이랑 비교해줘")
@@ -19,7 +19,7 @@ train (t-umf4idnlv2h5mgves1bgf6p1k) {
   last-modified (1571790319816)
 }
 train (t-upptg8bu5xr3bmpw7r71owehn) {
-  utterance ("[g:FoodSearch] (배먹은 호랭이)[v:FoodName]의 식품 정보 찾아줘")
+  utterance ("[g:FoodSearch] (배먹은 호랭이)[v:FoodName] 식품 정보 찾아줘")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572245787934)
+  last-modified (1572250452414)
 }

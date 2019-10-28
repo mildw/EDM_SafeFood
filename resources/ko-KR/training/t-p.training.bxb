@@ -4,9 +4,9 @@ train (t-p3153o06fam4q6wlaq53o5dob) {
   last-modified (1571707815911)
 }
 train (t-p5o5v1vwr32c47q1i40hit7bc) {
-  utterance ("[g:FoodSearch] (신라면)[v:FoodName]의 식품정보 찾아줘")
+  utterance ("[g:FoodSearch] (신라면)[v:FoodName] 식품정보 찾아줘")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572245734466)
+  last-modified (1572250432500)
 }
 train (t-pnn37xuhqm6z5gn55y77rqtug) {
   utterance ("[g:FindAllergy] (오징어)[v:FoodName]가 알레르기 성분을 가지고있니")

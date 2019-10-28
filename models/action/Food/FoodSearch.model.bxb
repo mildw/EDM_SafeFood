@@ -4,7 +4,7 @@ action (FoodSearch) {
   collect {
     input (foodName) {
       type (FoodName)
-      min (Optional) max (One)
+      min (Required) max (One)
     }
   }
   output (FoodOne) {

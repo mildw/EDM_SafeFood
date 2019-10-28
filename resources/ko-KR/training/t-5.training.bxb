@@ -4,9 +4,9 @@ train (t-522i2p3ayeqfle1smvh8cl9sh) {
   last-modified (1572105491775)
 }
 train (t-53szpesp60mw7yi4fuxg18taa) {
-  utterance ("[g:FoodSearch] (리얼 바나나)[v:FoodName]의 식품 검색해주세요")
+  utterance ("[g:FoodSearch] (리얼 바나나)[v:FoodName] 식품 검색해주세요")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572245606455)
+  last-modified (1572250508599)
 }
 train (t-57rnpkoq337zqr1qcl469kor9) {
   utterance ("[g:FoodCompare] {[g:FoodTwo] (맛있는라면)[v:FoodName]}이랑 차이알려줘")
