@@ -3,15 +3,9 @@ capsule-info {
   developer-name  (EDM)
   icon-asset (logo_img.png)
   description ("알고먹자은 식품을 믿고 먹을 수 있도록 도와주는 캡슐 입니다.")
-  
-  website-url (https://github.com/mildup/EDM_SafeFood)
+ 
+  dispatch-name (알고 먹자)
 
-  dispatch-name (알고먹자)
-  
-  dispatch-aliases {
-    alias (알고먹사)
-    alias (알먹자)
-  }
   search-keywords{
     keyword (알고먹자)
     keyword (식품)

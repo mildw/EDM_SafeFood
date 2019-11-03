@@ -4,7 +4,7 @@ train (t-f0xbz2rjyisetrisz0vw2pmsf) {
   last-modified (1572252749575)
 }
 train (t-fnt6fszi5x2y36j30p40dcn4k) {
-  utterance ("[g:RestaurantFind] (경기도)[v:RestaurantLocation]에 있는 (에이치)[v:RestaurantName] 위생등급 어때")
+  utterance ("[g:RestaurantFind] (경기도)[v:RestaurantLocation]에 있는 (파스타)[v:RestaurantName] 위생등급 어때")
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
-  last-modified (1571848961804)
+  last-modified (1572700619733)
 }

@@ -1,7 +1,7 @@
 train (t-xf7h9lzkl4dvehjvqkb6r55of) {
-  utterance ("[g:FoodSearch] (목우촌 흑마늘햄)[v:FoodName] 식품정보 검색해요")
+  utterance ("[g:FoodSearch] (목우촌)[v:FoodName] 식품정보 검색해요")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572250398806)
+  last-modified (1572794705804)
 }
 train (t-xhmvyqdzx0zlk80wqoutbe80w) {
   utterance ([g:GetMyFoodStat] 내 식품 분석)
@@ -14,9 +14,9 @@ train (t-xizbfryghjyh5tz9exo011way) {
   last-modified (1571929059169)
 }
 train (t-xlxy0gfhrkblankc0sgedyiv8) {
-  utterance ("[g:RestaurantFind] (인천)[v:RestaurantLocation]에 (한우)[v:RestaurantName] 위생 검색")
+  utterance ("[g:RestaurantFind] (인천)[v:RestaurantLocation]에 (피에스타)[v:RestaurantName] 위생 정보 검색")
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
-  last-modified (1572105695266)
+  last-modified (1572796189922)
 }
 train (t-xrjj8d35h2bh7xspu6chqhf5r) {
   utterance ([g:RestaurantSearch] 주변에 모범 식당 알려줘)
@@ -24,7 +24,7 @@ train (t-xrjj8d35h2bh7xspu6chqhf5r) {
   last-modified (1572256407164)
 }
 train (t-xv3hv2pairyycir4zgzp45403) {
-  utterance ("[g:FoodSearch] (가마솥 국산콩 두부)[v:FoodName] 상품 검색해줘")
+  utterance ("[g:FoodSearch] (콩 두부)[v:FoodName] 상품 검색해줘")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572102454662)
+  last-modified (1572794750082)
 }

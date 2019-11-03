@@ -1,17 +1,12 @@
 train (t-522i2p3ayeqfle1smvh8cl9sh) {
-  utterance ("[g:RestaurantFind] (분당)[v:RestaurantLocation]에 있는  (사보텐)[v:RestaurantName] 위생 정보 알려줘")
+  utterance ("[g:RestaurantFind] (분당)[v:RestaurantLocation]에 있는  (트러플)[v:RestaurantName] 위생 정보 알려줘")
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
-  last-modified (1572105491775)
+  last-modified (1572796026294)
 }
 train (t-53szpesp60mw7yi4fuxg18taa) {
   utterance ("[g:FoodSearch] (리얼 바나나)[v:FoodName] 식품 검색해주세요")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1572250508599)
-}
-train (t-57rnpkoq337zqr1qcl469kor9) {
-  utterance ("[g:FoodCompare] {[g:FoodTwo] (맛있는라면)[v:FoodName]}이랑 차이알려줘")
-  plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
-  last-modified (1571709066727)
 }
 train (t-5e7vjxltaw0hnp7lva0vx0qhs) {
   utterance ("[g:FindHandle] (심각)[v:FindHandleWay]한 알레르기 반응 대처하기")

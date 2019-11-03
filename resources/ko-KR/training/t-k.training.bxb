@@ -4,9 +4,9 @@ train (t-k0wjled49rg2dy1j3fh8b81p2) {
   last-modified (1572250422414)
 }
 train (t-kb67935b7hu135kodxlh6a1he) {
-  utterance ("[g:FoodCompare2] {[g:FoodOne] (짱구)[v:FoodName]}랑 {[g:FoodTwo] (감동란)[v:FoodName]}이랑 비교해")
+  utterance ("[g:FoodCompare2] {[g:FoodOne] (짱구)[v:FoodName]}랑 {[g:FoodTwo] (불닭)[v:FoodName]}이랑 비교해")
   plan (Y+BgkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBEkXMDElB5IwYRDCn/vFQGcQzR4NTEouQMBlEMCb/E3FQspoSU56M5CSqK3yB2BkYGJgZmBhYGVgY2II8BymcE8xnBfAY4yQqWBallB9JMDKwA)
-  last-modified (1571931844258)
+  last-modified (1572795286071)
 }
 train (t-kn8jithpwdw9h5pwl810f6n7m) {
   utterance ("[g:FindHandle] (미미)[v:FindHandleWay]한 알레르기 대처법 알려줘")
@@ -17,9 +17,4 @@ train (t-kp9xah78c6qolz0rrs7nyck1a) {
   utterance ("[g:RestaurantFind] (서울)[v:RestaurantLocation]에 (토다이)[v:RestaurantName] 위생등급 알려줘")
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
   last-modified (1571848977964)
-}
-train (t-kx3s71bqj5ckzdk021dhapgjx) {
-  utterance ("[g:DeleteOneFood] (요거트 왕슈)[v:MyFoodName]를 내 식품 목록에서 제거해주세요")
-  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572249267474)
 }

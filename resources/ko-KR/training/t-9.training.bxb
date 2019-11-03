@@ -1,7 +1,7 @@
 train (t-921hjk6dr10aeiozhy2zyfgh0) {
-  utterance ("[g:FindAllergy] (불고기)[v:FoodName] 알레르기 성분")
+  utterance ("[g:FindAllergy] (불고기)[v:FoodName] 알러지 성분")
   plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEUVQZI+CXmpjIwMTACMQOQZGQAASgfAA==)
-  last-modified (1572254985658)
+  last-modified (1572791973310)
 }
 train (t-931z995ayye90o9ilj9nbem06) {
   utterance ([g:PutMyFood] 내꺼에 추가해줘)
@@ -9,7 +9,7 @@ train (t-931z995ayye90o9ilj9nbem06) {
   last-modified (1571707807368)
 }
 train (t-9slltzotrzo6o69d8sgx56016) {
-  utterance ("[g:RestaurantFind] (인천)[v:RestaurantLocation]에 (이베이커리)[v:RestaurantName] 위생 정보 찾아줘")
+  utterance ("[g:RestaurantFind] (인천)[v:RestaurantLocation]에 (스무디킹)[v:RestaurantName] 위생 정보 찾아줘")
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
-  last-modified (1572105865613)
+  last-modified (1572796037379)
 }

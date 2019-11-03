@@ -1,7 +1,7 @@
 train (t-d3ynlqsjxfzn49s4v783ca6yr) {
-  utterance ("[g:RestaurantFind] (거제시)[v:RestaurantLocation]에 있는 (소머리국밥)[v:RestaurantName]집 위생 검색해줘")
+  utterance ("[g:RestaurantFind] (거제시)[v:RestaurantLocation]에 있는 (콜럼버스)[v:RestaurantName] 위생 검색해줘")
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
-  last-modified (1572105614887)
+  last-modified (1572796065689)
 }
 train (t-d52uuk7aadfb6incldb8f63bw) {
   utterance ([g:GetMyFoodList] 내가 저장한 목록들 보여줘)
@@ -19,12 +19,7 @@ train (t-dncc7jeuw6mcoawwysllqsm6g) {
   last-modified (1571847710969)
 }
 train (t-dq0jrlen7y9lsfkcjudfe6uqr) {
-  utterance ("[g:RestaurantFind] (경기도)[v:RestaurantLocation]에 (에이치)[v:RestaurantName] 위생등급 찾아줘")
+  utterance ("[g:RestaurantFind] (경기도)[v:RestaurantLocation]에 (흥부가)[v:RestaurantName] 위생등급 찾아줘")
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
-  last-modified (1572105392675)
-}
-train (t-dtkxod5ovdmkgl4j5iwmkw301) {
-  utterance ("[g:RestaurantFind] (강원도)[v:RestaurantLocation]에 있는 (아타바)[v:RestaurantName] 위생 정보 찾아줘")
-  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
-  last-modified (1572105577868)
+  last-modified (1572796123403)
 }

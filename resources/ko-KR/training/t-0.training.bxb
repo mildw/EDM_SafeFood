@@ -4,9 +4,9 @@ train (t-04cz73qc9kqh2ck0vq5w1qco3) {
   last-modified (1572250543924)
 }
 train (t-09m7kddn8cmhdy9fcexyp92g9) {
-  utterance ("[g:FoodSearch] (프라임 리얼프랑크)[v:FoodName] 식품정보 검색해라")
+  utterance ("[g:FoodSearch] (프랑크)[v:FoodName] 식품정보 검색해라")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572250576788)
+  last-modified (1572794769965)
 }
 train (t-0ap0p7x2s8hlf8t65033h3d12) {
   utterance ([g:RestaurantSearch] 근방에 청결한 식당 찾아줘)
@@ -22,9 +22,4 @@ train (t-0idzdfb84fdb73sj6jn0ny56k) {
   utterance ([g:GetMyFoodStat] 식품 통계내줘)
   plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
   last-modified (1572246570288)
-}
-train (t-0ikv75u8w40gcuvdrldqk70t0) {
-  utterance ("[g:FoodSearch] (너겟왕)[v:FoodName] 상품 정보")
-  plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572102622953)
 }

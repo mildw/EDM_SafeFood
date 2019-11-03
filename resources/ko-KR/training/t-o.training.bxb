@@ -8,11 +8,6 @@ train (t-oi9v4508aprk75oq1qv07nmvd) {
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
   last-modified (1572105525765)
 }
-train (t-onq4xdhyq25xuozw99dll7ogn) {
-  utterance ("[g:FindAllergy] (고구마)[v:FoodName] 알러지 성분 알려줘")
-  plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEUVQZI+CXmpjIwMTACMQOQZGQAASgfAA==)
-  last-modified (1572254992995)
-}
 train (t-oqxgrmfg1r9ht53xzgr46krx4) {
   utterance ([g:GetMyFoodList] 저장한 식품목록 알려줄래)
   plan (Y2BiEElNydUrTkxLTcvPT9FzAxL+eakMUiii7qklvpUgKZ/M4hIGRiBkgGIgCQA=)

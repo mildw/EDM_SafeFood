@@ -1,8 +1,3 @@
-train (t-g1jlx1b85r3xkxvnmi709pnbw) {
-  utterance ("[g:DeleteOneFood] 내 식품 목록에서 (쇠고기 카레호빵)[v:MyFoodName]을 삭제해주세요")
-  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572249188411)
-}
 train (t-g1qeqoru4uaf1ohokisudqpei) {
   utterance ("[g:FoodCompare] {[g:FoodTwo] (프로틴)[v:FoodName]}이랑 비교해봐")
   plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)

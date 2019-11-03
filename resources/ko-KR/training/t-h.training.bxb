@@ -4,17 +4,12 @@ train (t-hjjyrduvcb0d3hton1t7x3jwt) {
   last-modified (1572250486315)
 }
 train (t-hs5444tdsbm4jx2yaw46jso8r) {
-  utterance ("[g:FoodCompare] {[g:FoodTwo] (불짬봉)[v:FoodName]}이랑 비교해봐")
+  utterance ("[g:FoodCompare] {[g:FoodTwo] (짬뽕)[v:FoodName]}이랑 비교해봐")
   plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
-  last-modified (1571844330314)
+  last-modified (1572794881056)
 }
 train (t-hu4uwc46hclpvvt23bmgk960c) {
   utterance ("[g:FindHandle] 나 알레르기 (심각)[v:FindHandleWay]해 대처법 찾아줘\n")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPIIVDIjyxkoGJgRGIGYAkIwMIQPkA)
   last-modified (1571929028020)
-}
-train (t-hxn1wuqy98zkvm0tqh750c4js) {
-  utterance ("[g:DeleteOneFood] (새우왕)[v:MyFoodName]을 내 리스트에서 없애")
-  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572249217423)
 }

@@ -9,9 +9,9 @@ train (t-j5bkupivawhhs2zaviukr74n9) {
   last-modified (1571931067925)
 }
 train (t-jcyhkr2fpw1h4b2m1cef51qfa) {
-  utterance ("[g:FoodCompare2] {[g:FoodOne] (신라면)[v:FoodName]}이랑 {[g:FoodTwo] (진라면)[v:FoodName]}이랑 차이점 비교해줘")
+  utterance ("[g:FoodCompare2] {[g:FoodOne] (신라면)[v:FoodName]}이랑 {[g:FoodTwo] (후랑크)[v:FoodName]}랑 차이점 비교해줘")
   plan (Y+BgkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBEkXMDElB5IwYRDCn/vFQGcQzR4NTEouQMBlEMCb/E3FQspoSU56M5CSqK3yB2BkYGJgZmBhYGVgY2II8BymcE8xnBfAY4yQqWBallB9JMDKwA)
-  last-modified (1571931047312)
+  last-modified (1572700838848)
 }
 train (t-jhoe15hpq3np9pzj7tlrghmhk) {
   utterance ([g:GetMyFoodList] 내가 등록한 식품목록 보여줘)

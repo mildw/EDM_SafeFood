@@ -4,19 +4,14 @@ train (t-36lzk0wlac8phkbb24lshiq12) {
   last-modified (1571821115288)
 }
 train (t-3do9wdh54r6oeeh9xdqivz5ff) {
-  utterance ("[g:FoodSearch] (포켓팝콘 딸기맛)[v:FoodName] 상품 정보 알려줘")
+  utterance ("[g:FoodSearch] (팝콘)[v:FoodName] 상품 정보 알려줘")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572254123962)
+  last-modified (1572794786077)
 }
 train (t-3hcl5ta84ohc0h921pau3pl8p) {
   utterance ("[g:FoodCompare] {[g:FoodTwo] (훈제오리)[v:FoodName]}랑 다른게 뭐야")
   plan (Y2BjkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBAkXMDElB5BhEMGf88bKIh5floNkBFg1MTi5IzGEQx5PwSc1MZWBkYGZgYmBlYgCwGIJsRzGZkYADzQIAZLAZSxwwA)
   last-modified (1571844607133)
-}
-train (t-3ln6xh36uh1jkf770lso6xwy3) {
-  utterance ("[g:DeleteOneFood] (불닭볶음탕면)[v:MyFoodName]을 내식품에서 삭제해")
-  plan (Y2BmECjLLNNLzi9K1XPKz89JTcxjkEpNydUrTkxLTcvPT9FzSc1JLUn1z0t1A/IYxFHkfCtBgn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572249155912)
 }
 train (t-3nli889fisgo2i683h42q4tz9) {
   utterance ("[g:FoodCompare] {[g:FoodTwo] (에너지바)[v:FoodName]}랑 뭐가더좋아")
@@ -34,9 +29,9 @@ train (t-3q4idcm7u2uxhrbm7jeya5ufj) {
   last-modified (1571928978527)
 }
 train (t-3svokw8mcbwdqmi3ncgs7kfsa) {
-  utterance ("[g:FoodSearch] (대림선 김치손만두)[v:FoodName] 상품 정보 알려줘")
+  utterance ("[g:FoodSearch] (손만두)[v:FoodName] 상품 정보 알려줘")
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1572250502122)
+  last-modified (1572794818004)
 }
 train (t-3viuxhdes2ib07jvjnyoa6lz7) {
   utterance ([g:PutMyFood] 내 정보에 추가해놔)

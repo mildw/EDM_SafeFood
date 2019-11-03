@@ -19,14 +19,9 @@ train (t-2fgambjz9q0empw343bcd393v) {
   last-modified (1572244457565)
 }
 train (t-2tsqjywnpfdpv7mqbzx10uktp) {
-  utterance ("[g:RestaurantFind] (분당)[v:RestaurantLocation]에 있는 (피자)[v:RestaurantName] 가게 위생등급 알려줘")
+  utterance ("[g:RestaurantFind] (분당)[v:RestaurantLocation]에 있는 (피자)[v:RestaurantName] 집 위생등급 알려줘")
   plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
-  last-modified (1572080811893)
-}
-train (t-2u9mojq7q17mscfkrisxhukx9) {
-  utterance ("[g:RestaurantFind] (포항)[v:RestaurantLocation]에 있는 (복삼계탕)[v:RestaurantName] 가게 위생 정보 알려줘")
-  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
-  last-modified (1572105807816)
+  last-modified (1572791622668)
 }
 train (t-2xslmn694ml0g4aa8v107ds3w) {
   utterance ("[g:DeleteOneFood] (진라면)[v:MyFoodName]을 제거해줘")
