@@ -465,17 +465,28 @@ result-view {
 					
 					divider
 					
-					image{
-						aspect-ratio(16:9)
-						url("#{value(this[6])}")
+					if(this[6] == '-'){
+						single-line{
+							text{
+								value("식품 성분이 부족해 차트 생성에 실패했습니다.")
+								style(Title_XS)
+								color (Blue)
+							}
+						}
+						spacer
 					}
-					
+					else{
+						image{
+							aspect-ratio(16:9)
+							url("#{value(this[6])}")
+						}
+					}
 					// spacer
 					// divider
 					// spacer
 					
 					// split-input-cell{
-						
+					
 					// 	left{
 					// 		input-cell{
 					// 			on-click{
@@ -484,13 +495,13 @@ result-view {
 					// 					value : $expr(action.food)
 					// 				}
 					// 			}
-								
+					
 					// 			//value("#{value(action.food.prdlstNm)}")
 					// 			label("내 식품에 저장")
 					// 			value("Food1")
 					// 		}
 					// 	}
-						
+					
 					// 	right{
 					// 		input-cell{
 					// 			on-click{
@@ -499,12 +510,12 @@ result-view {
 					// 					value : $expr(action.foodTwo)
 					// 				}
 					// 			}
-								
+					
 					// 			label("내 식품에 저장")
 					// 			value("Food2")
 					// 		}
 					// 	}
-						
+					
 					// }
 				}
 				

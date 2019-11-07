@@ -6,8 +6,6 @@ result-view {
 	message {
 		if (exists(this)) {
 			template ("식품 통계 정보 입니다.")
-		} else {
-			template ("통계를 낼 상품이 없습니다.")
 		}
 	}
 	
@@ -197,6 +195,11 @@ result-view {
 										}
 									}
 								}
+							}
+						}
+						else {
+							single-line{
+								text("등록된 식품이 없습니다")
 							}
 						}
 						

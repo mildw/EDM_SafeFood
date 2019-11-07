@@ -2,16 +2,10 @@ hints {
   uncategorized {
     utterance (떡갈비 식품 정보 알려줘)
     utterance (식품 리스트 통계해줘)
-    utterance (식품 추가해줘)
-    utterance (미미한 알러지 대처법 알려줘)
+    utterance (미약한 알러지 대처법 알려줘)
     utterance (심각한 알러지 대처법 알려줘)
-    utterance (식품 전부 지워줘)
-    utterance (떡갈비 삭제해줘)
     utterance (등록된 식품목록 보여줘)
-    utterance (김치 알레르기 성분 있니)
-    utterance (치킨너겟이랑 비교해줘)
-    utterance (신라면이랑 닭백숙이랑 비교해줘)
-    utterance (서울에 있는 한식집 위생정보 알려줘)
-    utterance (근처에 청결한 식당 알려줘)
+    utterance (신라면이랑 백숙이랑 비교해줘)
+    utterance (강원도에 있는 한식집 위생정보 알려줘)
   }
 }

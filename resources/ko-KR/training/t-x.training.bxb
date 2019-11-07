@@ -9,9 +9,9 @@ train (t-xhmvyqdzx0zlk80wqoutbe80w) {
   last-modified (1572246538740)
 }
 train (t-xizbfryghjyh5tz9exo011way) {
-  utterance ("[g:FindHandle] (미미)[v:FindHandleWay]한 알레르기 어떻게 대처하지")
+  utterance ("[g:FindHandle] (미약)[v:FindHandleWay]한 알레르기 어떻게 대처하지")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPIIVDIjyxkoGJgRGIGYAkIwMIQPkA)
-  last-modified (1571929059169)
+  last-modified (1572847924012)
 }
 train (t-xlxy0gfhrkblankc0sgedyiv8) {
   utterance ("[g:RestaurantFind] (인천)[v:RestaurantLocation]에 (피에스타)[v:RestaurantName] 위생 정보 검색")

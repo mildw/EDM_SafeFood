@@ -7,7 +7,12 @@ result-view {
 	
 	
 	message {
-		template ("검색하신 음식점 결과 입니다.")
+		if(size(this) >= 1){
+			template ("검색하신 음식점 결과 입니다.")
+		}
+		else{
+	template ("공공데이터에 등록된 가게가 없습니다.")
+		}
 	}
 	
 	render {
@@ -25,6 +30,17 @@ result-view {
 			layout-macro (restaurant_details_macro) {
 				param (restaurant) {
 					expression (this)
+				}
+			}
+		}
+		else{
+			layout{
+				section{
+					content{
+						single-line{
+							text("공공데이터에 등록된 가게가 없습니다.")
+						}
+					}
 				}
 			}
 		}

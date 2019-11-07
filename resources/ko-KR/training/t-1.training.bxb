@@ -13,6 +13,11 @@ train (t-1ncmt2lr7qnrb537fmj0gjyap) {
   plan (Y2BmkElNydUrTkxLTcvPT9ELSi0uSSwtSswrCUrMS09lkMUhG5yaWJScwSCCIu1bGZCfmVfCwMTACMQMQJKRgQFGAwA=)
   last-modified (1572243081036)
 }
+train (t-1tmar8s04v3m8l8sr9i21p217) {
+  utterance ("[g:RestaurantFind] (인천)[v:RestaurantLocation]에 (스타벅스)[v:RestaurantName] 위생정보 찾아")
+  plan (Y2BhkE5NydUrTkxLTcvPT9ELycgsDkotLkksLUrMK0GTREi4ZealMMjjkPTJT04syczPw6nbLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1572840503354)
+}
 train (t-1vv8jncrhyb846pnwicekq97u) {
   utterance ("[g:FindAllergy] (김치)[v:FoodName] 알러지 성분 있니")
   plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEUVQZI+CXmpjIwMTACMQOQZGQAASgfAA==)

@@ -2,7 +2,7 @@ module.exports.function = function findHandle(findHandleWay) {
 
   var findHandleResults = [];
 
-  if (findHandleWay == '미미') {
+  if (findHandleWay == '미약') {
     findHandleResults[0] = {
       //handleNum : "H1",
       img: "https://www.wikihow.com/images_en/thumb/3/32/Deal-With-Allergic-Reactions-Step-1-Version-2.jpg/v4-728px-Deal-With-Allergic-Reactions-Step-1-Version-2.jpg.webp",

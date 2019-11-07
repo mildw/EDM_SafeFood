@@ -3,6 +3,11 @@ train (t-p5o5v1vwr32c47q1i40hit7bc) {
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakM4hiiwamJRckZDKIYEn6JuakMTAyMQMwAJBkZQADKBwA=)
   last-modified (1572250432500)
 }
+train (t-pkc9h4sgzgbbnly1v2z0icqsb) {
+  utterance ("[g:FoodCompare2] {[g:FoodOne] (신라면)[v:FoodName]}이랑 {[g:FoodTwo] (삼양라면)[v:FoodName]}이랑 차이점 비교해줘")
+  plan (Y+BgkEpNydUrTkxLTcvPT9Fzzs8tSCxKDUotLs0pYZBEkXMDElB5IwYRDCn/vFQGcQzR4NTEouQMBlEMCb/E3FQspoSU56M5CSqK3yB2BkYGJgZmBhYGVgY2II8BymcE8xnBfAY4yQqWBallB9JMDKwA)
+  last-modified (1572843505776)
+}
 train (t-pnn37xuhqm6z5gn55y77rqtug) {
   utterance ("[g:FindAllergy] (오징어)[v:FoodName] 알러지 성분을 가지고있니")
   plan (Y2BmkE9NydUrTkxLTcvPT9Fzy8xLcczJSS1KrwxKLS7NKSlmkMClgEEUVQZI+CXmpjIwMTACMQOQZGQAASgfAA==)

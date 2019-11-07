@@ -13,3 +13,8 @@ train (t-nuazegtkeumol7cfkgv4fzeb3) {
   plan (Y2BmEElNydUrTkxLTcvPT9FzAxL+eakMYiiiAaUlvpUgKRyqmRgYgZgBSDIyMMBoAA==)
   last-modified (1571823654053)
 }
+train (t-nvyxg60cr0a40g2dsvhbgzfdi) {
+  utterance ([g:GetMyFoodStat] 통계 보여줘)
+  plan (Y2BiEE9NydUrTkxLTcvPT9HzrXQDUsEliSUMUigS7qklSHKMQMgAxUASAA==)
+  last-modified (1572832346272)
+}

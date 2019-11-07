@@ -20,11 +20,12 @@ module.exports.function = function restaurantFind(restaurantLocation, restaurant
       });
     }
 
-    if (copy.length == 0) {
-      return result;
-    }else{
-      return copy;
-    }
+    // if (copy.length == 0) {
+    //   return result;
+    // }else{
+    //   return copy;
+    // }
+    return copy;
 
   } catch (e) {
     throw fail.checkedError('', 'Error', {});

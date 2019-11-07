@@ -4,8 +4,8 @@ result-view {
 	}
 	
 	message {
-		if (size(restaurant) < 0){
-			template ("등록되있는 정보가 없습니다")
+		if (size(restaurant) <= 0){
+			template ("공공데이터에 등록된 정보가 없습니다")
 		}
 		else {
 			template ("검색하신 음식점 결과 입니다.")
@@ -28,6 +28,8 @@ result-view {
 			layout-match (restaurant) {
 				mode (Details)
 			}
+			
 		}
+
 	}
 }

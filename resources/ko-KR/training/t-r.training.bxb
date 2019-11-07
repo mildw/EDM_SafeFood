@@ -4,9 +4,9 @@ train (t-r66q9n1xa3hubf72sgtt1gff4) {
   last-modified (1571821049446)
 }
 train (t-romssd7pkmnboxl4tpxn9u3vu) {
-  utterance ("[g:FindHandle] (미미)[v:FindHandleWay]한 알러지 대처법 알려줘")
+  utterance ("[g:FindHandle] (미약)[v:FindHandleWay]한 알러지 대처법 알려줘")
   plan (Y2BmkEtNydUrTkxLTcvPT9Fzy8xL8UjMS8lJDUotLs0pKWYQxyHPIIVDIjyxkoGJgRGIGYAkIwMIQPkA)
-  last-modified (1571928389122)
+  last-modified (1572847907116)
 }
 train (t-rrm65nt2p9qbb7mbo9c57ba7c) {
   utterance ([g:PutMyFood] 이거 등록해줘)
